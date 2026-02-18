@@ -140,4 +140,31 @@
   .wrapper {
     gap: 2rem;
   }
+
+  /* Horizontal Scroll for Features */
+  .features {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 1.5rem;
+    padding: 1rem 5vw;
+    /* Side padding for better visual */
+    margin: 0 -1rem;
+    /* Negative margin to offset container padding if needed */
+    scrollbar-width: none;
+    /* Hide scrollbar Firefox */
+  }
+
+  .features::-webkit-scrollbar {
+    display: none;
+    /* Hide scrollbar Chrome/Safari */
+  }
+
+  .featureCard {
+    min-width: 85vw;
+    /* Show mostly one card, peek at next */
+    scroll-snap-align: center;
+    margin-bottom: 1rem;
+    /* Space for shadow */
+  }
 }

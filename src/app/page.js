@@ -1,6 +1,12 @@
 import Link from 'next/link';
 import styles from './page.module.css';
 
+export const metadata = {
+  title: "US CMA Prep | Free Study Guide & Mock Exams",
+  description: "Ace your US CMA exam with our free, structured study plan. Access comprehensive notes, topic-wise quizzes, and full-length mock tests.",
+  keywords: ["US CMA", "CMA Exam", "Free CMA Prep", "Management Accounting", "CMA Mock Test", "Study Plan"],
+};
+
 export default function Home() {
   return (
     <div className={styles.wrapper}>
