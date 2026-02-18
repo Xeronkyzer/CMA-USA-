@@ -178,4 +178,12 @@
         padding: 1rem;
         border-bottom: 2px solid #eee;
     }
+
+    .planContainer {
+        padding: 1.5rem;
+    }
+
+    .planHeader h2 {
+        font-size: 1.5rem;
+    }
 }

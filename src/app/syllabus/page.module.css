@@ -246,4 +246,13 @@
     .header h1 {
         font-size: 1.8rem;
     }
+
+    .container {
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    .partsContainer {
+        gap: 2rem;
+    }
 }

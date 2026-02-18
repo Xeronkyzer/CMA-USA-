@@ -128,4 +128,16 @@
   .title {
     font-size: 2rem;
   }
+
+  .hero {
+    padding: 3rem 0;
+  }
+
+  .infoSection {
+    padding: 2.5rem 0;
+  }
+
+  .wrapper {
+    gap: 2rem;
+  }
 }

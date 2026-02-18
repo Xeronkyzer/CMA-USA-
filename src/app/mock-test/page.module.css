@@ -68,3 +68,22 @@
     color: #555;
     flex-grow: 1;
 }
+
+@media (max-width: 768px) {
+    .examGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .container {
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .examCard {
+        padding: 1.5rem;
+    }
+}

@@ -29,6 +29,7 @@ export default function Navbar() {
           <Link href="/syllabus" className={styles.link} onClick={() => setIsMenuOpen(false)}>Syllabus</Link>
           <Link href="/study-plan" className={styles.link} onClick={() => setIsMenuOpen(false)}>Study Plan</Link>
           <Link href="/mock-test" className={styles.link} onClick={() => setIsMenuOpen(false)}>Mock Tests</Link>
+          <Link href="/about" className={styles.link} onClick={() => setIsMenuOpen(false)}>About</Link>
         </div>
       </div>
     </nav>
