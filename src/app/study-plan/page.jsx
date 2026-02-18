@@ -14,7 +14,7 @@ export default function StudyPlanPage() {
                 <h1>Structure Your Preparation</h1>
                 <p>Select a roadmap that fits your schedule. Consistency is key.</p>
 
-                <div className={`${styles.tabs} no-print`}>
+                <div className={styles.tabs}>
                     <button
                         className={`${styles.tab} ${activePlanId === 'standard' ? styles.active : ''}`}
                         onClick={() => setActivePlanId('standard')}
@@ -27,17 +27,7 @@ export default function StudyPlanPage() {
                     >
                         3-Month Fast Track
                     </button>
-                    <button
-                        className={`${styles.tab} ${activePlanId === 'working' ? styles.active : ''}`}
-                        onClick={() => setActivePlanId('working')}
-                    >
-                        9-Month Professional
-                    </button>
                 </div>
-
-                <button className="btn btn-outline no-print" onClick={() => window.print()} style={{ marginTop: '1rem' }}>
-                    Print Current Plan
-                </button>
             </header>
 
             <div className={styles.planContainer}>
@@ -47,30 +37,42 @@ export default function StudyPlanPage() {
                 </div>
                 <p className={styles.planDesc}>{activePlan.description}</p>
 
-                {activePlan.phases.map((phase, pIndex) => (
-                    <div key={pIndex} className={styles.phase}>
-                        <h3 className={styles.phaseTitle}>{phase.title}</h3>
-                        <div className={styles.weekGrid}>
-                            <div className={styles.gridHeader}>
-                                <span>Weeks</span>
-                                <span>Topic Focus</span>
-                                <span>Action Items</span>
-                                <span>Done?</span>
+                {/* Exam Weightage Summary */}
+                {activePlan.exam_details && (
+                    <div className={styles.weightageCard}>
+                        <h3>Exam Weightage Breakdown</h3>
+                        <div className={styles.weightageGrid}>
+                            <div className={styles.weightageItem}>
+                                <strong>Part 1:</strong> {activePlan.exam_details.part_1_weight}
                             </div>
+                            <div className={styles.weightageItem}>
+                                <strong>Part 2:</strong> {activePlan.exam_details.part_2_weight}
+                            </div>
+                        </div>
+                    </div>
+                )}
+
+                {/* Timeline Visualization */}
+                <div className={styles.timeline}>
+                    {activePlan.phases.map((phase, pIndex) => (
+                        <div key={pIndex} className={styles.phaseGroup}>
+                            <h3 className={styles.phaseTitle}>{phase.title}</h3>
+
                             {phase.weeks.map((week, wIndex) => (
-                                <div key={wIndex} className={styles.weekRow}>
-                                    <div className={styles.weekCol}><strong>{week.week}</strong></div>
-                                    <div className={styles.topicCol}>{week.topic}</div>
-                                    <div className={styles.actionCol}>{week.action}</div>
-                                    <div className={styles.checkCol}><div className={styles.checkbox}></div></div>
+                                <div key={wIndex} className={styles.timelineItem}>
+                                    <div className={styles.timelineMarker}></div>
+                                    <div className={styles.timelineContent}>
+                                        <div className={styles.weekBadge}>Week {week.week}</div>
+                                        <h4 className={styles.topicTitle}>{week.topic}</h4>
+                                        <div className={styles.actionBox} dangerouslySetInnerHTML={{
+                                            __html: week.action.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                                        }} />
+                                    </div>
                                 </div>
                             ))}
                         </div>
-                    </div>
-                ))}
-            </div>
-            <div className={`${styles.printFooter} only-print`}>
-                <p>US CMA Preparation Platform - Free & Structured Resource</p>
+                    ))}
+                </div>
             </div>
         </div>
     );

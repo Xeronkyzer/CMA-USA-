@@ -1,47 +1,51 @@
 {
     "standard": {
         "id": "standard",
-        "title": "6-Month Structured Plan",
-        "description": "The recommended pace for most aspirants. Balances depth with consistent progress.",
+        "title": "6-Month Structured Plan (Recommended)",
+        "description": "The recommended pace for most aspirants. Balances depth with consistent progress. Includes spaced repetition for retention.",
         "duration": "24 Weeks",
+        "exam_details": {
+            "part_1_weight": "External Reporting (15%), Planning/Budgeting (20%), Performance (20%), Cost Management (15%), Internal Controls (15%), Tech/Analytics (15%)",
+            "part_2_weight": "F/S Analysis (25%), Corporate Finance (20%), Decision Analysis (20%), Risk Management (10%), Investment Decisions (15%), Ethics (10%)"
+        },
         "phases": [
             {
                 "title": "Phase 1 - Part 1 (Weeks 1-12)",
                 "weeks": [
                     {
                         "week": "1-2",
-                        "topic": "External Financial Reporting Decisions",
-                        "action": "Read Notes + Practice 100 MCQs"
+                        "topic": "External Financial Reporting Decisions (15% of exam)",
+                        "action": "**Deep Dive:** Read notes. Focus on US GAAP vs IFRS differences. **Practice:** 50 MCQs daily (Total 100). Create flashcards for specific accounting treatments."
                     },
                     {
                         "week": "3-5",
-                        "topic": "Planning, Budgeting, and Forecasting",
-                        "action": "Deep Dive into Budgeting + 150 MCQs"
+                        "topic": "Planning, Budgeting, and Forecasting (20%)",
+                        "action": "**Deep Dive:** Master the operating budget (start to finish). **Practice:** 50 MCQs daily (Total 150). **Practical:** Build a simple budget model in Excel to see the flow of numbers."
                     },
                     {
                         "week": "6-7",
-                        "topic": "Performance Management",
-                        "action": "Focus on Variances + 100 MCQs"
+                        "topic": "Performance Management (20%)",
+                        "action": "**Focus:** Variance Analysis (Price vs. Volume). **Practice:** 50 MCQs daily (Total 100). **Essay Prep:** Write down the management implications of a favorable vs. unfavorable variance."
                     },
                     {
                         "week": "8-9",
-                        "topic": "Cost Management",
-                        "action": "Master Costing Systems + 100 MCQs"
+                        "topic": "Cost Management (15%)",
+                        "action": "**Focus:** Activity-Based Costing (ABC) vs. Traditional Costing. **Practice:** 50 MCQs daily (Total 100). **Active Recall:** Teach the difference between Job Order and Process Costing to a friend/out loud."
                     },
                     {
                         "week": "10",
-                        "topic": "Internal Controls",
-                        "action": "Theory Focus + 50 MCQs"
+                        "topic": "Internal Controls (15%)",
+                        "action": "**Focus:** COSO Framework (Control Environment, Risk Assessment, etc.). **Practice:** 25 MCQs daily (Total 50). **Memorization:** Create a mnemonic for the components of COSO."
                     },
                     {
                         "week": "11",
-                        "topic": "Technology and Analytics",
-                        "action": "Data concepts + 50 MCQs"
+                        "topic": "Technology and Analytics (15%)",
+                        "action": "**Focus:** Big Data, Automation, and Data Visualization. **Practice:** 25 MCQs daily (Total 50). **Application:** Understand *how* these concepts impact the management accountant's role."
                     },
                     {
                         "week": "12",
-                        "topic": "BUFFER & REVISION",
-                        "action": "Review Weak Areas + Full Mock Test 1"
+                        "topic": "**BUFFER & INTEGRATED REVISION**",
+                        "action": "**Step 1:** Review all flashcards and weak areas from Weeks 1-11. **Step 2:** Take **Full Mock Exam 1** (Timed, 100 MCQs + 2 Essays). **Step 3:** Review wrong answers and identify why you got them wrong (content gap vs. misreading)."
                     }
                 ]
             },
@@ -50,38 +54,38 @@
                 "weeks": [
                     {
                         "week": "13-15",
-                        "topic": "Financial Statement Analysis",
-                        "action": "Ratios & Analysis + 150 MCQs"
+                        "topic": "Financial Statement Analysis (25%)",
+                        "action": "**Focus:** Ratio Analysis (Liquidity, Solvency, Profitability). **Practice:** 50 MCQs daily (Total 150). **Essay Prep:** Analyze a real company's 10-K and write a paragraph on its financial health."
                     },
                     {
                         "week": "16-18",
-                        "topic": "Corporate Finance",
-                        "action": "Risk, Return, & Capital + 150 MCQs"
+                        "topic": "Corporate Finance (20%)",
+                        "action": "**Focus:** Cost of Capital, CAPM, and Leverage. **Practice:** 50 MCQs daily (Total 150). **Active Recall:** Explain how debt financing impacts ROE (Trading on Equity)."
                     },
                     {
                         "week": "19-20",
-                        "topic": "Decision Analysis",
-                        "action": "CVP & Marginal Analysis + 100 MCQs"
+                        "topic": "Decision Analysis (20%)",
+                        "action": "**Focus:** CVP Analysis (Breakeven) and Marginal Analysis (Make vs. Buy). **Practice:** 50 MCQs daily (Total 100). **Practical:** Calculate the breakeven point for a hypothetical business."
                     },
                     {
                         "week": "21",
-                        "topic": "Enterprise Risk Management",
-                        "action": "ERM Frameworks + 50 MCQs"
+                        "topic": "Enterprise Risk Management (10%)",
+                        "action": "**Focus:** Risk identification and mitigation strategies. **Practice:** 25 MCQs daily (Total 50). **Application:** Categorize risks (Strategic, Operational, Financial) from a business case."
                     },
                     {
                         "week": "22",
-                        "topic": "Capital Investment Decisions",
-                        "action": "NPV, IRR Calculations + 50 MCQs"
+                        "topic": "Capital Investment Decisions (15%)",
+                        "action": "**Focus:** NPV vs. IRR (calculations and conflicts). **Practice:** 25 MCQs daily (Total 50). **Essay Prep:** Write a recommendation to a CEO on which project to choose based on NPV."
                     },
                     {
                         "week": "23",
-                        "topic": "Professional Ethics",
-                        "action": "IMA Statement of Ethics + Case Studies"
+                        "topic": "Professional Ethics (10%)",
+                        "action": "**Focus:** IMA Statement of Ethical Professional Practice. **Practice:** Work through 5-7 complex ethical case studies. **Memorization:** Memorize the 4 ethical standards (Competence, Confidentiality, Integrity, Credibility)."
                     },
                     {
                         "week": "24",
-                        "topic": "FINAL REVIEW",
-                        "action": "Full Mock Tests + Essay Practice"
+                        "topic": "**FINAL REVIEW & SIMULATION**",
+                        "action": "**Step 1:** **Full Mock Exam 2** (Timed). **Step 2:** **Full Mock Exam 3** (Timed). **Step 3:** **Essay Practice:** Write 4 full essays under timed conditions. Focus on handwriting clarity and structuring your answer logically."
                     }
                 ]
             }
@@ -89,8 +93,8 @@
     },
     "fast": {
         "id": "fast",
-        "title": "3-Month Fast Track",
-        "description": "Intensive plan for those with strong background or full-time study availability.",
+        "title": "3-Month Fast Track (Intensive)",
+        "description": "Intensive plan for those with strong background or full-time study availability. Requires 4-6 hours daily.",
         "duration": "12 Weeks",
         "phases": [
             {
@@ -98,63 +102,63 @@
                 "weeks": [
                     {
                         "week": "1",
-                        "topic": "P1: Ext. Reporting + Planning",
-                        "action": "High Intensity Study"
+                        "topic": "P1: Ext. Reporting + Planning (Heavy Focus)",
+                        "action": "**High Intensity:** Read chapters, watch lectures at 1.5x speed. MCQ: 50 per day."
                     },
                     {
                         "week": "2",
-                        "topic": "P1: Planning & Budgeting",
-                        "action": "Daily Practice"
+                        "topic": "P1: Planning & Budgeting (Deep Dive)",
+                        "action": "**Application:** Build a budget. MCQ: 60 per day. Focus on accuracy, not speed yet."
                     },
                     {
                         "week": "3",
-                        "topic": "P1: Performance & Cost",
-                        "action": "Focus on Numericals"
+                        "topic": "P1: Performance & Cost (Numericals)",
+                        "action": "**Focus:** Variance calculations. MCQ: 70 per day. Start a 'Formula Sheet'."
                     },
                     {
                         "week": "4",
-                        "topic": "P1: Controls & Tech",
-                        "action": "Complete P1 Theory"
+                        "topic": "P1: Controls & Tech (Theory)",
+                        "action": "**Memorization:** COSO framework. MCQ: 50 per day. Essay: 1 structured response."
                     },
                     {
                         "week": "5",
-                        "topic": "P1 Revision & Label",
-                        "action": "Full Mock P1"
+                        "topic": "P1 Integrated Revision",
+                        "action": "**Full Mock P1:** Timed conditions. Identify weak areas and re-read those sections."
                     },
                     {
                         "week": "6",
-                        "topic": "P2: Fin. Analysis",
-                        "action": "Ratios & Interpretations"
+                        "topic": "P2: Financial Analysis",
+                        "action": "**Focus:** Ratios & Trend Analysis. MCQ: 50 per day. Review P1 weak spots for 30 mins."
                     },
                     {
                         "week": "7",
-                        "topic": "P2: Corp Finance",
-                        "action": "Finance Concepts"
+                        "topic": "P2: Corporate Finance",
+                        "action": "**Focus:** Cost of Capital. MCQ: 60 per day. Add to your 'Formula Sheet'."
                     },
                     {
                         "week": "8",
                         "topic": "P2: Decision Analysis",
-                        "action": "CVP & Pricing"
+                        "action": "**Focus:** CVP & Make vs. Buy. MCQ: 60 per day."
                     },
                     {
                         "week": "9",
                         "topic": "P2: Risk & Investment",
-                        "action": "Calculations Focus"
+                        "action": "**Focus:** NPV/IRR Calculations. MCQ: 60 per day. Essay: 1 capital budget memo."
                     },
                     {
                         "week": "10",
-                        "topic": "P2: Ethics",
-                        "action": "Ethics Scenarios"
+                        "topic": "P2: Ethics & ERM",
+                        "action": "**Focus:** IMA Code & Risk Frameworks. MCQ: 50 per day. Memorize IMA standards."
                     },
                     {
                         "week": "11",
-                        "topic": "P2 Revision",
-                        "action": "Full Mock P2"
+                        "topic": "P2 Integrated Revision",
+                        "action": "**Full Mock P2:** Timed conditions. Review every wrong answer."
                     },
                     {
                         "week": "12",
-                        "topic": "FINAL EXAM SIMULATION",
-                        "action": "Back-to-back Mocks"
+                        "topic": "**FINAL EXAM SIMULATION**",
+                        "action": "**Back-to-back Mocks:** Day 1: Mock P1. Day 2: Mock P2. Day 3: Review mistakes. Day 4-5: Light review of formulas. Day 6-7: Rest/Relax."
                     }
                 ]
             }
@@ -162,8 +166,8 @@
     },
     "working": {
         "id": "working",
-        "title": "9-Month Working Professional",
-        "description": "Paced for 1-2 hours of daily study. Ideal for full-time employees.",
+        "title": "9-Month Working Professional (Sustainable)",
+        "description": "Paced for 1-2 hours on weekdays, 3-4 hours on weekends. Ideal for full-time employees.",
         "duration": "36 Weeks",
         "phases": [
             {
@@ -171,38 +175,38 @@
                 "weeks": [
                     {
                         "week": "1-3",
-                        "topic": "External Financial Reporting",
-                        "action": "Slow & Steady"
+                        "topic": "External Financial Reporting (15%)",
+                        "action": "**Slow & Steady:** Read 1 chapter per week. **Weekdays:** 20 MCQs/night. **Weekend:** Review flashcards and read next chapter."
                     },
                     {
                         "week": "4-7",
-                        "topic": "Planning, Budgeting & Forecasting",
-                        "action": "Weekend deep dives"
+                        "topic": "Planning, Budgeting & Forecasting (20%)",
+                        "action": "**Weekend Deep Dives:** Spend 3 hours each Saturday mastering the Master Budget. **Weekdays:** 20 MCQs/night."
                     },
                     {
                         "week": "8-10",
-                        "topic": "Performance Management",
-                        "action": "Practical application"
+                        "topic": "Performance Management (20%)",
+                        "action": "**Practical Application:** Relate variances to your workplace if possible. **Weekdays:** 20 MCQs/night. **Weekend:** Drill variance formulas."
                     },
                     {
                         "week": "11-13",
-                        "topic": "Cost Management",
-                        "action": "Costing focus"
+                        "topic": "Cost Management (15%)",
+                        "action": "**Focus:** Overhead allocation. **Weekdays:** 20 MCQs/night. **Weekend:** Practice ABC vs. Traditional costing problems."
                     },
                     {
                         "week": "14-15",
-                        "topic": "Internal Controls",
-                        "action": "Audit concepts"
+                        "topic": "Internal Controls (15%)",
+                        "action": "**Focus:** Sarbanes-Oxley and COSO. **Weekdays:** 15 MCQs/night (focus on theory)."
                     },
                     {
                         "week": "16-17",
-                        "topic": "Technology & Analytics",
-                        "action": "IT concepts"
+                        "topic": "Technology & Analytics (15%)",
+                        "action": "**Focus:** Data concepts. **Weekdays:** 15 MCQs/night. **Weekend:** Read articles on AI in accounting."
                     },
                     {
                         "week": "18",
-                        "topic": "Part 1 Revision",
-                        "action": "Mock Test 1"
+                        "topic": "Part 1 Revision & Mock",
+                        "action": "**Weekend:** Take **Mock Test 1**. Review answers Sunday night. Plan to re-study one weak topic next week."
                     }
                 ]
             },
@@ -211,38 +215,38 @@
                 "weeks": [
                     {
                         "week": "19-23",
-                        "topic": "Financial Statement Analysis",
-                        "action": "Analyzing Reports"
+                        "topic": "Financial Statement Analysis (25%)",
+                        "action": "**Analyzing Reports:** Find a public company's financials. **Weekdays:** 15 MCQs/night. **Weekend:** Calculate 5 key ratios for the company."
                     },
                     {
                         "week": "24-28",
-                        "topic": "Corporate Finance",
-                        "action": "Finance Management"
+                        "topic": "Corporate Finance (20%)",
+                        "action": "**Finance Management:** Focus on Working Capital. **Weekdays:** 15 MCQs/night. **Weekend:** Cost of Capital problems."
                     },
                     {
                         "week": "29-31",
-                        "topic": "Decision Analysis",
-                        "action": "Strategic Decisions"
+                        "topic": "Decision Analysis (20%)",
+                        "action": "**Strategic Decisions:** Focus on CVP. **Weekdays:** 20 MCQs/night. **Weekend:** Make vs. Buy analysis."
                     },
                     {
                         "week": "32",
-                        "topic": "Risk Management",
-                        "action": "Risk Frameworks"
+                        "topic": "Risk Management (10%)",
+                        "action": "**Risk Frameworks:** Understand hedging. **Weekdays:** 15 MCQs/night."
                     },
                     {
                         "week": "33",
-                        "topic": "Investment Decisions",
-                        "action": "Capital Budgeting"
+                        "topic": "Investment Decisions (15%)",
+                        "action": "**Capital Budgeting:** Focus on NPV & Payback. **Weekdays:** 20 MCQs/night (Calculations)."
                     },
                     {
                         "week": "34",
-                        "topic": "Professional Ethics",
-                        "action": "Ethics Code"
+                        "topic": "Professional Ethics (10%)",
+                        "action": "**Ethics Code:** Read the IMA code twice. **Weekdays:** 15 MCQs/night (Scenarios)."
                     },
                     {
                         "week": "35-36",
-                        "topic": "FINAL PREP",
-                        "action": "Comprehensive Mocks"
+                        "topic": "FINAL PREP (Review & Mocks)",
+                        "action": "**Week 35:** Mock Exam (Saturday) + Review (Sunday). **Week 36:** Light review of formulas, flashcards, and second mock if possible. Focus on sleep."
                     }
                 ]
             }

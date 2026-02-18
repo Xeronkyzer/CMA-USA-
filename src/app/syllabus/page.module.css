@@ -225,18 +225,7 @@
     display: none;
 }
 
-@media print {
-    .topicList {
-        display: block;
-    }
 
-    .topicCard {
-        margin-bottom: 1rem;
-        break-inside: avoid;
-        border: none;
-        border-bottom: 1px solid #ccc;
-    }
-}
 
 @media (max-width: 768px) {
     .topicList {

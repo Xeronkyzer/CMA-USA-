@@ -78,112 +78,162 @@
     font-size: 1.1rem;
 }
 
-.phase {
-    margin-bottom: 3rem;
+/* Weightage Card */
+.weightageCard {
+    background: #f8fbff;
+    border: 1px solid #cce0ff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.weightageCard h3 {
+    color: #003366;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #dbe9ff;
+    padding-bottom: 0.5rem;
+}
+
+.weightageGrid {
+    display: grid;
+    gap: 1rem;
+}
+
+.weightageItem {
+    font-size: 0.95rem;
+    color: #444;
+    line-height: 1.5;
+}
+
+/* Vertical Timeline */
+.timeline {
+    position: relative;
+    padding-left: 1rem;
+}
+
+.phaseGroup {
+    margin-bottom: 2rem;
 }
 
 .phaseTitle {
-    font-size: 1.4rem;
-    margin-bottom: 1.5rem;
-    background: #f8f9fa;
+    font-size: 1.2rem;
+    color: #003366;
+    background: #eaeaea;
     padding: 0.5rem 1rem;
-    border-left: 4px solid #003366;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+    display: inline-block;
+    font-weight: 700;
 }
 
-.weekGrid {
-    border: 1px solid #ddd;
+.timelineItem {
+    position: relative;
+    padding-left: 2.5rem;
+    padding-bottom: 2.5rem;
+    border-left: 2px solid #e0e0e0;
 }
 
-.gridHeader {
-    display: grid;
-    grid-template-columns: 1fr 3fr 3fr 1fr;
+.timelineItem:last-child {
+    border-left: 2px solid transparent;
+}
+
+.timelineMarker {
+    position: absolute;
+    left: -9px;
+    /* Centered on the 2px border */
+    top: 0;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: white;
+    border: 4px solid #005b96;
+    z-index: 1;
+}
+
+.timelineContent {
+    background: white;
+    /* padding: 0.5rem 0; */
+}
+
+.weekBadge {
+    display: inline-block;
     background: #003366;
     color: white;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 0.85rem;
     font-weight: 600;
-    padding: 10px;
+    margin-bottom: 0.5rem;
 }
 
-.weekRow {
-    display: grid;
-    grid-template-columns: 1fr 3fr 3fr 1fr;
-    border-bottom: 1px solid #eee;
+.topicTitle {
+    font-size: 1.1rem;
+    color: #222;
+    margin: 0.5rem 0;
+    font-weight: 700;
 }
 
-.weekRow:last-child {
-    border-bottom: none;
+.actionBox {
+    background: #f9f9f9;
+    padding: 1rem;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.6;
+    border-left: 3px solid #ddd;
 }
 
-.weekRow>div {
-    padding: 12px 10px;
-    display: flex;
-    align-items: center;
+.actionBox strong {
+    color: #005b96;
 }
 
-.checkbox {
-    width: 20px;
-    height: 20px;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-}
-
-.only-print {
-    display: none;
-}
-
-@media print {
+/* Mobile Optimization */
+@media (max-width: 768px) {
     .container {
-        padding-top: 0;
-    }
-
-    .header {
-        margin-bottom: 1rem;
-    }
-
-    .tabs,
-    .btn {
-        display: none !important;
-    }
-
-    .planContainer {
-        border: none;
-        padding: 0;
-    }
-
-    .only-print {
-        display: block;
-        text-align: center;
-        margin-top: 2rem;
-        color: #999;
-        font-size: 0.8rem;
-    }
-
-    .weekRow {
-        page-break-inside: avoid;
-    }
-}
-
-@media (max-width: 600px) {
-
-    .gridHeader,
-    .weekRow {
-        grid-template-columns: 1fr;
-        gap: 0.5rem;
-    }
-
-    .gridHeader {
-        display: none;
-    }
-
-    .weekRow {
-        padding: 1rem;
-        border-bottom: 2px solid #eee;
+        padding-top: 1rem;
     }
 
     .planContainer {
         padding: 1.5rem;
+        margin: 0 -1rem;
+        /* Full width on mobile */
+        border: none;
+        border-radius: 0;
     }
 
-    .planHeader h2 {
-        font-size: 1.5rem;
+    .planHeader {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    .weightageCard {
+        padding: 1rem;
+    }
+
+    .tabs {
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .tab {
+        flex: 1 1 auto;
+        text-align: center;
+        padding: 8px 12px;
+        font-size: 0.9rem;
+    }
+
+    .timelineItem {
+        padding-left: 1.5rem;
+        padding-bottom: 2rem;
+    }
+
+    .timelineMarker {
+        width: 12px;
+        height: 12px;
+        left: -7px;
+        border-width: 3px;
     }
 }

@@ -10,9 +10,6 @@ export default function SyllabusPage() {
             <header className={styles.header}>
                 <h1>US CMA Complete Syllabus</h1>
                 <p>Comprehensive breakdown of Part 1 and Part 2. Tap any topic to start studying.</p>
-                <button className="btn btn-outline no-print" onClick={() => window.print()}>
-                    Print Syllabus
-                </button>
             </header>
 
             <div className={styles.partsContainer}>
@@ -21,7 +18,7 @@ export default function SyllabusPage() {
                     <h2 className={styles.partTitle}>{syllabusData.part1.title}</h2>
                     <div className={styles.topicList}>
                         {syllabusData.part1.sections.map((section) => (
-                            <div key={section.id} className={`${styles.topicCard} no-print`}>
+                            <div key={section.id} className={styles.topicCard}>
                                 <div className={styles.topicHeader}>
                                     <Link href={`/topic/${section.id}`} className={styles.titleLink}>
                                         <h3>{section.title}</h3>
@@ -75,7 +72,7 @@ export default function SyllabusPage() {
                     <h2 className={styles.partTitle}>{syllabusData.part2.title}</h2>
                     <div className={styles.topicList}>
                         {syllabusData.part2.sections.map((section) => (
-                            <div key={section.id} className={`${styles.topicCard} no-print`}>
+                            <div key={section.id} className={styles.topicCard}>
                                 <div className={styles.topicHeader}>
                                     <Link href={`/topic/${section.id}`} className={styles.titleLink}>
                                         <h3>{section.title}</h3>
