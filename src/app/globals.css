@@ -2,17 +2,20 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 255, 255, 255;
   --background-end-rgb: 255, 255, 255;
-  --primary-color: #003366; /* Introduction of a professional blue for headings */
+  --primary-color: #003366;
+  /* Introduction of a professional blue for headings */
   --accent-color: #005b96;
   --text-color: #333333;
   --light-gray: #f4f4f4;
   --border-color: #dddddd;
-  --font-main: 'Inter', sans-serif; /* Placeholder, will invoke font in layout */
+  --font-main: 'Inter', sans-serif;
+  /* Placeholder, will invoke font in layout */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 0, 0, 0; /* Keeping it light for now as per "White background" requirement */
+    --foreground-rgb: 0, 0, 0;
+    /* Keeping it light for now as per "White background" requirement */
     --background-start-rgb: 255, 255, 255;
     --background-end-rgb: 255, 255, 255;
   }
@@ -36,10 +39,22 @@ a {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: var(--primary-color);
   margin-bottom: 0.5rem;
   font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.75rem;
+    /* Smaller H1 for mobile */
+  }
 }
 
 .container {
@@ -77,9 +92,27 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Print Styles */
 @media print {
-  @page { margin: 2cm; }
-  body { background: white; color: black; }
-  .no-print { display: none !important; }
-  a { text-decoration: none; color: black; }
-  .container { width: 100%; max-width: none; padding: 0; }
+  @page {
+    margin: 2cm;
+  }
+
+  body {
+    background: white;
+    color: black;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .container {
+    width: 100%;
+    max-width: none;
+    padding: 0;
+  }
 }

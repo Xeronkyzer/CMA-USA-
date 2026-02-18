@@ -4,6 +4,10 @@
     min-height: calc(100vh - 80px);
 }
 
+.mobileToggle {
+    display: none;
+}
+
 .sidebar {
     background: #f8f9fa;
     border-right: 1px solid #eaeaea;
@@ -437,9 +441,22 @@
         grid-template-columns: 1fr;
     }
 
+    .mobileToggle {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background: #003366;
+        color: white;
+        border: none;
+        font-weight: 600;
+        cursor: pointer;
+        text-align: center;
+    }
+
     .sidebar {
         height: auto;
-        max-height: none;
+        max-height: 0;
+        /* Hidden by default */
         position: relative;
         top: 0;
         border-right: none;
@@ -447,22 +464,45 @@
         flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
+        overflow: hidden;
+        padding: 0;
+        /* Hidden state padding */
+        transition: all 0.3s ease;
+    }
+
+    .sidebar.open {
+        max-height: 500px;
+        /* Adjust as needed */
+        padding: 1.5rem;
+        overflow-y: auto;
     }
 
     .questionPalette {
         order: 2;
         width: 100%;
-        grid-template-columns: repeat(10, 1fr);
+        grid-template-columns: repeat(5, 1fr);
+        /* Keep 5 cols for better touch targets */
+        gap: 8px;
+    }
+
+    .qBtn {
+        aspect-ratio: auto;
+        padding: 10px;
+        /* Larger touch target */
     }
 
     .timerBox,
     .reviewBanner {
         order: 1;
+        width: 100%;
+        margin-bottom: 1rem;
     }
 
     .submitBtn,
     .reviewExitBox {
         order: 3;
+        width: 100%;
+        margin-top: 1rem;
     }
 
     .mainArea {

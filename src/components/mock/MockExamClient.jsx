@@ -13,6 +13,7 @@ export default function MockExamClient({ exam, questions }) {
     // Use refs for time tracking to avoid re-renders
     const startTimeRef = useRef(Date.now());
     const [timeTaken, setTimeTaken] = useState(0);
+    const [isSidebarOpen, setIsSidebarOpen] = useState(false); // Mobile sidebar toggle
 
     const handleSubmit = useCallback(() => {
         const endTime = Date.now();
@@ -136,7 +137,15 @@ export default function MockExamClient({ exam, questions }) {
 
     return (
         <div className={styles.examWrapper}>
-            <aside className={styles.sidebar}>
+            {/* Mobile Toggle */}
+            <button
+                className={styles.mobileToggle}
+                onClick={() => setIsSidebarOpen(!isSidebarOpen)}
+            >
+                {isSidebarOpen ? 'Hide Menu' : 'Show Menu & Timer'}
+            </button>
+
+            <aside className={`${styles.sidebar} ${isSidebarOpen ? styles.open : ''}`}>
                 {!isReview && (
                     <div className={styles.timerBox}>
                         <span>Time Remaining</span>

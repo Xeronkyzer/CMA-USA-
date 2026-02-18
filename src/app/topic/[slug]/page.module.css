@@ -256,4 +256,9 @@
     .contentGrid {
         grid-template-columns: 1fr;
     }
+
+    .sidebar {
+        position: static;
+        margin-top: 2rem;
+    }
 }
