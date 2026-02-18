@@ -1,0 +1,43 @@
+.navbar {
+    background: #ffffff;
+    border-bottom: 1px solid #eaeaea;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #003366;
+    text-decoration: none;
+}
+
+.links {
+    display: flex;
+    gap: 2rem;
+}
+
+.link {
+    color: #555;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.link:hover {
+    color: #003366;
+}
+
+@media (max-width: 768px) {
+    .links {
+        display: none;
+        /* Mobile menu to be implemented later or simple stack */
+    }
+}

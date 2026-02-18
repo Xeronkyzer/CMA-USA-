@@ -1,0 +1,1378 @@
+{
+    "id": "p1-s5",
+    "title": "Internal Controls – Ultra Detailed Revision Edition",
+    "weightage": "15%",
+    "examLevel": "Level C (Analysis, Evaluation, Scenario Application)",
+    "overview": "Internal Controls (15%) covers the COSO 2013 Internal Control – Integrated Framework, Corporate Governance structures, Internal Auditing, Risk Management, IT/Systems Controls, and the legal frameworks of FCPA and SOX. Questions are heavily scenario-based. You must be able to identify control weaknesses, classify control types, determine affected COSO components, evaluate segregation of duties issues, compute risk metrics (EMV, Value of Control), and recognize regulatory violations. This is NOT a memorization section — it tests judgment and application.",
+    "bulletNotes": [
+        "**COSO (CRIME)**: Control Environment → Risk Assessment → Information & Communication → Monitoring → (Control) Activities. All interrelated. 17 Principles across 5 components.",
+        "**Objectives (ORC)**: Operations (Effectiveness/Efficiency + Safeguarding), Reporting (Reliability – SOX 404 focus), Compliance (Laws: FCPA, SOX, etc.).",
+        "**Segregation of Duties (ARC)**: Authorization ≠ Recording ≠ Custody. If impossible → Supervision + Reconciliations.",
+        "**Fraud Triangle**: Opportunity (Weak Controls) + Pressure (Incentives) + Rationalization (Justification). Controls target Opportunity.",
+        "**Risk Types**: Inherent (Before controls) → Control Risk (Controls fail) → Residual (After controls). Residual = Inherent - Controls.",
+        "**Inherent Limitations**: Collusion, Management Override, Human Error, Cost-Benefit, Changing Conditions. Controls = Reasonable, NOT Absolute assurance.",
+        "**Corporate Governance**: Board of Directors (Independent majority), Audit Committee (Financial expert required), SOX compliance, Tone at the Top."
+    ],
+    "concepts": [
+        {
+            "title": "1. COSO Framework – Internal Control Integrated Framework (2013)",
+            "content": "<p><strong>Definition:</strong> Internal control is a <em>process</em>, effected by the Board of Directors, management, and other personnel, designed to provide <strong>reasonable assurance</strong> regarding the achievement of objectives in three categories:</p><ul><li><strong>Operations (O):</strong> Effectiveness and efficiency of operations, including <em>safeguarding of assets</em>.</li><li><strong>Reporting (R):</strong> Reliability of financial and non-financial reporting (focus area for SOX Section 404).</li><li><strong>Compliance (C):</strong> Adherence to applicable laws and regulations.</li></ul><p><strong>Key Point:</strong> Internal controls provide <strong>reasonable assurance</strong>, NOT absolute assurance. No control system can guarantee zero misstatements or fraud due to Inherent Limitations (see below).</p>"
+        },
+        {
+            "title": "2. The Five COSO Components (CRIME) – Deep Dive",
+            "content": "<p>The five components are integrated and interrelated. All five must be present and functioning for effective internal control.</p>"
+        },
+        {
+            "title": "2A. Control Environment (Tone at the Top) – Foundation",
+            "content": "<p>This is the <strong>foundation</strong> of all other components. It sets the organizational discipline and ethical culture.</p><p><strong>Key Elements:</strong></p><ul><li><strong>Integrity & Ethical Values:</strong> Code of conduct, ethics hotline, whistleblower policy.</li><li><strong>Board of Directors Oversight:</strong> Independent board members, active Audit Committee with financial expertise.</li><li><strong>Organizational Structure:</strong> Clear reporting lines, defined authority and responsibility.</li><li><strong>Commitment to Competence:</strong> Hiring qualified people, ongoing training.</li><li><strong>Accountability:</strong> Holding individuals responsible for their IC responsibilities.</li></ul><p><strong>Exam Focus:</strong></p><ul><li>Dominant CEO who overrides controls = Weak Control Environment.</li><li>Weak or passive Board of Directors = Control Environment failure.</li><li>No code of conduct or ethics training = Control Environment deficiency.</li><li><strong>Management Override</strong> is the #1 exam concern in this component.</li></ul>"
+        },
+        {
+            "title": "2B. Risk Assessment – Identifying Threats",
+            "content": "<p>Management must identify and analyze risks to achieving the ORC objectives. This includes:</p><ul><li><strong>Setting clear objectives</strong> (prerequisite for risk assessment).</li><li><strong>Identifying risks</strong> to those objectives (internal & external).</li><li><strong>Analyzing risks:</strong> Assessing likelihood and magnitude of impact.</li><li><strong>Assessing changes:</strong> New technology, personnel, restructuring, new regulations.</li><li><strong>Fraud Risk Assessment</strong> (Required by COSO 2013): Must consider:<ul><li>Incentives/Pressures to commit fraud.</li><li>Opportunities (weak controls).</li><li>Attitudes/Rationalizations.</li><li>This is the <strong>Fraud Triangle</strong>.</li></ul></li></ul><p><strong>Fraud Triangle:</strong></p><table class='notes-table'><thead><tr><th>Element</th><th>Description</th><th>Example</th></tr></thead><tbody><tr><td><strong>Opportunity</strong></td><td>Weak controls allow fraud</td><td>No segregation of duties</td></tr><tr><td><strong>Pressure</strong></td><td>Incentive/Motivation</td><td>Debt, bonus targets</td></tr><tr><td><strong>Rationalization</strong></td><td>Justification mindset</td><td>'Everyone does it'</td></tr></tbody></table><p><strong>Key:</strong> Internal controls can only directly address <strong>Opportunity</strong>. Pressure and Rationalization are human factors.</p>"
+        },
+        {
+            "title": "2C. Control Activities – Policies & Procedures",
+            "content": "<p>Actions established through policies and procedures that help ensure management's directives to mitigate risks are carried out. They occur at all levels and in all functions.</p><p><strong>Types of Controls:</strong></p><table class='notes-table'><thead><tr><th>Type</th><th>Purpose</th><th>Examples</th></tr></thead><tbody><tr><td><strong>Preventive</strong></td><td>Stop errors BEFORE they occur</td><td>Passwords, Approvals, Segregation of Duties, Locks</td></tr><tr><td><strong>Detective</strong></td><td>Find errors AFTER they occur</td><td>Reconciliations, Audits, Variance Analysis, Reviews</td></tr><tr><td><strong>Corrective</strong></td><td>Fix issues after detection</td><td>Backups, Insurance Claims, Restoring data</td></tr><tr><td><strong>Directive</strong></td><td>Encourage desired behavior</td><td>Policies, Training programs, Procedures manuals</td></tr></tbody></table><p><strong>Segregation of Duties (ARC) – Critical Exam Topic:</strong></p><ul><li><strong>A</strong>uthorization: Approving transactions (Manager approves purchase).</li><li><strong>R</strong>ecording: Maintaining accounting records (Bookkeeper records entry).</li><li><strong>C</strong>ustody: Physical possession of assets (Warehouse manager holds inventory).</li></ul><p><strong>Rule:</strong> No single person should perform more than one of these functions for the same transaction. If segregation is impossible (small company), implement <strong>compensating controls</strong>: supervisory review, mandatory vacations, job rotation, reconciliations.</p><p><strong>Exam Trap:</strong> Segregation of Duties does NOT prevent <strong>collusion</strong>. When two or more people conspire, segregation is bypassed.</p>"
+        },
+        {
+            "title": "2D. Information & Communication – FACT Quality",
+            "content": "<p>Ensures relevant, quality information is identified, captured, and communicated in a form and time frame that enables people to carry out their responsibilities.</p><p><strong>Quality Criteria (FACT):</strong></p><ul><li><strong>F</strong>air – Presented without bias.</li><li><strong>A</strong>ccurate – Free from material error.</li><li><strong>C</strong>omplete – All necessary information included.</li><li><strong>T</strong>imely – Available when needed for decisions.</li></ul><p><strong>Communication Channels:</strong></p><ul><li><strong>Internal:</strong> Policies manuals, intranet, memos, financial reports, management meetings.</li><li><strong>External:</strong> Financial statements to investors, regulatory filings, whistleblower hotlines (anonymous tip lines).</li></ul><p><strong>Whistleblower Channels:</strong> SOX requires public companies to establish anonymous reporting mechanisms. These are a key Information & Communication control.</p>"
+        },
+        {
+            "title": "2E. Monitoring Activities – Are Controls Working?",
+            "content": "<p>Evaluates whether each of the five components of internal control is present and functioning.</p><p><strong>Two Types:</strong></p><ul><li><strong>Ongoing Monitoring:</strong> Built into routine operations (management reviews, automated checks, exception reports).</li><li><strong>Separate Evaluations:</strong> Periodic assessments conducted by <strong>Internal Audit</strong> or external consultants.</li></ul><p><strong>Critical Exam Point:</strong> <strong>Internal Audit belongs to Monitoring</strong>, NOT to Control Environment. This is the #1 most tested misconception.</p><p><strong>Deficiencies:</strong> All identified control deficiencies must be communicated to management and, if significant, to the Board/Audit Committee.</p>"
+        },
+        {
+            "title": "3. The 17 Principles of COSO (Summary)",
+            "content": "<p>COSO 2013 specifies <strong>17 principles</strong> across the 5 components. All must be present and functioning.</p><table class='notes-table'><thead><tr><th>Component</th><th>Principles (Count)</th><th>Key Focus</th></tr></thead><tbody><tr><td><strong>Control Environment</strong></td><td>1-5</td><td>Integrity, Board oversight, Structure, Competence, Accountability</td></tr><tr><td><strong>Risk Assessment</strong></td><td>6-9</td><td>Define objectives, ID risks, Fraud risk, Assess changes</td></tr><tr><td><strong>Control Activities</strong></td><td>10-12</td><td>Select activities, IT controls, Policy deployment</td></tr><tr><td><strong>Info & Communication</strong></td><td>13-15</td><td>Use quality info, Communicate internally, Communicate externally</td></tr><tr><td><strong>Monitoring</strong></td><td>16-17</td><td>Ongoing/separate evaluations, Report deficiencies</td></tr></tbody></table>"
+        },
+        {
+            "title": "4. Corporate Governance",
+            "content": "<p><strong>Definition:</strong> The system of rules, practices, and processes by which a company is directed and controlled. It balances interests of stakeholders (shareholders, management, customers, suppliers, government, community).</p><p><strong>Key Structures:</strong></p><ul><li><strong>Board of Directors:</strong> Elected by shareholders. Responsible for oversight of management and strategy. Should have a <strong>majority of independent (outside) directors</strong>.</li><li><strong>Audit Committee:</strong> Subcommittee of the Board. Must include at least one <strong>Financial Expert</strong>. Oversees financial reporting, external auditors, and internal controls. SOX requires independence of all Audit Committee members.</li><li><strong>Management:</strong> Executes strategy and implements internal controls. CEO and CFO must personally certify financial statements under SOX.</li></ul><p><strong>Governance Failures to Watch For:</strong></p><ul><li>Board dominated by insiders (not independent).</li><li>No audit committee or audit committee without financial expertise.</li><li>CEO also serving as Chairman of the Board (concentration of power).</li><li>Lack of whistleblower protection.</li></ul>"
+        },
+        {
+            "title": "5. Internal Auditing",
+            "content": "<p><strong>Role:</strong> Internal audit is an <em>independent, objective assurance and consulting activity</em> designed to add value and improve an organization's operations.</p><p><strong>Key Characteristics:</strong></p><ul><li><strong>Independence:</strong> Must report functionally to the <strong>Audit Committee</strong> (not to management) to maintain objectivity.</li><li><strong>Scope:</strong> Evaluates effectiveness of risk management, internal controls, and governance processes.</li><li><strong>Types of Audits:</strong><ul><li><strong>Financial Audit:</strong> Accuracy of financial records.</li><li><strong>Compliance Audit:</strong> Adherence to laws, regulations, policies.</li><li><strong>Operational Audit:</strong> Efficiency and effectiveness of operations.</li><li><strong>IT Audit:</strong> Security and integrity of information systems.</li></ul></li></ul><p><strong>Internal vs External Audit:</strong></p><table class='notes-table'><thead><tr><th>Feature</th><th>Internal Audit</th><th>External Audit</th></tr></thead><tbody><tr><td><strong>Reports to</strong></td><td>Audit Committee / Board</td><td>Shareholders</td></tr><tr><td><strong>Focus</strong></td><td>All objectives (ORC)</td><td>Financial reporting</td></tr><tr><td><strong>Hired by</strong></td><td>Company (employee)</td><td>Audit Committee (independent firm)</td></tr><tr><td><strong>Standards</strong></td><td>IIA Standards</td><td>PCAOB / AICPA Standards</td></tr></tbody></table><p><strong>Exam Point:</strong> External auditors can <strong>rely on</strong> the work of internal auditors but must evaluate their competence and objectivity first.</p>"
+        },
+        {
+            "title": "6. Risk Management – Formulas & Framework",
+            "content": "<p><strong>Risk Equation:</strong> <code>Risk = Likelihood × Impact</code></p><p><strong>Risk Types:</strong></p><ul><li><strong>Inherent Risk:</strong> Risk before any controls are applied (the natural risk of an activity).</li><li><strong>Control Risk:</strong> Risk that existing controls fail to prevent or detect a misstatement.</li><li><strong>Residual Risk:</strong> Risk remaining after controls are in place. <code>Residual = Inherent - Impact of Controls</code></li></ul><p><strong>Risk Responses:</strong></p><table class='notes-table'><thead><tr><th>Response</th><th>Action</th><th>Example</th></tr></thead><tbody><tr><td><strong>Avoid</strong></td><td>Exit the activity entirely</td><td>Sell a risky division</td></tr><tr><td><strong>Reduce (Mitigate)</strong></td><td>Implement controls</td><td>Fire sprinklers, passwords</td></tr><tr><td><strong>Share (Transfer)</strong></td><td>Shift to third party</td><td>Insurance, hedging, outsourcing</td></tr><tr><td><strong>Accept</strong></td><td>Do nothing (cost > benefit)</td><td>Low-probability, low-impact risks</td></tr></tbody></table><p><strong>Value of a Control:</strong></p><p><code>Value = (Expected Loss WITHOUT Control) - (Expected Loss WITH Control) - (Cost of Control)</code></p><p>If Value > 0 → Implement the control. If Value < 0 → Cost exceeds benefit, Accept the risk.</p><p><strong>Expected Monetary Value (EMV):</strong> <code>EMV = Probability × Financial Impact</code></p>"
+        },
+        {
+            "title": "7. Systems Controls & Security Measures",
+            "content": "<p><strong>General Controls (IT General Controls – ITGCs):</strong><br>Apply to the entire IT environment. If these fail, application controls cannot be relied upon.</p><ul><li><strong>Access Controls:</strong> User IDs, passwords, biometrics, role-based access.</li><li><strong>Change Management:</strong> Formal approval process for software changes, version control.</li><li><strong>Data Center Security:</strong> Physical access restrictions, environmental controls (temperature, fire suppression).</li><li><strong>System Development:</strong> SDLC methodology, testing before production.</li><li><strong>Computer Operations:</strong> Job scheduling, monitoring, incident response.</li></ul><p><strong>Application Controls:</strong><br>Specific to individual applications (e.g., payroll system, accounts payable).</p><ul><li><strong>Input Controls:</strong> Edit checks, field validation, range checks, batch totals (Financial Totals, Hash Totals, Record Counts), check digits.</li><li><strong>Processing Controls:</strong> Run-to-run totals, matching logic (PO to receipt to invoice), limit checks, reasonableness tests.</li><li><strong>Output Controls:</strong> Exception report review, distribution controls (who gets what report), error log reviews.</li></ul>"
+        },
+        {
+            "title": "8. Network Controls & Business Continuity",
+            "content": "<p><strong>Network Controls:</strong></p><ul><li><strong>Firewalls:</strong> Filter incoming/outgoing network traffic based on rules.</li><li><strong>Encryption:</strong> Protects data in transit (SSL/TLS) and at rest.</li><li><strong>VPN (Virtual Private Network):</strong> Secure remote access over public networks.</li><li><strong>Intrusion Detection/Prevention Systems (IDS/IPS):</strong> Monitor for unauthorized access attempts.</li><li><strong>Anti-malware:</strong> Virus protection, regularly updated.</li></ul><p><strong>Backup Controls:</strong></p><ul><li><strong>Full Backup:</strong> Complete copy of all data.</li><li><strong>Incremental Backup:</strong> Only data changed since last backup.</li><li><strong>Differential Backup:</strong> All data changed since last full backup.</li><li>Store backups <strong>off-site</strong> (geographic separation).</li></ul><p><strong>Business Continuity Planning (BCP) & Disaster Recovery:</strong></p><ul><li><strong>BCP:</strong> Comprehensive plan for maintaining business operations during and after a disaster.</li><li><strong>Disaster Recovery Plan (DRP):</strong> Subset of BCP focused on IT recovery.</li><li><strong>Recovery Sites:</strong><ul><li><strong>Hot Site:</strong> Ready to use immediately (most expensive).</li><li><strong>Warm Site:</strong> Has equipment but needs data loading.</li><li><strong>Cold Site:</strong> Empty facility, cheapest but slowest to activate.</li></ul></li><li><strong>Recovery Point Objective (RPO):</strong> Maximum acceptable data loss (time).</li><li><strong>Recovery Time Objective (RTO):</strong> Maximum acceptable downtime.</li></ul>"
+        },
+        {
+            "title": "9. Legal & Regulatory Framework",
+            "content": "<p><strong>FCPA – Foreign Corrupt Practices Act (1977):</strong></p><ul><li><strong>Anti-Bribery Provision:</strong> Prohibits paying bribes to foreign government officials to obtain or retain business. Includes 'anything of value' (gifts, donations, travel).</li><li><strong>Accounting Provision:</strong><ul><li>Must maintain accurate books and records.</li><li>Must maintain a system of adequate internal controls.</li><li><strong>Applies to ALL SEC registrants</strong>, including purely domestic companies. This is a common exam trap.</li></ul></li></ul><p><strong>SOX – Sarbanes-Oxley Act (2002):</strong><br>Enacted after Enron/WorldCom scandals.</p><ul><li><strong>Section 302:</strong> CEO/CFO must personally <strong>certify</strong> financial statements and internal controls.</li><li><strong>Section 404:</strong><ul><li><strong>Management:</strong> Must assess and report on effectiveness of ICFR (Internal Control over Financial Reporting).</li><li><strong>External Auditor:</strong> Must attest to (audit) management's assessment.</li></ul></li><li><strong>Section 806:</strong> Whistleblower protection for employees reporting fraud.</li><li><strong>Section 906:</strong> Criminal penalties for willful certification of misleading financial statements.</li><li><strong>PCAOB:</strong> Created by SOX to oversee external auditors of public companies.</li></ul>"
+        },
+        {
+            "title": "10. Control Deficiencies – Classification",
+            "content": "<table class='notes-table'><thead><tr><th>Level</th><th>Definition</th><th>Reporting</th></tr></thead><tbody><tr><td><strong>Control Deficiency</strong></td><td>Design or operation of a control does not allow timely prevention or detection</td><td>Reported to management</td></tr><tr><td><strong>Significant Deficiency</strong></td><td>Less severe than MW but important enough to merit attention</td><td>Reported to Audit Committee</td></tr><tr><td><strong>Material Weakness</strong></td><td>Reasonable possibility that a <em>material</em> misstatement will not be prevented or detected</td><td><strong>Must be publicly disclosed</strong></td></tr></tbody></table><p><strong>Exam Rule:</strong> Material Weakness → Adverse opinion on ICFR. The auditor cannot issue an unqualified opinion if a material weakness exists.</p>"
+        },
+        {
+            "title": "11. Inherent Limitations of Internal Controls",
+            "content": "<ul><li><strong>Collusion:</strong> Two or more people conspiring defeats segregation of duties.</li><li><strong>Management Override:</strong> Senior management can bypass controls they designed. This is the <em>single biggest limitation</em>.</li><li><strong>Human Error:</strong> Mistakes due to fatigue, carelessness, misunderstanding.</li><li><strong>Cost-Benefit Constraint:</strong> The cost of a control should not exceed its expected benefit.</li><li><strong>Changing Conditions:</strong> Controls may become obsolete as the business environment changes.</li></ul><p><strong>Bottom Line:</strong> No system of internal controls can <em>guarantee</em> that all errors and fraud will be prevented. Controls provide <strong>reasonable assurance</strong>, not <strong>absolute assurance</strong>.</p>"
+        },
+        {
+            "title": "12. Exam Strategy – How to Approach IC Questions",
+            "content": "<ol><li><strong>Identify the Objective Affected:</strong> Is it Operations, Reporting, or Compliance (ORC)?</li><li><strong>Identify the COSO Component:</strong> Which of the CRIME components is involved?</li><li><strong>Classify the Control Type:</strong> Preventive, Detective, Corrective, or Directive?</li><li><strong>Determine the Risk Type:</strong> Inherent, Control, or Residual?</li><li><strong>Evaluate Cost-Benefit:</strong> Is the control worth implementing? (Value of Control formula)</li><li><strong>Consider Legal Implications:</strong> Does FCPA or SOX apply?</li><li><strong>Check for Segregation Issues:</strong> Are ARC duties properly separated?</li></ol>"
+        }
+    ],
+    "formulas": [
+        {
+            "name": "Risk",
+            "formula": "Likelihood × Impact"
+        },
+        {
+            "name": "Expected Monetary Value",
+            "formula": "Probability × Financial Loss"
+        },
+        {
+            "name": "Residual Risk",
+            "formula": "Inherent Risk - Impact of Controls"
+        },
+        {
+            "name": "Value of a Control",
+            "formula": "(Expected Loss Without Control - Expected Loss With Control) - Cost of Control"
+        }
+    ],
+    "mistakes": [
+        "Assuming Internal Audit is part of Control Environment. **It is part of Monitoring.**",
+        "Confusing Inherent Risk (before controls) with Control Risk (controls fail).",
+        "Believing Segregation of Duties prevents **Collusion**. Collusion specifically bypasses segregation.",
+        "Thinking FCPA only covers bribery. The **Accounting Provisions** apply to ALL SEC registrants.",
+        "Forgetting the **Cost-Benefit Principle** — a control whose cost exceeds its benefit should not be implemented.",
+        "Thinking internal controls provide **absolute assurance**. They provide only **reasonable assurance**.",
+        "Confusing a Significant Deficiency with a Material Weakness. Only a MW requires public disclosure.",
+        "Assuming external auditors can ignore internal audit's work. They can **rely** on it after evaluating competence/objectivity."
+    ],
+    "summary": "Internal Controls is a judgment-heavy section. Master the COSO 2013 Framework (CRIME + 17 Principles), Corporate Governance (Board independence, Audit Committee), Risk Management (EMV, Value of Control, Residual Risk), IT Controls (General vs Application vs Network), Business Continuity (Hot/Warm/Cold sites, RPO/RTO), and Legal Compliance (FCPA both provisions, SOX Sections 302/404/806). Remember: controls = reasonable assurance, not absolute.",
+    "quiz": [
+        {
+            "question": "Which component of the COSO framework involves the 'Tone at the Top'?",
+            "options": [
+                "Risk Assessment",
+                "Control Environment",
+                "Monitoring",
+                "Control Activities"
+            ],
+            "answer": 1,
+            "explanation": "The Control Environment sets the foundation for all other components, encompassing integrity, ethical values, and leadership philosophy."
+        },
+        {
+            "question": "Separating the duties of authorizing a transaction, recording the transaction, and maintaining custody of the asset is an example of:",
+            "options": [
+                "Detective Control",
+                "Preventive Control",
+                "Corrective Control",
+                "Directive Control"
+            ],
+            "answer": 1,
+            "explanation": "Segregation of Duties (ARC) prevents errors or fraud from occurring in the first place, making it a Preventive Control."
+        },
+        {
+            "question": "A company decides to buy insurance to protect against fire damage. Which risk response strategy is this?",
+            "options": [
+                "Avoidance",
+                "Reduction",
+                "Sharing",
+                "Acceptance"
+            ],
+            "answer": 2,
+            "explanation": "Sharing (or Transferring) risk involves shifting the financial impact to a third party, such as an insurance company."
+        },
+        {
+            "question": "Which recovery site is ready for immediate use but most expensive?",
+            "options": [
+                "Cold Site",
+                "Warm Site",
+                "Hot Site",
+                "Mobile Site"
+            ],
+            "answer": 2,
+            "explanation": "A Hot Site is a fully operational facility with current data, ready for immediate failover. It is the most expensive but provides the fastest recovery."
+        },
+        {
+            "question": "Under SOX, which section requires CEO/CFO personal certification of financial statements?",
+            "options": [
+                "Section 404",
+                "Section 302",
+                "Section 806",
+                "Section 906"
+            ],
+            "answer": 1,
+            "explanation": "Section 302 requires CEO and CFO to personally certify the accuracy of financial statements and the effectiveness of internal controls."
+        }
+    ],
+    "essay": {
+        "question": "Fraud Risk Management is a key principle of the COSO Risk Assessment component. 1) Identify the three elements of the 'Fraud Triangle'. 2) Explain how a strong Internal Control system can address one of these elements specifically.",
+        "modelAnswer": "<p><strong>1. The Fraud Triangle:</strong><br><ul><li><strong>Opportunity:</strong> Weak controls that allow fraud to be committed.</li><li><strong>Pressure (Incentive):</strong> Financial stress or unrealistic targets motivating fraud.</li><li><strong>Rationalization:</strong> The mindset defining the behavior as acceptable ('I'm just borrowing it').</li></ul></p><p><strong>2. Addressing Opportunity:</strong><br>Internal Controls specifically target the <strong>Opportunity</strong> leg of the triangle. By implementing <strong>Segregation of Duties</strong>, requiring dual signatures, and performing regular reconciliations, an organization removes the ability for a single individual to commit and conceal fraud, thus reducing the opportunity to do so.</p>"
+    },
+    "test": [
+        {
+            "id": "p1s5_1",
+            "question": "Which COSO component is known as 'Tone at the Top'?",
+            "options": [
+                "Risk Assessment",
+                "Control Environment",
+                "Monitoring",
+                "Control Activities"
+            ],
+            "answer": 1,
+            "explanation": "The Control Environment establishes the ethical climate and governance structure of the organization, commonly referred to as 'Tone at the Top.'"
+        },
+        {
+            "id": "p1s5_2",
+            "question": "Which objective category relates to reliability of financial reporting?",
+            "options": [
+                "Operations",
+                "Reporting",
+                "Compliance",
+                "Governance"
+            ],
+            "answer": 1,
+            "explanation": "The Reporting objective ensures reliability and accuracy of financial and non-financial reporting."
+        },
+        {
+            "id": "p1s5_3",
+            "question": "Segregation of duties primarily separates which three functions?",
+            "options": [
+                "Audit, Review, Approval",
+                "Authorization, Recording, Custody",
+                "Planning, Execution, Reporting",
+                "Input, Process, Output"
+            ],
+            "answer": 1,
+            "explanation": "Segregation of duties divides Authorization, Recording, and Custody (ARC) to prevent fraud and errors."
+        },
+        {
+            "id": "p1s5_4",
+            "question": "A bank reconciliation is an example of what type of control?",
+            "options": [
+                "Preventive",
+                "Detective",
+                "Corrective",
+                "Directive"
+            ],
+            "answer": 1,
+            "explanation": "Bank reconciliations detect errors or fraud after transactions have occurred."
+        },
+        {
+            "id": "p1s5_5",
+            "question": "Password protection is primarily what type of control?",
+            "options": [
+                "Detective",
+                "Corrective",
+                "Preventive",
+                "Directive"
+            ],
+            "answer": 2,
+            "explanation": "Passwords prevent unauthorized access before it occurs, making them preventive controls."
+        },
+        {
+            "id": "p1s5_6",
+            "question": "Which COSO component includes fraud risk assessment?",
+            "options": [
+                "Control Activities",
+                "Monitoring",
+                "Risk Assessment",
+                "Information & Communication"
+            ],
+            "answer": 2,
+            "explanation": "Fraud risk assessment is part of the Risk Assessment component of COSO."
+        },
+        {
+            "id": "p1s5_7",
+            "question": "Which risk exists before controls are implemented?",
+            "options": [
+                "Residual Risk",
+                "Control Risk",
+                "Inherent Risk",
+                "Detection Risk"
+            ],
+            "answer": 2,
+            "explanation": "Inherent risk is the natural level of risk present before any controls are applied."
+        },
+        {
+            "id": "p1s5_8",
+            "question": "Residual risk is best described as:",
+            "options": [
+                "Risk before controls",
+                "Risk that controls fail",
+                "Risk remaining after controls",
+                "Risk eliminated entirely"
+            ],
+            "answer": 2,
+            "explanation": "Residual risk is the risk that remains after management implements controls."
+        },
+        {
+            "id": "p1s5_9",
+            "question": "Which is NOT an inherent limitation of internal control?",
+            "options": [
+                "Collusion",
+                "Management override",
+                "Absolute assurance",
+                "Human error"
+            ],
+            "answer": 2,
+            "explanation": "Internal controls provide reasonable assurance, not absolute assurance."
+        },
+        {
+            "id": "p1s5_10",
+            "question": "Buying insurance is an example of which risk response?",
+            "options": [
+                "Avoid",
+                "Reduce",
+                "Share",
+                "Accept"
+            ],
+            "answer": 2,
+            "explanation": "Insurance transfers financial impact to a third party, representing risk sharing."
+        },
+        {
+            "id": "p1s5_11",
+            "question": "Exiting a risky business line is which risk response?",
+            "options": [
+                "Avoid",
+                "Reduce",
+                "Share",
+                "Accept"
+            ],
+            "answer": 0,
+            "explanation": "Avoidance means eliminating the risk entirely by discontinuing the activity."
+        },
+        {
+            "id": "p1s5_12",
+            "question": "Installing sprinklers to prevent fire damage is:",
+            "options": [
+                "Avoid",
+                "Reduce",
+                "Share",
+                "Accept"
+            ],
+            "answer": 1,
+            "explanation": "Installing controls to decrease likelihood or impact is risk reduction."
+        },
+        {
+            "id": "p1s5_13",
+            "question": "If cost of control exceeds benefit, management should:",
+            "options": [
+                "Reduce risk",
+                "Avoid risk",
+                "Accept risk",
+                "Transfer risk"
+            ],
+            "answer": 2,
+            "explanation": "If cost exceeds benefit, accepting the risk is economically rational."
+        },
+        {
+            "id": "p1s5_14",
+            "question": "Which of the following is a general IT control?",
+            "options": [
+                "Edit check",
+                "Run-to-run total",
+                "Password policy",
+                "Exception report"
+            ],
+            "answer": 2,
+            "explanation": "Password policies apply across systems and are general IT controls."
+        },
+        {
+            "id": "p1s5_15",
+            "question": "Edit checks are classified as:",
+            "options": [
+                "Input controls",
+                "Processing controls",
+                "Output controls",
+                "Monitoring controls"
+            ],
+            "answer": 0,
+            "explanation": "Edit checks validate data at entry stage, making them input controls."
+        },
+        {
+            "id": "p1s5_16",
+            "question": "Run-to-run totals are:",
+            "options": [
+                "Input controls",
+                "Processing controls",
+                "Output controls",
+                "Preventive controls"
+            ],
+            "answer": 1,
+            "explanation": "Run-to-run totals ensure data integrity during processing."
+        },
+        {
+            "id": "p1s5_17",
+            "question": "Review of exception reports is:",
+            "options": [
+                "Input control",
+                "Processing control",
+                "Output control",
+                "Physical control"
+            ],
+            "answer": 2,
+            "explanation": "Exception reports are reviewed after processing, making them output controls."
+        },
+        {
+            "id": "p1s5_18",
+            "question": "Locks and security guards are examples of:",
+            "options": [
+                "Directive controls",
+                "Physical controls",
+                "Monitoring controls",
+                "Corrective controls"
+            ],
+            "answer": 1,
+            "explanation": "Physical controls protect assets from theft or misuse."
+        },
+        {
+            "id": "p1s5_19",
+            "question": "Which COSO component ensures controls are functioning effectively?",
+            "options": [
+                "Monitoring",
+                "Control Activities",
+                "Risk Assessment",
+                "Reporting"
+            ],
+            "answer": 0,
+            "explanation": "Monitoring evaluates whether controls continue to operate properly."
+        },
+        {
+            "id": "p1s5_20",
+            "question": "Internal audit belongs to which COSO component?",
+            "options": [
+                "Control Environment",
+                "Monitoring",
+                "Control Activities",
+                "Compliance"
+            ],
+            "answer": 1,
+            "explanation": "Internal audit performs separate evaluations, which fall under Monitoring."
+        },
+        {
+            "id": "p1s5_21",
+            "question": "FCPA accounting provisions require:",
+            "options": [
+                "Foreign tax payments",
+                "Accurate books and adequate internal controls",
+                "Only anti-bribery compliance",
+                "Environmental reporting"
+            ],
+            "answer": 1,
+            "explanation": "The FCPA requires companies to maintain accurate books and records and implement adequate internal controls."
+        },
+        {
+            "id": "p1s5_22",
+            "question": "SOX Section 404 requires management to:",
+            "options": [
+                "Prepare tax returns",
+                "Assess internal control over financial reporting",
+                "Audit competitors",
+                "Prevent all fraud"
+            ],
+            "answer": 1,
+            "explanation": "Section 404 requires management to assess and report on the effectiveness of internal control over financial reporting."
+        },
+        {
+            "id": "p1s5_23",
+            "question": "Which is part of the Fraud Triangle?",
+            "options": [
+                "Audit",
+                "Opportunity",
+                "Detection",
+                "Segregation"
+            ],
+            "answer": 1,
+            "explanation": "The Fraud Triangle consists of Opportunity, Pressure, and Rationalization."
+        },
+        {
+            "id": "p1s5_24",
+            "question": "Segregation of duties primarily reduces:",
+            "options": [
+                "Pressure",
+                "Rationalization",
+                "Opportunity",
+                "Impact"
+            ],
+            "answer": 2,
+            "explanation": "Segregation of duties reduces the opportunity to commit and conceal fraud."
+        },
+        {
+            "id": "p1s5_25",
+            "question": "Collusion defeats which control?",
+            "options": [
+                "Insurance",
+                "Segregation of duties",
+                "Backup systems",
+                "Training programs"
+            ],
+            "answer": 1,
+            "explanation": "Collusion allows multiple individuals to bypass segregation of duties."
+        },
+        {
+            "id": "p1s5_26",
+            "question": "Expected Monetary Value equals:",
+            "options": [
+                "Probability × Impact",
+                "Risk ÷ Impact",
+                "Cost × Benefit",
+                "Impact – Probability"
+            ],
+            "answer": 0,
+            "explanation": "EMV is calculated by multiplying the probability of an event by its financial impact."
+        },
+        {
+            "id": "p1s5_27",
+            "question": "Which objective relates to safeguarding assets?",
+            "options": [
+                "Operations",
+                "Reporting",
+                "Compliance",
+                "Fraud"
+            ],
+            "answer": 0,
+            "explanation": "Safeguarding assets falls under operational objectives."
+        },
+        {
+            "id": "p1s5_28",
+            "question": "Whistleblower hotlines support which COSO component?",
+            "options": [
+                "Monitoring",
+                "Information & Communication",
+                "Risk Assessment",
+                "Control Activities"
+            ],
+            "answer": 1,
+            "explanation": "Hotlines facilitate communication of control issues internally."
+        },
+        {
+            "id": "p1s5_29",
+            "question": "Which is a detective control?",
+            "options": [
+                "Pre-numbered invoices",
+                "Dual signatures",
+                "Bank reconciliation",
+                "Access restriction"
+            ],
+            "answer": 2,
+            "explanation": "Bank reconciliation detects discrepancies after transactions occur."
+        },
+        {
+            "id": "p1s5_30",
+            "question": "Which is a corrective control?",
+            "options": [
+                "Firewall",
+                "Backup restoration",
+                "Approval signature",
+                "Budget policy"
+            ],
+            "answer": 1,
+            "explanation": "Backup restoration corrects problems after detection."
+        },
+        {
+            "id": "p1s5_31",
+            "question": "Which COSO component includes organizational structure?",
+            "options": [
+                "Control Environment",
+                "Monitoring",
+                "Risk Assessment",
+                "Control Activities"
+            ],
+            "answer": 0,
+            "explanation": "Organizational structure is part of the Control Environment."
+        },
+        {
+            "id": "p1s5_32",
+            "question": "If one person approves vendors and signs checks, this indicates:",
+            "options": [
+                "Strong monitoring",
+                "Segregation of duties violation",
+                "Directive control",
+                "Risk avoidance"
+            ],
+            "answer": 1,
+            "explanation": "Combining authorization and custody violates segregation principles."
+        },
+        {
+            "id": "p1s5_33",
+            "question": "A significant deficiency is:",
+            "options": [
+                "More severe than material weakness",
+                "Less severe than material weakness",
+                "Not required to report",
+                "Irrelevant to auditors"
+            ],
+            "answer": 1,
+            "explanation": "A significant deficiency is important but less severe than a material weakness."
+        },
+        {
+            "id": "p1s5_34",
+            "question": "Material weakness must be:",
+            "options": [
+                "Ignored",
+                "Disclosed",
+                "Kept confidential",
+                "Approved by CEO only"
+            ],
+            "answer": 1,
+            "explanation": "Material weaknesses must be disclosed under SOX."
+        },
+        {
+            "id": "p1s5_35",
+            "question": "Management override affects which COSO component most directly?",
+            "options": [
+                "Control Environment",
+                "Monitoring",
+                "IT Controls",
+                "Processing Controls"
+            ],
+            "answer": 0,
+            "explanation": "Override reflects weak ethical culture and governance."
+        },
+        {
+            "id": "p1s5_36",
+            "question": "Batch totals are used to:",
+            "options": [
+                "Prevent fraud",
+                "Ensure completeness of data input",
+                "Backup data",
+                "Transfer risk"
+            ],
+            "answer": 1,
+            "explanation": "Batch totals ensure all transactions are processed."
+        },
+        {
+            "id": "p1s5_37",
+            "question": "Which control is most effective against opportunity fraud risk?",
+            "options": [
+                "Training program",
+                "Segregation of duties",
+                "Insurance",
+                "Marketing strategy"
+            ],
+            "answer": 1,
+            "explanation": "Segregation directly limits opportunity."
+        },
+        {
+            "id": "p1s5_38",
+            "question": "Control risk refers to:",
+            "options": [
+                "Risk before controls",
+                "Risk controls fail to prevent or detect misstatement",
+                "Residual risk only",
+                "Market risk"
+            ],
+            "answer": 1,
+            "explanation": "Control risk is the risk that controls fail."
+        },
+        {
+            "id": "p1s5_39",
+            "question": "Directive controls include:",
+            "options": [
+                "Training and policies",
+                "Reconciliations",
+                "Backups",
+                "Insurance"
+            ],
+            "answer": 0,
+            "explanation": "Directive controls guide behavior through policies and education."
+        },
+        {
+            "id": "p1s5_40",
+            "question": "Monitoring can be performed through:",
+            "options": [
+                "Separate evaluations",
+                "Ongoing reviews",
+                "Internal audit",
+                "All of the above"
+            ],
+            "answer": 3,
+            "explanation": "Monitoring includes ongoing activities and separate evaluations like internal audit."
+        },
+        {
+            "id": "p1s5_41",
+            "question": "Which COSO component focuses on identifying and analyzing risks?",
+            "options": [
+                "Control Environment",
+                "Risk Assessment",
+                "Monitoring",
+                "Control Activities"
+            ],
+            "answer": 1,
+            "explanation": "Risk Assessment involves identifying and analyzing risks that may prevent achievement of objectives."
+        },
+        {
+            "id": "p1s5_42",
+            "question": "An independent audit committee primarily strengthens which COSO component?",
+            "options": [
+                "Control Environment",
+                "Processing Controls",
+                "Input Controls",
+                "Corrective Controls"
+            ],
+            "answer": 0,
+            "explanation": "An independent audit committee enhances governance and tone at the top, strengthening the Control Environment."
+        },
+        {
+            "id": "p1s5_43",
+            "question": "Which of the following best reduces management override risk?",
+            "options": [
+                "Strong board oversight",
+                "Insurance coverage",
+                "Edit checks",
+                "Physical locks"
+            ],
+            "answer": 0,
+            "explanation": "Strong independent board oversight helps prevent management override."
+        },
+        {
+            "id": "p1s5_44",
+            "question": "Which of the following is an example of risk acceptance?",
+            "options": [
+                "Buying insurance",
+                "Installing new firewall",
+                "Ignoring minor risk due to low impact",
+                "Discontinuing a risky product"
+            ],
+            "answer": 2,
+            "explanation": "Risk acceptance occurs when management chooses not to act because the risk is minor or cost of control exceeds benefit."
+        },
+        {
+            "id": "p1s5_45",
+            "question": "Change management procedures are classified as:",
+            "options": [
+                "Application controls",
+                "General IT controls",
+                "Detective controls only",
+                "Output controls"
+            ],
+            "answer": 1,
+            "explanation": "Change management applies across systems and is a general IT control."
+        },
+        {
+            "id": "p1s5_46",
+            "question": "If inherent risk is high, management should:",
+            "options": [
+                "Reduce monitoring",
+                "Increase control activities",
+                "Eliminate reporting",
+                "Accept risk automatically"
+            ],
+            "answer": 1,
+            "explanation": "Higher inherent risk requires stronger or additional control activities."
+        },
+        {
+            "id": "p1s5_47",
+            "question": "Which control ensures data is processed completely?",
+            "options": [
+                "Physical inventory count",
+                "Run-to-run totals",
+                "Insurance policy",
+                "Training manual"
+            ],
+            "answer": 1,
+            "explanation": "Run-to-run totals ensure completeness and accuracy during processing."
+        },
+        {
+            "id": "p1s5_48",
+            "question": "The accounting provisions of FCPA apply to:",
+            "options": [
+                "Only foreign subsidiaries",
+                "Only companies bribing officials",
+                "All SEC registrants",
+                "Government agencies only"
+            ],
+            "answer": 2,
+            "explanation": "FCPA accounting provisions apply to all SEC registrants, even purely domestic ones."
+        },
+        {
+            "id": "p1s5_49",
+            "question": "Which control is most appropriate when full segregation is not possible?",
+            "options": [
+                "Increased supervision",
+                "Elimination of reporting",
+                "Risk avoidance",
+                "Ignore control weakness"
+            ],
+            "answer": 0,
+            "explanation": "If segregation cannot be achieved, compensating controls like supervision are required."
+        },
+        {
+            "id": "p1s5_50",
+            "question": "Which COSO component includes policies and procedures?",
+            "options": [
+                "Risk Assessment",
+                "Control Activities",
+                "Monitoring",
+                "Compliance"
+            ],
+            "answer": 1,
+            "explanation": "Control Activities consist of policies and procedures designed to mitigate risks."
+        },
+        {
+            "id": "p1s5_51",
+            "question": "Human error represents:",
+            "options": [
+                "Preventable weakness only",
+                "An inherent limitation of internal control",
+                "Fraud element",
+                "IT deficiency only"
+            ],
+            "answer": 1,
+            "explanation": "Human error is one of the inherent limitations of internal control systems."
+        },
+        {
+            "id": "p1s5_52",
+            "question": "A company reviewing financial reports monthly is performing:",
+            "options": [
+                "Preventive control",
+                "Detective control",
+                "Corrective control",
+                "Risk avoidance"
+            ],
+            "answer": 1,
+            "explanation": "Reviewing reports after preparation is a detective control."
+        },
+        {
+            "id": "p1s5_53",
+            "question": "Which of the following best addresses the 'Pressure' element of the Fraud Triangle?",
+            "options": [
+                "Segregation of duties",
+                "Realistic performance targets",
+                "Bank reconciliation",
+                "Access controls"
+            ],
+            "answer": 1,
+            "explanation": "Unrealistic targets create pressure; reasonable targets reduce fraud pressure."
+        },
+        {
+            "id": "p1s5_54",
+            "question": "Which control ensures only authorized users access systems?",
+            "options": [
+                "Batch totals",
+                "Access controls",
+                "Insurance",
+                "Audit report"
+            ],
+            "answer": 1,
+            "explanation": "Access controls restrict system use to authorized personnel."
+        },
+        {
+            "id": "p1s5_55",
+            "question": "The value of a control is positive when:",
+            "options": [
+                "Control cost exceeds benefit",
+                "Expected loss reduction exceeds control cost",
+                "Risk is eliminated",
+                "Management override exists"
+            ],
+            "answer": 1,
+            "explanation": "A control is economically justified when expected loss reduction is greater than its cost."
+        },
+        {
+            "id": "p1s5_56",
+            "question": "Which is part of the Information & Communication component?",
+            "options": [
+                "Ethical tone",
+                "Fraud assessment",
+                "Accurate financial reporting",
+                "Password encryption"
+            ],
+            "answer": 2,
+            "explanation": "Information & Communication ensures fair, accurate, complete, and timely reporting."
+        },
+        {
+            "id": "p1s5_57",
+            "question": "Which is an example of monitoring activity?",
+            "options": [
+                "Firewall installation",
+                "Internal audit review",
+                "Purchase approval",
+                "Insurance contract"
+            ],
+            "answer": 1,
+            "explanation": "Internal audit performs separate evaluations under Monitoring."
+        },
+        {
+            "id": "p1s5_58",
+            "question": "Compliance objectives relate to:",
+            "options": [
+                "Operational efficiency",
+                "Financial performance",
+                "Laws and regulations",
+                "Market competition"
+            ],
+            "answer": 2,
+            "explanation": "Compliance objectives ensure adherence to laws and regulations."
+        },
+        {
+            "id": "p1s5_59",
+            "question": "If management intentionally overrides a control, this demonstrates:",
+            "options": [
+                "Strong governance",
+                "Segregation success",
+                "Inherent limitation",
+                "Risk reduction"
+            ],
+            "answer": 2,
+            "explanation": "Management override is an inherent limitation of internal control."
+        },
+        {
+            "id": "p1s5_60",
+            "question": "Which of the following is NOT part of ARC?",
+            "options": [
+                "Authorization",
+                "Recording",
+                "Custody",
+                "Monitoring"
+            ],
+            "answer": 3,
+            "explanation": "ARC stands for Authorization, Recording, and Custody."
+        },
+        {
+            "id": "p1s5_61",
+            "question": "Which control type primarily guides behavior?",
+            "options": [
+                "Preventive",
+                "Detective",
+                "Corrective",
+                "Directive"
+            ],
+            "answer": 3,
+            "explanation": "Directive controls guide employees through policies and training."
+        },
+        {
+            "id": "p1s5_62",
+            "question": "Which risk response eliminates exposure entirely?",
+            "options": [
+                "Reduce",
+                "Avoid",
+                "Share",
+                "Accept"
+            ],
+            "answer": 1,
+            "explanation": "Avoidance removes the risk by discontinuing the activity."
+        },
+        {
+            "id": "p1s5_63",
+            "question": "Which control ensures completeness of transaction input?",
+            "options": [
+                "Batch totals",
+                "Security guard",
+                "Insurance",
+                "Audit committee"
+            ],
+            "answer": 0,
+            "explanation": "Batch totals confirm all transactions are entered and processed."
+        },
+        {
+            "id": "p1s5_64",
+            "question": "A company with no password expiration policy has weakness in:",
+            "options": [
+                "Application controls",
+                "General IT controls",
+                "Physical controls",
+                "Directive controls"
+            ],
+            "answer": 1,
+            "explanation": "Password policies fall under general IT controls."
+        },
+        {
+            "id": "p1s5_65",
+            "question": "Which is the correct formula for residual risk?",
+            "options": [
+                "Inherent Risk - Impact of Controls",
+                "Probability × Cost",
+                "Cost - Benefit",
+                "Impact ÷ Likelihood"
+            ],
+            "answer": 0,
+            "explanation": "Residual risk equals inherent risk minus the effect of implemented controls."
+        },
+        {
+            "id": "p1s5_66",
+            "question": "Which of the following best describes control risk?",
+            "options": [
+                "Risk before any controls",
+                "Risk controls fail to prevent or detect misstatements",
+                "Risk eliminated by insurance",
+                "Risk accepted by management"
+            ],
+            "answer": 1,
+            "explanation": "Control risk is the risk that internal controls fail to prevent or detect errors or fraud."
+        },
+        {
+            "id": "p1s5_67",
+            "question": "A company performs surprise cash counts. This is a:",
+            "options": [
+                "Preventive control",
+                "Detective control",
+                "Directive control",
+                "Risk avoidance"
+            ],
+            "answer": 1,
+            "explanation": "Surprise cash counts detect discrepancies after transactions have occurred."
+        },
+        {
+            "id": "p1s5_68",
+            "question": "Which COSO component deals with communication to external stakeholders?",
+            "options": [
+                "Monitoring",
+                "Control Activities",
+                "Information & Communication",
+                "Risk Assessment"
+            ],
+            "answer": 2,
+            "explanation": "Information & Communication ensures relevant internal and external reporting."
+        },
+        {
+            "id": "p1s5_69",
+            "question": "A firewall is primarily what type of control?",
+            "options": [
+                "Preventive",
+                "Detective",
+                "Corrective",
+                "Directive"
+            ],
+            "answer": 0,
+            "explanation": "A firewall prevents unauthorized network access."
+        },
+        {
+            "id": "p1s5_70",
+            "question": "Which of the following most directly supports compliance objectives?",
+            "options": [
+                "Environmental law training",
+                "Budget variance analysis",
+                "Inventory turnover ratio",
+                "Sales forecast review"
+            ],
+            "answer": 0,
+            "explanation": "Training on laws ensures adherence to regulations, supporting compliance objectives."
+        },
+        {
+            "id": "p1s5_71",
+            "question": "Which is an example of an input control?",
+            "options": [
+                "Matching logic",
+                "Edit check",
+                "Internal audit review",
+                "Backup restoration"
+            ],
+            "answer": 1,
+            "explanation": "Edit checks validate data at the point of entry."
+        },
+        {
+            "id": "p1s5_72",
+            "question": "The primary purpose of monitoring is to:",
+            "options": [
+                "Eliminate inherent risk",
+                "Ensure controls continue to operate effectively",
+                "Increase profits",
+                "Reduce tax liability"
+            ],
+            "answer": 1,
+            "explanation": "Monitoring evaluates ongoing effectiveness of internal controls."
+        },
+        {
+            "id": "p1s5_73",
+            "question": "A CEO pressuring employees to meet unrealistic earnings targets increases:",
+            "options": [
+                "Opportunity",
+                "Pressure",
+                "Rationalization",
+                "Monitoring"
+            ],
+            "answer": 1,
+            "explanation": "Unrealistic targets create pressure, a key element of the Fraud Triangle."
+        },
+        {
+            "id": "p1s5_74",
+            "question": "Which control addresses the Rationalization element of fraud?",
+            "options": [
+                "Ethics training and strong culture",
+                "Bank reconciliation",
+                "Password encryption",
+                "Insurance policy"
+            ],
+            "answer": 0,
+            "explanation": "A strong ethical culture reduces rationalization of fraud."
+        },
+        {
+            "id": "p1s5_75",
+            "question": "If inherent risk is low and controls are strong, residual risk will likely be:",
+            "options": [
+                "High",
+                "Moderate",
+                "Low",
+                "Unlimited"
+            ],
+            "answer": 2,
+            "explanation": "Strong controls combined with low inherent risk result in low residual risk."
+        },
+        {
+            "id": "p1s5_76",
+            "question": "Which of the following is NOT a control activity?",
+            "options": [
+                "Approval procedures",
+                "Reconciliations",
+                "Fraud risk assessment",
+                "Segregation of duties"
+            ],
+            "answer": 2,
+            "explanation": "Fraud risk assessment belongs to Risk Assessment, not Control Activities."
+        },
+        {
+            "id": "p1s5_77",
+            "question": "A material weakness indicates:",
+            "options": [
+                "No risk exists",
+                "Reasonable possibility of material misstatement",
+                "Minor issue only",
+                "Control operates effectively"
+            ],
+            "answer": 1,
+            "explanation": "A material weakness means there is a reasonable possibility of material misstatement."
+        },
+        {
+            "id": "p1s5_78",
+            "question": "Which COSO component is most directly impacted by lack of employee competence?",
+            "options": [
+                "Control Environment",
+                "Monitoring",
+                "Output Controls",
+                "Risk Sharing"
+            ],
+            "answer": 0,
+            "explanation": "Competence and HR policies are elements of the Control Environment."
+        },
+        {
+            "id": "p1s5_79",
+            "question": "Insurance primarily reduces which part of risk?",
+            "options": [
+                "Likelihood",
+                "Impact",
+                "Inherent risk",
+                "Control risk"
+            ],
+            "answer": 1,
+            "explanation": "Insurance transfers financial impact, reducing impact rather than likelihood."
+        },
+        {
+            "id": "p1s5_80",
+            "question": "Dual signatures on checks are primarily:",
+            "options": [
+                "Preventive controls",
+                "Detective controls",
+                "Corrective controls",
+                "Monitoring controls"
+            ],
+            "answer": 0,
+            "explanation": "Dual signatures prevent unauthorized payments before they occur."
+        },
+        {
+            "id": "p1s5_81",
+            "question": "Which of the following strengthens segregation of duties?",
+            "options": [
+                "One person handling all tasks",
+                "Independent reconciliation by third party",
+                "CEO approval only",
+                "No supervision"
+            ],
+            "answer": 1,
+            "explanation": "Independent reconciliation compensates when full segregation is not possible."
+        },
+        {
+            "id": "p1s5_82",
+            "question": "Application controls primarily ensure:",
+            "options": [
+                "Physical security",
+                "Transaction accuracy and completeness",
+                "Corporate governance",
+                "Risk avoidance"
+            ],
+            "answer": 1,
+            "explanation": "Application controls focus on transaction processing accuracy."
+        },
+        {
+            "id": "p1s5_83",
+            "question": "The cost-benefit principle implies:",
+            "options": [
+                "All risks must be eliminated",
+                "Controls should cost less than benefit gained",
+                "No monitoring is needed",
+                "Controls guarantee no fraud"
+            ],
+            "answer": 1,
+            "explanation": "Internal controls should be economically justified."
+        },
+        {
+            "id": "p1s5_84",
+            "question": "Which of the following is an inherent limitation?",
+            "options": [
+                "Automated controls",
+                "Collusion",
+                "Independent audit",
+                "Whistleblower hotline"
+            ],
+            "answer": 1,
+            "explanation": "Collusion can override properly designed segregation of duties."
+        },
+        {
+            "id": "p1s5_85",
+            "question": "Which objective category does SOX Section 404 primarily support?",
+            "options": [
+                "Operations",
+                "Reporting",
+                "Compliance",
+                "Marketing"
+            ],
+            "answer": 1,
+            "explanation": "SOX 404 focuses on internal control over financial reporting."
+        },
+        {
+            "id": "p1s5_86",
+            "question": "Which of the following best describes the purpose of internal control?",
+            "options": [
+                "Eliminate all business risk",
+                "Provide reasonable assurance regarding objectives",
+                "Guarantee profitability",
+                "Ensure zero fraud"
+            ],
+            "answer": 1,
+            "explanation": "Internal control provides reasonable, not absolute, assurance regarding operations, reporting, and compliance objectives."
+        },
+        {
+            "id": "p1s5_87",
+            "question": "Which COSO component would be weakened by lack of ethical leadership?",
+            "options": [
+                "Control Environment",
+                "Processing Controls",
+                "Application Controls",
+                "Output Controls"
+            ],
+            "answer": 0,
+            "explanation": "Ethical leadership directly impacts the Control Environment, also known as Tone at the Top."
+        },
+        {
+            "id": "p1s5_88",
+            "question": "A company performs quarterly internal control testing. This is:",
+            "options": [
+                "Preventive control",
+                "Monitoring activity",
+                "Risk avoidance",
+                "Directive control"
+            ],
+            "answer": 1,
+            "explanation": "Testing controls periodically is part of monitoring activities."
+        },
+        {
+            "id": "p1s5_89",
+            "question": "Which of the following reduces likelihood of fraud?",
+            "options": [
+                "Insurance coverage",
+                "Segregation of duties",
+                "Accepting risk",
+                "Post-loss investigation"
+            ],
+            "answer": 1,
+            "explanation": "Segregation of duties reduces the opportunity to commit fraud, lowering likelihood."
+        },
+        {
+            "id": "p1s5_90",
+            "question": "Which of the following best illustrates risk sharing?",
+            "options": [
+                "Installing surveillance cameras",
+                "Selling a risky division",
+                "Purchasing insurance",
+                "Ignoring minor errors"
+            ],
+            "answer": 2,
+            "explanation": "Purchasing insurance transfers financial impact to another party."
+        },
+        {
+            "id": "p1s5_91",
+            "question": "If management intentionally bypasses approval requirements, this demonstrates:",
+            "options": [
+                "Effective monitoring",
+                "Management override",
+                "Proper segregation",
+                "Risk elimination"
+            ],
+            "answer": 1,
+            "explanation": "Management override occurs when leadership circumvents established controls."
+        },
+        {
+            "id": "p1s5_92",
+            "question": "Which of the following is most directly related to safeguarding physical assets?",
+            "options": [
+                "Password policy",
+                "Bank reconciliation",
+                "Security cameras",
+                "Audit committee review"
+            ],
+            "answer": 2,
+            "explanation": "Security cameras are physical controls that protect assets from theft."
+        },
+        {
+            "id": "p1s5_93",
+            "question": "A company that never updates its risk assessment after expansion is weak in:",
+            "options": [
+                "Risk Assessment",
+                "Control Activities",
+                "Physical Controls",
+                "Corrective Controls"
+            ],
+            "answer": 0,
+            "explanation": "Risk Assessment must consider changes in operations and environment."
+        },
+        {
+            "id": "p1s5_94",
+            "question": "Which control ensures transactions are authorized before processing?",
+            "options": [
+                "Dual approval requirement",
+                "Exception report review",
+                "Backup system",
+                "Insurance coverage"
+            ],
+            "answer": 0,
+            "explanation": "Dual approval prevents unauthorized transactions before they occur."
+        },
+        {
+            "id": "p1s5_95",
+            "question": "Which element of the Fraud Triangle is most directly reduced by surveillance cameras?",
+            "options": [
+                "Pressure",
+                "Rationalization",
+                "Opportunity",
+                "Compliance"
+            ],
+            "answer": 2,
+            "explanation": "Cameras reduce opportunity by increasing likelihood of detection."
+        },
+        {
+            "id": "p1s5_96",
+            "question": "If probability of loss is 20% and impact is $50,000, EMV equals:",
+            "options": [
+                "$10,000",
+                "$20,000",
+                "$5,000",
+                "$25,000"
+            ],
+            "answer": 0,
+            "explanation": "EMV = 0.20 × 50,000 = 10,000."
+        },
+        {
+            "id": "p1s5_97",
+            "question": "Which objective category includes adherence to tax regulations?",
+            "options": [
+                "Operations",
+                "Reporting",
+                "Compliance",
+                "Monitoring"
+            ],
+            "answer": 2,
+            "explanation": "Following tax regulations supports compliance objectives."
+        },
+        {
+            "id": "p1s5_98",
+            "question": "Which of the following best describes a compensating control?",
+            "options": [
+                "Eliminates inherent risk",
+                "Replaces missing segregation of duties",
+                "Guarantees zero fraud",
+                "Transfers all risk"
+            ],
+            "answer": 1,
+            "explanation": "Compensating controls are used when primary controls (like segregation) are not feasible."
+        },
+        {
+            "id": "p1s5_99",
+            "question": "Which of the following strengthens Monitoring?",
+            "options": [
+                "Independent internal audit reporting to audit committee",
+                "CEO sole authority",
+                "No documentation policy",
+                "Single employee approval process"
+            ],
+            "answer": 0,
+            "explanation": "Independent reporting enhances monitoring effectiveness."
+        },
+        {
+            "id": "p1s5_100",
+            "question": "Internal control systems are designed to provide:",
+            "options": [
+                "Absolute assurance",
+                "Reasonable assurance",
+                "Guaranteed profitability",
+                "Elimination of inherent risk"
+            ],
+            "answer": 1,
+            "explanation": "Internal control provides reasonable assurance due to inherent limitations."
+        }
+    ]
+}

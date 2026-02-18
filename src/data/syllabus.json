@@ -1,0 +1,434 @@
+{
+  "part1": {
+    "title": "Part 1: Financial Planning, Performance, and Analytics",
+    "sections": [
+      {
+        "id": "p1-s1",
+        "title": "External Financial Reporting Decisions",
+        "weightage": 15,
+        "topics": [
+          "Financial Statements",
+          "Recognition, Measurement, Valuation",
+          "Disclosure"
+        ],
+        "subtopics": {
+          "Financial Statements": [
+            "Balance Sheet",
+            "Income Statement",
+            "Statement of Changes in Equity",
+            "Statement of Cash Flows",
+            "Integrated Reporting"
+          ],
+          "Recognition, Measurement, Valuation": [
+            "Asset Valuation",
+            "Valuation of Liabilities",
+            "Equity Transactions",
+            "Revenue Recognition",
+            "Income Measurement",
+            "U.S. GAAP vs IFRS Divergence"
+          ]
+        },
+        "examTip": "This is a straightforward section with maximum computational questions. Focus on financial statement preparation and cash flow calculations."
+      },
+      {
+        "id": "p1-s2",
+        "title": "Planning, Budgeting, and Forecasting",
+        "weightage": 20,
+        "topics": [
+          "Strategic Planning",
+          "Budgeting Concepts",
+          "Forecasting Techniques",
+          "Budgeting Methodologies",
+          "Annual Profit Plan",
+          "Top-level Planning"
+        ],
+        "subtopics": {
+          "Strategic Planning": [
+            "External & Internal Factors",
+            "Long-term Mission & Goals",
+            "Alignment of Tactics with Strategy",
+            "Strategic Planning Models",
+            "Characteristics of Successful Planning"
+          ],
+          "Budgeting Concepts": [
+            "Operations & Performance Goals",
+            "Successful Budget Process",
+            "Resource Allocation"
+          ],
+          "Forecasting Techniques": [
+            "Regression Analysis",
+            "Learning Curve Analysis",
+            "Expected Value"
+          ],
+          "Budgeting Methodologies": [
+            "Master Budgets",
+            "Project Budgeting",
+            "Activity-Based Budgeting",
+            "Zero-Based Budgeting",
+            "Rolling Budgets",
+            "Flexible Budgeting"
+          ],
+          "Annual Profit Plan": [
+            "Operational Budgets",
+            "Financial Budgets",
+            "Capital Budgets"
+          ],
+          "Top-level Planning": [
+            "Pro Forma Income",
+            "Financial Statement Projections",
+            "Cash Flow Projections"
+          ]
+        },
+        "examTip": "Budgeting is the broadest part. Expect calculations for COGS, COGM, and other budget items. Some questions can be lengthy."
+      },
+      {
+        "id": "p1-s3",
+        "title": "Performance Management",
+        "weightage": 20,
+        "topics": [
+          "Cost and Variance Measures",
+          "Responsibility Centers",
+          "Performance Measures"
+        ],
+        "subtopics": {
+          "Cost and Variance Measures": [
+            "Actual vs Planned Results",
+            "Flexible Budgets for Performance",
+            "Management by Exception",
+            "Standard Cost Systems",
+            "Variance Analysis"
+          ],
+          "Responsibility Centers": [
+            "Types of Responsibility Centers",
+            "Transfer Pricing",
+            "Segment Reporting"
+          ],
+          "Performance Measures": [
+            "Product Profitability Analysis",
+            "Business Unit Profitability",
+            "Customer Profitability",
+            "ROI",
+            "Residual Income",
+            "Investment Base Issues",
+            "KPIs",
+            "Balanced Scorecard"
+          ]
+        },
+        "examTip": "Focus on how performance is assessed. Standard costs are used mainly in manufacturing companies. understand how each performance metric works."
+      },
+      {
+        "id": "p1-s4",
+        "title": "Cost Management",
+        "weightage": 15,
+        "topics": [
+          "Measurement Concepts",
+          "Costing Systems",
+          "Overhead Costs",
+          "Supply Chain Management",
+          "Business Process Improvement"
+        ],
+        "subtopics": {
+          "Measurement Concepts": [
+            "Cost Behavior & Cost Objects",
+            "Actual & Normal Costs",
+            "Standard Costs",
+            "Absorption Costing",
+            "Variable Costing",
+            "Joint & By-product Costing"
+          ],
+          "Costing Systems": [
+            "Job Order Costing",
+            "Process Costing",
+            "Activity-Based Costing",
+            "Life-Cycle Costing"
+          ],
+          "Overhead Costs": [
+            "Fixed & Variable Overhead",
+            "Plant-wide vs Departmental OH",
+            "Allocation Base Determination",
+            "Service Department Cost Allocation"
+          ],
+          "Supply Chain Management": [
+            "Lean Resource Management",
+            "ERP Systems",
+            "Theory of Constraints",
+            "Capacity Management"
+          ],
+          "Business Process Improvement": [
+            "Value Chain Analysis",
+            "Value-Added Concepts",
+            "Process Analysis & Redesign",
+            "Activity-Based Management",
+            "Continuous Improvement",
+            "Best Practice Analysis",
+            "Cost of Quality Analysis"
+          ]
+        },
+        "examTip": "Includes several costing methodologies. Candidates must be able to complete an entire set of calculations. Focus on job vs process costing."
+      },
+      {
+        "id": "p1-s5",
+        "title": "Internal Controls",
+        "weightage": 15,
+        "topics": [
+          "Governance, Risk, Compliance",
+          "Internal Auditing",
+          "Systems Controls & Security Measures"
+        ],
+        "subtopics": {
+          "Governance, Risk, Compliance": [
+            "Internal Control Structure",
+            "Management Philosophy",
+            "Safeguarding Policies",
+            "Internal Control Risk",
+            "Corporate Governance",
+            "External Audit Requirements"
+          ],
+          "Systems Controls & Security Measures": [
+            "General Accounting System Controls",
+            "Application & Transaction Controls",
+            "Network Controls",
+            "Backup Controls",
+            "Business Continuity Planning"
+          ]
+        },
+        "examTip": "Questions are mostly applied and can be vague. Multiple answers may seem correct. Focus on understanding the COSO framework deeply."
+      },
+      {
+        "id": "p1-s6",
+        "title": "Technology and Analytics",
+        "weightage": 15,
+        "topics": [
+          "Information Systems",
+          "Data Governance",
+          "Technology-Enabled Finance Transformation",
+          "Data Analytics"
+        ],
+        "subtopics": {
+          "Information Systems": [
+            "Accounting Information Systems",
+            "ERP Systems",
+            "Enterprise Performance Management"
+          ],
+          "Data Governance": [
+            "Data Policies & Procedures",
+            "Life Cycle of Data",
+            "Controls Against Security Breaches"
+          ],
+          "Technology-Enabled Finance Transformation": [
+            "System Development Life Cycle",
+            "Process Automation",
+            "Innovative Applications"
+          ],
+          "Data Analytics": [
+            "Business Intelligence",
+            "Data Mining",
+            "Analytic Tools",
+            "Data Visualization"
+          ]
+        },
+        "examTip": "IMA added this section to make the syllabus relevant to modern data analytics. Understand ERP, SDLC, process automation, and data visualization."
+      }
+    ]
+  },
+  "part2": {
+    "title": "Part 2: Strategic Financial Management",
+    "sections": [
+      {
+        "id": "p2-s1",
+        "title": "Financial Statement Analysis",
+        "weightage": 20,
+        "topics": [
+          "Basic Financial Statement Analysis",
+          "Financial Ratios",
+          "Profitability Analysis",
+          "Special Issues"
+        ],
+        "subtopics": {
+          "Basic Financial Statement Analysis": [
+            "Common Size Statements",
+            "Common Base Year Statements"
+          ],
+          "Financial Ratios": [
+            "Liquidity Ratios",
+            "Leverage Ratios",
+            "Activity Ratios",
+            "Profitability Ratios",
+            "Market Ratios"
+          ],
+          "Profitability Analysis": [
+            "Income Measurement Analysis",
+            "Revenue Analysis",
+            "Cost of Sales Analysis",
+            "Expense Analysis",
+            "Variation Analysis"
+          ],
+          "Special Issues": [
+            "Impact of Foreign Operations",
+            "Effects of Changing Prices & Inflation",
+            "Impact of Accounting Changes",
+            "Accounting vs Economic Concepts",
+            "Earnings Quality"
+          ]
+        },
+        "examTip": "Similar to Part 1 Section A but focused on analysis and comparison using financial ratios. Know the DuPont decomposition well."
+      },
+      {
+        "id": "p2-s2",
+        "title": "Corporate Finance",
+        "weightage": 20,
+        "topics": [
+          "Risk and Return",
+          "Long-Term Financial Management",
+          "Raising Capital",
+          "Working Capital Management",
+          "Corporate Restructuring",
+          "International Finance"
+        ],
+        "subtopics": {
+          "Risk and Return": [
+            "Calculating Return",
+            "Types of Risk",
+            "Risk-Return Relationship"
+          ],
+          "Long-Term Financial Management": [
+            "Term Structure of Interest Rates",
+            "Types of Financial Instruments",
+            "Cost of Capital",
+            "Valuation of Instruments"
+          ],
+          "Raising Capital": [
+            "Financial Markets & Regulation",
+            "Market Efficiency",
+            "Financial Institutions",
+            "IPOs & Secondary Offerings",
+            "Dividend Policy & Share Repurchases",
+            "Lease Financing"
+          ],
+          "Working Capital Management": [
+            "Cash Management",
+            "Marketable Securities",
+            "A/R Management",
+            "Inventory Management",
+            "Short-term Credit Management"
+          ],
+          "Corporate Restructuring": [
+            "Mergers & Acquisitions",
+            "Other Forms of Restructuring"
+          ],
+          "International Finance": [
+            "Exchange Rates (Fixed, Flexible, Floating)",
+            "Transaction Exposure",
+            "Financing International Trade"
+          ]
+        },
+        "examTip": "Mix of conceptual and computational questions. Understand both short-term and long-term financial management, and financial instrument basics."
+      },
+      {
+        "id": "p2-s3",
+        "title": "Decision Analysis",
+        "weightage": 25,
+        "topics": [
+          "Cost/Volume/Profit Analysis",
+          "Marginal Analysis",
+          "Pricing"
+        ],
+        "subtopics": {
+          "Cost/Volume/Profit Analysis": [
+            "Breakeven Analysis",
+            "Profit Performance at Alternative Levels",
+            "Multi-Product Analysis"
+          ],
+          "Marginal Analysis": [
+            "Opportunity & Sunk Costs",
+            "Marginal Cost & Revenue",
+            "Special Orders & Pricing",
+            "Make vs Buy",
+            "Sell or Process Further",
+            "Add/Drop Segment",
+            "Capacity Considerations"
+          ],
+          "Pricing": [
+            "Pricing Methodologies",
+            "Target Costing",
+            "Elasticity of Demand",
+            "Product Life-Cycle",
+            "Market Structure"
+          ]
+        },
+        "examTip": "Tests how management accountants provide information for decision-making. Master CVP analysis and all four special decision types."
+      },
+      {
+        "id": "p2-s4",
+        "title": "Risk Management",
+        "weightage": 10,
+        "topics": [
+          "Enterprise Risk"
+        ],
+        "subtopics": {
+          "Enterprise Risk": [
+            "Types of Risk",
+            "Risk Identification & Assessment",
+            "Risk Mitigation Strategies",
+            "Managing Risk"
+          ]
+        },
+        "examTip": "Focuses on the ERM model. Expect mostly theoretical/conceptual questions. Understand risk identification, assessment, and response strategies."
+      },
+      {
+        "id": "p2-s5",
+        "title": "Investment Decisions",
+        "weightage": 10,
+        "topics": [
+          "Capital Budgeting Process",
+          "Capital Investment Analysis Methods"
+        ],
+        "subtopics": {
+          "Capital Budgeting Process": [
+            "Stages of Capital Budgeting",
+            "Incremental Cash Flows",
+            "Income Tax Considerations",
+            "Evaluating Uncertainty"
+          ],
+          "Capital Investment Analysis Methods": [
+            "Net Present Value",
+            "Internal Rate of Return",
+            "Payback Period",
+            "Comparison of Methods"
+          ]
+        },
+        "examTip": "Covers how management accountants evaluate investment decisions. Master NPV, IRR, and payback calculations. Focus on incremental cash flow analysis."
+      },
+      {
+        "id": "p2-s6",
+        "title": "Professional Ethics",
+        "weightage": 15,
+        "topics": [
+          "Business Ethics",
+          "Ethical Considerations for Professionals",
+          "Ethical Considerations for the Organization"
+        ],
+        "subtopics": {
+          "Business Ethics": [
+            "Moral Philosophies & Values",
+            "Ethical Decision Making"
+          ],
+          "Ethical Considerations for Professionals": [
+            "IMA Statement of Ethical Professional Practice",
+            "Fraud Triangle",
+            "Resolution of Ethical Issues"
+          ],
+          "Ethical Considerations for the Organization": [
+            "Organizational Factors & Ethical Culture",
+            "IMA Values & Ethics Statement",
+            "Ethical Leadership",
+            "Legal Compliance",
+            "Responsibility for Ethical Conduct",
+            "Sustainability & Social Responsibility"
+          ]
+        },
+        "examTip": "Memorize the four IMA standards and know how they apply in real business situations. Questions test application, not just memorization."
+      }
+    ]
+  }
+}

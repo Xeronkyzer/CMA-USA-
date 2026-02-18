@@ -1,0 +1,1407 @@
+{
+    "id": "p2-s4",
+    "title": "Risk Management – Comprehensive CMA Exam Guide (2026 Syllabus)",
+    "weightage": "10%",
+    "examLevel": "Level B (Understanding and Application)",
+    "recommendedStudyHours": "15-20 hours",
+    "overview": "Risk Management (10% of Part 2) covers Enterprise Risk Management (ERM) using the COSO 2017 framework. This section focuses on integrating risk with strategy and performance to create, preserve, and realize value. The 2026 CMA syllabus emphasizes understanding the five components of ERM (GOPRO), distinguishing between inherent and residual risk, and applying appropriate risk responses in various business scenarios. Mastery of this section requires memorizing the framework components and principles, understanding risk terminology, and applying risk response strategies to real-world situations.",
+    "bulletNotes": [
+        "**COSO ERM (2017)**: Framework to integrate risk management with strategy and performance. Replaced 2004 framework; streamlined from 8 to 5 components.",
+        "**GOPRO – 5 Components**: **G**overnance & Culture, **O**bjective & Strategy Setting, **P**erformance, **R**eview & Revision, **O**ngoing Information/Communication/Reporting.",
+        "**Risk Appetite**: The amount and type of risk an organization is willing to accept in pursuit of value. Defined during strategy setting.",
+        "**Risk Capacity**: The maximum amount of risk an organization can absorb. Risk appetite must be within risk capacity.",
+        "**Risk Tolerance**: Acceptable variation around objectives (applied at objective level).",
+        "**Inherent Risk**: Risk in the absence of any management actions or controls.",
+        "**Residual Risk**: Risk remaining after management's risk response.",
+        "**Risk Responses**: **Avoid** (exit activity), **Reduce/Mitigate** (controls), **Share/Transfer** (insurance, hedging), **Accept** (retention, self-insure), **Pursue** (accept increased risk for higher return).",
+        "**Event Identification**: Identifying internal/external events affecting strategy. Negative events = Risks; Positive events = Opportunities.",
+        "**Portfolio View**: Assessing risks collectively at entity level; risks may offset (natural hedge) or correlate (amplify).",
+        "**Risk Assessment**: Qualitative (heat maps) and quantitative (probabilistic models, VaR) techniques.",
+        "**Expected Loss**: Probability × Financial Impact."
+    ],
+    "shortNotes": "Memorize GOPRO for the 5 components, DOVES for Governance principles, SOAR for Strategy principles, VAPIR for Performance principles, SIR for Review principles, and TIP for Information principles. Risk Appetite = willingness to take risk; Risk Capacity = ability to take risk. Residual Risk = Inherent Risk - Mitigation. Risk responses: Avoid (exit), Reduce (controls), Share (insurance), Accept (self-insure).",
+    "mnemonics": [
+        {
+            "acronym": "GOPRO",
+            "fullForm": "Governance & Culture, Objective & Strategy Setting, Performance, Review & Revision, Ongoing Information/Communication/Reporting",
+            "description": "The five components of COSO ERM 2017 framework [citation:2][citation:6][citation:8]"
+        },
+        {
+            "acronym": "DOVES",
+            "fullForm": "Defines desired culture, Exercises board Oversight, Demonstrates commitment to core Values, Attracts/develops/retains Employees, Establishes operating Structure",
+            "description": "Principles within the Governance & Culture component [citation:2][citation:6]"
+        },
+        {
+            "acronym": "SOAR",
+            "fullForm": "Evaluates alternative Strategies, Formulates business Objectives, Analyzes business context, Defines Risk appetite",
+            "description": "Principles within the Strategy & Objective-Setting component [citation:2]"
+        },
+        {
+            "acronym": "VAPIR",
+            "fullForm": "Develops portfolio View, Assesses severity risk, Prioritizes risk, Identifies risk, Implements Risk responses",
+            "description": "Principles within the Performance component [citation:2]"
+        },
+        {
+            "acronym": "SIR",
+            "fullForm": "Assesses Substantial change, pursues Improvement, Reviews risk and performance",
+            "description": "Principles within the Review & Revision component [citation:2]"
+        },
+        {
+            "acronym": "TIP",
+            "fullForm": "Leverages information Technology, Communicates risk Information, Reports on risk/culture/performance",
+            "description": "Principles within the Information, Communication & Reporting component [citation:2]"
+        },
+        {
+            "acronym": "ARTS",
+            "fullForm": "Avoid, Reduce, Transfer/Share, Self-Insure/Accept",
+            "description": "Risk response strategies [citation:2]"
+        },
+        {
+            "acronym": "SORC",
+            "fullForm": "Strategic, Operations, Reporting, Compliance",
+            "description": "Four categories of objectives in ERM framework [citation:8]"
+        },
+        {
+            "acronym": "CCPIS",
+            "fullForm": "Culture, Capabilities, Practices, Integration with Strategy",
+            "description": "Elements organizations rely on to manage risk [citation:2][citation:6]"
+        },
+        {
+            "acronym": "CPER",
+            "fullForm": "Creation, Preservation, Erosion, Realization",
+            "description": "Four ways value is affected by risk management [citation:2][citation:6]"
+        }
+    ],
+    "concepts": [
+        {
+            "title": "1. COSO ERM Framework Overview",
+            "content": "<p><strong>Purpose:</strong> COSO ERM (2017) is designed to assist organizations in developing a comprehensive response to risk management, integrating risk with strategy and performance [citation:6].</p><p><strong>Underlying Premise:</strong> Entities face risk in the pursuit of value for their stakeholders [citation:6].</p><p><strong>Risk Definition (COSO):</strong> The possibility that events will occur and affect the achievement of strategy and business objectives [citation:6].</p><p><strong>Value Framework (CPER):</strong><br>- <strong>Creation:</strong> Benefits exceed cost of resources used<br>- <strong>Preservation:</strong> Ongoing operations sustain created benefits<br>- <strong>Erosion:</strong> Faulty strategy/operations cause value decline<br>- <strong>Realization:</strong> Benefits received by stakeholders [citation:2][citation:6]</p><p><strong>Mission, Vision, Core Values:</strong><br>- <strong>Mission:</strong> Core purpose (why company exists)<br>- <strong>Vision:</strong> Aspirations (what company hopes to achieve)<br>- <strong>Core Values:</strong> Organization's beliefs (how company will achieve vision) [citation:6]</p>"
+        },
+        {
+            "title": "2. COSO ERM Five Components (GOPRO)",
+            "content": "<h3>Component 1: Governance & Culture (DOVES)</h3><p>Sets the tone, establishes oversight responsibility, and defines desired behaviors.<br><strong>Principles (DOVES):</strong><br>- Defines desired culture<br>- Exercises board oversight<br>- Demonstrates commitment to core values<br>- Attracts, develops, retains capable individuals<br>- Establishes operating structure [citation:2][citation:6][citation:8]</p><h3>Component 2: Strategy & Objective-Setting (SOAR)</h3><p>Integrates ERM with strategic planning. Risk appetite is defined here.<br><strong>Principles (SOAR):</strong><br>- Analyzes business context<br>- Defines risk appetite<br>- Evaluates alternative strategies<br>- Formulates business objectives [citation:2][citation:8]</p><h3>Component 3: Performance (VAPIR)</h3><p>Identifies, assesses, prioritizes, and responds to risks; develops portfolio view.<br><strong>Principles (VAPIR):</strong><br>- Identifies risk (events)<br>- Assesses severity risk<br>- Prioritizes risk<br>- Implements risk responses<br>- Develops portfolio view [citation:2][citation:8]</p><h3>Component 4: Review & Revision (SIR)</h3><p>Monitors changes and pursues improvement in ERM.<br><strong>Principles (SIR):</strong><br>- Assesses substantial change<br>- Reviews risk and performance<br>- Pursues improvement in ERM [citation:2][citation:8]</p><h3>Component 5: Information, Communication & Reporting (TIP)</h3><p>Leverages information systems to support ERM; communicates risk information; reports on risk, culture, and performance.<br><strong>Principles (TIP):</strong><br>- Leverages information technology<br>- Communicates risk information<br>- Reports on risk, culture, and performance [citation:2][citation:8]</p>"
+        },
+        {
+            "title": "3. Risk Terminology",
+            "content": "<p><strong>Risk Appetite:</strong> The amount and type of risk an organization is willing to accept in pursuit of value. Expressed first in mission and vision; varies between products, business lines, or over time [citation:3][citation:6][citation:8].</p><p><strong>Risk Capacity:</strong> The maximum amount of risk an organization can absorb (financial, reputational, operational). Risk appetite must be within risk capacity.</p><p><strong>Risk Tolerance:</strong> Acceptable variation around objectives; applied at the objective level (more granular than appetite).</p><p><strong>Inherent Risk:</strong> Risk in the absence of any management actions or controls [citation:3].</p><p><strong>Residual Risk:</strong> Risk remaining after management's risk response [citation:3].</p><p><strong>Risk = Probability × Impact:</strong> Expected loss calculation [citation:3].</p>"
+        },
+        {
+            "title": "4. Risk Responses (ARTS)",
+            "content": "<p><strong>1. Avoidance (Avoid):</strong> Exit the activity that generates risk. Examples: selling a division, withdrawing from a market, discontinuing a product line.<br><em>Trigger condition:</em> Residual risk > risk capacity/tolerance [citation:3][citation:4].</p><p><strong>2. Reduction (Reduce/Mitigate):</strong> Take actions to reduce risk likelihood or impact (or both). Examples: internal controls, diversification, quality checks.<br><em>Trigger condition:</em> Inherent risk > risk appetite [citation:3].</p><p><strong>3. Sharing/Transfer (Share):</strong> Transfer risk to third party via contract. Examples: insurance, hedging, outsourcing, joint ventures.<br><em>Trigger condition:</em> Inherent risk > risk appetite [citation:3].</p><p><strong>4. Acceptance (Accept/Self-Insure):</strong> No action taken; risk is within tolerance. May involve self-insurance (setting aside reserves).<br><em>Trigger condition:</em> Inherent risk < risk appetite [citation:3].</p><p><strong>5. Pursue (Exploit):</strong> Accept increased risk for higher potential return. Often for opportunities, not pure risks.</p>"
+        },
+        {
+            "title": "5. Risk Assessment Techniques",
+            "content": "<p><strong>Qualitative Assessment:</strong><br>- Risk heat maps (Impact vs Likelihood matrices)<br>- Risk ranking and prioritization<br>- Scenario analysis</p><p><strong>Quantitative Assessment:</strong><br>- Expected loss = Probability × Financial impact [citation:3]<br>- Value at Risk (VaR): Maximum loss within confidence interval<br>- Monte Carlo simulation<br>- Sensitivity analysis<br>- Probabilistic models</p><p><strong>Portfolio View:</strong> Assessing risks collectively at entity level. Risks may offset (natural hedge) or correlate (amplify each other) [citation:2][citation:8].</p>"
+        },
+        {
+            "title": "6. Event Identification",
+            "content": "<p><strong>Internal Events:</strong> Infrastructure, personnel, processes, technology.</p><p><strong>External Events:</strong> Economic, natural environment, political, social, technological.</p><p><strong>Classification:</strong><br>- Negative events = Risks<br>- Positive events = Opportunities (feed back into strategy setting)</p>"
+        },
+        {
+            "title": "7. Risk Communication & Monitoring",
+            "content": "<p><strong>Communication:</strong> Risk-related communication must occur at all levels of the organization [citation:3].</p><p><strong>Monitoring:</strong> Performance and risk indicators should be monitored on an ongoing basis [citation:3]. All of the following participate in monitoring activities: internal audit, audit committee, management [citation:4].</p>"
+        },
+        {
+            "title": "8. Internal Control vs. ERM",
+            "content": "<p><strong>Internal Control (COSO 2013 – CRIME):</strong><br>- Control Environment<br>- Risk Assessment<br>- Information & Communication<br>- Monitoring Activities<br>- Existing Control Activities [citation:2]</p><p><strong>ERM (COSO 2017 – GOPRO):</strong> Broader, strategic focus on value creation and preservation; integrates risk with strategy setting [citation:1][citation:5].</p><p><strong>Key Difference:</strong> Internal controls are tactical (accurate reporting, compliance); ERM is strategic (managing uncertainty to achieve performance goals).</p>"
+        }
+    ],
+    "formulas": [
+        {
+            "name": "Expected Loss",
+            "formula": "Probability of Event × Financial Impact",
+            "notes": "Basic risk quantification [citation:3]"
+        },
+        {
+            "name": "Residual Risk",
+            "formula": "Inherent Risk - Impact of Risk Response",
+            "notes": "Risk remaining after mitigation [citation:3]"
+        },
+        {
+            "name": "Risk Appetite Condition",
+            "formula": "Risk Appetite ≤ Risk Capacity",
+            "notes": "Willingness cannot exceed ability"
+        },
+        {
+            "name": "Risk Tolerance Variation",
+            "formula": "Actual Performance - Target Performance",
+            "notes": "Deviation from objectives must be within tolerance"
+        }
+    ],
+    "mistakes": [
+        "Confusing **COSO Internal Control** (CRIME) with **COSO ERM** (GOPRO). CRIME is for financial reporting/controls; GOPRO is for strategic risk management [citation:2].",
+        "Thinking **Risk Appetite** is a single number. It is a broad description of the types and amount of risk acceptable, varying across business lines and over time [citation:6].",
+        "Believing **Risk Avoidance** means doing nothing. Avoidance involves actively exiting an activity (selling, discontinuing) [citation:3][citation:4].",
+        "Mixing up **Inherent Risk** (before controls) and **Residual Risk** (after controls).",
+        "Assuming risk responses are mutually exclusive – organizations often combine responses.",
+        "Thinking ERM is just a compliance checklist – it is a strategic value-creation framework [citation:6].",
+        "Forgetting that **Risk Tolerance** applies at objective level, while Risk Appetite is entity-wide.",
+        "Confusing **Risk Capacity** (maximum possible) with **Risk Appetite** (willing to accept).",
+        "Believing all risks should be minimized – optimal risk-taking creates value.",
+        "Overlooking the **Portfolio View** – risks may offset or correlate [citation:2][citation:8]."
+    ],
+    "quiz": [
+        {
+            "question": "According to COSO ERM 2017, which component involves defining the organization's risk appetite?",
+            "options": [
+                "Governance & Culture",
+                "Strategy & Objective-Setting",
+                "Performance",
+                "Review & Revision"
+            ],
+            "answer": 1,
+            "explanation": "Risk Appetite is defined during the Strategy & Objective-Setting phase to ensure alignment with the organization's goals [citation:2][citation:8]."
+        },
+        {
+            "question": "A company decides to purchase a fire insurance policy for its warehouse. Which risk response is this?",
+            "options": [
+                "Avoid",
+                "Reduce",
+                "Share/Transfer",
+                "Accept"
+            ],
+            "answer": 2,
+            "explanation": "Insurance is the classic example of Sharing (or Transferring) the financial impact of a risk to a third party [citation:3]."
+        },
+        {
+            "question": "Which term describes the risk remaining after management has taken action to alter the risk's severity?",
+            "options": [
+                "Inherent Risk",
+                "Strategic Risk",
+                "Residual Risk",
+                "Compliance Risk"
+            ],
+            "answer": 2,
+            "explanation": "Residual Risk is what remains after controls and mitigation strategies have been applied to the Inherent Risk [citation:3]."
+        },
+        {
+            "question": "Wallace Company has a车间 on the West Coast that frequently experiences tsunamis. The company decides to sell the车间. Which risk response strategy is this?",
+            "options": [
+                "Risk exploitation",
+                "Risk transfer",
+                "Risk avoidance",
+                "Risk reduction"
+            ],
+            "answer": 2,
+            "explanation": "Selling the车间 removes the risk entirely by exiting the activity, which is Risk Avoidance [citation:4]."
+        },
+        {
+            "question": "Which of the following is NOT one of the five components of COSO ERM 2017?",
+            "options": [
+                "Governance & Culture",
+                "Risk Assessment & Response",
+                "Performance",
+                "Review & Revision"
+            ],
+            "answer": 1,
+            "explanation": "Risk Assessment & Response is not a component; it is part of the Performance component. The five components are Governance & Culture, Strategy & Objective-Setting, Performance, Review & Revision, and Information/Communication/Reporting [citation:1]."
+        }
+    ],
+    "essay": {
+        "question": "Your CEO wants to implement COSO ERM but believes it is just a compliance checklist. 1) Explain how COSO ERM differs from traditional Internal Controls. 2) Discuss the benefits of integrating ERM with Strategy, including how it helps optimize risk-taking.",
+        "modelAnswer": "<p><strong>1. ERM vs Internal Control:</strong><br>Internal Control (COSO 2013, often remembered by the mnemonic CRIME) is tactical, focusing on controls to ensure accurate financial reporting, operational efficiency, and compliance. It is primarily backward-looking and focused on prevention and detection [citation:2].</p><p>ERM (COSO 2017, GOPRO) is strategic and forward-looking. It focuses on value creation and preservation, managing uncertainty to help the organization achieve its performance and strategic goals. ERM integrates risk considerations into strategy setting, while internal controls are one tool within the broader ERM framework [citation:1][citation:5][citation:6].</p><p><strong>2. Strategy Integration Benefits:</strong><br>By integrating ERM with Strategy, the organization can:<br>• Align Risk Appetite with strategic goals – ensuring the chosen strategy doesn't expose the company to risks it cannot handle [citation:8].<br>• Evaluate alternative strategies based on risk profiles – choosing strategies with optimal risk-return trade-offs [citation:2][citation:8].<br>• Identify opportunities as well as risks – positive events can feed back into strategy formulation [citation:6].<br>• Ensure the company is taking <em>enough</em> risk to achieve desired returns (optimization, not minimization) [citation:6].<br>• Develop a portfolio view of risk, understanding how risks correlate and offset across the entity [citation:2][citation:8].</p><p>ERM transforms risk management from a defensive, compliance-focused activity into a strategic tool for value creation and realization (CPER: Creation, Preservation, Erosion, Realization) [citation:2][citation:6].</p>"
+    },
+    "summary": "Risk Management (10%) is about memorizing the COSO ERM 2017 framework (GOPRO) and its underlying principles (DOVES, SOAR, VAPIR, SIR, TIP). Success requires distinguishing between inherent and residual risk, understanding risk appetite vs. capacity, and classifying risk responses (ARTS). Remember that ERM is strategic and integrated with strategy, not just a compliance checklist.",
+    "test": [
+        {
+            "id": "p2s4_1",
+            "question": "What is the primary purpose of the COSO Enterprise Risk Management framework?",
+            "options": [
+                "To eliminate all risks facing an organization",
+                "To assist organizations in developing a comprehensive response to risk management",
+                "To ensure compliance with GAAP",
+                "To calculate insurance premiums"
+            ],
+            "answer": 1,
+            "explanation": "COSO ERM is designed to assist organizations in developing a comprehensive response to risk management, integrating risk with strategy and performance [citation:6]."
+        },
+        {
+            "id": "p2s4_2",
+            "question": "According to COSO, how is 'risk' defined?",
+            "options": [
+                "The certainty of financial loss",
+                "The possibility that events will occur and affect the achievement of strategy and business objectives",
+                "The cost of insurance premiums",
+                "The variance in historical returns"
+            ],
+            "answer": 1,
+            "explanation": "COSO defines risk as the possibility that events will occur and affect the achievement of strategy and business objectives [citation:6]."
+        },
+        {
+            "id": "p2s4_3",
+            "question": "The underlying premise of ERM is that entities face risk in the pursuit of:",
+            "options": [
+                "Compliance",
+                "Value for their stakeholders",
+                "Market share",
+                "Employee satisfaction"
+            ],
+            "answer": 1,
+            "explanation": "The underlying premise of ERM is that entities face risk in the pursuit of value for their stakeholders [citation:6]."
+        },
+        {
+            "id": "p2s4_4",
+            "question": "Which mnemonic represents the four ways value is affected by risk management?",
+            "options": [
+                "GOPRO",
+                "DOVES",
+                "CPER",
+                "ARTS"
+            ],
+            "answer": 2,
+            "explanation": "CPER stands for Creation, Preservation, Erosion, and Realization of value [citation:2][citation:6]."
+        },
+        {
+            "id": "p2s4_5",
+            "question": "Value is created when:",
+            "options": [
+                "Costs exceed benefits",
+                "Benefits exceed the cost of resources used",
+                "Revenue equals expenses",
+                "Stock price increases"
+            ],
+            "answer": 1,
+            "explanation": "Value is created when benefits exceed the cost of resources used (people, financial capital, technology, etc.) [citation:6]."
+        },
+        {
+            "id": "p2s4_6",
+            "question": "What is value preservation?",
+            "options": [
+                "When a company goes public",
+                "When ongoing operations efficiently and effectively sustain created benefits",
+                "When benefits are distributed to shareholders",
+                "When costs are minimized"
+            ],
+            "answer": 1,
+            "explanation": "Value preservation occurs when ongoing operations efficiently and effectively sustain created benefits [citation:6]."
+        },
+        {
+            "id": "p2s4_7",
+            "question": "Value erosion occurs when:",
+            "options": [
+                "Stock prices rise",
+                "A faulty strategy and ineffective operations cause value to decline",
+                "Dividends are paid",
+                "New products are launched"
+            ],
+            "answer": 1,
+            "explanation": "Value erosion occurs when a faulty strategy and ineffective or inefficient operations cause value to decline [citation:6]."
+        },
+        {
+            "id": "p2s4_8",
+            "question": "What is value realization?",
+            "options": [
+                "When costs are capitalized",
+                "When benefits created are received by stakeholders",
+                "When assets are depreciated",
+                "When revenue is recognized"
+            ],
+            "answer": 1,
+            "explanation": "Value realization occurs when benefits created by the organization are received by stakeholders in monetary or non-monetary forms [citation:6]."
+        },
+        {
+            "id": "p2s4_9",
+            "question": "What is a mission?",
+            "options": [
+                "The financial goals of the company",
+                "The core purpose of the entity (why the company exists)",
+                "The annual budget",
+                "The marketing strategy"
+            ],
+            "answer": 1,
+            "explanation": "Mission is the core purpose of the entity – why the company exists [citation:6]."
+        },
+        {
+            "id": "p2s4_10",
+            "question": "What is a vision?",
+            "options": [
+                "The quarterly earnings target",
+                "The aspirations of a company (what the company hopes to achieve)",
+                "The employee handbook",
+                "The tax strategy"
+            ],
+            "answer": 1,
+            "explanation": "Vision represents the aspirations of a company – what the company hopes to achieve [citation:6]."
+        },
+        {
+            "id": "p2s4_11",
+            "question": "What are core values?",
+            "options": [
+                "The market price of stock",
+                "An organization's beliefs (how the company will achieve its vision)",
+                "The cost of goods sold",
+                "The interest rate on debt"
+            ],
+            "answer": 1,
+            "explanation": "Core values are an organization's beliefs – how the company will achieve its vision [citation:6]."
+        },
+        {
+            "id": "p2s4_12",
+            "question": "COSO's definition of ERM includes: The culture, capabilities, and practices integrated with strategy-setting and performance, that organizations rely on to manage risk in:",
+            "options": [
+                "Minimizing costs",
+                "Creating, preserving, and realizing value",
+                "Maximizing market share",
+                "Eliminating competition"
+            ],
+            "answer": 1,
+            "explanation": "COSO defines ERM as the culture, capabilities, and practices integrated with strategy-setting and performance that organizations rely on to manage risk in creating, preserving, and realizing value (CCPIS) [citation:2][citation:6]."
+        },
+        {
+            "id": "p2s4_13",
+            "question": "What are the five components of COSO ERM 2017?",
+            "options": [
+                "CRIME",
+                "GOPRO",
+                "ARTS",
+                "DOVES"
+            ],
+            "answer": 1,
+            "explanation": "GOPRO stands for Governance & Culture, Objective & Strategy Setting, Performance, Review & Revision, and Ongoing Information/Communication/Reporting [citation:2][citation:6][citation:8]."
+        },
+        {
+            "id": "p2s4_14",
+            "question": "Which of the following is NOT a component of COSO ERM 2017?",
+            "options": [
+                "Governance & Culture",
+                "Control Activities",
+                "Performance",
+                "Review & Revision"
+            ],
+            "answer": 1,
+            "explanation": "Control Activities is a component of Internal Control (CRIME), not ERM (GOPRO) [citation:2]."
+        },
+        {
+            "id": "p2s4_15",
+            "question": "Which mnemonic represents the principles within the Governance & Culture component?",
+            "options": [
+                "SOAR",
+                "VAPIR",
+                "DOVES",
+                "SIR"
+            ],
+            "answer": 2,
+            "explanation": "DOVES stands for: Defines desired culture, Exercises board Oversight, Demonstrates commitment to core Values, Attracts/develops/retains Employees, Establishes operating Structure [citation:2][citation:6]."
+        },
+        {
+            "id": "p2s4_16",
+            "question": "According to DOVES, what does the 'D' stand for?",
+            "options": [
+                "Develops strategy",
+                "Defines desired culture",
+                "Determines risk appetite",
+                "Delegates authority"
+            ],
+            "answer": 1,
+            "explanation": "In DOVES, D stands for Defines desired culture [citation:2]."
+        },
+        {
+            "id": "p2s4_17",
+            "question": "According to DOVES, what does the 'O' stand for?",
+            "options": [
+                "Optimizes performance",
+                "Oversees operations",
+                "Exercises board Oversight",
+                "Organizes resources"
+            ],
+            "answer": 2,
+            "explanation": "In DOVES, O stands for Exercises board Oversight [citation:2][citation:6]."
+        },
+        {
+            "id": "p2s4_18",
+            "question": "According to DOVES, what does the 'V' stand for?",
+            "options": [
+                "Validates assumptions",
+                "Verifies compliance",
+                "Demonstrates commitment to core Values",
+                "Values assets"
+            ],
+            "answer": 2,
+            "explanation": "In DOVES, V stands for Demonstrates commitment to core Values (tone at the top) [citation:2][citation:6]."
+        },
+        {
+            "id": "p2s4_19",
+            "question": "According to DOVES, what does the 'E' stand for?",
+            "options": [
+                "Evaluates performance",
+                "Estimates risk",
+                "Attracts, develops, retains capable individuals (Employees)",
+                "Ensures compliance"
+            ],
+            "answer": 2,
+            "explanation": "In DOVES, E stands for Attracts, develops, and retains capable individuals (Employees) [citation:2][citation:6]."
+        },
+        {
+            "id": "p2s4_20",
+            "question": "According to DOVES, what does the 'S' stand for?",
+            "options": [
+                "Sets strategy",
+                "Establishes operating Structure",
+                "Sells products",
+                "Secures funding"
+            ],
+            "answer": 1,
+            "explanation": "In DOVES, S stands for Establishes operating Structure [citation:2][citation:6]."
+        },
+        {
+            "id": "p2s4_21",
+            "question": "Which mnemonic represents the principles within the Strategy & Objective-Setting component?",
+            "options": [
+                "DOVES",
+                "SOAR",
+                "VAPIR",
+                "SIR"
+            ],
+            "answer": 1,
+            "explanation": "SOAR stands for: Evaluates alternative Strategies, Formulates business Objectives, Analyzes business context, Defines Risk appetite [citation:2]."
+        },
+        {
+            "id": "p2s4_22",
+            "question": "According to SOAR, what does the 'S' stand for?",
+            "options": [
+                "Sets targets",
+                "Evaluates alternative Strategies",
+                "Sells assets",
+                "Secures loans"
+            ],
+            "answer": 1,
+            "explanation": "In SOAR, S stands for Evaluates alternative Strategies [citation:2]."
+        },
+        {
+            "id": "p2s4_23",
+            "question": "According to SOAR, what does the 'O' stand for?",
+            "options": [
+                "Optimizes processes",
+                "Formulates business Objectives",
+                "Organizes resources",
+                "Oversees compliance"
+            ],
+            "answer": 1,
+            "explanation": "In SOAR, O stands for Formulates business Objectives [citation:2]."
+        },
+        {
+            "id": "p2s4_24",
+            "question": "According to SOAR, what does the 'A' stand for?",
+            "options": [
+                "Assesses performance",
+                "Analyzes business context",
+                "Adjusts controls",
+                "Approves budgets"
+            ],
+            "answer": 1,
+            "explanation": "In SOAR, A stands for Analyzes business context [citation:2]."
+        },
+        {
+            "id": "p2s4_25",
+            "question": "According to SOAR, what does the 'R' stand for?",
+            "options": [
+                "Reviews results",
+                "Reports to board",
+                "Defines Risk appetite",
+                "Reduces costs"
+            ],
+            "answer": 2,
+            "explanation": "In SOAR, R stands for Defines Risk appetite [citation:2]."
+        },
+        {
+            "id": "p2s4_26",
+            "question": "Which mnemonic represents the principles within the Performance component?",
+            "options": [
+                "DOVES",
+                "SOAR",
+                "VAPIR",
+                "SIR"
+            ],
+            "answer": 2,
+            "explanation": "VAPIR stands for: Develops portfolio View, Assesses severity risk, Prioritizes risk, Identifies risk, Implements Risk responses [citation:2]."
+        },
+        {
+            "id": "p2s4_27",
+            "question": "According to VAPIR, what does the 'V' stand for?",
+            "options": [
+                "Validates data",
+                "Develops portfolio View",
+                "Verifies controls",
+                "Values assets"
+            ],
+            "answer": 1,
+            "explanation": "In VAPIR, V stands for Develops portfolio View [citation:2]."
+        },
+        {
+            "id": "p2s4_28",
+            "question": "According to VAPIR, what does the 'A' stand for?",
+            "options": [
+                "Analyzes trends",
+                "Assesses severity risk",
+                "Adjusts strategy",
+                "Approves changes"
+            ],
+            "answer": 1,
+            "explanation": "In VAPIR, A stands for Assesses severity risk [citation:2]."
+        },
+        {
+            "id": "p2s4_29",
+            "question": "According to VAPIR, what does the 'P' stand for?",
+            "options": [
+                "Performs audits",
+                "Prioritizes risk",
+                "Plans responses",
+                "Projects outcomes"
+            ],
+            "answer": 1,
+            "explanation": "In VAPIR, P stands for Prioritizes risk [citation:2]."
+        },
+        {
+            "id": "p2s4_30",
+            "question": "According to VAPIR, what does the 'I' stand for?",
+            "options": [
+                "Implements controls",
+                "Investigates incidents",
+                "Identifies risk",
+                "Informs stakeholders"
+            ],
+            "answer": 2,
+            "explanation": "In VAPIR, I stands for Identifies risk (events) [citation:2]."
+        },
+        {
+            "id": "p2s4_31",
+            "question": "According to VAPIR, what does the 'R' stand for?",
+            "options": [
+                "Reports findings",
+                "Reviews performance",
+                "Implements Risk responses",
+                "Reduces exposure"
+            ],
+            "answer": 2,
+            "explanation": "In VAPIR, R stands for Implements Risk responses [citation:2]."
+        },
+        {
+            "id": "p2s4_32",
+            "question": "Which mnemonic represents the principles within the Review & Revision component?",
+            "options": [
+                "DOVES",
+                "SOAR",
+                "VAPIR",
+                "SIR"
+            ],
+            "answer": 3,
+            "explanation": "SIR stands for: Assesses Substantial change, pursues Improvement, Reviews risk and performance [citation:2]."
+        },
+        {
+            "id": "p2s4_33",
+            "question": "According to SIR, what does the 'S' stand for?",
+            "options": [
+                "Sets objectives",
+                "Assesses Substantial change",
+                "Secures funding",
+                "Sells assets"
+            ],
+            "answer": 1,
+            "explanation": "In SIR, S stands for Assesses Substantial change [citation:2]."
+        },
+        {
+            "id": "p2s4_34",
+            "question": "According to SIR, what does the 'I' stand for?",
+            "options": [
+                "Identifies risk",
+                "Implements controls",
+                "Pursues Improvement",
+                "Informs board"
+            ],
+            "answer": 2,
+            "explanation": "In SIR, I stands for pursues Improvement in Enterprise Risk Management [citation:2]."
+        },
+        {
+            "id": "p2s4_35",
+            "question": "According to SIR, what does the 'R' stand for?",
+            "options": [
+                "Reduces exposure",
+                "Reports to stakeholders",
+                "Reviews risk and performance",
+                "Responds to events"
+            ],
+            "answer": 2,
+            "explanation": "In SIR, R stands for Reviews risk and performance [citation:2]."
+        },
+        {
+            "id": "p2s4_36",
+            "question": "Which mnemonic represents the principles within the Information, Communication & Reporting component?",
+            "options": [
+                "DOVES",
+                "SOAR",
+                "VAPIR",
+                "TIP"
+            ],
+            "answer": 3,
+            "explanation": "TIP stands for: Leverages information Technology, Communicates risk Information, Reports on risk/culture/performance [citation:2]."
+        },
+        {
+            "id": "p2s4_37",
+            "question": "According to TIP, what does the 'T' stand for?",
+            "options": [
+                "Trains employees",
+                "Leverages information Technology",
+                "Transfers risk",
+                "Tracks metrics"
+            ],
+            "answer": 1,
+            "explanation": "In TIP, T stands for Leverages information and Technology [citation:2]."
+        },
+        {
+            "id": "p2s4_38",
+            "question": "According to TIP, what does the 'I' stand for?",
+            "options": [
+                "Identifies events",
+                "Implements controls",
+                "Communicates risk Information",
+                "Investigates incidents"
+            ],
+            "answer": 2,
+            "explanation": "In TIP, I stands for Communicates risk Information [citation:2]."
+        },
+        {
+            "id": "p2s4_39",
+            "question": "According to TIP, what does the 'P' stand for?",
+            "options": [
+                "Performs assessments",
+                "Plans responses",
+                "Reports on risk, culture, and performance",
+                "Prioritizes risks"
+            ],
+            "answer": 2,
+            "explanation": "In TIP, P stands for Reports on risk, culture, and performance [citation:2]."
+        },
+        {
+            "id": "p2s4_40",
+            "question": "What are the four categories of objectives in the ERM framework?",
+            "options": [
+                "GOPR",
+                "SORC",
+                "ARTS",
+                "DOVE"
+            ],
+            "answer": 1,
+            "explanation": "SORC stands for Strategic, Operations, Reporting, and Compliance objectives [citation:8]."
+        },
+        {
+            "id": "p2s4_41",
+            "question": "Strategic objectives in ERM are:",
+            "options": [
+                "Daily operational targets",
+                "High-level goals that align with and support the mission of the entity",
+                "Compliance requirements",
+                "Financial reporting standards"
+            ],
+            "answer": 1,
+            "explanation": "Strategic objectives are high-level goals that align with and support the mission of the entity [citation:8]."
+        },
+        {
+            "id": "p2s4_42",
+            "question": "Operations objectives in ERM focus on:",
+            "options": [
+                "Long-term strategic planning",
+                "Effective and efficient use of entity resources",
+                "External financial reporting",
+                "Legal compliance"
+            ],
+            "answer": 1,
+            "explanation": "Operations objectives relate to effective and efficient use of entity resources [citation:8]."
+        },
+        {
+            "id": "p2s4_43",
+            "question": "Reporting objectives in ERM relate to:",
+            "options": [
+                "Marketing communications",
+                "Reliable reporting",
+                "Employee evaluations",
+                "Customer surveys"
+            ],
+            "answer": 1,
+            "explanation": "Reporting objectives focus on reliable reporting (both internal and external) [citation:8]."
+        },
+        {
+            "id": "p2s4_44",
+            "question": "Compliance objectives in ERM address:",
+            "options": [
+                "Industry best practices",
+                "Applicable laws and regulations",
+                "Employee satisfaction",
+                "Market share goals"
+            ],
+            "answer": 1,
+            "explanation": "Compliance objectives focus on compliance with applicable laws and regulations [citation:8]."
+        },
+        {
+            "id": "p2s4_45",
+            "question": "Risk appetite is best defined as:",
+            "options": [
+                "The maximum loss a company can sustain",
+                "The amount and type of risk an organization is willing to accept in pursuit of value",
+                "The insurance deductible amount",
+                "The variance in quarterly earnings"
+            ],
+            "answer": 1,
+            "explanation": "Risk appetite is the amount and type of risk an organization is willing to accept in pursuit of value [citation:3][citation:6][citation:8]."
+        },
+        {
+            "id": "p2s4_46",
+            "question": "Risk appetite is expressed first in the:",
+            "options": [
+                "Financial statements",
+                "Mission and vision of the company",
+                "Annual report",
+                "Tax returns"
+            ],
+            "answer": 1,
+            "explanation": "Risk appetite is expressed first in the mission and vision of the company [citation:6]."
+        },
+        {
+            "id": "p2s4_47",
+            "question": "Risk appetite:",
+            "options": [
+                "Is constant over time",
+                "Varies between products, business lines, or over time",
+                "Is the same for all organizations",
+                "Cannot be changed"
+            ],
+            "answer": 1,
+            "explanation": "Risk appetite varies between products, business lines, or over time, and managing risks must be flexible [citation:6]."
+        },
+        {
+            "id": "p2s4_48",
+            "question": "Risk capacity refers to:",
+            "options": [
+                "The willingness to take risk",
+                "The maximum amount of risk an organization can absorb",
+                "The risk after controls",
+                "The probability of loss"
+            ],
+            "answer": 1,
+            "explanation": "Risk capacity is the maximum amount of risk an organization can absorb financially, operationally, and reputationally."
+        },
+        {
+            "id": "p2s4_49",
+            "question": "Risk tolerance is:",
+            "options": [
+                "The same as risk appetite",
+                "Acceptable variation around objectives at the objective level",
+                "The risk before controls",
+                "The risk after controls"
+            ],
+            "answer": 1,
+            "explanation": "Risk tolerance is acceptable variation around objectives, applied at the objective level (more granular than appetite)."
+        },
+        {
+            "id": "p2s4_50",
+            "question": "Inherent risk is:",
+            "options": [
+                "Risk after controls",
+                "Risk in the absence of any management actions or controls",
+                "Risk that cannot be avoided",
+                "Risk from natural disasters"
+            ],
+            "answer": 1,
+            "explanation": "Inherent risk is the risk in the absence of any management actions or controls [citation:3]."
+        },
+        {
+            "id": "p2s4_51",
+            "question": "Residual risk is:",
+            "options": [
+                "Risk before controls",
+                "Risk remaining after management's risk response",
+                "Risk from residual operations",
+                "The minimum acceptable risk"
+            ],
+            "answer": 1,
+            "explanation": "Residual risk is the risk remaining after management's risk response [citation:3]."
+        },
+        {
+            "id": "p2s4_52",
+            "question": "The formula for expected loss is:",
+            "options": [
+                "Impact - Probability",
+                "Probability × Financial Impact",
+                "Impact ÷ Probability",
+                "Probability + Impact"
+            ],
+            "answer": 1,
+            "explanation": "Expected loss = Probability of event × Financial impact [citation:3]."
+        },
+        {
+            "id": "p2s4_53",
+            "question": "Which mnemonic represents the four risk response strategies?",
+            "options": [
+                "GOPRO",
+                "DOVES",
+                "ARTS",
+                "SOAR"
+            ],
+            "answer": 2,
+            "explanation": "ARTS stands for Avoid, Reduce, Transfer/Share, Self-Insure/Accept [citation:2]."
+        },
+        {
+            "id": "p2s4_54",
+            "question": "Risk avoidance means:",
+            "options": [
+                "Insuring against risk",
+                "Exiting the activity that generates risk",
+                "Implementing controls",
+                "Doing nothing"
+            ],
+            "answer": 1,
+            "explanation": "Risk avoidance means exiting the activity that generates risk (e.g., selling a division, discontinuing a product) [citation:3][citation:4]."
+        },
+        {
+            "id": "p2s4_55",
+            "question": "Which risk response is triggered when residual risk exceeds risk capacity?",
+            "options": [
+                "Reduce",
+                "Share",
+                "Avoid",
+                "Accept"
+            ],
+            "answer": 2,
+            "explanation": "Risk avoidance is triggered when residual risk exceeds risk capacity/tolerance [citation:3]."
+        },
+        {
+            "id": "p2s4_56",
+            "question": "Risk reduction involves:",
+            "options": [
+                "Selling the business unit",
+                "Taking actions to reduce risk likelihood or impact",
+                "Purchasing insurance",
+                "Setting aside reserves"
+            ],
+            "answer": 1,
+            "explanation": "Risk reduction involves taking actions to reduce risk likelihood or impact (or both) through controls, diversification, etc. [citation:3]."
+        },
+        {
+            "id": "p2s4_57",
+            "question": "Risk reduction is triggered when:",
+            "options": [
+                "Residual risk < risk appetite",
+                "Inherent risk > risk appetite",
+                "Risk capacity is exceeded",
+                "No action is needed"
+            ],
+            "answer": 1,
+            "explanation": "Risk reduction is triggered when inherent risk exceeds risk appetite, with the goal of bringing residual risk below appetite [citation:3]."
+        },
+        {
+            "id": "p2s4_58",
+            "question": "Purchasing insurance is an example of:",
+            "options": [
+                "Risk avoidance",
+                "Risk reduction",
+                "Risk sharing/transfer",
+                "Risk acceptance"
+            ],
+            "answer": 2,
+            "explanation": "Insurance is the classic example of risk sharing/transfer [citation:3][citation:4]."
+        },
+        {
+            "id": "p2s4_59",
+            "question": "Risk sharing is triggered when:",
+            "options": [
+                "Inherent risk < risk appetite",
+                "Inherent risk > risk appetite",
+                "Residual risk = 0",
+                "Risk capacity is unlimited"
+            ],
+            "answer": 1,
+            "explanation": "Risk sharing is triggered when inherent risk exceeds risk appetite, with the goal of bringing residual risk below appetite [citation:3]."
+        },
+        {
+            "id": "p2s4_60",
+            "question": "Risk acceptance (self-insure) means:",
+            "options": [
+                "Exiting the activity",
+                "Implementing strict controls",
+                "Taking no action; risk is within tolerance",
+                "Transferring to a third party"
+            ],
+            "answer": 2,
+            "explanation": "Risk acceptance means taking no action to intervene; the risk is within the organization's risk tolerance/appetite [citation:3]."
+        },
+        {
+            "id": "p2s4_61",
+            "question": "Risk acceptance is appropriate when:",
+            "options": [
+                "Inherent risk > risk appetite",
+                "Inherent risk < risk appetite",
+                "Residual risk > risk capacity",
+                "Probability of loss is 100%"
+            ],
+            "answer": 1,
+            "explanation": "Risk acceptance is triggered when inherent risk is below risk appetite [citation:3]."
+        },
+        {
+            "id": "p2s4_62",
+            "question": "Hedging foreign currency exposure is an example of:",
+            "options": [
+                "Risk avoidance",
+                "Risk reduction",
+                "Risk sharing/transfer",
+                "Risk acceptance"
+            ],
+            "answer": 2,
+            "explanation": "Hedging is a form of risk sharing/transfer, transferring the financial impact of currency fluctuations to a counterparty [citation:3]."
+        },
+        {
+            "id": "p2s4_63",
+            "question": "A company decides to discontinue a product line due to safety concerns. This is:",
+            "options": [
+                "Risk avoidance",
+                "Risk reduction",
+                "Risk sharing",
+                "Risk acceptance"
+            ],
+            "answer": 0,
+            "explanation": "Discontinuing a product line exits the risk entirely, which is risk avoidance [citation:4]."
+        },
+        {
+            "id": "p2s4_64",
+            "question": "Installing fire sprinklers in a warehouse is an example of:",
+            "options": [
+                "Risk avoidance",
+                "Risk reduction",
+                "Risk sharing",
+                "Risk acceptance"
+            ],
+            "answer": 1,
+            "explanation": "Installing sprinklers reduces the potential impact of fire, which is risk reduction [citation:3]."
+        },
+        {
+            "id": "p2s4_65",
+            "question": "Self-insurance means:",
+            "options": [
+                "Purchasing insurance from a captive insurer",
+                "Setting aside reserves to cover potential losses",
+                "Avoiding all risky activities",
+                "Transferring risk to customers"
+            ],
+            "answer": 1,
+            "explanation": "Self-insurance involves setting aside reserves to cover potential losses, which is a form of risk acceptance [citation:2]."
+        },
+        {
+            "id": "p2s4_66",
+            "question": "Qualitative risk assessment techniques include:",
+            "options": [
+                "Monte Carlo simulation",
+                "Heat maps (Impact vs Likelihood matrices)",
+                "Value at Risk",
+                "Probabilistic models"
+            ],
+            "answer": 1,
+            "explanation": "Heat maps are qualitative; Monte Carlo, VaR, and probabilistic models are quantitative [citation:3]."
+        },
+        {
+            "id": "p2s4_67",
+            "question": "Quantitative risk assessment techniques include:",
+            "options": [
+                "Risk ranking",
+                "Heat maps",
+                "Monte Carlo simulation",
+                "Scenario analysis"
+            ],
+            "answer": 2,
+            "explanation": "Monte Carlo simulation is quantitative; heat maps, ranking, and scenario analysis are often qualitative [citation:3]."
+        },
+        {
+            "id": "p2s4_68",
+            "question": "Value at Risk (VaR) measures:",
+            "options": [
+                "The average loss expected",
+                "The maximum loss within a confidence interval over a specified period",
+                "The probability of any loss",
+                "The risk-free rate"
+            ],
+            "answer": 1,
+            "explanation": "VaR estimates the maximum potential loss over a specified period at a given confidence level."
+        },
+        {
+            "id": "p2s4_69",
+            "question": "Event identification includes:",
+            "options": [
+                "Only negative events",
+                "Only positive events",
+                "Both internal and external events affecting strategy",
+                "Only financial events"
+            ],
+            "answer": 2,
+            "explanation": "Event identification includes identifying internal and external events that affect strategy. Negative events = Risks; Positive events = Opportunities."
+        },
+        {
+            "id": "p2s4_70",
+            "question": "Positive events identified in ERM are called:",
+            "options": [
+                "Risks",
+                "Opportunities",
+                "Threats",
+                "Hazards"
+            ],
+            "answer": 1,
+            "explanation": "Positive events are opportunities and feed back into strategy setting."
+        },
+        {
+            "id": "p2s4_71",
+            "question": "A portfolio view of risk means:",
+            "options": [
+                "Assessing each risk in isolation",
+                "Assessing risks collectively at entity level",
+                "Focusing only on financial risks",
+                "Eliminating all risks"
+            ],
+            "answer": 1,
+            "explanation": "Portfolio view assesses risks collectively at entity level; risks may offset (natural hedge) or correlate (amplify) [citation:2][citation:8]."
+        },
+        {
+            "id": "p2s4_72",
+            "question": "Natural hedge occurs when:",
+            "options": [
+                "Two risks amplify each other",
+                "Risks offset each other",
+                "No risks exist",
+                "Insurance is purchased"
+            ],
+            "answer": 1,
+            "explanation": "Natural hedge occurs when risks offset each other (e.g., currency exposure in different directions)."
+        },
+        {
+            "id": "p2s4_73",
+            "question": "Risk communication in ERM should occur:",
+            "options": [
+                "Only at the board level",
+                "Only within the risk department",
+                "At all levels of the organization",
+                "Only to external stakeholders"
+            ],
+            "answer": 2,
+            "explanation": "Risk-related communication must occur at all levels of the organization [citation:3]."
+        },
+        {
+            "id": "p2s4_74",
+            "question": "Who should participate in monitoring activities according to COSO?",
+            "options": [
+                "Only internal auditors",
+                "Only management",
+                "Internal audit, audit committee, and management",
+                "Only external auditors"
+            ],
+            "answer": 2,
+            "explanation": "Internal audit, audit committee, and management all need to participate in monitoring activities [citation:4]."
+        },
+        {
+            "id": "p2s4_75",
+            "question": "Internal control (COSO 2013) components are remembered by the mnemonic:",
+            "options": [
+                "GOPRO",
+                "CRIME",
+                "ARTS",
+                "DOVES"
+            ],
+            "answer": 1,
+            "explanation": "CRIME stands for Control Environment, Risk Assessment, Information & Communication, Monitoring Activities, Existing Control Activities [citation:2]."
+        },
+        {
+            "id": "p2s4_76",
+            "question": "Which is broader in scope: ERM or Internal Control?",
+            "options": [
+                "Internal Control",
+                "ERM",
+                "They are the same",
+                "Neither"
+            ],
+            "answer": 1,
+            "explanation": "ERM is broader, strategic, and integrates risk with strategy; internal controls are tactical tools within ERM [citation:1][citation:5]."
+        },
+        {
+            "id": "p2s4_77",
+            "question": "The COSO ERM 2017 framework replaced which earlier framework?",
+            "options": [
+                "COSO 1992",
+                "COSO 2004",
+                "COSO 2013",
+                "COSO 2020"
+            ],
+            "answer": 1,
+            "explanation": "COSO ERM 2017 replaced the 2004 framework, streamlining from 8 components to 5 [citation:5]."
+        },
+        {
+            "id": "p2s4_78",
+            "question": "The 'R' in GOPRO stands for:",
+            "options": [
+                "Risk Assessment",
+                "Review & Revision",
+                "Response",
+                "Reporting"
+            ],
+            "answer": 1,
+            "explanation": "In GOPRO, R stands for Review & Revision [citation:2][citation:8]."
+        },
+        {
+            "id": "p2s4_79",
+            "question": "The 'O' in GOPRO (second O) stands for:",
+            "options": [
+                "Operations",
+                "Ongoing Information, Communication & Reporting",
+                "Objectives",
+                "Oversight"
+            ],
+            "answer": 1,
+            "explanation": "The second O in GOPRO stands for Ongoing Information, Communication & Reporting [citation:2][citation:8]."
+        },
+        {
+            "id": "p2s4_80",
+            "question": "According to COSO, which of the following is a limitation of internal control systems?",
+            "options": [
+                "They guarantee success",
+                "They are immune to human error",
+                "Management override is possible",
+                "They cost nothing"
+            ],
+            "answer": 2,
+            "explanation": "Limitations include human judgment errors, cost/benefit considerations, simple errors, collusion, and management override [citation:8]."
+        },
+        {
+            "id": "p2s4_81",
+            "question": "A compensating control is:",
+            "options": [
+                "A control that replaces management",
+                "A control that accomplishes the same objective as another control",
+                "A control that compensates employees",
+                "A control that eliminates all risk"
+            ],
+            "answer": 1,
+            "explanation": "A compensating control accomplishes the same objective as another control [citation:8]."
+        },
+        {
+            "id": "p2s4_82",
+            "question": "The most helpful metric for prioritizing risks is:",
+            "options": [
+                "Historical cost",
+                "Expected value (probability × impact)",
+                "Market value",
+                "Book value"
+            ],
+            "answer": 1,
+            "explanation": "Expected value (probability × impact) is the most helpful metric for prioritizing risks [citation:8]."
+        },
+        {
+            "id": "p2s4_83",
+            "question": "CCPIS in ERM stands for:",
+            "options": [
+                "Culture, Capabilities, Practices, Integration with Strategy",
+                "Controls, Compliance, Procedures, Internal Systems",
+                "Cost, Capital, Profit, Investment, Strategy",
+                "Communication, Coordination, Planning, Implementation, Supervision"
+            ],
+            "answer": 0,
+            "explanation": "CCPIS stands for Culture, Capabilities, Practices, and Integration with Strategy-Setting and Performance [citation:2][citation:6]."
+        },
+        {
+            "id": "p2s4_84",
+            "question": "Business strategy in the context of COSO ERM recognizes that:",
+            "options": [
+                "All strategic decisions have right/wrong answers",
+                "Strategic decisions have pros/cons and subsequent levels of risk",
+                "Risk should be eliminated from strategy",
+                "Strategy should ignore risk"
+            ],
+            "answer": 1,
+            "explanation": "Business decisions don't have right/wrong answers—they have pros/cons and subsequent levels of risk [citation:8]."
+        },
+        {
+            "id": "p2s4_85",
+            "question": "By applying ERM during strategy implementation, organizations can:",
+            "options": [
+                "Eliminate all uncertainty",
+                "Align objectives with risk appetite and evaluate risk responses",
+                "Guarantee profitability",
+                "Avoid all losses"
+            ],
+            "answer": 1,
+            "explanation": "ERM helps align objectives with risk appetite, evaluate risk responses, and respond to opportunities [citation:8]."
+        },
+        {
+            "id": "p2s4_86",
+            "question": "Which of the following is an internal event source?",
+            "options": [
+                "Economic conditions",
+                "Natural disasters",
+                "Infrastructure and personnel",
+                "Political changes"
+            ],
+            "answer": 2,
+            "explanation": "Internal events include infrastructure, personnel, processes, and technology. External events include economic, natural, political factors."
+        },
+        {
+            "id": "p2s4_87",
+            "question": "Which of the following is an external event source?",
+            "options": [
+                "Employee turnover",
+                "Production processes",
+                "Technology infrastructure",
+                "Natural environment"
+            ],
+            "answer": 3,
+            "explanation": "External events include economic, natural environment, political, social, and technological factors."
+        },
+        {
+            "id": "p2s4_88",
+            "question": "Risk mapping (heat maps) typically plots:",
+            "options": [
+                "Cost vs. Revenue",
+                "Impact vs. Likelihood",
+                "Assets vs. Liabilities",
+                "Income vs. Expenses"
+            ],
+            "answer": 1,
+            "explanation": "Risk heat maps plot impact versus likelihood to prioritize risks [citation:3]."
+        },
+        {
+            "id": "p2s4_89",
+            "question": "A risk with high frequency and high severity should typically be:",
+            "options": [
+                "Accepted",
+                "Reduced",
+                "Shared",
+                "Avoided"
+            ],
+            "answer": 3,
+            "explanation": "High frequency, high severity risks should typically be avoided [citation:2]."
+        },
+        {
+            "id": "p2s4_90",
+            "question": "A risk with high frequency but low severity should typically be:",
+            "options": [
+                "Avoided",
+                "Reduced",
+                "Shared",
+                "Accepted"
+            ],
+            "answer": 1,
+            "explanation": "High frequency, low severity risks should typically be reduced through controls [citation:2]."
+        },
+        {
+            "id": "p2s4_91",
+            "question": "A risk with low frequency but high severity should typically be:",
+            "options": [
+                "Avoided",
+                "Reduced",
+                "Shared (transferred)",
+                "Accepted"
+            ],
+            "answer": 2,
+            "explanation": "Low frequency, high severity risks (like catastrophes) should typically be shared/transferred through insurance [citation:2]."
+        },
+        {
+            "id": "p2s4_92",
+            "question": "A risk with low frequency and low severity should typically be:",
+            "options": [
+                "Avoided",
+                "Reduced",
+                "Shared",
+                "Accepted (self-insured)"
+            ],
+            "answer": 3,
+            "explanation": "Low frequency, low severity risks can typically be accepted/self-insured [citation:2]."
+        },
+        {
+            "id": "p2s4_93",
+            "question": "Outsourcing a business activity is an example of which risk response?",
+            "options": [
+                "Avoidance",
+                "Reduction",
+                "Sharing/Transfer",
+                "Acceptance"
+            ],
+            "answer": 2,
+            "explanation": "Outsourcing transfers risk to another party, which is risk sharing/transfer [citation:3]."
+        },
+        {
+            "id": "p2s4_94",
+            "question": "Diversification of product lines is an example of which risk response?",
+            "options": [
+                "Avoidance",
+                "Reduction",
+                "Sharing",
+                "Acceptance"
+            ],
+            "answer": 1,
+            "explanation": "Diversification reduces risk by spreading exposure, which is risk reduction."
+        },
+        {
+            "id": "p2s4_95",
+            "question": "The board's role in ERM includes:",
+            "options": [
+                "Daily risk management",
+                "Providing oversight of strategy and risk management",
+                "Implementing all controls",
+                "Avoiding all risks"
+            ],
+            "answer": 1,
+            "explanation": "The board provides oversight of strategy and carries out governance responsibilities to support management [citation:6][citation:8]."
+        },
+        {
+            "id": "p2s4_96",
+            "question": "Which component of ERM involves developing a portfolio view of risk?",
+            "options": [
+                "Governance & Culture",
+                "Strategy & Objective-Setting",
+                "Performance",
+                "Review & Revision"
+            ],
+            "answer": 2,
+            "explanation": "Developing a portfolio view is part of the Performance component (VAPIR) [citation:2][citation:8]."
+        },
+        {
+            "id": "p2s4_97",
+            "question": "Which component of ERM involves assessing substantial changes?",
+            "options": [
+                "Governance & Culture",
+                "Strategy & Objective-Setting",
+                "Performance",
+                "Review & Revision"
+            ],
+            "answer": 3,
+            "explanation": "Assessing substantial changes is part of the Review & Revision component (SIR) [citation:2][citation:8]."
+        },
+        {
+            "id": "p2s4_98",
+            "question": "Which component of ERM involves leveraging information technology?",
+            "options": [
+                "Governance & Culture",
+                "Strategy & Objective-Setting",
+                "Performance",
+                "Information, Communication & Reporting"
+            ],
+            "answer": 3,
+            "explanation": "Leveraging information technology is part of the Information, Communication & Reporting component (TIP) [citation:2]."
+        },
+        {
+            "id": "p2s4_99",
+            "question": "Risk tolerance is applied at which level?",
+            "options": [
+                "Entity level",
+                "Objective level",
+                "Industry level",
+                "Economy level"
+            ],
+            "answer": 1,
+            "explanation": "Risk tolerance is applied at the objective level, while risk appetite is at the entity level."
+        },
+        {
+            "id": "p2s4_100",
+            "question": "The primary benefit of integrating ERM with strategy is:",
+            "options": [
+                "Eliminating all risks",
+                "Ensuring the chosen strategy aligns with risk appetite and capacity",
+                "Reducing insurance costs",
+                "Simplifying compliance"
+            ],
+            "answer": 1,
+            "explanation": "Integrating ERM with strategy ensures the chosen strategy doesn't expose the company to risks it cannot handle, and that the company takes enough risk to achieve desired returns [citation:6][citation:8]."
+        }
+    ]
+}   

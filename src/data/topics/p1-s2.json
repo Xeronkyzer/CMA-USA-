@@ -1,0 +1,1342 @@
+{
+    "id": "p1-s2",
+    "title": "Planning, Budgeting, and Forecasting",
+    "weightage": "20%",
+    "recommendedStudyHours": "40-45 hours",
+    "examLevel": "Level C (Analysis, Application, Evaluation)",
+    "overview": "This section represents 20% of the Part 1 exam and is the bridge between strategy and execution. It covers the entire planning cycle: from high-level strategic analysis (SWOT, Porter's 5 Forces) to the granular details of the Master Budget. Candidates must master forecasting techniques (regression, learning curves), budget methodologies (standard, flexible, zero-based, activity-based), and the complete sequence of operational and financial budgets. Success requires the ability to calculate variances, prepare pro forma financial statements, and evaluate the behavioral impact of budgeting choices.",
+    "bulletNotes": [
+        "Strategic planning (5-10 years) sets the mission; budgeting (1 year) operationalizes it.",
+        "SWOT Analysis evaluates Internal factors (Strengths, Weaknesses) and External factors (Opportunities, Threats).",
+        "Porter's 5 Forces analyzes industry competitiveness and long-term profitability limits.",
+        "The Master Budget always begins with the Sales Budget (constrained by demand/capacity).",
+        "Production Budget = Sales + Desired Ending Inv. - Beginning Inv.",
+        "Regression analysis (y = a + bx) separates mixed costs into fixed (a) and variable (b) components.",
+        "R-squared (coefficient of determination) measures the reliability of the regression line (closer to 1 is better).",
+        "Learning Curve: doubling cumulative output reduces average time per unit by a constant percentage.",
+        "Expected Value is the weighted average of possible outcomes (Sum of Outcome x Probability).",
+        "Cash Budget excludes non-cash items like depreciation and bad debt expense (unless using direct write-off).",
+        "Flexible budgets adjust the static budget for the ACTUAL level of activity to measure efficiency.",
+        "Zero-Based Budgeting (ZBB) requires justifying every dollar from scratch, not just increments."
+    ],
+    "shortNotes": "Focus on the logical flow: Strategy -> Forecast -> Master Budget. Memorize the 'Production Budget' formula—it's the key that unlocks Materials and Labor budgets. For forecasting, master simple regression interpretation and the high-low method. Understand that flexible budgets are the only fair way to evaluate performance. Be ready to calculate cash collections and disbursements, as liquidity questions are frequent.",
+    "concepts": [
+        {
+            "title": "1. Strategic Planning & Analysis",
+            "content": "<h3>The Planning Cycle</h3><p>Planning is the process of setting goals and determining how to achieve them. It moves from long-term (Strategic) to short-term (Tactical/Operational).</p><ul><li><strong>Strategic Plans (5-10 years):</strong> Broad, directional, set by top management. Focus on market positioning and long-term resource allocation.</li><li><strong>Tactical Plans (1-18 months):</strong> Dept/Divisional level, implementing strategy.</li><li><strong>Operational Plans (Weeks/Months):</strong> Day-to-day execution (e.g., production schedules).</li></ul><h3>Environmental Analysis Tools</h3><p><strong>SWOT Analysis:</strong></p><ul><li><strong>Internal:</strong> Strengths (Patents, Brand), Weaknesses (High cost structure).</li><li><strong>External:</strong> Opportunities (New markets), Threats (Competitors, Regulations).</li></ul><p><strong>Porter's Five Forces (Industry Analysis):</strong></p><ol><li><strong>Threat of new entrants:</strong> Barriers to entry (capital, regulations).</li><li><strong>Threat of Substitutes:</strong> Alternative products meeting same need.</li><li><strong>Bargaining Power of Buyers:</strong> Price sensitivity, volume.</li><li><strong>Bargaining Power of Suppliers:</strong> Concentration, switching costs.</li><li><strong>Intensity of Rivalry:</strong> Competition among existing firms.</li></ol><p><strong>BCG Growth-Share Matrix:</strong></p><ul><li><strong>Stars:</strong> High Growth, High Share (Invest).</li><li><strong>Cash Cows:</strong> Low Growth, High Share (Milk for cash).</li><li><strong>Question Marks:</strong> High Growth, Low Share (Decide: Invest or Divest).</li><li><strong>Dogs:</strong> Low Growth, Low Share (Divest).</li></ul>"
+        },
+        {
+            "title": "2. Budgeting Concepts & Methodologies",
+            "content": "<h3>Purpose of Budgets</h3><p>Planning, Communication, Coordination, Motivation, and Control/Evaluation.</p><h3>Budget Methodologies</h3><div class='table-responsive'><table class='notes-table'><thead><tr><th>Method</th><th>Description</th><th>Pros/Cons</th></tr></thead><tbody><tr><td><strong>Incremental</strong></td><td>Based on prior year +/- %.</td><td>Simple but perpetuates inefficiencies.</td></tr><tr><td><strong>Zero-Based (ZBB)</strong></td><td>Managers justify ALL expenses from $0.</td><td>Eliminates waste but very time-consuming.</td></tr><tr><td><strong>Activity-Based (ABB)</strong></td><td>Budgets costs based on cost drivers/activities.</td><td>Links cost to output; complex to implement.</td></tr><tr><td><strong>Rolling (Continuous)</strong></td><td>Add a month/quarter as one drops off.</td><td>Always looking 12 months ahead; keeps planning active.</td></tr><tr><td><strong>Flexible</strong></td><td>Adjusts for actual activity level.</td><td>Essential for performance evaluation (separates volume vs. efficiency).</td></tr></tbody></table></div><h3>Behavioral Issues</h3><p><strong>Budgetary Slack (Padding):</strong> Underestimating revenue or overestimating costs to make targets easier.</p><p><strong>Authoritative (Top-Down):</strong> Faster, ensures strategic alignment, but lowers commitment.</p><p><strong>Participative (Bottom-Up):</strong> Better accuracy, higher morale, but prone to slack and slower.</p>"
+        },
+        {
+            "title": "3. Forecasting Techniques",
+            "content": "<h3>Regression Analysis</h3><p>Used to separate mixed costs or forecast sales.</p><p><strong>Equation:</strong> <code>y = a + bx</code></p><ul><li><strong>y:</strong> Dependent variable (Total Cost / Sales)</li><li><strong>x:</strong> Independent variable (Driver: Units / Ad Spend)</li><li><strong>a:</strong> y-intercept (Fixed Cost)</li><li><strong>b:</strong> Slope (Variable Cost per unit)</li></ul><p><strong>Correlation (r):</strong> Ranges from -1 to +1. Measures strength of relationship.</p><p><strong>Coefficient of Determination (R²):</strong> % of change in y explained by change in x. (e.g., R²=0.90 means 90% accurate).</p><h3>Learning Curve Analysis</h3><p>Based on the principle that as workers gain experience, efficiency improves.</p><p><strong>Cumulative Average-Time Model:</strong> As cumulative output DOUBLES, the cumulative <em>average</em> time per unit decreases by the learning rate percentage.</p><p><em>Example (80% Curve, 1st unit = 100 hrs):</em></p><ul><li>1 unit: 100 hrs avg (Total: 100)</li><li>2 units: 80 hrs avg (100 * 0.8) (Total: 160)</li><li>4 units: 64 hrs avg (80 * 0.8) (Total: 256)</li></ul><p><strong>Steady State:</strong> Learning stops when the machine pace or physical limit dictates speed.</p><h3>Expected Value (EV)</h3><p>Weighted average of outcomes based on probability.</p><p><code>EV = Σ (Outcome × Probability)</code></p><p>Used for decision making under uncertainty (Risk Neutral approach).</p>"
+        },
+        {
+            "title": "4. Master Budget: The Operating Sequence",
+            "content": "<h3>1. Sales Budget</h3><p>The foundation. Based on forecasted volume × selling price.</p><p><em>Everything else depends on this.</em></p><h3>2. Production Budget (Units)</h3><p>Determine units to produce to meet sales and inventory goals.</p><p><code>Units to Produce = Budgeted Sales + Desired Ending Inv - Beginning Inv</code></p><h3>3. Direct Materials Budget</h3><p><strong>Usage Budget:</strong> <code>Production Units × Material per Unit</code></p><p><strong>Purchase Budget:</strong> <code>Usage + Desired Ending Mat. Inv - Beginning Mat. Inv</code></p><p><em>Note: Purchases are in dollars and units; Usage is in units.</em></p><h3>4. Direct Labor Budget</h3><p><code>Production Units × Hours per Unit × Hourly Rate</code></p><h3>5. Manufacturing Overhead Budget</h3><p>Separates Variable (varies with driver) and Fixed (lump sum) portions.</p><h3>6. Cost of Goods Sold (COGS) Budget</h3><p>Combines DM, DL, and OH to determine the cost of products sold.</p><h3>7. Selling & Admin (S&A) Budget</h3><p>Period costs (R&D, Marketing, HQ).</p>"
+        },
+        {
+            "title": "5. Financial Budgets",
+            "content": "<h3>1. Cash Budget</h3><p>Crucial for liquidity. Identifies borrowing needs.</p><p><strong>Structure:</strong></p><ul><li><strong>Beginning Cash Balance</strong></li><li><strong>+ Receipts (Inflows):</strong> Cash sales, Collections (lagged), Asset sales.</li><li><strong>- Disbursements (Outflows):</strong> Purchases, Labor, Overhead* (less depreciation), Tax, Dividends.</li><li><strong>= Preliminary Cash Balance</strong></li><li><strong>+/- Financing:</strong> Borrow if deficit; Repay/Invest if surplus.</li><li><strong>= Ending Cash Balance</strong></li></ul><p><em>*Exam Trick: Always remove non-cash expenses like depreciation and amortization.</em></p><h3>2. Pro Forma Income Statement</h3><p>Projected Net Income based on all operating budgets.</p><h3>3. Pro Forma Balance Sheet</h3><p>Projected Assets, Liabilities, and Equity at end of period.</p><h3>4. Statement of Cash Flows</h3><p>Reconciles Net Income to Cash via Operating, Investing, and Financing activities.</p>"
+        }
+    ],
+    "formulas": [
+        {
+            "name": "Line Equation (Regression)",
+            "formula": "y = a + bx"
+        },
+        {
+            "name": "Production Budget",
+            "formula": "Budgeted Sales + Ending Inv - Beginning Inv"
+        },
+        {
+            "name": "Materials Purchases",
+            "formula": "Production Requirements + Ending Mat. Inv - Beginning Mat. Inv"
+        },
+        {
+            "name": "Cash Collections",
+            "formula": "(Current Month Sales × % Collected) + (Prior Month Sales × % Collected)"
+        },
+        {
+            "name": "Standard Error (Se)",
+            "formula": "Measures the dispersion of data points around the regression line"
+        },
+        {
+            "name": "Coefficient of Determination (R^2)",
+            "formula": "Explained Variation / Total Variation"
+        }
+    ],
+    "mistakes": [
+        "Depreciation: Including it in the Cash Budget (It is a non-cash expense!).",
+        "Production Units vs. Sales Units: Confusing the two. Production must account for inventory changes.",
+        "Materials Usage vs. Purchases: Usage is for production; Purchases accounts for raw material inventory changes.",
+        "r vs. R-squared: 'r' is correlation (-1 to 1); 'R-squared' is reliability (0 to 1).",
+        "Learning Curve: Applying the curve to variable overhead or machine time (usually only applies to Direct Labor).",
+        "Slack: Assuming participative budgeting always leads to accurate budgets (it often creates slack)."
+    ],
+    "quiz": [
+        {
+            "question": "Which of the following creates a 'ceiling' on the long-term profit potential of an industry?",
+            "options": [
+                "High barriers to entry",
+                "Weak suppliers",
+                "Intense rivalry among competitors",
+                "Low threat of substitutes"
+            ],
+            "answer": 2,
+            "explanation": "Intense rivalry forces prices down and costs (marketing/R&D) up, squeezing margins and limiting industry profitability."
+        },
+        {
+            "question": "In the Master Budget sequence, which budget is prepared immediately after the Production Budget?",
+            "options": [
+                "Sales Budget",
+                "Direct Materials Budget",
+                "Cash Budget",
+                "Pro Forma Income Statement"
+            ],
+            "answer": 1,
+            "explanation": "Once production units are known, the Direct Materials budget (and Direct Labor/Overhead) can be calculated. Sales is before Production."
+        },
+        {
+            "question": "A company uses a regression model y = 50,000 + 12x. What is the estimated cost at an activity level of 2,000 units?",
+            "options": [
+                "$50,000",
+                "$24,000",
+                "$74,000",
+                "$62,000"
+            ],
+            "answer": 2,
+            "explanation": "Total Cost = Fixed Cost + (Variable Cost/unit * Units). y = 50,000 + (12 * 2,000) = 50,000 + 24,000 = $74,000."
+        },
+        {
+            "question": "Which budgeting methodology is best suited for discretionary costs and avoiding the 'use it or lose it' mentality?",
+            "options": [
+                "Incremental Budgeting",
+                "Flexible Budgeting",
+                "Zero-Based Budgeting (ZBB)",
+                "Continuous Budgeting"
+            ],
+            "answer": 2,
+            "explanation": "ZBB requires justifying every expense from scratch, which helps eliminate unnecessary spending and prevents automatic increases found in incremental budgeting."
+        },
+        {
+            "question": "Using an 80% cumulative average-time learning curve, if the first unit takes 100 hours, what is the average time per unit after producing 4 units?",
+            "options": [
+                "80 hours",
+                "64 hours",
+                "51.2 hours",
+                "40.96 hours"
+            ],
+            "answer": 1,
+            "explanation": "Double 1 (1->2): 100 * 0.8 = 80 avg. Double 2 (2->4): 80 * 0.8 = 64 avg."
+        }
+    ],
+    "essay": {
+        "question": "Compare and contrast Top-Down (Authoritative) vs. Bottom-Up (Participative) budgeting. Which is generally preferred and why?",
+        "modelAnswer": "<p><strong>Top-Down (Authoritative):</strong> Imposed by senior management. Pros: Fast, ensures alignment with strategic goals. Cons: Lower ownership/motivation from lower-level managers.</p><p><strong>Bottom-Up (Participative):</strong> Lower-level managers provide input. Pros: Generally more accurate (they have local knowledge), higher morale/buy-in. Cons: Slower, prone to 'budgetary slack' (sandbagging).</p><p><strong>Preference:</strong> Participative is generally preferred for motivation, but a hybrid approach (Iterative) is often best to balance alignment and ownership.</p>"
+    },
+    "test": [
+        {
+            "id": 1,
+            "question": "Which budget is prepared first in the master budget process?",
+            "options": [
+                "Production Budget",
+                "Sales Budget",
+                "Cash Budget",
+                "Direct Labor Budget"
+            ],
+            "answer": 1,
+            "explanation": "The Sales Budget is the foundation of the master budget. All other budgets depend on forecasted sales."
+        },
+        {
+            "id": 2,
+            "question": "Production budget is expressed in:",
+            "options": [
+                "Dollars",
+                "Units",
+                "Machine hours",
+                "Contribution margin"
+            ],
+            "answer": 1,
+            "explanation": "The production budget determines how many units must be produced, not dollar amounts."
+        },
+        {
+            "id": 3,
+            "question": "Zero-based budgeting requires managers to:",
+            "options": [
+                "Adjust prior year spending",
+                "Justify every expense from zero",
+                "Use regression analysis",
+                "Reduce all fixed costs"
+            ],
+            "answer": 1,
+            "explanation": "Zero-based budgeting starts from zero and requires justification of all expenditures."
+        },
+        {
+            "id": 4,
+            "question": "Incremental budgeting often results in:",
+            "options": [
+                "Improved efficiency",
+                "Perpetuated inefficiencies",
+                "Higher forecasting accuracy",
+                "Reduced budgeting time only"
+            ],
+            "answer": 1,
+            "explanation": "Incremental budgeting carries forward previous inefficiencies."
+        },
+        {
+            "id": 5,
+            "question": "Activity-based budgeting focuses on:",
+            "options": [
+                "Departments",
+                "Cost drivers",
+                "Prior-year actual results",
+                "Cash balances"
+            ],
+            "answer": 1,
+            "explanation": "ABB allocates costs based on activity drivers."
+        },
+        {
+            "id": 6,
+            "question": "Production = Sales + Desired Ending Inventory −:",
+            "options": [
+                "COGS",
+                "Beginning Inventory",
+                "Variable Costs",
+                "Fixed Costs"
+            ],
+            "answer": 1,
+            "explanation": "Beginning inventory is subtracted in the production formula."
+        },
+        {
+            "id": 7,
+            "question": "If desired ending inventory increases, required production will:",
+            "options": [
+                "Decrease",
+                "Increase",
+                "Remain unchanged",
+                "Equal sales"
+            ],
+            "answer": 1,
+            "explanation": "Higher desired ending inventory increases required production."
+        },
+        {
+            "id": 8,
+            "question": "In regression equation y = a + bx, 'a' represents:",
+            "options": [
+                "Variable cost per unit",
+                "Fixed cost",
+                "Total cost",
+                "Activity level"
+            ],
+            "answer": 1,
+            "explanation": "The intercept 'a' represents fixed cost."
+        },
+        {
+            "id": 9,
+            "question": "In regression equation y = a + bx, 'b' represents:",
+            "options": [
+                "Fixed cost",
+                "Variable cost per unit",
+                "Total cost",
+                "R-squared"
+            ],
+            "answer": 1,
+            "explanation": "The slope 'b' represents variable cost per unit."
+        },
+        {
+            "id": 10,
+            "question": "R-squared measures:",
+            "options": [
+                "Causation",
+                "Goodness of fit",
+                "Inflation impact",
+                "Cash sensitivity"
+            ],
+            "answer": 1,
+            "explanation": "R-squared measures how well the regression explains variability."
+        },
+        {
+            "id": 11,
+            "question": "Learning curve effects primarily apply to:",
+            "options": [
+                "Material prices",
+                "Labor efficiency",
+                "Fixed overhead",
+                "Cash collections"
+            ],
+            "answer": 1,
+            "explanation": "Learning curves primarily affect labor productivity."
+        },
+        {
+            "id": 12,
+            "question": "Expected value is calculated as:",
+            "options": [
+                "Maximum outcome",
+                "Minimum outcome",
+                "Sum of (Outcome × Probability)",
+                "Average revenue"
+            ],
+            "answer": 2,
+            "explanation": "Expected value is a probability-weighted average."
+        },
+        {
+            "id": 13,
+            "question": "The cash budget excludes:",
+            "options": [
+                "Cash collections",
+                "Loan repayments",
+                "Depreciation expense",
+                "Capital expenditures"
+            ],
+            "answer": 2,
+            "explanation": "Depreciation is a non-cash expense and excluded from the cash budget."
+        },
+        {
+            "id": 14,
+            "question": "Flexible budgets adjust for changes in:",
+            "options": [
+                "Tax rates",
+                "Actual activity levels",
+                "Interest rates",
+                "Depreciation methods"
+            ],
+            "answer": 1,
+            "explanation": "Flexible budgets adjust based on actual volume."
+        },
+        {
+            "id": 15,
+            "question": "Rolling budgets are updated:",
+            "options": [
+                "Annually",
+                "Continuously",
+                "Every five years",
+                "Never"
+            ],
+            "answer": 1,
+            "explanation": "Rolling budgets are continuously updated."
+        },
+        {
+            "id": 16,
+            "question": "Budgetary slack occurs when managers:",
+            "options": [
+                "Overstate costs or understate revenues",
+                "Improve efficiency",
+                "Use flexible budgeting",
+                "Adopt zero-based budgeting"
+            ],
+            "answer": 0,
+            "explanation": "Budgetary slack happens when managers deliberately make targets easier to achieve."
+        },
+        {
+            "id": 17,
+            "question": "Participative budgeting generally results in:",
+            "options": [
+                "Lower morale",
+                "Higher employee commitment",
+                "Elimination of slack",
+                "Reduced communication"
+            ],
+            "answer": 1,
+            "explanation": "Participation increases ownership and motivation, though it may increase slack."
+        },
+        {
+            "id": 18,
+            "question": "A flexible budget is most useful for:",
+            "options": [
+                "Long-term strategy",
+                "Variance analysis",
+                "Capital budgeting",
+                "Learning curve analysis"
+            ],
+            "answer": 1,
+            "explanation": "Flexible budgets adjust for actual activity and are used to analyze variances."
+        },
+        {
+            "id": 19,
+            "question": "If sales are 10,000 units, desired ending inventory is 2,000 units, and beginning inventory is 1,500 units, required production equals:",
+            "options": [
+                "10,000",
+                "10,500",
+                "9,500",
+                "11,500"
+            ],
+            "answer": 1,
+            "explanation": "Production = 10,000 + 2,000 − 1,500 = 10,500 units."
+        },
+        {
+            "id": 20,
+            "question": "Direct materials purchases equal:",
+            "options": [
+                "Sales + Ending Inventory",
+                "Usage + Ending Materials − Beginning Materials",
+                "Production − Inventory",
+                "COGS + Materials"
+            ],
+            "answer": 1,
+            "explanation": "Purchases = Usage + Desired Ending Materials − Beginning Materials."
+        },
+        {
+            "id": 21,
+            "question": "If each unit requires 3 pounds of material and production is 5,000 units, usage equals:",
+            "options": [
+                "8,000 pounds",
+                "15,000 pounds",
+                "5,000 pounds",
+                "3,000 pounds"
+            ],
+            "answer": 1,
+            "explanation": "Usage = 5,000 × 3 = 15,000 pounds."
+        },
+        {
+            "id": 22,
+            "question": "The direct labor budget is based primarily on:",
+            "options": [
+                "Sales dollars",
+                "Production units",
+                "Cash receipts",
+                "Fixed overhead"
+            ],
+            "answer": 1,
+            "explanation": "Direct labor depends on units to be produced."
+        },
+        {
+            "id": 23,
+            "question": "Manufacturing overhead budget includes:",
+            "options": [
+                "Direct materials",
+                "Direct labor",
+                "Variable and fixed overhead",
+                "Selling expenses"
+            ],
+            "answer": 2,
+            "explanation": "Manufacturing overhead includes both variable and fixed overhead costs."
+        },
+        {
+            "id": 24,
+            "question": "Which budget converts all operating budgets into dollars?",
+            "options": [
+                "Sales budget",
+                "Cash budget",
+                "Budgeted income statement",
+                "Production budget"
+            ],
+            "answer": 2,
+            "explanation": "The budgeted income statement summarizes all operating budgets in dollar terms."
+        },
+        {
+            "id": 25,
+            "question": "Capital expenditures are included in:",
+            "options": [
+                "Operating budget only",
+                "Financial budget",
+                "Production budget",
+                "Sales budget"
+            ],
+            "answer": 1,
+            "explanation": "Capital expenditures are part of the financial budget."
+        },
+        {
+            "id": 26,
+            "question": "Cash collections from credit sales are calculated using:",
+            "options": [
+                "Regression",
+                "Collection percentage schedule",
+                "Learning curve",
+                "R-squared"
+            ],
+            "answer": 1,
+            "explanation": "Cash collections use expected collection percentages by period."
+        },
+        {
+            "id": 27,
+            "question": "If fixed cost is $40,000 and variable cost is $5 per unit, total cost at 8,000 units equals:",
+            "options": [
+                "80,000",
+                "75,000",
+                "90,000",
+                "100,000"
+            ],
+            "answer": 0,
+            "explanation": "Total cost = 40,000 + (5 × 8,000) = 80,000."
+        },
+        {
+            "id": 28,
+            "question": "If R-squared is 0.90, the model explains:",
+            "options": [
+                "10% of variation",
+                "90% of variation",
+                "100% accuracy",
+                "Correlation only"
+            ],
+            "answer": 1,
+            "explanation": "R-squared of 0.90 means 90% of variability is explained."
+        },
+        {
+            "id": 29,
+            "question": "Under an 80% learning curve, if first unit takes 100 hours, average time per unit at 2 units equals:",
+            "options": [
+                "100 hours",
+                "80 hours",
+                "60 hours",
+                "50 hours"
+            ],
+            "answer": 1,
+            "explanation": "Cumulative average time becomes 80% of original (80 hours)."
+        },
+        {
+            "id": 30,
+            "question": "Expected value is most useful when decisions involve:",
+            "options": [
+                "Certainty",
+                "Risk and probability",
+                "Zero budgeting",
+                "Cash flows only"
+            ],
+            "answer": 1,
+            "explanation": "Expected value applies to uncertain outcomes."
+        },
+        {
+            "id": 31,
+            "question": "If expected value of Project A is $20,000 and Project B is $25,000, rational choice is:",
+            "options": [
+                "Project A",
+                "Project B",
+                "Either",
+                "Neither"
+            ],
+            "answer": 1,
+            "explanation": "Choose the project with higher expected value."
+        },
+        {
+            "id": 32,
+            "question": "A major disadvantage of rolling budgets is:",
+            "options": [
+                "Inflexibility",
+                "High preparation effort",
+                "Low accuracy",
+                "Poor communication"
+            ],
+            "answer": 1,
+            "explanation": "Rolling budgets require continuous effort."
+        },
+        {
+            "id": 33,
+            "question": "If beginning cash is 10,000, inflows are 50,000, outflows are 55,000, ending cash equals:",
+            "options": [
+                "5,000",
+                "15,000",
+                "−5,000",
+                "50,000"
+            ],
+            "answer": 0,
+            "explanation": "10,000 + 50,000 − 55,000 = 5,000."
+        },
+        {
+            "id": 34,
+            "question": "Which budget ensures minimum cash balance is maintained?",
+            "options": [
+                "Sales budget",
+                "Production budget",
+                "Cash budget",
+                "Overhead budget"
+            ],
+            "answer": 2,
+            "explanation": "Cash budget ensures liquidity."
+        },
+        {
+            "id": 35,
+            "question": "Strategic planning primarily influences:",
+            "options": [
+                "Daily cash flow only",
+                "Long-term direction and budgets",
+                "Depreciation expense",
+                "Regression slope"
+            ],
+            "answer": 1,
+            "explanation": "Strategy sets direction which budgeting supports."
+        },
+        {
+            "id": 36,
+            "question": "In SWOT, opportunities are:",
+            "options": [
+                "Internal strengths",
+                "External favorable factors",
+                "Internal weaknesses",
+                "Fixed costs"
+            ],
+            "answer": 1,
+            "explanation": "Opportunities are external positive factors."
+        },
+        {
+            "id": 37,
+            "question": "High supplier bargaining power leads to:",
+            "options": [
+                "Lower input costs",
+                "Higher input costs",
+                "No change",
+                "Lower sales"
+            ],
+            "answer": 1,
+            "explanation": "Strong suppliers can demand higher prices."
+        },
+        {
+            "id": 38,
+            "question": "The budgeted balance sheet is prepared after:",
+            "options": [
+                "Sales budget only",
+                "Cash budget",
+                "Production budget",
+                "Learning curve analysis"
+            ],
+            "answer": 1,
+            "explanation": "The financial budgets precede the budgeted balance sheet."
+        },
+        {
+            "id": 39,
+            "question": "Which budget directly affects cost of goods sold?",
+            "options": [
+                "Sales budget",
+                "Production budget",
+                "Direct materials, labor, and overhead budgets",
+                "Cash budget"
+            ],
+            "answer": 2,
+            "explanation": "COGS is derived from materials, labor, and overhead."
+        },
+        {
+            "id": 40,
+            "question": "If managers consistently exceed easy targets, likely cause is:",
+            "options": [
+                "Accurate forecasting",
+                "Budgetary slack",
+                "Flexible budgeting",
+                "Kaizen budgeting"
+            ],
+            "answer": 1,
+            "explanation": "Consistently beating targets often signals slack."
+        },
+        {
+            "id": 41,
+            "question": "If budgeted sales are 20,000 units and desired ending inventory is 3,000 units while beginning inventory is 2,000 units, production required equals:",
+            "options": [
+                "19,000",
+                "21,000",
+                "22,000",
+                "20,000"
+            ],
+            "answer": 1,
+            "explanation": "Production = 20,000 + 3,000 − 2,000 = 21,000 units."
+        },
+        {
+            "id": 42,
+            "question": "If each unit requires 4 labor hours and 5,000 units are produced, total labor hours required are:",
+            "options": [
+                "20,000",
+                "15,000",
+                "25,000",
+                "10,000"
+            ],
+            "answer": 0,
+            "explanation": "Total labor hours = 5,000 × 4 = 20,000 hours."
+        },
+        {
+            "id": 43,
+            "question": "If labor rate is $15 per hour and 20,000 hours are required, total labor cost equals:",
+            "options": [
+                "250,000",
+                "300,000",
+                "320,000",
+                "350,000"
+            ],
+            "answer": 1,
+            "explanation": "Labor cost = 20,000 × 15 = $300,000."
+        },
+        {
+            "id": 44,
+            "question": "If beginning materials inventory is 1,000 lbs, desired ending inventory is 1,500 lbs, and usage is 8,000 lbs, purchases equal:",
+            "options": [
+                "8,500",
+                "7,500",
+                "9,500",
+                "8,000"
+            ],
+            "answer": 0,
+            "explanation": "Purchases = 8,000 + 1,500 − 1,000 = 8,500 lbs."
+        },
+        {
+            "id": 45,
+            "question": "Which of the following is NOT part of operating budgets?",
+            "options": [
+                "Sales budget",
+                "Production budget",
+                "Cash budget",
+                "Direct labor budget"
+            ],
+            "answer": 2,
+            "explanation": "Cash budget is part of the financial budget."
+        },
+        {
+            "id": 46,
+            "question": "If variable overhead rate is $3 per unit and 10,000 units are produced, total variable overhead equals:",
+            "options": [
+                "30,000",
+                "13,000",
+                "3,000",
+                "33,000"
+            ],
+            "answer": 0,
+            "explanation": "Variable overhead = 10,000 × 3 = 30,000."
+        },
+        {
+            "id": 47,
+            "question": "A major advantage of zero-based budgeting is:",
+            "options": [
+                "Low preparation time",
+                "Automatic inflation adjustment",
+                "Elimination of unnecessary activities",
+                "Lower data requirements"
+            ],
+            "answer": 2,
+            "explanation": "ZBB forces review of all expenses."
+        },
+        {
+            "id": 48,
+            "question": "If regression equation is y = 60,000 + 4x, total cost at 12,000 units equals:",
+            "options": [
+                "108,000",
+                "120,000",
+                "150,000",
+                "180,000"
+            ],
+            "answer": 0,
+            "explanation": "60,000 + (4 × 12,000) = 108,000."
+        },
+        {
+            "id": 49,
+            "question": "If R-squared is 0.50, the model explains:",
+            "options": [
+                "50% of variation",
+                "100% accuracy",
+                "No relationship",
+                "Variable cost"
+            ],
+            "answer": 0,
+            "explanation": "R-squared of 0.50 means 50% of variability explained."
+        },
+        {
+            "id": 50,
+            "question": "Learning curve applies when:",
+            "options": [
+                "Production doubles",
+                "Fixed costs change",
+                "Sales increase",
+                "Cash flow rises"
+            ],
+            "answer": 0,
+            "explanation": "Learning curve effect occurs when cumulative output doubles."
+        },
+        {
+            "id": 51,
+            "question": "If first unit takes 200 hours and learning rate is 70%, average time at 2 units equals:",
+            "options": [
+                "200",
+                "140",
+                "100",
+                "70"
+            ],
+            "answer": 1,
+            "explanation": "200 × 70% = 140 hours cumulative average."
+        },
+        {
+            "id": 52,
+            "question": "Cash inflows typically include:",
+            "options": [
+                "Depreciation",
+                "Credit sales collected",
+                "Accrued expenses",
+                "Inventory purchases"
+            ],
+            "answer": 1,
+            "explanation": "Cash collections are inflows."
+        },
+        {
+            "id": 53,
+            "question": "Which budget is most directly linked to revenue forecasting?",
+            "options": [
+                "Direct materials budget",
+                "Sales budget",
+                "Cash disbursement budget",
+                "Capital budget"
+            ],
+            "answer": 1,
+            "explanation": "Sales budget is based on revenue forecasts."
+        },
+        {
+            "id": 54,
+            "question": "A deficit in the cash budget implies:",
+            "options": [
+                "Excess cash",
+                "Need for financing",
+                "Higher profit",
+                "Higher sales"
+            ],
+            "answer": 1,
+            "explanation": "Cash deficit requires borrowing."
+        },
+        {
+            "id": 55,
+            "question": "If beginning cash is 5,000, inflows 25,000, outflows 28,000, ending cash equals:",
+            "options": [
+                "2,000",
+                "3,000",
+                "−3,000",
+                "30,000"
+            ],
+            "answer": 0,
+            "explanation": "5,000 + 25,000 − 28,000 = 2,000."
+        },
+        {
+            "id": 56,
+            "question": "Capital expenditure budget affects:",
+            "options": [
+                "Only income statement",
+                "Cash and balance sheet",
+                "Only production",
+                "Only sales"
+            ],
+            "answer": 1,
+            "explanation": "Capital expenditures affect cash and assets."
+        },
+        {
+            "id": 57,
+            "question": "Which budgeting method promotes continuous improvement?",
+            "options": [
+                "Incremental",
+                "Zero-based",
+                "Kaizen",
+                "Flexible"
+            ],
+            "answer": 2,
+            "explanation": "Kaizen budgeting focuses on continuous improvement."
+        },
+        {
+            "id": 58,
+            "question": "In SWOT, weaknesses are:",
+            "options": [
+                "External threats",
+                "Internal limitations",
+                "External opportunities",
+                "Cash shortages"
+            ],
+            "answer": 1,
+            "explanation": "Weaknesses are internal disadvantages."
+        },
+        {
+            "id": 59,
+            "question": "High threat of substitutes leads to:",
+            "options": [
+                "Higher pricing power",
+                "Lower profit margins",
+                "Higher fixed costs",
+                "Improved demand"
+            ],
+            "answer": 1,
+            "explanation": "Substitutes limit pricing power."
+        },
+        {
+            "id": 60,
+            "question": "Expected value is most appropriate for:",
+            "options": [
+                "Certain outcomes",
+                "Risk analysis",
+                "Fixed budgeting",
+                "Zero-based budgeting"
+            ],
+            "answer": 1,
+            "explanation": "Expected value applies under uncertainty."
+        },
+        {
+            "id": 61,
+            "question": "If probability of earning $100,000 is 0.4 and $50,000 is 0.6, expected value equals:",
+            "options": [
+                "75,000",
+                "70,000",
+                "80,000",
+                "60,000"
+            ],
+            "answer": 1,
+            "explanation": "(100,000×0.4)+(50,000×0.6)=40,000+30,000=70,000."
+        },
+        {
+            "id": 62,
+            "question": "Regression helps separate:",
+            "options": [
+                "Revenue and expenses",
+                "Fixed and variable costs",
+                "Assets and liabilities",
+                "Cash and accrual"
+            ],
+            "answer": 1,
+            "explanation": "Regression estimates fixed and variable components."
+        },
+        {
+            "id": 63,
+            "question": "If regression intercept is negative, it may indicate:",
+            "options": [
+                "Data limitations",
+                "High fixed cost",
+                "No variable cost",
+                "Cash surplus"
+            ],
+            "answer": 0,
+            "explanation": "Negative intercept may result from estimation error."
+        },
+        {
+            "id": 64,
+            "question": "Which budget reflects overall profitability?",
+            "options": [
+                "Cash budget",
+                "Budgeted income statement",
+                "Production budget",
+                "Materials budget"
+            ],
+            "answer": 1,
+            "explanation": "Income statement shows projected profit."
+        },
+        {
+            "id": 65,
+            "question": "If desired ending inventory decreases, production will:",
+            "options": [
+                "Increase",
+                "Decrease",
+                "Remain unchanged",
+                "Double"
+            ],
+            "answer": 1,
+            "explanation": "Lower ending inventory reduces required production."
+        },
+        {
+            "id": 66,
+            "question": "Flexible budgeting is most useful when:",
+            "options": [
+                "Volume fluctuates",
+                "Costs are fixed",
+                "Inflation is high",
+                "Sales are constant"
+            ],
+            "answer": 0,
+            "explanation": "Flexible budgets adjust for volume changes."
+        },
+        {
+            "id": 67,
+            "question": "Cash disbursements schedule includes:",
+            "options": [
+                "Depreciation",
+                "Payments to suppliers",
+                "Accrued revenue",
+                "Forecasted sales"
+            ],
+            "answer": 1,
+            "explanation": "Cash disbursements include supplier payments."
+        },
+        {
+            "id": 68,
+            "question": "Which budget links strategy to operational targets?",
+            "options": [
+                "Master budget",
+                "Cash budget",
+                "Flexible budget",
+                "Capital budget only"
+            ],
+            "answer": 0,
+            "explanation": "Master budget translates strategy into financial plans."
+        },
+        {
+            "id": 69,
+            "question": "Which factor most directly impacts production budget?",
+            "options": [
+                "Interest rate",
+                "Sales forecast",
+                "Tax rate",
+                "R-squared"
+            ],
+            "answer": 1,
+            "explanation": "Production depends on sales forecast."
+        },
+        {
+            "id": 70,
+            "question": "The final step in master budgeting is preparation of:",
+            "options": [
+                "Sales budget",
+                "Production budget",
+                "Budgeted financial statements",
+                "Regression model"
+            ],
+            "answer": 2,
+            "explanation": "Budgeted financial statements conclude the master budget process."
+        },
+        {
+            "id": 71,
+            "question": "If sales are forecasted inaccurately, which budget is most directly affected first?",
+            "options": [
+                "Cash budget",
+                "Production budget",
+                "Capital budget",
+                "Overhead budget"
+            ],
+            "answer": 1,
+            "explanation": "The production budget is directly derived from the sales forecast."
+        },
+        {
+            "id": 72,
+            "question": "A company wants to maintain 20% of next month’s sales as ending inventory. This is an example of:",
+            "options": [
+                "Fixed budgeting",
+                "Inventory policy assumption",
+                "Regression analysis",
+                "Flexible budgeting"
+            ],
+            "answer": 1,
+            "explanation": "Ending inventory levels are based on company inventory policy."
+        },
+        {
+            "id": 73,
+            "question": "If credit sales are 100,000 and 70% are collected this month, cash collected equals:",
+            "options": [
+                "30,000",
+                "70,000",
+                "100,000",
+                "130,000"
+            ],
+            "answer": 1,
+            "explanation": "Cash collected = 100,000 × 70% = 70,000."
+        },
+        {
+            "id": 74,
+            "question": "If desired minimum cash balance is 10,000 and preliminary ending cash is 6,000, the company must:",
+            "options": [
+                "Invest excess cash",
+                "Borrow 4,000",
+                "Reduce production",
+                "Increase sales"
+            ],
+            "answer": 1,
+            "explanation": "To maintain minimum cash balance, borrowing of 4,000 is required."
+        },
+        {
+            "id": 75,
+            "question": "Which of the following is a financial budget?",
+            "options": [
+                "Direct materials budget",
+                "Direct labor budget",
+                "Cash budget",
+                "Production budget"
+            ],
+            "answer": 2,
+            "explanation": "Cash budget is part of financial budgets."
+        },
+        {
+            "id": 76,
+            "question": "A key advantage of flexible budgeting is:",
+            "options": [
+                "Eliminates slack",
+                "Adapts to actual activity",
+                "Reduces preparation time",
+                "Removes fixed costs"
+            ],
+            "answer": 1,
+            "explanation": "Flexible budgets adjust to actual activity levels."
+        },
+        {
+            "id": 77,
+            "question": "If regression predicts total cost of 120,000 at 15,000 units and fixed cost is 45,000, variable cost per unit equals:",
+            "options": [
+                "3",
+                "4",
+                "5",
+                "6"
+            ],
+            "answer": 2,
+            "explanation": "120,000 − 45,000 = 75,000 variable cost; 75,000 / 15,000 = 5 per unit."
+        },
+        {
+            "id": 78,
+            "question": "Learning curve benefits are greatest when:",
+            "options": [
+                "Tasks are repetitive",
+                "Automation is high",
+                "Materials dominate cost",
+                "Production is minimal"
+            ],
+            "answer": 0,
+            "explanation": "Learning effects apply mainly to repetitive labor tasks."
+        },
+        {
+            "id": 79,
+            "question": "Which is most likely to cause budget revisions mid-year?",
+            "options": [
+                "Stable demand",
+                "Economic downturn",
+                "Fixed overhead",
+                "Depreciation"
+            ],
+            "answer": 1,
+            "explanation": "Economic changes often require forecast adjustments."
+        },
+        {
+            "id": 80,
+            "question": "A master budget combines:",
+            "options": [
+                "Operating and financial budgets",
+                "Only sales forecasts",
+                "Only capital plans",
+                "Regression and learning curves"
+            ],
+            "answer": 0,
+            "explanation": "Master budget integrates operating and financial budgets."
+        },
+        {
+            "id": 81,
+            "question": "If variable cost per unit is 8 and output is 12,000 units, total variable cost equals:",
+            "options": [
+                "96,000",
+                "104,000",
+                "80,000",
+                "88,000"
+            ],
+            "answer": 0,
+            "explanation": "12,000 × 8 = 96,000."
+        },
+        {
+            "id": 82,
+            "question": "Which budget directly impacts accounts payable planning?",
+            "options": [
+                "Sales budget",
+                "Direct materials purchases budget",
+                "Cash receipts schedule",
+                "Labor budget"
+            ],
+            "answer": 1,
+            "explanation": "Material purchases create accounts payable."
+        },
+        {
+            "id": 83,
+            "question": "If total fixed cost is 100,000 and regression R-squared is low, forecast reliability is:",
+            "options": [
+                "High",
+                "Low",
+                "Perfect",
+                "Unchanged"
+            ],
+            "answer": 1,
+            "explanation": "Low R-squared indicates weak predictive ability."
+        },
+        {
+            "id": 84,
+            "question": "If probability of loss is 0.3 and gain is 50,000 with probability 0.7, expected value equals:",
+            "options": [
+                "35,000",
+                "15,000",
+                "50,000",
+                "20,000"
+            ],
+            "answer": 0,
+            "explanation": "50,000 × 0.7 = 35,000."
+        },
+        {
+            "id": 85,
+            "question": "Participative budgeting can lead to:",
+            "options": [
+                "Higher motivation",
+                "Lower communication",
+                "Reduced planning",
+                "No performance impact"
+            ],
+            "answer": 0,
+            "explanation": "Participation improves commitment and motivation."
+        },
+        {
+            "id": 86,
+            "question": "Which of the following is NOT part of strategic analysis?",
+            "options": [
+                "SWOT",
+                "Porter’s Five Forces",
+                "Learning curve",
+                "BCG matrix"
+            ],
+            "answer": 2,
+            "explanation": "Learning curve is forecasting tool, not strategic analysis tool."
+        },
+        {
+            "id": 87,
+            "question": "A high threat of new entrants usually results in:",
+            "options": [
+                "Higher profit margins",
+                "Lower competitive pressure",
+                "Increased competition",
+                "Stable pricing"
+            ],
+            "answer": 2,
+            "explanation": "New entrants increase competition."
+        },
+        {
+            "id": 88,
+            "question": "If total cost at 5,000 units is 70,000 and fixed cost is 20,000, variable cost per unit equals:",
+            "options": [
+                "8",
+                "9",
+                "10",
+                "12"
+            ],
+            "answer": 2,
+            "explanation": "70,000 − 20,000 = 50,000; 50,000 / 5,000 = 10 per unit."
+        },
+        {
+            "id": 89,
+            "question": "Budgeted income statement is prepared after:",
+            "options": [
+                "Sales budget only",
+                "All operating budgets",
+                "Cash budget",
+                "Capital budget"
+            ],
+            "answer": 1,
+            "explanation": "Income statement summarizes operating budgets."
+        },
+        {
+            "id": 90,
+            "question": "If production exceeds sales, inventory will:",
+            "options": [
+                "Decrease",
+                "Increase",
+                "Remain constant",
+                "Be zero"
+            ],
+            "answer": 1,
+            "explanation": "Excess production increases inventory."
+        },
+        {
+            "id": 91,
+            "question": "Which budget ensures solvency?",
+            "options": [
+                "Sales budget",
+                "Cash budget",
+                "Production budget",
+                "Materials budget"
+            ],
+            "answer": 1,
+            "explanation": "Cash budget ensures liquidity and solvency."
+        },
+        {
+            "id": 92,
+            "question": "Forecasting sales growth primarily impacts:",
+            "options": [
+                "Only production",
+                "All operating budgets",
+                "Only cash",
+                "Only overhead"
+            ],
+            "answer": 1,
+            "explanation": "Sales growth impacts all operating budgets."
+        },
+        {
+            "id": 93,
+            "question": "A low R-squared suggests:",
+            "options": [
+                "Strong prediction",
+                "Weak explanatory power",
+                "High fixed cost",
+                "Learning curve"
+            ],
+            "answer": 1,
+            "explanation": "Low R-squared means poor predictive fit."
+        },
+        {
+            "id": 94,
+            "question": "The master budget ultimately results in:",
+            "options": [
+                "Sales projection only",
+                "Budgeted financial statements",
+                "Variance report",
+                "Cost allocation"
+            ],
+            "answer": 1,
+            "explanation": "Master budget concludes with projected financial statements."
+        },
+        {
+            "id": 95,
+            "question": "If variable cost is underestimated, profit forecast will be:",
+            "options": [
+                "Overstated",
+                "Understated",
+                "Accurate",
+                "Zero"
+            ],
+            "answer": 0,
+            "explanation": "Underestimating cost overstates projected profit."
+        },
+        {
+            "id": 96,
+            "question": "Learning curve reduces:",
+            "options": [
+                "Material usage",
+                "Labor time per unit",
+                "Fixed costs",
+                "Cash outflows"
+            ],
+            "answer": 1,
+            "explanation": "Learning curve reduces labor time per unit."
+        },
+        {
+            "id": 97,
+            "question": "Expected value decision making assumes:",
+            "options": [
+                "Certainty",
+                "Known probabilities",
+                "No risk",
+                "Equal outcomes"
+            ],
+            "answer": 1,
+            "explanation": "Expected value uses probability-weighted outcomes."
+        },
+        {
+            "id": 98,
+            "question": "If minimum cash requirement is 15,000 and ending balance is 18,000, excess equals:",
+            "options": [
+                "3,000",
+                "33,000",
+                "−3,000",
+                "15,000"
+            ],
+            "answer": 0,
+            "explanation": "18,000 − 15,000 = 3,000 excess."
+        },
+        {
+            "id": 99,
+            "question": "Which factor most directly drives the master budget?",
+            "options": [
+                "Interest rate",
+                "Sales forecast",
+                "Depreciation",
+                "Tax policy"
+            ],
+            "answer": 1,
+            "explanation": "Sales forecast drives all subsequent budgets."
+        },
+        {
+            "id": 100,
+            "question": "The primary objective of budgeting is to:",
+            "options": [
+                "Eliminate costs",
+                "Replace strategy",
+                "Plan and control organizational performance",
+                "Reduce fixed costs only"
+            ],
+            "answer": 2,
+            "explanation": "Budgeting is primarily used for planning and control."
+        }
+    ]
+}

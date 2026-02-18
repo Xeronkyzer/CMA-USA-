@@ -1,0 +1,181 @@
+.container {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.tabs {
+    display: inline-flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    background: #f4f4f4;
+    padding: 0.5rem;
+    border-radius: 8px;
+}
+
+.tab {
+    border: none;
+    background: transparent;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    color: #666;
+    transition: all 0.2s;
+}
+
+.tab:hover {
+    color: #003366;
+}
+
+.tab.active {
+    background: white;
+    color: #003366;
+    font-weight: 700;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.planContainer {
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    padding: 3rem;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+}
+
+.planHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.planHeader h2 {
+    margin: 0;
+    color: #003366;
+    font-size: 2rem;
+}
+
+.duration {
+    background: #eef4ff;
+    color: #005b96;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.planDesc {
+    color: #666;
+    margin-bottom: 2.5rem;
+    font-size: 1.1rem;
+}
+
+.phase {
+    margin-bottom: 3rem;
+}
+
+.phaseTitle {
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+    background: #f8f9fa;
+    padding: 0.5rem 1rem;
+    border-left: 4px solid #003366;
+}
+
+.weekGrid {
+    border: 1px solid #ddd;
+}
+
+.gridHeader {
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr 1fr;
+    background: #003366;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.weekRow {
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr 1fr;
+    border-bottom: 1px solid #eee;
+}
+
+.weekRow:last-child {
+    border-bottom: none;
+}
+
+.weekRow>div {
+    padding: 12px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.checkbox {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+.only-print {
+    display: none;
+}
+
+@media print {
+    .container {
+        padding-top: 0;
+    }
+
+    .header {
+        margin-bottom: 1rem;
+    }
+
+    .tabs,
+    .btn {
+        display: none !important;
+    }
+
+    .planContainer {
+        border: none;
+        padding: 0;
+    }
+
+    .only-print {
+        display: block;
+        text-align: center;
+        margin-top: 2rem;
+        color: #999;
+        font-size: 0.8rem;
+    }
+
+    .weekRow {
+        page-break-inside: avoid;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .gridHeader,
+    .weekRow {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+    }
+
+    .gridHeader {
+        display: none;
+    }
+
+    .weekRow {
+        padding: 1rem;
+        border-bottom: 2px solid #eee;
+    }
+}

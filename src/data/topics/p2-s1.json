@@ -1,0 +1,1439 @@
+{
+    "id": "p2-s1",
+    "title": "Financial Statement Analysis – Ultra Detailed Revision Edition",
+    "weightage": "20%",
+    "recommendedStudyHours": "40-45 hours",
+    "examLevel": "Level C (Analysis, Interpretation, Evaluation)",
+    "overview": "Financial Statement Analysis (20% of Part 2) is about reading between the numbers. It requires mastery of comparative analysis techniques (horizontal, vertical, common-size), all five ratio categories (Liquidity, Leverage, Activity, Profitability, Market), the DuPont framework, profitability decomposition, and special issues including foreign currency translation, inflation effects, and earnings quality. The CMA exam tests interpretation and judgment — not just formula recall.",
+    "bulletNotes": [
+        "**Horizontal Analysis**: Year-over-year % change. Base year = denominator. Identifies trends.",
+        "**Vertical Analysis (Common-Size)**: Each line as % of total (BS: Total Assets; IS: Net Sales). Enables cross-company comparison.",
+        "**Liquidity**: Current Ratio (CA/CL), Quick Ratio ((Cash+Mkt Sec+AR)/CL), Cash Ratio (Cash/CL). Higher = more liquid.",
+        "**Leverage**: Debt-to-Equity (Total Debt/Equity), Debt-to-Assets (Total Debt/Total Assets), TIE (EBIT/Interest).",
+        "**Activity**: Inventory Turnover (COGS/Avg Inv), AR Turnover (Credit Sales/Avg AR), AP Turnover (COGS/Avg AP). Days = 365/Turnover.",
+        "**CCC**: Days Inventory + DSO – DPO. Lower is better. Negative CCC = suppliers finance operations.",
+        "**Profitability**: Gross Margin, Operating Margin, Net Margin, EBITDA Margin, ROA, ROE.",
+        "**DuPont (3-factor)**: ROE = Net Profit Margin × Asset Turnover × Equity Multiplier.",
+        "**FX Translation**: Current Rate Method (independent sub) → OCI. Temporal Method (integrated sub) → Net Income.",
+        "**Earnings Quality**: High quality = recurring, cash-backed, conservative accounting. Watch for one-time gains."
+    ],
+    "shortNotes": "Always use AVERAGE balance sheet figures when mixing with income statement data (ROA, Turnover ratios). DuPont is the #1 tested framework — know all three components and what drives each. For FX: Current Rate = OCI; Temporal = Net Income. Earnings quality questions require judgment about sustainability of reported earnings.",
+    "concepts": [
+        {
+            "title": "1. Comparative Financial Statement Analysis",
+            "content": "<h3>Horizontal Analysis (Trend Analysis)</h3><p>Compares financial data across multiple periods to identify trends.</p><ul><li><strong>Formula:</strong> <code>(Current Year – Base Year) / Base Year × 100%</code></li><li>Base year is always the denominator.</li><li>Identifies growth rates for revenue, expenses, assets, and liabilities.</li><li><em>Example:</em> Revenue grew from $500K to $600K → Change = $100K / $500K = 20% increase.</li></ul><h3>Vertical Analysis (Common-Size Statements)</h3><p>Expresses each line item as a percentage of a base figure within the same period.</p><ul><li><strong>Income Statement:</strong> Each item as % of Net Sales/Revenue.</li><li><strong>Balance Sheet:</strong> Each item as % of Total Assets.</li><li><strong>Purpose:</strong> Enables comparison across companies of different sizes and across time periods.</li><li><em>Example:</em> COGS = $300K, Sales = $500K → COGS % = 60%.</li></ul><h3>Trend Analysis</h3><p>Uses an index to compare multiple years to a base year (base = 100).</p><ul><li>If Year 3 revenue index = 125, revenue grew 25% from the base year.</li><li>Useful for identifying acceleration or deceleration in growth.</li></ul>"
+        },
+        {
+            "title": "2. Liquidity Ratios – Short-Term Solvency",
+            "content": "<p>Measure the company's ability to meet short-term obligations as they come due.</p><table class='notes-table'><thead><tr><th>Ratio</th><th>Formula</th><th>Interpretation</th></tr></thead><tbody><tr><td><strong>Current Ratio</strong></td><td>Current Assets / Current Liabilities</td><td>>2 = strong; <1 = concern. Includes inventory.</td></tr><tr><td><strong>Quick Ratio (Acid-Test)</strong></td><td>(Cash + Mkt Sec + Net AR) / CL</td><td>Excludes inventory and prepaids. More conservative.</td></tr><tr><td><strong>Cash Ratio</strong></td><td>Cash + Mkt Securities / CL</td><td>Most conservative. Immediate payment ability.</td></tr><tr><td><strong>Net Working Capital</strong></td><td>Current Assets – Current Liabilities</td><td>Absolute dollar measure of liquidity buffer.</td></tr><tr><td><strong>Cash Flow Ratio</strong></td><td>CFO / Current Liabilities</td><td>Uses actual cash generated, not accrual-based assets.</td></tr></tbody></table><p><strong>Key Insight:</strong> A high current ratio is not always good. It may indicate excess inventory (slow-moving) or uncollected receivables. Always compare the quick ratio to assess true liquidity.</p>"
+        },
+        {
+            "title": "3. Leverage (Solvency) Ratios – Long-Term Risk",
+            "content": "<p>Measure the extent to which a company uses debt financing and its ability to service that debt.</p><table class='notes-table'><thead><tr><th>Ratio</th><th>Formula</th><th>Interpretation</th></tr></thead><tbody><tr><td><strong>Debt-to-Equity</strong></td><td>Total Liabilities / Total Equity</td><td>Higher = more leveraged = more risk.</td></tr><tr><td><strong>Debt-to-Assets</strong></td><td>Total Debt / Total Assets</td><td>% of assets financed by creditors.</td></tr><tr><td><strong>Equity Multiplier</strong></td><td>Total Assets / Total Equity</td><td>Used in DuPont. Higher = more leverage.</td></tr><tr><td><strong>Times Interest Earned (TIE)</strong></td><td>EBIT / Interest Expense</td><td>How many times EBIT covers interest. <1 = danger.</td></tr><tr><td><strong>Debt Service Coverage</strong></td><td>EBIT / (Interest + Principal/(1-t))</td><td>Covers both interest and principal payments.</td></tr></tbody></table><p><strong>Financial Risk:</strong> Leverage amplifies returns when ROA > cost of debt, but amplifies losses when ROA < cost of debt. This is the double-edged sword of leverage.</p>"
+        },
+        {
+            "title": "4. Activity (Efficiency) Ratios",
+            "content": "<p>Measure how efficiently a company manages its assets to generate revenue.</p><table class='notes-table'><thead><tr><th>Ratio</th><th>Formula</th><th>Days Equivalent</th></tr></thead><tbody><tr><td><strong>Inventory Turnover</strong></td><td>COGS / Average Inventory</td><td>Days Inventory = 365 / Inv Turnover</td></tr><tr><td><strong>AR Turnover</strong></td><td>Net Credit Sales / Average AR</td><td>DSO = 365 / AR Turnover</td></tr><tr><td><strong>AP Turnover</strong></td><td>COGS / Average AP</td><td>DPO = 365 / AP Turnover</td></tr><tr><td><strong>Asset Turnover</strong></td><td>Net Sales / Average Total Assets</td><td>Revenue generated per $ of assets</td></tr><tr><td><strong>Fixed Asset Turnover</strong></td><td>Net Sales / Average Net Fixed Assets</td><td>Efficiency of long-term asset use</td></tr></tbody></table><h3>Cash Conversion Cycle (CCC)</h3><p><code>CCC = Days Inventory Held + Days Sales Outstanding – Days Payables Outstanding</code></p><ul><li>Measures how long cash is tied up in operations.</li><li><strong>Lower CCC = Better</strong> (cash recycled faster).</li><li><strong>Negative CCC</strong> (e.g., Amazon, Walmart) = suppliers finance operations.</li></ul><p><strong>Operating Cycle:</strong> Days Inventory + DSO (excludes payables).</p>"
+        },
+        {
+            "title": "5. Profitability Ratios",
+            "content": "<p>Measure the company's ability to generate profit relative to sales, assets, and equity.</p><table class='notes-table'><thead><tr><th>Ratio</th><th>Formula</th><th>What It Measures</th></tr></thead><tbody><tr><td><strong>Gross Profit Margin</strong></td><td>Gross Profit / Net Sales</td><td>Pricing power and production efficiency</td></tr><tr><td><strong>Operating Profit Margin</strong></td><td>EBIT / Net Sales</td><td>Core operating profitability</td></tr><tr><td><strong>Net Profit Margin</strong></td><td>Net Income / Net Sales</td><td>Bottom-line profitability after all costs</td></tr><tr><td><strong>EBITDA Margin</strong></td><td>EBITDA / Net Sales</td><td>Cash-generating ability before financing/taxes</td></tr><tr><td><strong>ROA</strong></td><td>Net Income / Average Total Assets</td><td>Return generated on all assets</td></tr><tr><td><strong>ROE</strong></td><td>Net Income / Average Equity</td><td>Return to common shareholders</td></tr><tr><td><strong>ROCE</strong></td><td>EBIT / (Total Assets – CL)</td><td>Return on long-term capital employed</td></tr></tbody></table><p><strong>Basic EPS:</strong> <code>(Net Income – Preferred Dividends) / Weighted Avg Common Shares</code></p><p><strong>Diluted EPS:</strong> Includes effect of convertible securities and options. Always ≤ Basic EPS.</p>"
+        },
+        {
+            "title": "6. Market (Valuation) Ratios",
+            "content": "<p>Relate market price to financial performance metrics.</p><table class='notes-table'><thead><tr><th>Ratio</th><th>Formula</th><th>Interpretation</th></tr></thead><tbody><tr><td><strong>Price/Earnings (P/E)</strong></td><td>Market Price / EPS</td><td>How much investors pay per $1 of earnings. Higher = growth expectations.</td></tr><tr><td><strong>Earnings Yield</strong></td><td>EPS / Market Price</td><td>Inverse of P/E. Return on market price.</td></tr><tr><td><strong>Dividend Yield</strong></td><td>Dividends per Share / Market Price</td><td>Income return on investment.</td></tr><tr><td><strong>Dividend Payout Ratio</strong></td><td>Dividends per Share / EPS</td><td>% of earnings paid as dividends.</td></tr><tr><td><strong>Market-to-Book Ratio</strong></td><td>Market Price / Book Value per Share</td><td>>1 = market values firm above accounting value.</td></tr><tr><td><strong>Book Value per Share</strong></td><td>(Total Equity – Preferred Equity) / Common Shares</td><td>Accounting value per share.</td></tr></tbody></table>"
+        },
+        {
+            "title": "7. DuPont Analysis – Decomposing ROE",
+            "content": "<h3>3-Factor DuPont Model</h3><p><code>ROE = Net Profit Margin × Asset Turnover × Equity Multiplier</code></p><p><code>ROE = (NI/Sales) × (Sales/Assets) × (Assets/Equity)</code></p><table class='notes-table'><thead><tr><th>Component</th><th>Measures</th><th>Driven By</th></tr></thead><tbody><tr><td><strong>Net Profit Margin</strong></td><td>Profitability / Efficiency</td><td>Pricing, cost control, tax management</td></tr><tr><td><strong>Asset Turnover</strong></td><td>Productivity / Efficiency</td><td>Revenue generation from assets</td></tr><tr><td><strong>Equity Multiplier</strong></td><td>Financial Leverage / Risk</td><td>Debt vs equity financing mix</td></tr></tbody></table><h3>5-Factor DuPont Model</h3><p><code>ROE = Tax Burden × Interest Burden × EBIT Margin × Asset Turnover × Equity Multiplier</code></p><ul><li><strong>Tax Burden:</strong> NI / EBT (% of pre-tax income kept after taxes).</li><li><strong>Interest Burden:</strong> EBT / EBIT (impact of interest expense).</li></ul><h3>Analytical Use</h3><p>If ROE increases, DuPont identifies <em>why</em>:</p><ul><li>Higher margin → better pricing or cost control.</li><li>Higher turnover → more efficient asset use.</li><li>Higher leverage → more debt (increases risk).</li></ul><p><strong>Exam Trap:</strong> ROE can increase due to higher leverage even when the business is deteriorating (lower margins, lower turnover).</p>"
+        },
+        {
+            "title": "8. Profitability Analysis – Revenue, Cost & Variation",
+            "content": "<h3>Revenue Analysis</h3><ul><li>Assess <strong>source</strong> (product lines, geographies), <strong>stability</strong> (recurring vs one-time), and <strong>trend</strong> (growing, declining).</li><li>Relationship between revenue and receivables: If AR grows faster than revenue → collection issues.</li><li>Relationship between revenue and inventory: If inventory grows faster than revenue → demand slowdown.</li></ul><h3>Cost of Sales Analysis</h3><ul><li>Gross margin trend: Declining margin may indicate rising input costs, pricing pressure, or product mix shift.</li><li>Compare gross margin to industry benchmarks.</li></ul><h3>Expense Analysis</h3><ul><li>Operating leverage: High fixed costs → profits more sensitive to revenue changes.</li><li>SG&A as % of sales: Rising % may indicate inefficiency.</li></ul><h3>Variation Analysis</h3><ul><li>Identify unusual fluctuations in line items period-over-period.</li><li>Investigate items that deviate significantly from trend.</li></ul>"
+        },
+        {
+            "title": "9. Special Issues – Foreign Currency Translation",
+            "content": "<p>When a parent consolidates a foreign subsidiary, the subsidiary's financials must be translated into the parent's reporting currency.</p><table class='notes-table'><thead><tr><th>Feature</th><th>Current Rate Method</th><th>Temporal Method</th></tr></thead><tbody><tr><td><strong>When Used</strong></td><td>Subsidiary is independent (functional currency = local currency)</td><td>Subsidiary is integrated (functional currency = parent's currency)</td></tr><tr><td><strong>Assets & Liabilities</strong></td><td>All at current (spot) rate</td><td>Monetary at current rate; Non-monetary at historical rate</td></tr><tr><td><strong>Revenue & Expenses</strong></td><td>At average rate for the period</td><td>Most at average rate; COGS/Depreciation at historical rate</td></tr><tr><td><strong>Equity</strong></td><td>At historical rate</td><td>At historical rate</td></tr><tr><td><strong>Gains/Losses</strong></td><td>Translation adjustment → <strong>OCI</strong></td><td>Remeasurement gain/loss → <strong>Net Income</strong></td></tr></tbody></table><p><strong>Memory Aid:</strong> Current Rate = OCI (Cushioned). Temporal = Net Income (Hits earnings directly).</p><p><strong>Monetary vs Non-Monetary Assets:</strong></p><ul><li>Monetary: Cash, AR, AP, Notes Payable (fixed dollar amounts).</li><li>Non-monetary: Inventory, PPE, Prepaid expenses (not fixed dollar amounts).</li></ul>"
+        },
+        {
+            "title": "10. Special Issues – Inflation, Accounting Changes & Earnings Quality",
+            "content": "<h3>Effects of Changing Prices / Inflation</h3><ul><li>Inflation distorts historical cost financial statements.</li><li>FIFO inventory and depreciation on old assets are understated in real terms.</li><li>Real profitability may be lower than reported under historical cost.</li><li>Analysts adjust for inflation using price-level adjusted statements.</li></ul><h3>Impact of Changes in Accounting Treatment</h3><ul><li>Changes in accounting policies (e.g., depreciation method, inventory method) affect comparability.</li><li>Analysts must restate prior periods to ensure apples-to-apples comparison.</li><li>Watch for: changes in revenue recognition timing, capitalization vs expensing decisions.</li></ul><h3>Earnings Quality</h3><p>High-quality earnings are:</p><ul><li><strong>Recurring:</strong> From core operations, not one-time gains.</li><li><strong>Cash-backed:</strong> Supported by operating cash flow (CFO ≈ Net Income).</li><li><strong>Conservative:</strong> Not inflated by aggressive accounting choices.</li><li><strong>Consistent:</strong> Same accounting policies applied period to period.</li></ul><p><strong>Red Flags for Low Earnings Quality:</strong></p><ul><li>Net Income >> CFO (accruals not converting to cash).</li><li>Frequent changes in accounting estimates.</li><li>Large non-recurring gains boosting income.</li><li>Channel stuffing (inflating revenue near period end).</li><li>Capitalizing expenses that should be expensed.</li></ul><h3>Accounting vs Economic Value</h3><ul><li>Book value (accounting) uses historical cost.</li><li>Economic value reflects future cash flows discounted at cost of capital.</li><li>Market value (stock price) reflects investor expectations of future economic value.</li></ul>"
+        }
+    ],
+    "formulas": [
+        {
+            "name": "Horizontal Analysis Change %",
+            "formula": "(Current Year – Base Year) / Base Year × 100%"
+        },
+        {
+            "name": "Current Ratio",
+            "formula": "Current Assets / Current Liabilities"
+        },
+        {
+            "name": "Quick Ratio",
+            "formula": "(Cash + Marketable Securities + Net AR) / Current Liabilities"
+        },
+        {
+            "name": "Cash Ratio",
+            "formula": "Cash + Marketable Securities / Current Liabilities"
+        },
+        {
+            "name": "Debt-to-Equity",
+            "formula": "Total Liabilities / Total Equity"
+        },
+        {
+            "name": "Times Interest Earned (TIE)",
+            "formula": "EBIT / Interest Expense"
+        },
+        {
+            "name": "Inventory Turnover",
+            "formula": "COGS / Average Inventory"
+        },
+        {
+            "name": "Days Inventory Outstanding",
+            "formula": "365 / Inventory Turnover"
+        },
+        {
+            "name": "AR Turnover",
+            "formula": "Net Credit Sales / Average Accounts Receivable"
+        },
+        {
+            "name": "Days Sales Outstanding (DSO)",
+            "formula": "365 / AR Turnover"
+        },
+        {
+            "name": "AP Turnover",
+            "formula": "COGS / Average Accounts Payable"
+        },
+        {
+            "name": "Days Payables Outstanding (DPO)",
+            "formula": "365 / AP Turnover"
+        },
+        {
+            "name": "Cash Conversion Cycle",
+            "formula": "Days Inventory + DSO – DPO"
+        },
+        {
+            "name": "Asset Turnover",
+            "formula": "Net Sales / Average Total Assets"
+        },
+        {
+            "name": "Gross Profit Margin",
+            "formula": "Gross Profit / Net Sales"
+        },
+        {
+            "name": "Net Profit Margin",
+            "formula": "Net Income / Net Sales"
+        },
+        {
+            "name": "ROA",
+            "formula": "Net Income / Average Total Assets"
+        },
+        {
+            "name": "ROE",
+            "formula": "Net Income / Average Shareholders' Equity"
+        },
+        {
+            "name": "DuPont ROE (3-factor)",
+            "formula": "Net Profit Margin × Asset Turnover × Equity Multiplier"
+        },
+        {
+            "name": "Equity Multiplier",
+            "formula": "Total Assets / Total Equity"
+        },
+        {
+            "name": "Basic EPS",
+            "formula": "(Net Income – Preferred Dividends) / Weighted Average Common Shares"
+        },
+        {
+            "name": "P/E Ratio",
+            "formula": "Market Price per Share / EPS"
+        },
+        {
+            "name": "Dividend Yield",
+            "formula": "Dividends per Share / Market Price per Share"
+        },
+        {
+            "name": "Dividend Payout Ratio",
+            "formula": "Dividends per Share / EPS"
+        },
+        {
+            "name": "Book Value per Share",
+            "formula": "(Total Equity – Preferred Equity) / Common Shares Outstanding"
+        }
+    ],
+    "mistakes": [
+        "Using **end-of-year** balance sheet figures instead of **averages** for ratios that mix income statement and balance sheet data (ROA, Turnover ratios).",
+        "Forgetting to subtract **Preferred Dividends** from Net Income when calculating Basic EPS or ROE for common shareholders.",
+        "Confusing **Current Rate Method** (OCI) with **Temporal Method** (Net Income) for FX translation.",
+        "Thinking a **lower DSO** is bad. Lower DSO means collecting cash faster — it is good.",
+        "Assuming **higher ROE** always means better performance. ROE can rise due to increased leverage even when operations deteriorate.",
+        "Using **Sales** instead of **COGS** as the numerator for Inventory Turnover (COGS is correct).",
+        "Confusing **Diluted EPS** with Basic EPS. Diluted EPS is always ≤ Basic EPS.",
+        "Thinking **earnings quality** is only about fraud. It also includes aggressive-but-legal accounting choices."
+    ],
+    "quiz": [
+        {
+            "question": "Which ratio measures the ability of a firm to meet its short-term obligations with its most liquid assets?",
+            "options": [
+                "Current Ratio",
+                "Quick Ratio",
+                "Debt-to-Equity Ratio",
+                "Asset Turnover"
+            ],
+            "answer": 1,
+            "explanation": "The Quick Ratio excludes inventory and prepaids, using only Cash, Marketable Securities, and AR — the most liquid assets."
+        },
+        {
+            "question": "If a company's Asset Turnover increases while Profit Margin and Financial Leverage remain constant, ROE will:",
+            "options": [
+                "Increase",
+                "Decrease",
+                "Remain unchanged",
+                "Cannot be determined"
+            ],
+            "answer": 0,
+            "explanation": "DuPont: ROE = Margin × Turnover × Leverage. An increase in any component increases ROE."
+        },
+        {
+            "question": "Under the Current Rate Method of foreign currency translation, translation gains/losses are reported in:",
+            "options": [
+                "Net Income",
+                "Retained Earnings",
+                "Other Comprehensive Income (OCI)",
+                "Cash Flow Statement"
+            ],
+            "answer": 2,
+            "explanation": "Current Rate Method (independent subsidiary) → translation adjustment goes to OCI (equity)."
+        },
+        {
+            "question": "The Cash Conversion Cycle equals:",
+            "options": [
+                "DSO + DPO",
+                "Days Inventory + DSO + DPO",
+                "Days Inventory + DSO – DPO",
+                "DSO – Days Inventory"
+            ],
+            "answer": 2,
+            "explanation": "CCC = Days Inventory Held + Days Sales Outstanding – Days Payables Outstanding."
+        },
+        {
+            "question": "In vertical analysis of an income statement, each item is expressed as a percentage of:",
+            "options": [
+                "Total Assets",
+                "Net Sales",
+                "Gross Profit",
+                "Operating Income"
+            ],
+            "answer": 1,
+            "explanation": "In vertical analysis of the income statement, Net Sales is the base (100%) and all items are expressed as a % of it."
+        }
+    ],
+    "essay": {
+        "question": "Analyst A claims that increasing financial leverage is always beneficial because it boosts ROE. 1) Explain how leverage impacts ROE using the DuPont framework. 2) Discuss the risks associated with this strategy. 3) Describe two red flags that would indicate low earnings quality.",
+        "modelAnswer": "<p><strong>1. Leverage and ROE (DuPont):</strong><br>ROE = Net Profit Margin × Asset Turnover × Equity Multiplier. Increasing debt raises the Equity Multiplier (Assets/Equity). If ROA > after-tax cost of debt, leverage magnifies returns to shareholders.</p><p><strong>2. Associated Risk:</strong><br>Interest payments are fixed obligations. In a downturn, if ROA falls below the cost of debt, leverage works in reverse — drastically reducing ROE and potentially leading to insolvency. Higher leverage also increases the TIE risk (EBIT may not cover interest).</p><p><strong>3. Earnings Quality Red Flags:</strong><br>(a) Net Income significantly exceeds CFO — earnings are not converting to cash, suggesting aggressive accruals.<br>(b) Frequent changes in accounting estimates or policies — may indicate management is manipulating reported results.</p>"
+    },
+    "summary": "Financial Statement Analysis (20%) requires mastery of comparative techniques (horizontal, vertical, trend), all five ratio categories, the DuPont framework, profitability decomposition, and special issues (FX translation, inflation, earnings quality). Success means interpreting what ratios reveal about business health — not just calculating them.",
+    "test": [
+        {
+            "id": "p2s1_1",
+            "question": "Horizontal analysis compares financial data:",
+            "options": [
+                "Across companies of the same size",
+                "Across multiple time periods",
+                "As a percentage of total assets",
+                "As a percentage of net sales"
+            ],
+            "answer": 1,
+            "explanation": "Horizontal analysis tracks changes in financial data over multiple periods to identify trends."
+        },
+        {
+            "id": "p2s1_2",
+            "question": "In horizontal analysis, the base year figure is used as the:",
+            "options": [
+                "Numerator",
+                "Denominator",
+                "Average",
+                "Index"
+            ],
+            "answer": 1,
+            "explanation": "% Change = (Current – Base) / Base. The base year is always the denominator."
+        },
+        {
+            "id": "p2s1_3",
+            "question": "Vertical analysis of the income statement expresses each item as a % of:",
+            "options": [
+                "Total Assets",
+                "Total Equity",
+                "Net Sales",
+                "Gross Profit"
+            ],
+            "answer": 2,
+            "explanation": "In income statement vertical analysis, Net Sales = 100% base."
+        },
+        {
+            "id": "p2s1_4",
+            "question": "Vertical analysis of the balance sheet expresses each item as a % of:",
+            "options": [
+                "Net Sales",
+                "Total Equity",
+                "Total Assets",
+                "Current Assets"
+            ],
+            "answer": 2,
+            "explanation": "In balance sheet vertical analysis, Total Assets = 100% base."
+        },
+        {
+            "id": "p2s1_5",
+            "question": "Common-size financial statements are most useful for:",
+            "options": [
+                "Calculating tax liability",
+                "Comparing companies of different sizes",
+                "Preparing cash budgets",
+                "Determining dividend policy"
+            ],
+            "answer": 1,
+            "explanation": "Common-size statements remove size differences, enabling meaningful cross-company comparison."
+        },
+        {
+            "id": "p2s1_6",
+            "question": "If revenue was $400K in Year 1 and $500K in Year 2, the horizontal analysis % change is:",
+            "options": [
+                "20%",
+                "25%",
+                "80%",
+                "125%"
+            ],
+            "answer": 1,
+            "explanation": "($500K – $400K) / $400K = $100K / $400K = 25%."
+        },
+        {
+            "id": "p2s1_7",
+            "question": "Trend analysis uses a base year index of:",
+            "options": [
+                "0",
+                "50",
+                "100",
+                "1000"
+            ],
+            "answer": 2,
+            "explanation": "In trend analysis, the base year = 100. Subsequent years are expressed as an index relative to 100."
+        },
+        {
+            "id": "p2s1_8",
+            "question": "The Current Ratio formula is:",
+            "options": [
+                "Cash / CL",
+                "CA / CL",
+                "(Cash + AR) / CL",
+                "CA / Total Liabilities"
+            ],
+            "answer": 1,
+            "explanation": "Current Ratio = Current Assets / Current Liabilities."
+        },
+        {
+            "id": "p2s1_9",
+            "question": "The Quick Ratio excludes which current asset?",
+            "options": [
+                "Cash",
+                "Accounts Receivable",
+                "Inventory and Prepaids",
+                "Marketable Securities"
+            ],
+            "answer": 2,
+            "explanation": "The Quick Ratio excludes inventory and prepaid expenses — the least liquid current assets."
+        },
+        {
+            "id": "p2s1_10",
+            "question": "The most conservative liquidity ratio is:",
+            "options": [
+                "Current Ratio",
+                "Quick Ratio",
+                "Cash Ratio",
+                "Net Working Capital"
+            ],
+            "answer": 2,
+            "explanation": "Cash Ratio = (Cash + Mkt Securities) / CL. Uses only the most liquid assets."
+        },
+        {
+            "id": "p2s1_11",
+            "question": "Net Working Capital equals:",
+            "options": [
+                "CA / CL",
+                "CA – CL",
+                "Total Assets – Total Liabilities",
+                "Cash – CL"
+            ],
+            "answer": 1,
+            "explanation": "NWC = Current Assets – Current Liabilities. A positive NWC indicates liquidity buffer."
+        },
+        {
+            "id": "p2s1_12",
+            "question": "A Current Ratio of 0.8 indicates:",
+            "options": [
+                "Strong liquidity",
+                "Current liabilities exceed current assets",
+                "High profitability",
+                "Efficient asset use"
+            ],
+            "answer": 1,
+            "explanation": "CR < 1 means CL > CA — the company may struggle to meet short-term obligations."
+        },
+        {
+            "id": "p2s1_13",
+            "question": "A high Current Ratio may indicate:",
+            "options": [
+                "Excellent liquidity always",
+                "Possible excess inventory or slow collections",
+                "High profitability",
+                "Low leverage"
+            ],
+            "answer": 1,
+            "explanation": "High CR could mean obsolete inventory or uncollected AR — not necessarily good liquidity."
+        },
+        {
+            "id": "p2s1_14",
+            "question": "Times Interest Earned (TIE) is calculated as:",
+            "options": [
+                "Net Income / Interest",
+                "EBIT / Interest Expense",
+                "CFO / Interest",
+                "Sales / Interest"
+            ],
+            "answer": 1,
+            "explanation": "TIE = EBIT / Interest Expense. Measures how many times operating income covers interest."
+        },
+        {
+            "id": "p2s1_15",
+            "question": "A TIE ratio below 1.0 indicates:",
+            "options": [
+                "Strong solvency",
+                "The company cannot cover interest from operations",
+                "High profitability",
+                "Efficient asset use"
+            ],
+            "answer": 1,
+            "explanation": "TIE < 1 means EBIT < Interest Expense — the company is burning cash to pay lenders."
+        },
+        {
+            "id": "p2s1_16",
+            "question": "Debt-to-Equity ratio equals:",
+            "options": [
+                "Total Equity / Total Liabilities",
+                "Total Liabilities / Total Equity",
+                "Long-term Debt / Equity",
+                "Net Debt / EBITDA"
+            ],
+            "answer": 1,
+            "explanation": "D/E = Total Liabilities / Total Equity. Measures financial leverage."
+        },
+        {
+            "id": "p2s1_17",
+            "question": "The Equity Multiplier equals:",
+            "options": [
+                "Equity / Assets",
+                "Assets / Equity",
+                "Debt / Equity",
+                "Net Income / Equity"
+            ],
+            "answer": 1,
+            "explanation": "Equity Multiplier = Total Assets / Total Equity. Used in DuPont analysis."
+        },
+        {
+            "id": "p2s1_18",
+            "question": "Inventory Turnover is calculated using:",
+            "options": [
+                "Sales / Ending Inventory",
+                "COGS / Average Inventory",
+                "Sales / Average Inventory",
+                "COGS / Ending Inventory"
+            ],
+            "answer": 1,
+            "explanation": "Inventory Turnover = COGS / Average Inventory. COGS (not Sales) is the correct numerator."
+        },
+        {
+            "id": "p2s1_19",
+            "question": "Days Inventory Outstanding (DIO) equals:",
+            "options": [
+                "Inventory Turnover × 365",
+                "365 / Inventory Turnover",
+                "COGS / 365",
+                "Inventory / Sales"
+            ],
+            "answer": 1,
+            "explanation": "DIO = 365 / Inventory Turnover. Measures average days to sell inventory."
+        },
+        {
+            "id": "p2s1_20",
+            "question": "AR Turnover is calculated as:",
+            "options": [
+                "Total Sales / Ending AR",
+                "Net Credit Sales / Average AR",
+                "Cash Sales / AR",
+                "Sales / Total Assets"
+            ],
+            "answer": 1,
+            "explanation": "AR Turnover = Net Credit Sales / Average AR. Measures collection efficiency."
+        },
+        {
+            "id": "p2s1_21",
+            "question": "Days Sales Outstanding (DSO) measures:",
+            "options": [
+                "Days to sell inventory",
+                "Average days to collect receivables",
+                "Days to pay suppliers",
+                "Days cash is held"
+            ],
+            "answer": 1,
+            "explanation": "DSO = 365 / AR Turnover. Lower DSO = faster collection = better."
+        },
+        {
+            "id": "p2s1_22",
+            "question": "Days Payables Outstanding (DPO) measures:",
+            "options": [
+                "Days to collect AR",
+                "Days to sell inventory",
+                "Average days to pay suppliers",
+                "Days cash is idle"
+            ],
+            "answer": 2,
+            "explanation": "DPO = 365 / AP Turnover. Higher DPO = company takes longer to pay suppliers (favorable for cash flow)."
+        },
+        {
+            "id": "p2s1_23",
+            "question": "The Cash Conversion Cycle (CCC) equals:",
+            "options": [
+                "DIO + DSO + DPO",
+                "DIO + DSO – DPO",
+                "DSO – DIO",
+                "DPO – DIO – DSO"
+            ],
+            "answer": 1,
+            "explanation": "CCC = Days Inventory + Days Sales Outstanding – Days Payables Outstanding."
+        },
+        {
+            "id": "p2s1_24",
+            "question": "A negative Cash Conversion Cycle means:",
+            "options": [
+                "The company is insolvent",
+                "Suppliers finance the company's operations",
+                "The company has no inventory",
+                "Cash flow is negative"
+            ],
+            "answer": 1,
+            "explanation": "Negative CCC (e.g., Amazon) means the company collects cash before paying suppliers — suppliers finance operations."
+        },
+        {
+            "id": "p2s1_25",
+            "question": "Asset Turnover measures:",
+            "options": [
+                "Profit per dollar of assets",
+                "Revenue generated per dollar of assets",
+                "Assets per dollar of equity",
+                "Cash per dollar of assets"
+            ],
+            "answer": 1,
+            "explanation": "Asset Turnover = Net Sales / Average Total Assets. Measures asset productivity."
+        },
+        {
+            "id": "p2s1_26",
+            "question": "Gross Profit Margin equals:",
+            "options": [
+                "Net Income / Sales",
+                "EBIT / Sales",
+                "Gross Profit / Net Sales",
+                "Operating Income / Sales"
+            ],
+            "answer": 2,
+            "explanation": "Gross Profit Margin = Gross Profit / Net Sales. Measures pricing power and production efficiency."
+        },
+        {
+            "id": "p2s1_27",
+            "question": "Operating Profit Margin uses which income figure?",
+            "options": [
+                "Net Income",
+                "Gross Profit",
+                "EBIT",
+                "EBITDA"
+            ],
+            "answer": 2,
+            "explanation": "Operating Profit Margin = EBIT / Net Sales. Excludes interest and taxes."
+        },
+        {
+            "id": "p2s1_28",
+            "question": "EBITDA Margin is useful because it:",
+            "options": [
+                "Includes all costs",
+                "Approximates cash-generating ability before financing and taxes",
+                "Is required by GAAP",
+                "Excludes revenue"
+            ],
+            "answer": 1,
+            "explanation": "EBITDA adds back D&A to operating income, approximating operating cash flow before financing/taxes."
+        },
+        {
+            "id": "p2s1_29",
+            "question": "ROA equals:",
+            "options": [
+                "Net Income / Equity",
+                "Net Income / Average Total Assets",
+                "EBIT / Assets",
+                "Sales / Assets"
+            ],
+            "answer": 1,
+            "explanation": "ROA = Net Income / Average Total Assets. Measures return on all assets regardless of financing."
+        },
+        {
+            "id": "p2s1_30",
+            "question": "ROE equals:",
+            "options": [
+                "Net Income / Total Assets",
+                "Net Income / Average Shareholders' Equity",
+                "EBIT / Equity",
+                "Sales / Equity"
+            ],
+            "answer": 1,
+            "explanation": "ROE = Net Income / Average Shareholders' Equity. The primary return metric for common shareholders."
+        },
+        {
+            "id": "p2s1_31",
+            "question": "The 3-factor DuPont formula for ROE is:",
+            "options": [
+                "ROA × Leverage",
+                "Margin × Turnover × Equity Multiplier",
+                "EPS × P/E × Shares",
+                "Gross Margin × Asset Turnover"
+            ],
+            "answer": 1,
+            "explanation": "ROE = Net Profit Margin × Asset Turnover × Equity Multiplier (Assets/Equity)."
+        },
+        {
+            "id": "p2s1_32",
+            "question": "In DuPont analysis, if ROE rises only because the Equity Multiplier increased, this indicates:",
+            "options": [
+                "Better profitability",
+                "More efficient asset use",
+                "Increased financial leverage (risk)",
+                "Lower taxes"
+            ],
+            "answer": 2,
+            "explanation": "A rising Equity Multiplier means more debt relative to equity — higher financial risk, not better operations."
+        },
+        {
+            "id": "p2s1_33",
+            "question": "The 5-factor DuPont model adds which two components?",
+            "options": [
+                "Gross margin and EBITDA",
+                "Tax burden and interest burden",
+                "Dividend yield and payout ratio",
+                "Asset turnover and fixed asset turnover"
+            ],
+            "answer": 1,
+            "explanation": "The 5-factor model splits the net profit margin into: Tax Burden (NI/EBT) × Interest Burden (EBT/EBIT) × EBIT Margin."
+        },
+        {
+            "id": "p2s1_34",
+            "question": "Basic EPS equals:",
+            "options": [
+                "Net Income / Total Shares",
+                "(Net Income – Preferred Dividends) / Weighted Avg Common Shares",
+                "Net Income / Diluted Shares",
+                "EBT / Shares"
+            ],
+            "answer": 1,
+            "explanation": "Basic EPS = (Net Income – Preferred Dividends) / Weighted Average Common Shares Outstanding."
+        },
+        {
+            "id": "p2s1_35",
+            "question": "Diluted EPS is always:",
+            "options": [
+                "Greater than Basic EPS",
+                "Equal to or less than Basic EPS",
+                "Equal to Basic EPS",
+                "Greater than ROE"
+            ],
+            "answer": 1,
+            "explanation": "Diluted EPS includes the effect of convertible securities and options, which increase shares — reducing EPS."
+        },
+        {
+            "id": "p2s1_36",
+            "question": "The P/E ratio equals:",
+            "options": [
+                "EPS / Market Price",
+                "Market Price / EPS",
+                "Dividends / EPS",
+                "Net Income / Market Cap"
+            ],
+            "answer": 1,
+            "explanation": "P/E = Market Price per Share / EPS. Shows how much investors pay per $1 of earnings."
+        },
+        {
+            "id": "p2s1_37",
+            "question": "A high P/E ratio typically indicates:",
+            "options": [
+                "Low growth expectations",
+                "High growth expectations or overvaluation",
+                "Low risk",
+                "High dividends"
+            ],
+            "answer": 1,
+            "explanation": "High P/E = investors expect high future growth OR the stock may be overvalued."
+        },
+        {
+            "id": "p2s1_38",
+            "question": "Dividend Yield equals:",
+            "options": [
+                "EPS / Market Price",
+                "Dividends per Share / Market Price",
+                "Dividends / Net Income",
+                "Market Price / Dividends"
+            ],
+            "answer": 1,
+            "explanation": "Dividend Yield = Dividends per Share / Market Price. Measures income return on investment."
+        },
+        {
+            "id": "p2s1_39",
+            "question": "Dividend Payout Ratio equals:",
+            "options": [
+                "Dividends / Assets",
+                "Dividends per Share / EPS",
+                "Net Income / Dividends",
+                "Dividends / Sales"
+            ],
+            "answer": 1,
+            "explanation": "Payout Ratio = Dividends per Share / EPS. Shows what % of earnings is paid as dividends."
+        },
+        {
+            "id": "p2s1_40",
+            "question": "Market-to-Book ratio greater than 1 indicates:",
+            "options": [
+                "Market values the firm below accounting value",
+                "Market values the firm above accounting value",
+                "The firm is bankrupt",
+                "Book value exceeds market cap"
+            ],
+            "answer": 1,
+            "explanation": "M/B > 1 means investors believe the firm is worth more than its accounting (book) value."
+        },
+        {
+            "id": "p2s1_41",
+            "question": "Book Value per Share equals:",
+            "options": [
+                "Market Cap / Shares",
+                "(Total Equity – Preferred Equity) / Common Shares",
+                "Net Income / Shares",
+                "Assets / Shares"
+            ],
+            "answer": 1,
+            "explanation": "Book Value per Share = (Total Equity – Preferred Equity) / Common Shares Outstanding."
+        },
+        {
+            "id": "p2s1_42",
+            "question": "The Operating Cycle equals:",
+            "options": [
+                "DIO + DSO – DPO",
+                "DIO + DSO",
+                "DSO – DPO",
+                "DIO – DPO"
+            ],
+            "answer": 1,
+            "explanation": "Operating Cycle = Days Inventory + DSO. It excludes payables (unlike CCC)."
+        },
+        {
+            "id": "p2s1_43",
+            "question": "Which activity ratio uses COGS in the numerator?",
+            "options": [
+                "AR Turnover",
+                "Asset Turnover",
+                "Inventory Turnover",
+                "Fixed Asset Turnover"
+            ],
+            "answer": 2,
+            "explanation": "Inventory Turnover = COGS / Average Inventory. COGS is correct (not Sales)."
+        },
+        {
+            "id": "p2s1_44",
+            "question": "If Inventory Turnover increases, Days Inventory Outstanding will:",
+            "options": [
+                "Increase",
+                "Decrease",
+                "Stay the same",
+                "Double"
+            ],
+            "answer": 1,
+            "explanation": "DIO = 365 / Inventory Turnover. Higher turnover → fewer days to sell inventory."
+        },
+        {
+            "id": "p2s1_45",
+            "question": "A company with DSO of 45 days and DPO of 60 days has a favorable position because:",
+            "options": [
+                "It collects faster than it pays",
+                "It pays faster than it collects",
+                "It has no inventory",
+                "Its CCC is negative"
+            ],
+            "answer": 0,
+            "explanation": "Collecting in 45 days but paying in 60 days means suppliers are financing operations — favorable cash position."
+        },
+        {
+            "id": "p2s1_46",
+            "question": "Under the Temporal Method, non-monetary assets are translated at:",
+            "options": [
+                "Current spot rate",
+                "Average rate",
+                "Historical rate",
+                "Forward rate"
+            ],
+            "answer": 2,
+            "explanation": "Temporal Method: Non-monetary assets (inventory, PPE) use historical exchange rates."
+        },
+        {
+            "id": "p2s1_47",
+            "question": "Under the Current Rate Method, all assets and liabilities are translated at:",
+            "options": [
+                "Historical rate",
+                "Average rate",
+                "Current spot rate",
+                "Forward rate"
+            ],
+            "answer": 2,
+            "explanation": "Current Rate Method translates all assets and liabilities at the current (closing) spot rate."
+        },
+        {
+            "id": "p2s1_48",
+            "question": "Remeasurement gains/losses under the Temporal Method are reported in:",
+            "options": [
+                "OCI",
+                "Retained Earnings",
+                "Net Income",
+                "Cash Flow Statement"
+            ],
+            "answer": 2,
+            "explanation": "Temporal Method (integrated subsidiary) → remeasurement gains/losses go directly to Net Income."
+        },
+        {
+            "id": "p2s1_49",
+            "question": "Translation adjustments under the Current Rate Method are reported in:",
+            "options": [
+                "Net Income",
+                "Retained Earnings",
+                "OCI (Cumulative Translation Adjustment)",
+                "Cash"
+            ],
+            "answer": 2,
+            "explanation": "Current Rate Method → translation adjustment accumulates in OCI as Cumulative Translation Adjustment (CTA)."
+        },
+        {
+            "id": "p2s1_50",
+            "question": "Which assets are classified as 'monetary' for Temporal Method purposes?",
+            "options": [
+                "Inventory and PPE",
+                "Prepaid expenses",
+                "Cash, AR, and AP",
+                "Goodwill"
+            ],
+            "answer": 2,
+            "explanation": "Monetary assets/liabilities have fixed dollar amounts: Cash, AR, AP, Notes Payable."
+        },
+        {
+            "id": "p2s1_51",
+            "question": "Revenue and expenses under the Current Rate Method are translated at:",
+            "options": [
+                "Current spot rate",
+                "Historical rate",
+                "Average rate for the period",
+                "Forward rate"
+            ],
+            "answer": 2,
+            "explanation": "Under the Current Rate Method, income statement items are translated at the average rate for the period."
+        },
+        {
+            "id": "p2s1_52",
+            "question": "High earnings quality is characterized by:",
+            "options": [
+                "Large one-time gains",
+                "Net income much higher than CFO",
+                "Recurring, cash-backed earnings",
+                "Frequent accounting policy changes"
+            ],
+            "answer": 2,
+            "explanation": "High quality earnings are recurring, supported by operating cash flow, and based on conservative accounting."
+        },
+        {
+            "id": "p2s1_53",
+            "question": "A red flag for low earnings quality is:",
+            "options": [
+                "CFO closely tracking Net Income",
+                "Consistent accounting policies",
+                "Net Income significantly exceeding CFO",
+                "Low leverage"
+            ],
+            "answer": 2,
+            "explanation": "When NI >> CFO, earnings are not converting to cash — suggesting aggressive accruals or manipulation."
+        },
+        {
+            "id": "p2s1_54",
+            "question": "Channel stuffing is an example of:",
+            "options": [
+                "Conservative revenue recognition",
+                "High earnings quality",
+                "Inflating revenue near period end",
+                "Proper matching principle"
+            ],
+            "answer": 2,
+            "explanation": "Channel stuffing involves pushing excess inventory to distributors to inflate reported revenue — low quality."
+        },
+        {
+            "id": "p2s1_55",
+            "question": "Capitalizing expenses that should be expensed results in:",
+            "options": [
+                "Lower assets",
+                "Higher current period income",
+                "Lower net income",
+                "No effect on earnings"
+            ],
+            "answer": 1,
+            "explanation": "Capitalizing costs defers expense recognition, inflating current period income — aggressive accounting."
+        },
+        {
+            "id": "p2s1_56",
+            "question": "Inflation distorts historical cost financial statements by:",
+            "options": [
+                "Overstating asset values",
+                "Understating depreciation and inventory costs in real terms",
+                "Increasing cash balances",
+                "Reducing leverage ratios"
+            ],
+            "answer": 1,
+            "explanation": "Inflation means old assets and FIFO inventory are understated in real (current) dollar terms."
+        },
+        {
+            "id": "p2s1_57",
+            "question": "When comparing two companies, a lower net profit margin may still be acceptable if:",
+            "options": [
+                "The company has higher leverage",
+                "The company has much higher asset turnover (e.g., retail)",
+                "The company pays more dividends",
+                "The company has lower revenue"
+            ],
+            "answer": 1,
+            "explanation": "High-volume, low-margin businesses (retail) compensate with high asset turnover — DuPont shows this."
+        },
+        {
+            "id": "p2s1_58",
+            "question": "Which ratio best measures a company's ability to generate cash to service debt?",
+            "options": [
+                "Current Ratio",
+                "Debt-to-Equity",
+                "Cash Flow Ratio (CFO/CL)",
+                "Gross Margin"
+            ],
+            "answer": 2,
+            "explanation": "Cash Flow Ratio = CFO / Current Liabilities. Uses actual cash generated, not accrual-based figures."
+        },
+        {
+            "id": "p2s1_59",
+            "question": "If AR grows faster than revenue, this may indicate:",
+            "options": [
+                "Improving collections",
+                "Collection problems or aggressive revenue recognition",
+                "Lower credit sales",
+                "Better liquidity"
+            ],
+            "answer": 1,
+            "explanation": "AR growing faster than revenue suggests customers are not paying promptly or revenue is being recognized too early."
+        },
+        {
+            "id": "p2s1_60",
+            "question": "If inventory grows faster than revenue, this may indicate:",
+            "options": [
+                "Strong demand",
+                "Demand slowdown or overproduction",
+                "Better efficiency",
+                "Lower COGS"
+            ],
+            "answer": 1,
+            "explanation": "Inventory growing faster than revenue suggests products are not selling — potential obsolescence risk."
+        },
+        {
+            "id": "p2s1_61",
+            "question": "The Debt-to-Assets ratio measures:",
+            "options": [
+                "How much equity finances assets",
+                "What % of assets are financed by creditors",
+                "Return on debt",
+                "Interest coverage"
+            ],
+            "answer": 1,
+            "explanation": "Debt-to-Assets = Total Debt / Total Assets. Shows the proportion of assets financed by debt."
+        },
+        {
+            "id": "p2s1_62",
+            "question": "A company with high operating leverage has:",
+            "options": [
+                "High variable costs",
+                "High fixed costs relative to total costs",
+                "Low debt",
+                "High inventory"
+            ],
+            "answer": 1,
+            "explanation": "High operating leverage = high fixed costs. Profits are more sensitive to revenue changes."
+        },
+        {
+            "id": "p2s1_63",
+            "question": "EBITDA stands for:",
+            "options": [
+                "Earnings Before Taxes and Depreciation Adjustments",
+                "Earnings Before Interest, Taxes, Depreciation, and Amortization",
+                "Estimated Basis of Total Debt Allocation",
+                "Earnings Before Income Tax and Dividends Accrued"
+            ],
+            "answer": 1,
+            "explanation": "EBITDA = Earnings Before Interest, Taxes, Depreciation, and Amortization."
+        },
+        {
+            "id": "p2s1_64",
+            "question": "Which ratio is most useful for comparing companies with different capital structures?",
+            "options": [
+                "ROE",
+                "Net Profit Margin",
+                "EBITDA Margin",
+                "EPS"
+            ],
+            "answer": 2,
+            "explanation": "EBITDA Margin excludes interest (financing) and D&A (accounting choices), enabling better cross-company comparison."
+        },
+        {
+            "id": "p2s1_65",
+            "question": "Fixed Asset Turnover measures:",
+            "options": [
+                "Return on fixed assets",
+                "Revenue generated per dollar of net fixed assets",
+                "Fixed assets as % of total assets",
+                "Depreciation efficiency"
+            ],
+            "answer": 1,
+            "explanation": "Fixed Asset Turnover = Net Sales / Average Net Fixed Assets. Measures efficiency of long-term asset use."
+        },
+        {
+            "id": "p2s1_66",
+            "question": "When calculating ROA, the denominator should be:",
+            "options": [
+                "Ending total assets",
+                "Beginning total assets",
+                "Average total assets",
+                "Net fixed assets"
+            ],
+            "answer": 2,
+            "explanation": "ROA uses Average Total Assets because net income is earned over the period, not at a point in time."
+        },
+        {
+            "id": "p2s1_67",
+            "question": "Earnings Yield equals:",
+            "options": [
+                "EPS / Market Price",
+                "Market Price / EPS",
+                "Dividends / EPS",
+                "Net Income / Book Value"
+            ],
+            "answer": 0,
+            "explanation": "Earnings Yield = EPS / Market Price. It is the inverse of the P/E ratio."
+        },
+        {
+            "id": "p2s1_68",
+            "question": "A company has Net Income = $200K, Preferred Dividends = $20K, Common Shares = 90K. Basic EPS is:",
+            "options": [
+                "$2.00",
+                "$2.22",
+                "$2.44",
+                "$1.80"
+            ],
+            "answer": 1,
+            "explanation": "Basic EPS = ($200K – $20K) / 90K = $180K / 90K = $2.00. Wait — $180K/90K = $2.00. Answer is A."
+        },
+        {
+            "id": "p2s1_69",
+            "question": "Which of the following would DECREASE the Current Ratio?",
+            "options": [
+                "Collecting accounts receivable",
+                "Paying a current liability with cash",
+                "Purchasing inventory on credit",
+                "Issuing long-term debt for cash"
+            ],
+            "answer": 2,
+            "explanation": "Buying inventory on credit increases both CA (inventory) and CL (AP) equally — but if CR > 1, this decreases it."
+        },
+        {
+            "id": "p2s1_70",
+            "question": "Which of the following would INCREASE the Quick Ratio?",
+            "options": [
+                "Purchasing inventory on credit",
+                "Collecting accounts receivable in cash",
+                "Paying off a long-term loan",
+                "Declaring dividends"
+            ],
+            "answer": 1,
+            "explanation": "Collecting AR converts a quick asset (AR) to cash — no change in numerator, but if it reduces CL, QR rises. Actually collecting AR doesn't change the QR numerator total (AR → Cash, both are quick assets). Paying off current liabilities with quick assets increases QR."
+        },
+        {
+            "id": "p2s1_71",
+            "question": "A company's ROE is 15%, ROA is 10%. The Equity Multiplier is approximately:",
+            "options": [
+                "0.67",
+                "1.5",
+                "25%",
+                "5%"
+            ],
+            "answer": 1,
+            "explanation": "ROE = ROA × Equity Multiplier → 15% = 10% × EM → EM = 1.5."
+        },
+        {
+            "id": "p2s1_72",
+            "question": "If a company's Net Profit Margin is 5%, Asset Turnover is 2.0, and Equity Multiplier is 3.0, ROE is:",
+            "options": [
+                "10%",
+                "30%",
+                "15%",
+                "6%"
+            ],
+            "answer": 1,
+            "explanation": "ROE = 5% × 2.0 × 3.0 = 30%."
+        },
+        {
+            "id": "p2s1_73",
+            "question": "Declining gross margin over time most likely indicates:",
+            "options": [
+                "Improving efficiency",
+                "Rising input costs or pricing pressure",
+                "Better inventory management",
+                "Lower leverage"
+            ],
+            "answer": 1,
+            "explanation": "Declining gross margin = COGS rising faster than revenue → input cost increases or competitive pricing pressure."
+        },
+        {
+            "id": "p2s1_74",
+            "question": "SG&A as a % of sales increasing over time suggests:",
+            "options": [
+                "Better cost control",
+                "Potential inefficiency in overhead management",
+                "Higher gross margin",
+                "Lower leverage"
+            ],
+            "answer": 1,
+            "explanation": "Rising SG&A % means overhead is growing faster than revenue — potential inefficiency."
+        },
+        {
+            "id": "p2s1_75",
+            "question": "The functional currency of a foreign subsidiary is determined by:",
+            "options": [
+                "The parent company's choice",
+                "The currency of the primary economic environment where the subsidiary operates",
+                "The currency of the country where the parent is headquartered",
+                "The currency used for tax reporting"
+            ],
+            "answer": 1,
+            "explanation": "The functional currency is the currency of the primary economic environment where the subsidiary operates."
+        },
+        {
+            "id": "p2s1_76",
+            "question": "Under the Temporal Method, COGS is translated at:",
+            "options": [
+                "Current spot rate",
+                "Average rate",
+                "Historical rate (rate when inventory was purchased)",
+                "Forward rate"
+            ],
+            "answer": 2,
+            "explanation": "Temporal Method: COGS is translated at the historical rate (when the inventory was acquired)."
+        },
+        {
+            "id": "p2s1_77",
+            "question": "A company's Inventory Turnover is 6. Its Days Inventory Outstanding is:",
+            "options": [
+                "6 days",
+                "60.8 days",
+                "73 days",
+                "365 days"
+            ],
+            "answer": 1,
+            "explanation": "DIO = 365 / 6 = 60.8 days."
+        },
+        {
+            "id": "p2s1_78",
+            "question": "A company's DSO is 30 days and DPO is 45 days. Its operating cycle (DIO = 40 days) CCC is:",
+            "options": [
+                "25 days",
+                "115 days",
+                "70 days",
+                "85 days"
+            ],
+            "answer": 0,
+            "explanation": "CCC = DIO + DSO – DPO = 40 + 30 – 45 = 25 days."
+        },
+        {
+            "id": "p2s1_79",
+            "question": "Which of the following is NOT a characteristic of high earnings quality?",
+            "options": [
+                "Recurring revenues",
+                "CFO closely tracking net income",
+                "Large non-recurring gains",
+                "Consistent accounting policies"
+            ],
+            "answer": 2,
+            "explanation": "Large non-recurring gains are a sign of LOW earnings quality — they are not sustainable."
+        },
+        {
+            "id": "p2s1_80",
+            "question": "Book value per share would DECREASE if:",
+            "options": [
+                "Net income increases",
+                "The company issues new shares at a premium",
+                "The company repurchases shares above book value",
+                "Retained earnings increase"
+            ],
+            "answer": 2,
+            "explanation": "Repurchasing shares above book value reduces total equity more than it reduces share count, lowering BVPS."
+        },
+        {
+            "id": "p2s1_81",
+            "question": "Which ratio is most relevant for a creditor evaluating long-term solvency?",
+            "options": [
+                "Current Ratio",
+                "Quick Ratio",
+                "Times Interest Earned",
+                "Gross Margin"
+            ],
+            "answer": 2,
+            "explanation": "TIE measures how well EBIT covers interest — directly relevant to long-term debt service ability."
+        },
+        {
+            "id": "p2s1_82",
+            "question": "A company with a high dividend payout ratio is likely:",
+            "options": [
+                "A high-growth company reinvesting profits",
+                "A mature company returning cash to shareholders",
+                "A company with low earnings",
+                "A company with high leverage"
+            ],
+            "answer": 1,
+            "explanation": "Mature companies with stable earnings tend to pay high dividends; growth companies retain earnings."
+        },
+        {
+            "id": "p2s1_83",
+            "question": "Return on Capital Employed (ROCE) uses which income figure?",
+            "options": [
+                "Net Income",
+                "EBT",
+                "EBIT",
+                "Gross Profit"
+            ],
+            "answer": 2,
+            "explanation": "ROCE = EBIT / Capital Employed. Uses EBIT to measure return before financing costs."
+        },
+        {
+            "id": "p2s1_84",
+            "question": "Capital Employed in ROCE equals:",
+            "options": [
+                "Total Assets",
+                "Total Assets – Current Liabilities",
+                "Total Equity",
+                "Long-term Debt only"
+            ],
+            "answer": 1,
+            "explanation": "Capital Employed = Total Assets – Current Liabilities (= Long-term Debt + Equity)."
+        },
+        {
+            "id": "p2s1_85",
+            "question": "Frequent changes in accounting estimates are a sign of:",
+            "options": [
+                "High earnings quality",
+                "Conservative management",
+                "Potential earnings manipulation",
+                "Strong internal controls"
+            ],
+            "answer": 2,
+            "explanation": "Frequent changes in estimates (useful life, bad debt %, warranty %) can be used to manage reported earnings."
+        },
+        {
+            "id": "p2s1_86",
+            "question": "Which method of foreign currency translation is used when the subsidiary's functional currency equals the parent's reporting currency?",
+            "options": [
+                "Current Rate Method",
+                "Temporal Method",
+                "Equity Method",
+                "Proportionate Method"
+            ],
+            "answer": 1,
+            "explanation": "Temporal Method (Remeasurement) is used when the subsidiary's functional currency = parent's reporting currency."
+        },
+        {
+            "id": "p2s1_87",
+            "question": "Under the Current Rate Method, equity accounts are translated at:",
+            "options": [
+                "Current spot rate",
+                "Average rate",
+                "Historical rate",
+                "Forward rate"
+            ],
+            "answer": 2,
+            "explanation": "Equity accounts (common stock, APIC) are translated at historical rates under the Current Rate Method."
+        },
+        {
+            "id": "p2s1_88",
+            "question": "A company's P/E ratio is 20 and EPS is $3. The market price per share is:",
+            "options": [
+                "$6.67",
+                "$23",
+                "$60",
+                "$17"
+            ],
+            "answer": 2,
+            "explanation": "Market Price = P/E × EPS = 20 × $3 = $60."
+        },
+        {
+            "id": "p2s1_89",
+            "question": "Which of the following would improve a company's Asset Turnover?",
+            "options": [
+                "Increasing assets while holding sales constant",
+                "Increasing sales while holding assets constant",
+                "Increasing net income",
+                "Increasing leverage"
+            ],
+            "answer": 1,
+            "explanation": "Asset Turnover = Sales / Assets. Increasing sales with the same asset base improves turnover."
+        },
+        {
+            "id": "p2s1_90",
+            "question": "The relationship between revenue and receivables is important because:",
+            "options": [
+                "It determines tax liability",
+                "It reveals collection efficiency and potential revenue quality issues",
+                "It calculates gross margin",
+                "It measures leverage"
+            ],
+            "answer": 1,
+            "explanation": "If AR grows faster than revenue, it may signal collection problems or premature revenue recognition."
+        },
+        {
+            "id": "p2s1_91",
+            "question": "Which of the following is a market (valuation) ratio?",
+            "options": [
+                "Current Ratio",
+                "Inventory Turnover",
+                "Price-to-Earnings (P/E)",
+                "Debt-to-Equity"
+            ],
+            "answer": 2,
+            "explanation": "P/E is a market ratio — it relates market price to earnings per share."
+        },
+        {
+            "id": "p2s1_92",
+            "question": "A company has Total Assets = $1M, Total Equity = $400K. The Equity Multiplier is:",
+            "options": [
+                "0.4",
+                "2.5",
+                "1.6",
+                "0.6"
+            ],
+            "answer": 1,
+            "explanation": "Equity Multiplier = Total Assets / Total Equity = $1M / $400K = 2.5."
+        },
+        {
+            "id": "p2s1_93",
+            "question": "Which of the following best describes 'economic value' vs 'book value'?",
+            "options": [
+                "They are always equal",
+                "Economic value reflects future cash flows; book value uses historical cost",
+                "Book value is always higher",
+                "Economic value is based on GAAP"
+            ],
+            "answer": 1,
+            "explanation": "Economic value = PV of future cash flows. Book value = historical cost accounting. They differ significantly."
+        },
+        {
+            "id": "p2s1_94",
+            "question": "A company's gross margin declined from 40% to 35%. This most likely indicates:",
+            "options": [
+                "Revenue increased",
+                "COGS increased faster than revenue",
+                "Operating expenses decreased",
+                "Interest expense increased"
+            ],
+            "answer": 1,
+            "explanation": "Declining gross margin = COGS growing faster than revenue (input costs up or selling prices down)."
+        },
+        {
+            "id": "p2s1_95",
+            "question": "Which of the following is the BEST indicator of a company's ability to pay dividends?",
+            "options": [
+                "Net Income",
+                "EPS",
+                "Operating Cash Flow (CFO)",
+                "Gross Profit"
+            ],
+            "answer": 2,
+            "explanation": "Dividends are paid in cash. CFO best indicates whether the company generates enough cash to sustain dividends."
+        },
+        {
+            "id": "p2s1_96",
+            "question": "Trend analysis with a base year index of 100 shows Year 3 revenue index of 140. This means:",
+            "options": [
+                "Revenue is $140",
+                "Revenue grew 40% from the base year",
+                "Revenue declined 40%",
+                "Revenue is 140% of Year 2"
+            ],
+            "answer": 1,
+            "explanation": "Index 140 means revenue is 140% of base year — a 40% increase from the base year."
+        },
+        {
+            "id": "p2s1_97",
+            "question": "Which of the following would NOT be eliminated when computing the Quick Ratio?",
+            "options": [
+                "Inventory",
+                "Prepaid expenses",
+                "Accounts Receivable",
+                "Supplies"
+            ],
+            "answer": 2,
+            "explanation": "AR is included in the Quick Ratio numerator. Inventory, prepaids, and supplies are excluded."
+        },
+        {
+            "id": "p2s1_98",
+            "question": "A company's Net Profit Margin is 8%, Asset Turnover is 1.5. Its ROA is:",
+            "options": [
+                "9.5%",
+                "12%",
+                "5.3%",
+                "18.75%"
+            ],
+            "answer": 1,
+            "explanation": "ROA = Net Profit Margin × Asset Turnover = 8% × 1.5 = 12%."
+        },
+        {
+            "id": "p2s1_99",
+            "question": "Which of the following best describes 'financial leverage' in the DuPont framework?",
+            "options": [
+                "Net Profit Margin",
+                "Asset Turnover",
+                "Equity Multiplier (Assets/Equity)",
+                "Dividend Payout Ratio"
+            ],
+            "answer": 2,
+            "explanation": "The Equity Multiplier (Assets/Equity) represents financial leverage in the 3-factor DuPont model."
+        },
+        {
+            "id": "p2s1_100",
+            "question": "A company reports Net Income of $500K and CFO of $150K. This pattern most likely indicates:",
+            "options": [
+                "High earnings quality",
+                "Strong cash generation",
+                "Potential earnings quality concern",
+                "Conservative accounting"
+            ],
+            "answer": 2,
+            "explanation": "NI >> CFO suggests earnings are not converting to cash — a red flag for earnings quality."
+        }
+    ]
+}

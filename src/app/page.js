@@ -1,66 +1,69 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Link from 'next/link';
+import styles from './page.module.css';
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className={styles.intro}>
-          <h1>To get started, edit the page.js file.</h1>
-          <p>
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <div className={styles.wrapper}>
+      <header className={styles.hero}>
+        <div className="container">
+          <h1 className={styles.title}>US CMA Preparation <br /> <span className={styles.subtitle}>Structured. Disciplined. Free.</span></h1>
+          <p className={styles.description}>
+            A complete digital ecosystem for Indian aspirants to crack the US CMA exam without expensive coaching.
           </p>
+          <div className={styles.ctaGroup}>
+            <Link href="/study-plan" className="btn">Start Structured Plan</Link>
+            <Link href="/mock-test" className="btn btn-outline">Take Mock Test</Link>
+          </div>
         </div>
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className={styles.secondary}
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </header>
+
+      <section className={`container ${styles.features}`}>
+        <div className={styles.featureCard}>
+          <h3>Complete Syllabus</h3>
+          <p>Detailed notes for every topic in Part 1 & Part 2, structured by weightage.</p>
+          <Link href="/syllabus" className={styles.linkArrow}>View Syllabus →</Link>
         </div>
-      </main>
+        <div className={styles.featureCard}>
+          <h3>Mock Exams</h3>
+          <p>Real exam simulation with 3-hour timer and instant scoring for MCQs.</p>
+          <Link href="/mock-test" className={styles.linkArrow}>Start Practice →</Link>
+        </div>
+        <div className={styles.featureCard}>
+          <h3>Study Tracker</h3>
+          <p>Downloadable 6-month roadmap and progress checklists to stay on track.</p>
+          <Link href="/study-plan" className={styles.linkArrow}>View Study Plan →</Link>
+        </div>
+      </section>
+
+      <section className={styles.infoSection}>
+        <div className="container">
+          <h2>Exam Structure Overview</h2>
+          <div className={styles.examGrid}>
+            <div className={styles.examPart}>
+              <h3>Part 1: Financial Planning, Performance & Analytics</h3>
+              <ul>
+                <li>External Financial Reporting (15%)</li>
+                <li>Planning, Budgeting & Forecasting (20%)</li>
+                <li>Performance Management (20%)</li>
+                <li>Cost Management (15%)</li>
+                <li>Internal Controls (15%)</li>
+                <li>Technology & Analytics (15%)</li>
+              </ul>
+            </div>
+            <div className={styles.examPart}>
+              <h3>Part 2: Strategic Financial Management</h3>
+              <ul>
+                <li>Financial Statement Analysis (20%)</li>
+                <li>Corporate Finance (20%)</li>
+                <li>Decision Analysis (25%)</li>
+                <li>Risk Management (10%)</li>
+                <li>Investment Decisions (10%)</li>
+                <li>Professional Ethics (15%)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

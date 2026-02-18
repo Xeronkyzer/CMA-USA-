@@ -1,0 +1,1420 @@
+{
+    "id": "p2-s5",
+    "title": "Investment Decisions – Comprehensive CMA Exam Guide (2026 Syllabus)",
+    "weightage": "10%",
+    "examLevel": "Level C (Analysis, Evaluation, Synthesis)",
+    "recommendedStudyHours": "15-20 hours",
+    "overview": "Investment Decisions (10% of Part 2) covers Capital Budgeting: the process of identifying, evaluating, and selecting long-term projects that align with organizational goals and maximize shareholder value. This section is critical for the CMA exam as it tests both conceptual understanding and computational accuracy. The 2026 CMA syllabus emphasizes case-based questions (CBQs) that require integrating capital budgeting techniques with risk analysis and strategic considerations. Mastery requires understanding cash flow identification, discounted cash flow methods, risk assessment techniques, and real options.",
+    "bulletNotes": [
+        "**Capital Budgeting Process**: Identify → Search → Evaluate → Select → Finance → Implement & Control [citation:6].",
+        "**Relevant Cash Flows**: Only Incremental Cash Flows matter. **Include**: Initial Investment, Operating Cash Flows, Working Capital changes, Terminal Value. **Exclude**: Sunk Costs, Allocated Overheads, Financing Costs (interest).",
+        "**Depreciation Tax Shield**: Depreciation is non-cash, but it reduces Taxable Income, saving tax. Shield = Annual Depreciation × Tax Rate. This is a critical cash inflow in capital budgeting.",
+        "**NPV (Net Present Value)**: PV of Inflows - PV of Outflows. If NPV > 0, Accept. Uses WACC as discount rate. Assumes reinvestment at WACC. Most reliable method for mutually exclusive projects [citation:6].",
+        "**IRR (Internal Rate of Return)**: Discount rate where NPV = 0. If IRR > Hurdle Rate (WACC), Accept. Assumes reinvestment at IRR (unrealistic assumption) [citation:2]. May give multiple IRRs for non-conventional cash flows.",
+        "**Payback Period**: Time to recover initial investment. Simple but ignores TVM and cash flows after payback. Good for liquidity assessment but not profitability [citation:6].",
+        "**Discounted Payback**: Payback method that considers TVM by discounting cash flows.",
+        "**Profitability Index (PI)**: PV of Future Cash Flows / Initial Investment. If PI > 1, Accept. Useful when capital is rationed.",
+        "**Real Options**: Strategic value of managerial flexibility. Project Value = NPV + Option Value [citation:3]. Types: Expand, Abandon, Delay [citation:3].",
+        "**Risk Analysis**: Sensitivity Analysis (change one variable), Scenario Analysis (change multiple variables), Monte Carlo Simulation (probabilistic distribution).",
+        "**Capital Rationing**: Limitation on capital expenditures; choose projects that maximize total NPV subject to budget constraint.",
+        "**Tax Considerations**: After-tax cash flows = Pre-tax cash flow × (1 - Tax Rate). Depreciation creates tax shield: Depreciation × Tax Rate."
+    ],
+    "shortNotes": "Understand the NPV vs IRR conflict! NPV is generally superior because it assumes reinvestment at the more realistic WACC (Cost of Capital), whereas IRR assumes reinvestment at the project's own (often high) IRR [citation:2]. For mutually exclusive projects, always pick the one with the highest NPV. Remember that depreciation tax shield is a cash inflow. Ignore sunk costs and financing costs (interest) in cash flow calculations. Real options add value to projects and can turn negative NPV projects into acceptable ones [citation:3].",
+    "mnemonics": [
+        {
+            "acronym": "SISTER",
+            "fullForm": "Search, Identify, Select, Test, Evaluate, Rank",
+            "description": "Capital budgeting process steps"
+        },
+        {
+            "acronym": "SIT CODA",
+            "fullForm": "Sunk costs, Interest, Taxes (financing), Capitalized costs, Overhead, Depreciation, Allocations",
+            "description": "Items to watch in cash flow determination"
+        },
+        {
+            "acronym": "NIP",
+            "fullForm": "Net Present Value, IRR, Payback",
+            "description": "Primary capital budgeting methods"
+        },
+        {
+            "acronym": "SEA",
+            "fullForm": "Sensitivity, Elasticity (Scenario), Analysis (Monte Carlo)",
+            "description": "Risk analysis techniques"
+        },
+        {
+            "acronym": "EAD",
+            "fullForm": "Expand, Abandon, Delay",
+            "description": "Types of real options [citation:3]"
+        },
+        {
+            "acronym": "TRAFFIC",
+            "fullForm": "Tax, Relevant cash flows, Avoidable costs, Financing costs, Future costs, Incremental costs, Consider all",
+            "description": "Cash flow identification guide"
+        }
+    ],
+    "concepts": [
+        {
+            "title": "1. Capital Budgeting Process & Cash Flow Identification",
+            "content": "<p><strong>Capital Budgeting Process (6 Steps):</strong> [citation:6]<br>1. <strong>Identify:</strong> Recognize capital expenditure needs aligned with organizational goals.<br>2. <strong>Search:</strong> Investigate initial capital investment and discover alternatives.<br>3. <strong>Evaluate:</strong> Predict and compare each alternative's cash flows over its life.<br>4. <strong>Select:</strong> Choose projects where financial benefits exceed costs.<br>5. <strong>Finance:</strong> Obtain funding through internal (retained earnings) or external sources.<br>6. <strong>Implement & Control:</strong> Execute and monitor; conduct post-audit comparing actual vs. projected results.</p><p><strong>Relevant Cash Flows:</strong><br>Only incremental cash flows matter—those that occur in the future and differ between alternatives.<br><strong>Include:</strong><br>- Initial investment (equipment cost, installation, training)<br>- Changes in working capital (inventory, receivables, payables)<br>- Operating cash flows (after-tax cash revenues less cash expenses)<br>- Depreciation tax shield (Depreciation × Tax Rate)<br>- Terminal value (salvage value, recovery of working capital)<br><strong>Exclude:</strong><br>- Sunk costs (past costs, e.g., feasibility studies already done)<br>- Allocated overhead (unless incremental)<br>- Financing costs (interest)—already in discount rate<br>- Non-cash expenses (except for tax shield effect)</p><p><strong>Depreciation Tax Shield:</strong><br>Depreciation itself is non-cash, but it reduces taxable income, creating a cash saving.<br><code>Tax Shield = Annual Depreciation × Tax Rate</code><br>This is added to after-tax operating cash flows.</p>"
+        },
+        {
+            "title": "2. Discounted Cash Flow (DCF) Methods",
+            "content": "<p><strong>Net Present Value (NPV):</strong><br><code>NPV = Σ [CFₜ / (1+r)ᵗ] - Initial Investment</code><br>Where CFₜ = after-tax cash flow at time t, r = discount rate (WACC).<br><strong>Decision Rule:</strong> Accept if NPV > 0; reject if NPV < 0. If NPV = 0, project meets required rate of return [citation:4].<br><strong>Advantages:</strong> Considers TVM, all cash flows, and risk via discount rate; additive (NPVs can be summed). Most reliable for mutually exclusive projects [citation:6].<br><strong>Disadvantages:</strong> Relies on accurate discount rate; hard to explain to non-financial managers.</p><p><strong>Internal Rate of Return (IRR):</strong><br>The discount rate that makes NPV = 0 [citation:2][citation:10].<br><code>0 = Σ [CFₜ / (1+IRR)ᵗ] - Initial Investment</code><br><strong>Decision Rule:</strong> Accept if IRR > Hurdle Rate (WACC); reject if IRR < WACC.<br><strong>Advantages:</strong> Intuitive percentage return; considers TVM.<br><strong>Disadvantages:</strong> Assumes reinvestment at IRR (unrealistic) [citation:2][citation:10]; multiple IRRs possible with non-conventional cash flows; can rank incorrectly for mutually exclusive projects [citation:6].</p><p><strong>Profitability Index (PI):</strong><br><code>PI = PV of Future Cash Flows / Initial Investment</code><br><strong>Decision Rule:</strong> Accept if PI > 1 (equivalent to NPV > 0).<br><strong>Use:</strong> Helpful when capital is rationed—rank projects by PI.</p>"
+        },
+        {
+            "title": "3. Non-Discounted Methods",
+            "content": "<p><strong>Payback Period:</strong><br>Time required to recover initial investment from cash inflows.<br><code>Payback = Initial Investment / Annual Cash Flow (if constant)</code><br><strong>Decision Rule:</strong> Accept if payback < target period.<br><strong>Advantages:</strong> Simple, easy to understand, good for liquidity assessment [citation:6].<br><strong>Disadvantages:</strong> Ignores TVM, ignores cash flows after payback, no profitability measure, biases against long-term projects [citation:6].</p><p><strong>Discounted Payback:</strong><br>Similar to payback but uses discounted cash flows. Addresses TVM but still ignores post-payback cash flows.</p><p><strong>Accounting Rate of Return (ARR):</strong><br><code>ARR = Average Accounting Income / Average Investment</code><br><strong>Decision Rule:</strong> Accept if ARR > target rate.<br><strong>Disadvantages:</strong> Uses accounting income (not cash), ignores TVM. Rarely used in practice for major decisions.</p>"
+        },
+        {
+            "title": "4. Special Topics in Capital Budgeting",
+            "content": "<p><strong>Capital Rationing:</strong><br>Situation where funds are limited. Choose the combination of projects that maximizes total NPV subject to budget constraint. Profitability Index helps rank projects.</p><p><strong>Replacement Decisions:</strong><br>Compare keeping old asset vs. replacing with new. Relevant cash flows: initial investment (cost of new - salvage of old), operating savings, tax effects of gain/loss on disposal.</p><p><strong>Inflation:</strong><br>Be consistent: either use nominal cash flows with nominal discount rate, or real cash flows with real discount rate.</p><p><strong>Projects with Unequal Lives:</strong><br>Use equivalent annual annuity (EAA) or least common multiple of lives for proper comparison.</p>"
+        },
+        {
+            "title": "5. Risk Analysis in Capital Budgeting",
+            "content": "<p><strong>Sensitivity Analysis:</strong><br>\"What-if\" analysis: change one variable at a time (e.g., sales volume, cost) to see impact on NPV. Identifies key value drivers.</p><p><strong>Scenario Analysis:</strong><br>Change multiple variables simultaneously under different scenarios (best case, base case, worst case).</p><p><strong>Monte Carlo Simulation:</strong><br>Assign probability distributions to key variables and run thousands of iterations to get distribution of NPV outcomes.</p><p><strong>Risk-Adjusted Discount Rate:</strong><br>Increase discount rate for riskier projects (reflects higher required return).</p><p><strong>Certainty Equivalent:</strong><br>Adjust cash flows downward for risk, then discount at risk-free rate.</p>"
+        },
+        {
+            "title": "6. Real Options",
+            "content": "<p>Real options recognize that managers can adapt decisions as new information emerges. Project value = Traditional NPV + Value of Real Options [citation:3].</p><p><strong>Types of Real Options:</strong> [citation:3]<br>1. <strong>Expansion Option:</strong> Ability to expand if project succeeds. Example: Project has negative NPV now but 50% chance to add $50,000 value if expanded. Option value = $50,000 × 50% = $25,000.<br>2. <strong>Abandonment Option:</strong> Ability to abandon if project fails, recovering salvage value. Example: If abandonment value ($20,000) > continuing value ($10,000), exercise option [citation:3].<br>3. <strong>Delay Option:</strong> Ability to wait for more information before committing. (May sacrifice first-mover advantage) [citation:3].</p><p><strong>Example Calculation:</strong> [citation:3]<br>Project NPV = -$10,000. Market indicates 50% chance to add $50,000 with expansion.<br>Project True Value = -$10,000 + ($50,000 × 50%) = $15,000 → Accept.</p>"
+        },
+        {
+            "title": "7. NPV vs. IRR – The Reinvestment Rate Assumption",
+            "content": "<p>The key difference between NPV and IRR lies in their reinvestment rate assumptions [citation:2][citation:10]:<br>- <strong>IRR</strong> assumes cash flows are reinvested at the project's IRR (often unrealistically high) [citation:2][citation:10].<br>- <strong>NPV</strong> assumes reinvestment at the firm's cost of capital (WACC), which is more realistic [citation:2].</p><p><strong>Conflict Resolution:</strong><br>For mutually exclusive projects, choose the one with higher NPV. NPV maximizes shareholder wealth in absolute dollars.</p>"
+        }
+    ],
+    "formulas": [
+        {
+            "name": "Net Present Value (NPV)",
+            "formula": "NPV = Σ [CFₜ / (1+r)ᵗ] - Initial Investment",
+            "notes": "CFₜ = After-tax cash flow at time t, r = discount rate (WACC)"
+        },
+        {
+            "name": "Internal Rate of Return (IRR)",
+            "formula": "0 = Σ [CFₜ / (1+IRR)ᵗ] - Initial Investment",
+            "notes": "IRR is the rate that makes NPV = 0 [citation:2][citation:10]"
+        },
+        {
+            "name": "Profitability Index (PI)",
+            "formula": "PI = PV of Future Cash Flows / Initial Investment",
+            "notes": "If PI > 1, NPV > 0"
+        },
+        {
+            "name": "Payback Period (Constant Cash Flows)",
+            "formula": "Payback = Initial Investment / Annual Cash Flow",
+            "notes": "Ignores TVM and post-payback flows [citation:6]"
+        },
+        {
+            "name": "Discounted Payback",
+            "formula": "Time when Σ [CFₜ / (1+r)ᵗ] ≥ Initial Investment",
+            "notes": "Considers TVM but still ignores post-payback"
+        },
+        {
+            "name": "Accounting Rate of Return (ARR)",
+            "formula": "ARR = Average Accounting Income / Average Investment",
+            "notes": "Uses accrual income, not cash"
+        },
+        {
+            "name": "Depreciation Tax Shield",
+            "formula": "Tax Shield = Depreciation Expense × Tax Rate",
+            "notes": "Annual cash inflow from tax savings"
+        },
+        {
+            "name": "After-Tax Operating Cash Flow",
+            "formula": "ATCF = (Revenue - Cash Expenses) × (1 - Tax Rate) + (Depreciation × Tax Rate)",
+            "notes": "Standard formula for operating cash flows"
+        },
+        {
+            "name": "After-Tax Salvage Value",
+            "formula": "After-tax Salvage = Salvage - Tax on Gain (or + Tax Shield on Loss)",
+            "notes": "Gain = Salvage - Book Value"
+        },
+        {
+            "name": "Real Options – Project Value",
+            "formula": "True Project Value = Traditional NPV + Value of Real Options",
+            "notes": "Options add strategic value [citation:3]"
+        },
+        {
+            "name": "Equivalent Annual Annuity (EAA)",
+            "formula": "EAA = NPV / PVIFA(r, n)",
+            "notes": "For comparing projects with unequal lives"
+        }
+    ],
+    "mistakes": [
+        "Ignoring the **Depreciation Tax Shield** in cash flow calculations. This is a critical cash inflow source.",
+        "Using **Net Income** instead of **Cash Flows** in NPV calculations. Always add back non-cash charges.",
+        "Treating **Interest Expense** as a cash outflow. Financing costs are already captured in the discount rate (WACC). Double-counting is a common error.",
+        "Ignoring **Working Capital Recovery** at project end. Initial working capital investment is typically recovered in full.",
+        "Considering **Sunk Costs** (past feasibility studies) as relevant. They are irrelevant regardless of outcome.",
+        "Assuming **IRR is always superior** because it's a percentage. NPV is more reliable, especially for mutually exclusive projects [citation:2][citation:6].",
+        "Forgetting that **IRR assumes reinvestment at IRR**, which is often unrealistic [citation:2][citation:10].",
+        "Using **undiscounted payback** as the primary decision criterion—it ignores TVM and profitability [citation:6].",
+        "Ignoring **salvage value** and terminal cash flows in project evaluation.",
+        "Inconsistent treatment of **inflation** (mixing nominal and real).",
+        "Overlooking **real options** that can add significant value to projects [citation:3].",
+        "Confusing **average investment** vs. **initial investment** in ARR calculation."
+    ],
+    "quiz": [
+        {
+            "question": "Which method assumes cash flows are reinvested at the project's internal rate of return?",
+            "options": [
+                "Net Present Value (NPV)",
+                "Internal Rate of Return (IRR)",
+                "Payback Period",
+                "Accounting Rate of Return"
+            ],
+            "answer": 1,
+            "explanation": "IRR assumes reinvestment at the IRR rate itself, which can be unrealistic if the IRR is very high [citation:2]. NPV assumes reinvestment at the Cost of Capital (WACC), which is more conservative and realistic."
+        },
+        {
+            "question": "If a project has a Profitability Index of 1.2, what does this imply about its NPV?",
+            "options": [
+                "NPV is zero",
+                "NPV is positive",
+                "NPV is negative",
+                "NPV cannot be determined"
+            ],
+            "answer": 1,
+            "explanation": "PI = PV of Future Cash Flows / Initial Investment. If PI > 1, then PV Inflows > PV Outflows, so NPV must be positive."
+        },
+        {
+            "question": "Which of the following is NOT a relevant cash flow for a capital budgeting decision?",
+            "options": [
+                "Initial cost of new equipment",
+                "Cost of a feasibility study conducted last year",
+                "Increase in working capital required",
+                "Disposal value of old equipment replaced"
+            ],
+            "answer": 1,
+            "explanation": "A feasibility study conducted in the past is a Sunk Cost. It has already been incurred and cannot be changed, regardless of the decision."
+        },
+        {
+            "question": "A project has an NPV of $0. The company should:",
+            "options": [
+                "Reject the project because it adds no value",
+                "Accept the project because it meets the required rate of return",
+                "Reject because IRR is 0%",
+                "Accept only if payback is less than 5 years"
+            ],
+            "answer": 1,
+            "explanation": "An NPV of $0 indicates the project's return exactly equals the required rate of return (WACC). The project should be accepted as it meets the minimum threshold [citation:4]."
+        },
+        {
+            "question": "The depreciation tax shield is calculated as:",
+            "options": [
+                "Depreciation Expense × (1 - Tax Rate)",
+                "Depreciation Expense × Tax Rate",
+                "(Revenue - Expenses) × Tax Rate",
+                "Depreciation Expense ÷ Tax Rate"
+            ],
+            "answer": 1,
+            "explanation": "Depreciation reduces taxable income, saving taxes. The tax shield = Depreciation × Tax Rate, and it's added to after-tax operating cash flows."
+        }
+    ],
+    "essay": {
+        "question": "Project A has a higher IRR (18%), but Project B has a higher NPV ($50,000 vs. $40,000). The projects are mutually exclusive. 1) Which project should be chosen? 2) Explain the likely reason for the conflict between NPV and IRR. 3) Discuss which reinvestment rate assumption is more realistic and why.",
+        "modelAnswer": "<p><strong>1. Decision:</strong><br>Choose <strong>Project B</strong> (the one with higher NPV). For mutually exclusive projects, NPV is the superior decision criterion because it measures the absolute dollar value added to the firm.</p><p><strong>2. Reason for Conflict:</strong><br>The conflict between NPV and IRR typically arises from differences in project size, timing of cash flows, or project lives. In this case, the most likely reason is the difference in <strong>reinvestment rate assumptions</strong> [citation:2][citation:10]. IRR assumes that intermediate cash flows are reinvested at the project's own IRR (18%), while NPV assumes reinvestment at the firm's cost of capital (WACC). Since the IRR is higher than WACC, the IRR method implicitly assumes a higher reinvestment rate, which may not be achievable.</p><p><strong>3. Reinvestment Rate Assumption:</strong><br>The NPV assumption (reinvestment at WACC) is more realistic [citation:2]. The cost of capital represents the firm's opportunity cost of funds and the return available on alternative investments of similar risk. Reinvesting at a project's high IRR is often unrealistic because such high-return opportunities are limited. Therefore, NPV provides a more accurate measure of value creation.</p>"
+    },
+    "summary": "Investment Decisions (10%) focuses on evaluating long-term projects using capital budgeting techniques. Success requires mastering cash flow identification (especially depreciation tax shields), understanding the strengths and weaknesses of NPV, IRR, and payback, and recognizing how real options add strategic value [citation:3]. Remember that NPV is generally superior to IRR for mutually exclusive projects due to its realistic reinvestment rate assumption [citation:2][citation:6]. Practice calculating after-tax cash flows and be prepared for case-based questions that integrate risk analysis and qualitative factors.",
+    "test": [
+        {
+            "id": "p2s5_1",
+            "question": "What is the first step in the capital budgeting process?",
+            "options": [
+                "Selecting projects",
+                "Identifying capital expenditure needs",
+                "Financing the project",
+                "Evaluating cash flows"
+            ],
+            "answer": 1,
+            "explanation": "The capital budgeting process begins with identifying capital expenditure needs that align with organizational goals and strategy [citation:6]."
+        },
+        {
+            "id": "p2s5_2",
+            "question": "Which of the following is NOT a step in the capital budgeting process?",
+            "options": [
+                "Search for alternatives",
+                "Evaluate cash flows",
+                "Calculate accounting income",
+                "Implement and control"
+            ],
+            "answer": 2,
+            "explanation": "The six steps are: Identify, Search, Evaluate, Select, Finance, Implement & Control. Calculating accounting income is a method, not a process step [citation:6]."
+        },
+        {
+            "id": "p2s5_3",
+            "question": "A post-audit in capital budgeting involves:",
+            "options": [
+                "Auditing financial statements",
+                "Comparing actual results with projected results",
+                "Calculating tax liabilities",
+                "Approving the project"
+            ],
+            "answer": 1,
+            "explanation": "A post-audit compares actual results with the projections used in the decision, providing feedback to improve future decisions [citation:6]."
+        },
+        {
+            "id": "p2s5_4",
+            "question": "Which of the following is a relevant cash flow in capital budgeting?",
+            "options": [
+                "Sunk costs",
+                "Depreciation tax shield",
+                "Allocated overhead",
+                "Interest expense"
+            ],
+            "answer": 1,
+            "explanation": "Depreciation tax shield is relevant because it represents cash savings from taxes. Sunk costs, allocated overhead, and interest are not included as cash flows."
+        },
+        {
+            "id": "p2s5_5",
+            "question": "A company spent $50,000 last year on a feasibility study for a new project. This cost should be treated as:",
+            "options": [
+                "An initial cash outflow",
+                "A sunk cost and ignored",
+                "An operating expense",
+                "A terminal cash flow"
+            ],
+            "answer": 1,
+            "explanation": "The feasibility study is a sunk cost—already incurred and cannot be changed. It is irrelevant for the capital budgeting decision."
+        },
+        {
+            "id": "p2s5_6",
+            "question": "The depreciation tax shield is added to operating cash flows because:",
+            "options": [
+                "Depreciation is a cash expense",
+                "Depreciation reduces taxable income, saving taxes",
+                "Depreciation increases revenue",
+                "Depreciation is a financing cost"
+            ],
+            "answer": 1,
+            "explanation": "Depreciation is non-cash, but it reduces taxable income, resulting in tax savings. The tax shield (Depreciation × Tax Rate) represents this cash inflow."
+        },
+        {
+            "id": "p2s5_7",
+            "question": "A company has annual depreciation of $20,000 and a tax rate of 30%. The annual depreciation tax shield is:",
+            "options": [
+                "$20,000",
+                "$6,000",
+                "$14,000",
+                "$26,000"
+            ],
+            "answer": 1,
+            "explanation": "Tax shield = Depreciation × Tax Rate = $20,000 × 0.30 = $6,000."
+        },
+        {
+            "id": "p2s5_8",
+            "question": "Which of the following should be EXCLUDED from cash flow calculations?",
+            "options": [
+                "Initial equipment cost",
+                "Changes in working capital",
+                "Interest expense on debt financing",
+                "Salvage value"
+            ],
+            "answer": 2,
+            "explanation": "Interest expense is a financing cost, already captured in the discount rate (WACC). Including it would double-count."
+        },
+        {
+            "id": "p2s5_9",
+            "question": "Working capital invested at the start of a project is typically:",
+            "options": [
+                "Expensed immediately",
+                "Recovered at the end of the project",
+                "Never recovered",
+                "Treated as a sunk cost"
+            ],
+            "answer": 1,
+            "explanation": "Working capital (inventory, receivables) is invested at the start and typically recovered in full at project termination."
+        },
+        {
+            "id": "p2s5_10",
+            "question": "The formula for after-tax operating cash flow is:",
+            "options": [
+                "(Revenue - Cash Expenses) × (1 - Tax Rate)",
+                "(Revenue - Cash Expenses) × (1 - Tax Rate) + (Depreciation × Tax Rate)",
+                "(Revenue - All Expenses) × (1 - Tax Rate)",
+                "Revenue - Cash Expenses - Depreciation"
+            ],
+            "answer": 1,
+            "explanation": "Standard formula: ATCF = (Revenue - Cash Expenses) × (1 - Tax Rate) + (Depreciation × Tax Rate)."
+        },
+        {
+            "id": "p2s5_11",
+            "question": "Net Present Value (NPV) is defined as:",
+            "options": [
+                "The sum of all cash flows",
+                "The present value of cash inflows minus the present value of cash outflows",
+                "The discount rate that makes NPV zero",
+                "The time to recover initial investment"
+            ],
+            "answer": 1,
+            "explanation": "NPV = PV of inflows - PV of outflows. A positive NPV indicates value creation."
+        },
+        {
+            "id": "p2s5_12",
+            "question": "If NPV is positive, the project should be:",
+            "options": [
+                "Rejected",
+                "Accepted",
+                "Re-evaluated",
+                "Ignored"
+            ],
+            "answer": 1,
+            "explanation": "A positive NPV means the project adds value and should be accepted."
+        },
+        {
+            "id": "p2s5_13",
+            "question": "The discount rate used in NPV should reflect:",
+            "options": [
+                "The risk-free rate",
+                "The company's cost of capital (WACC)",
+                "The inflation rate",
+                "The prime rate"
+            ],
+            "answer": 1,
+            "explanation": "The appropriate discount rate is the company's weighted average cost of capital (WACC), which reflects the risk of the project."
+        },
+        {
+            "id": "p2s5_14",
+            "question": "Internal Rate of Return (IRR) is defined as:",
+            "options": [
+                "The discount rate that makes NPV positive",
+                "The discount rate that makes NPV zero",
+                "The accounting rate of return",
+                "The payback period rate"
+            ],
+            "answer": 1,
+            "explanation": "IRR is the discount rate at which the present value of cash inflows equals the initial investment (NPV = 0) [citation:2][citation:10]."
+        },
+        {
+            "id": "p2s5_15",
+            "question": "A project has an IRR of 15% and a WACC of 12%. The project should be:",
+            "options": [
+                "Rejected",
+                "Accepted",
+                "Indifferent",
+                "Re-evaluated"
+            ],
+            "answer": 1,
+            "explanation": "If IRR > WACC, the project earns more than the cost of capital and should be accepted."
+        },
+        {
+            "id": "p2s5_16",
+            "question": "Which of the following is a disadvantage of IRR?",
+            "options": [
+                "Ignores time value of money",
+                "Assumes reinvestment at the IRR rate",
+                "Uses accounting income",
+                "Difficult to calculate with computers"
+            ],
+            "answer": 1,
+            "explanation": "IRR assumes cash flows are reinvested at the IRR rate, which is often unrealistic [citation:2][citation:10]."
+        },
+        {
+            "id": "p2s5_17",
+            "question": "Multiple IRRs can occur when:",
+            "options": [
+                "Cash flows are conventional (one negative, then all positive)",
+                "Cash flows are non-conventional (sign changes multiple times)",
+                "The project has a short payback",
+                "The discount rate is high"
+            ],
+            "answer": 1,
+            "explanation": "Non-conventional cash flows (with multiple sign changes) can produce multiple IRRs [citation:2]."
+        },
+        {
+            "id": "p2s5_18",
+            "question": "Profitability Index (PI) is calculated as:",
+            "options": [
+                "Initial Investment / PV of Cash Flows",
+                "PV of Cash Flows / Initial Investment",
+                "NPV / Initial Investment",
+                "IRR / WACC"
+            ],
+            "answer": 1,
+            "explanation": "PI = PV of Future Cash Flows / Initial Investment. PI > 1 indicates NPV > 0."
+        },
+        {
+            "id": "p2s5_19",
+            "question": "If PI = 0.8, the project should be:",
+            "options": [
+                "Accepted",
+                "Rejected",
+                "Accepted if funds are available",
+                "Re-evaluated"
+            ],
+            "answer": 1,
+            "explanation": "PI < 1 means PV of inflows < initial investment, so NPV is negative. Reject."
+        },
+        {
+            "id": "p2s5_20",
+            "question": "Which method is most reliable for ranking mutually exclusive projects?",
+            "options": [
+                "IRR",
+                "Payback",
+                "NPV",
+                "ARR"
+            ],
+            "answer": 2,
+            "explanation": "NPV is most reliable because it measures absolute dollar value added and uses realistic reinvestment assumptions [citation:6]."
+        },
+        {
+            "id": "p2s5_21",
+            "question": "Payback period is defined as:",
+            "options": [
+                "The time to recover initial investment from cash inflows",
+                "The time to double the investment",
+                "The discount rate that recovers investment",
+                "The project's useful life"
+            ],
+            "answer": 0,
+            "explanation": "Payback period measures how long it takes to recover the initial investment from cash inflows [citation:6]."
+        },
+        {
+            "id": "p2s5_22",
+            "question": "A project requires $100,000 initial investment and generates $25,000 annually. The payback period is:",
+            "options": [
+                "2 years",
+                "3 years",
+                "4 years",
+                "5 years"
+            ],
+            "answer": 2,
+            "explanation": "Payback = $100,000 / $25,000 = 4 years."
+        },
+        {
+            "id": "p2s5_23",
+            "question": "Which of the following is a disadvantage of payback period?",
+            "options": [
+                "Ignores time value of money",
+                "Difficult to calculate",
+                "Requires complex software",
+                "Uses accounting income"
+            ],
+            "answer": 0,
+            "explanation": "Payback ignores TVM and cash flows after the payback period [citation:6]."
+        },
+        {
+            "id": "p2s5_24",
+            "question": "Discounted payback period improves on regular payback by:",
+            "options": [
+                "Considering TVM",
+                "Considering all cash flows",
+                "Using accounting income",
+                "Measuring profitability"
+            ],
+            "answer": 0,
+            "explanation": "Discounted payback uses discounted cash flows, addressing TVM, but still ignores post-payback flows."
+        },
+        {
+            "id": "p2s5_25",
+            "question": "Accounting Rate of Return (ARR) uses:",
+            "options": [
+                "Cash flows",
+                "Accounting income",
+                "Discounted cash flows",
+                "Market values"
+            ],
+            "answer": 1,
+            "explanation": "ARR uses accounting (accrual) income, not cash flows, and ignores TVM."
+        },
+        {
+            "id": "p2s5_26",
+            "question": "ARR is calculated as:",
+            "options": [
+                "Average Cash Flow / Initial Investment",
+                "Average Accounting Income / Average Investment",
+                "Net Income / Revenue",
+                "Total Cash Flows / Initial Investment"
+            ],
+            "answer": 1,
+            "explanation": "ARR = Average Accounting Income / Average Investment."
+        },
+        {
+            "id": "p2s5_27",
+            "question": "A company invests $200,000 in a project with average annual income of $30,000 over 5 years. The average investment (straight-line depreciation, zero salvage) is:",
+            "options": [
+                "$200,000",
+                "$100,000",
+                "$50,000",
+                "$40,000"
+            ],
+            "answer": 1,
+            "explanation": "Average investment = (Initial + Salvage)/2 = ($200,000 + $0)/2 = $100,000."
+        },
+        {
+            "id": "p2s5_28",
+            "question": "Using the data above, the ARR is:",
+            "options": [
+                "15%",
+                "30%",
+                "20%",
+                "25%"
+            ],
+            "answer": 1,
+            "explanation": "ARR = $30,000 / $100,000 = 30%."
+        },
+        {
+            "id": "p2s5_29",
+            "question": "Which method best measures the increase in shareholder wealth?",
+            "options": [
+                "Payback",
+                "IRR",
+                "NPV",
+                "ARR"
+            ],
+            "answer": 2,
+            "explanation": "NPV measures the absolute dollar value added, directly reflecting increase in shareholder wealth."
+        },
+        {
+            "id": "p2s5_30",
+            "question": "When NPV and IRR conflict for mutually exclusive projects, choose the project with:",
+            "options": [
+                "Higher IRR",
+                "Higher NPV",
+                "Shorter payback",
+                "Higher ARR"
+            ],
+            "answer": 1,
+            "explanation": "NPV is superior because it measures absolute value added and uses realistic reinvestment assumptions [citation:6]."
+        },
+        {
+            "id": "p2s5_31",
+            "question": "The reinvestment rate assumption in NPV is:",
+            "options": [
+                "IRR",
+                "WACC",
+                "Risk-free rate",
+                "Inflation rate"
+            ],
+            "answer": 1,
+            "explanation": "NPV assumes reinvestment at the cost of capital (WACC), which is realistic [citation:2]."
+        },
+        {
+            "id": "p2s5_32",
+            "question": "The reinvestment rate assumption in IRR is:",
+            "options": [
+                "WACC",
+                "IRR",
+                "Risk-free rate",
+                "Market rate"
+            ],
+            "answer": 1,
+            "explanation": "IRR assumes reinvestment at the IRR rate, which can be unrealistic [citation:2][citation:10]."
+        },
+        {
+            "id": "p2s5_33",
+            "question": "Capital rationing means:",
+            "options": [
+                "Unlimited funds available",
+                "Limited funds for investment",
+                "No projects available",
+                "All projects are accepted"
+            ],
+            "answer": 1,
+            "explanation": "Capital rationing occurs when funds are limited, requiring selection of the best combination of projects."
+        },
+        {
+            "id": "p2s5_34",
+            "question": "Under capital rationing, projects should be ranked by:",
+            "options": [
+                "IRR",
+                "NPV",
+                "Profitability Index",
+                "Payback"
+            ],
+            "answer": 2,
+            "explanation": "Profitability Index (PI) helps rank projects by value created per dollar invested."
+        },
+        {
+            "id": "p2s5_35",
+            "question": "Sensitivity analysis in capital budgeting:",
+            "options": [
+                "Changes multiple variables simultaneously",
+                "Changes one variable at a time to see impact on NPV",
+                "Uses probability distributions",
+                "Ignores risk"
+            ],
+            "answer": 1,
+            "explanation": "Sensitivity analysis changes one variable at a time to identify key value drivers."
+        },
+        {
+            "id": "p2s5_36",
+            "question": "Scenario analysis:",
+            "options": [
+                "Changes one variable at a time",
+                "Changes multiple variables simultaneously under different scenarios",
+                "Uses Monte Carlo simulation",
+                "Calculates break-even point"
+            ],
+            "answer": 1,
+            "explanation": "Scenario analysis evaluates different combinations of variables (best case, base case, worst case)."
+        },
+        {
+            "id": "p2s5_37",
+            "question": "Monte Carlo simulation:",
+            "options": [
+                "Uses single-point estimates",
+                "Assigns probability distributions to variables and runs multiple iterations",
+                "Ignores risk",
+                "Is a qualitative technique"
+            ],
+            "answer": 1,
+            "explanation": "Monte Carlo simulation uses probability distributions and thousands of iterations to generate a distribution of NPV outcomes."
+        },
+        {
+            "id": "p2s5_38",
+            "question": "A real option gives managers the right to:",
+            "options": [
+                "Force project acceptance",
+                "Adapt decisions as new information emerges",
+                "Eliminate all risk",
+                "Ignore uncertainty"
+            ],
+            "answer": 1,
+            "explanation": "Real options provide flexibility to adapt decisions (expand, abandon, delay) based on new information [citation:3]."
+        },
+        {
+            "id": "p2s5_39",
+            "question": "The formula for project value including real options is:",
+            "options": [
+                "Traditional NPV",
+                "Traditional NPV + Option Value",
+                "Option Value - Traditional NPV",
+                "Max(Traditional NPV, Option Value)"
+            ],
+            "answer": 1,
+            "explanation": "True Project Value = Traditional NPV + Value of Real Options [citation:3]."
+        },
+        {
+            "id": "p2s5_40",
+            "question": "Which of the following is NOT a type of real option?",
+            "options": [
+                "Expansion option",
+                "Abandonment option",
+                "Financing option",
+                "Delay option"
+            ],
+            "answer": 2,
+            "explanation": "The three main types are expansion, abandonment, and delay options [citation:3]. Financing is not a real option type."
+        },
+        {
+            "id": "p2s5_41",
+            "question": "An expansion option allows a company to:",
+            "options": [
+                "Exit a project early",
+                "Increase investment if the project succeeds",
+                "Delay the project start",
+                "Reduce risk through insurance"
+            ],
+            "answer": 1,
+            "explanation": "Expansion options let companies scale up if initial results are favorable [citation:3]."
+        },
+        {
+            "id": "p2s5_42",
+            "question": "A project has traditional NPV of -$10,000. There is a 50% chance to expand and add $50,000 value. The project's true value is:",
+            "options": [
+                "-$10,000",
+                "$15,000",
+                "$40,000",
+                "$50,000"
+            ],
+            "answer": 1,
+            "explanation": "Option value = $50,000 × 50% = $25,000. True value = -$10,000 + $25,000 = $15,000 [citation:3]."
+        },
+        {
+            "id": "p2s5_43",
+            "question": "An abandonment option is exercised when:",
+            "options": [
+                "Continuing value > abandonment value",
+                "Abandonment value > continuing value",
+                "NPV is positive",
+                "IRR > WACC"
+            ],
+            "answer": 1,
+            "explanation": "Abandonment option is exercised if abandonment value exceeds the present value of continuing the project [citation:3]."
+        },
+        {
+            "id": "p2s5_44",
+            "question": "A company can abandon a project for $20,000. Continuing has PV of $10,000. The abandonment option value is:",
+            "options": [
+                "$0",
+                "$10,000",
+                "$20,000",
+                "$30,000"
+            ],
+            "answer": 1,
+            "explanation": "The option adds $10,000 value ($20,000 - $10,000) compared to continuing [citation:3]."
+        },
+        {
+            "id": "p2s5_45",
+            "question": "A delay option allows a company to:",
+            "options": [
+                "Start immediately",
+                "Wait for more information before committing",
+                "Abandon the project",
+                "Expand production"
+            ],
+            "answer": 1,
+            "explanation": "Delay options let companies wait for better information, though they may lose first-mover advantage [citation:3]."
+        },
+        {
+            "id": "p2s5_46",
+            "question": "Which of the following is a limitation of real options analysis?",
+            "options": [
+                "Overestimates project value",
+                "Options are difficult to value precisely",
+                "Ignores managerial flexibility",
+                "Always leads to project acceptance"
+            ],
+            "answer": 1,
+            "explanation": "Real options are conceptually sound but difficult to quantify precisely in practice."
+        },
+        {
+            "id": "p2s5_47",
+            "question": "Risk-adjusted discount rate method:",
+            "options": [
+                "Adjusts cash flows for risk",
+                "Adjusts discount rate for risk",
+                "Ignores risk",
+                "Uses risk-free rate"
+            ],
+            "answer": 1,
+            "explanation": "Higher risk projects use higher discount rates to reflect additional risk."
+        },
+        {
+            "id": "p2s5_48",
+            "question": "Certainty equivalent method:",
+            "options": [
+                "Adjusts discount rate",
+                "Adjusts cash flows to risk-free equivalents",
+                "Uses WACC unchanged",
+                "Ignores risk"
+            ],
+            "answer": 1,
+            "explanation": "Certainty equivalent converts risky cash flows to guaranteed amounts, then discounts at risk-free rate."
+        },
+        {
+            "id": "p2s5_49",
+            "question": "When comparing projects with unequal lives, use:",
+            "options": [
+                "NPV directly",
+                "Equivalent Annual Annuity (EAA)",
+                "Payback period",
+                "IRR"
+            ],
+            "answer": 1,
+            "explanation": "EAA converts NPV to an annual annuity amount, allowing comparison across different lives."
+        },
+        {
+            "id": "p2s5_50",
+            "question": "In replacement decisions, the relevant initial investment is:",
+            "options": [
+                "Cost of new asset",
+                "Cost of new asset - Salvage of old asset",
+                "Book value of old asset",
+                "Salvage of old asset"
+            ],
+            "answer": 1,
+            "explanation": "Initial investment = Cost of new asset - Salvage value received from old asset (net of tax effects)."
+        },
+        {
+            "id": "p2s5_51",
+            "question": "When an old asset is sold at a gain:",
+            "options": [
+                "No tax effect",
+                "Tax is paid on the gain, increasing initial outflow",
+                "Tax shield reduces outflow",
+                "Gain is ignored"
+            ],
+            "answer": 1,
+            "explanation": "Gain = Salvage - Book Value. Tax on gain is an additional cash outflow (or reduces inflow)."
+        },
+        {
+            "id": "p2s5_52",
+            "question": "Inflation in capital budgeting should be treated by:",
+            "options": [
+                "Using nominal cash flows with nominal discount rate",
+                "Using real cash flows with nominal discount rate",
+                "Ignoring inflation",
+                "Using nominal cash flows with real discount rate"
+            ],
+            "answer": 0,
+            "explanation": "Consistency is key: nominal with nominal, real with real. Never mix."
+        },
+        {
+            "id": "p2s5_53",
+            "question": "A project has conventional cash flows (negative then positive). Which statement is TRUE?",
+            "options": [
+                "Multiple IRRs are possible",
+                "Only one IRR exists",
+                "IRR cannot be calculated",
+                "NPV is always positive"
+            ],
+            "answer": 1,
+            "explanation": "Conventional cash flows (one sign change) yield a single IRR [citation:2]."
+        },
+        {
+            "id": "p2s5_54",
+            "question": "The crossover rate for two projects is where:",
+            "options": [
+                "NPVs are equal",
+                "IRRs are equal",
+                "Paybacks are equal",
+                "Initial investments are equal"
+            ],
+            "answer": 0,
+            "explanation": "Crossover rate is the discount rate where the NPVs of two projects are equal."
+        },
+        {
+            "id": "p2s5_55",
+            "question": "Qualitative factors in capital budgeting include:",
+            "options": [
+                "NPV calculation",
+                "Employee morale and strategic alignment",
+                "IRR calculation",
+                "Payback period"
+            ],
+            "answer": 1,
+            "explanation": "Qualitative factors include strategic fit, employee impact, customer relationships, and brand image."
+        },
+        {
+            "id": "p2s5_56",
+            "question": "The cost of capital used in NPV should reflect:",
+            "options": [
+                "The project's risk, not the company's average risk",
+                "The company's historical cost of debt",
+                "The risk-free rate",
+                "The inflation rate"
+            ],
+            "answer": 0,
+            "explanation": "Discount rate should reflect project-specific risk, not necessarily the company's overall WACC."
+        },
+        {
+            "id": "p2s5_57",
+            "question": "A company with a high proportion of debt in its capital structure would have a WACC that is:",
+            "options": [
+                "Always higher",
+                "Always lower",
+                "Affected by the cost of debt and equity",
+                "Unaffected by capital structure"
+            ],
+            "answer": 2,
+            "explanation": "WACC reflects the weighted average of debt and equity costs, considering their proportions."
+        },
+        {
+            "id": "p2s5_58",
+            "question": "Which of the following is a cash inflow at project termination?",
+            "options": [
+                "Initial investment",
+                "Recovery of working capital",
+                "Depreciation expense",
+                "Interest expense"
+            ],
+            "answer": 1,
+            "explanation": "Working capital invested at the start is typically recovered in full at project end."
+        },
+        {
+            "id": "p2s5_59",
+            "question": "A project requires $50,000 in working capital at start. At end, working capital is recovered. The terminal cash flow from working capital is:",
+            "options": [
+                "$0",
+                "$50,000 inflow",
+                "$50,000 outflow",
+                "Depends on tax rate"
+            ],
+            "answer": 1,
+            "explanation": "Working capital recovery is a cash inflow at termination, typically equal to the initial investment."
+        },
+        {
+            "id": "p2s5_60",
+            "question": "Salvage value of equipment at project end is:",
+            "options": [
+                "Ignored",
+                "A cash inflow, net of taxes",
+                "A cash outflow",
+                "Treated as depreciation"
+            ],
+            "answer": 1,
+            "explanation": "Salvage value is a cash inflow, adjusted for taxes if gain or loss on disposal."
+        },
+        {
+            "id": "p2s5_61",
+            "question": "If equipment with book value $10,000 is sold for $15,000, tax rate 30%, the after-tax salvage is:",
+            "options": [
+                "$15,000",
+                "$13,500",
+                "$11,500",
+                "$10,000"
+            ],
+            "answer": 1,
+            "explanation": "Gain = $5,000; Tax = $5,000 × 0.30 = $1,500; After-tax salvage = $15,000 - $1,500 = $13,500."
+        },
+        {
+            "id": "p2s5_62",
+            "question": "If equipment with book value $10,000 is sold for $8,000, tax rate 30%, the after-tax salvage is:",
+            "options": [
+                "$8,000",
+                "$8,600",
+                "$9,400",
+                "$10,000"
+            ],
+            "answer": 1,
+            "explanation": "Loss = $2,000; Tax shield = $2,000 × 0.30 = $600; After-tax salvage = $8,000 + $600 = $8,600."
+        },
+        {
+            "id": "p2s5_63",
+            "question": "The term 'hurdle rate' refers to:",
+            "options": [
+                "The minimum acceptable rate of return",
+                "The IRR of the project",
+                "The payback period",
+                "The inflation rate"
+            ],
+            "answer": 0,
+            "explanation": "Hurdle rate is the minimum required return, often the company's WACC."
+        },
+        {
+            "id": "p2s5_64",
+            "question": "Which of the following would cause NPV and IRR to conflict?",
+            "options": [
+                "Conventional cash flows",
+                "Different project scales or timing of cash flows",
+                "Independent projects",
+                "Single IRR"
+            ],
+            "answer": 1,
+            "explanation": "Conflicts arise from differences in project size, timing, or lives, due to different reinvestment assumptions."
+        },
+        {
+            "id": "p2s5_65",
+            "question": "A project with non-conventional cash flows (multiple sign changes) may have:",
+            "options": [
+                "No IRR",
+                "Multiple IRRs",
+                "IRR equal to WACC",
+                "IRR always positive"
+            ],
+            "answer": 1,
+            "explanation": "Non-conventional cash flows can produce multiple IRRs [citation:2]."
+        },
+        {
+            "id": "p2s5_66",
+            "question": "When multiple IRRs exist, the best decision criterion is:",
+            "options": [
+                "The highest IRR",
+                "The lowest IRR",
+                "NPV",
+                "Payback"
+            ],
+            "answer": 2,
+            "explanation": "When IRR is ambiguous, NPV provides a clear decision rule."
+        },
+        {
+            "id": "p2s5_67",
+            "question": "Modified Internal Rate of Return (MIRR) addresses IRR's reinvestment problem by:",
+            "options": [
+                "Assuming reinvestment at WACC",
+                "Assuming reinvestment at IRR",
+                "Ignoring reinvestment",
+                "Using accounting income"
+            ],
+            "answer": 0,
+            "explanation": "MIRR assumes reinvestment at the cost of capital, providing a more realistic rate."
+        },
+        {
+            "id": "p2s5_68",
+            "question": "A project has initial investment of $100,000 and annual cash flows of $30,000 for 5 years. The payback period is:",
+            "options": [
+                "3.0 years",
+                "3.33 years",
+                "4.0 years",
+                "5.0 years"
+            ],
+            "answer": 1,
+            "explanation": "Payback = $100,000 / $30,000 = 3.33 years."
+        },
+        {
+            "id": "p2s5_69",
+            "question": "Using the same data, if the company's payback criterion is 3 years, the project should be:",
+            "options": [
+                "Accepted",
+                "Rejected",
+                "Indifferent",
+                "Re-evaluated"
+            ],
+            "answer": 1,
+            "explanation": "3.33 years > 3 years target, so reject by payback criterion."
+        },
+        {
+            "id": "p2s5_70",
+            "question": "A major weakness of payback period is:",
+            "options": [
+                "It's too complex",
+                "It ignores cash flows after payback",
+                "It uses discounted cash flows",
+                "It measures profitability"
+            ],
+            "answer": 1,
+            "explanation": "Payback ignores cash flows after the payback period, potentially rejecting profitable long-term projects [citation:6]."
+        },
+        {
+            "id": "p2s5_71",
+            "question": "The decision rule for independent projects under NPV is:",
+            "options": [
+                "Accept all with NPV > 0",
+                "Accept the highest NPV only",
+                "Accept all with IRR > WACC",
+                "Accept all with payback < target"
+            ],
+            "answer": 0,
+            "explanation": "For independent projects, accept all with positive NPV (they all add value)."
+        },
+        {
+            "id": "p2s5_72",
+            "question": "The decision rule for mutually exclusive projects under NPV is:",
+            "options": [
+                "Accept all with NPV > 0",
+                "Accept the project with highest NPV",
+                "Accept the project with highest IRR",
+                "Accept the project with shortest payback"
+            ],
+            "answer": 1,
+            "explanation": "For mutually exclusive projects, choose the one with highest NPV (maximizes value)."
+        },
+        {
+            "id": "p2s5_73",
+            "question": "Capital budgeting decisions should be based primarily on:",
+            "options": [
+                "Accounting income",
+                "Incremental after-tax cash flows",
+                "Book value of assets",
+                "Historical costs"
+            ],
+            "answer": 1,
+            "explanation": "Only incremental after-tax cash flows are relevant for investment decisions."
+        },
+        {
+            "id": "p2s5_74",
+            "question": "Which of the following is a sunk cost?",
+            "options": [
+                "Future maintenance costs",
+                "Cost of market research already completed",
+                "Additional working capital required",
+                "Installation costs for new equipment"
+            ],
+            "answer": 1,
+            "explanation": "Completed market research is a sunk cost—already incurred and cannot be recovered."
+        },
+        {
+            "id": "p2s5_75",
+            "question": "In capital budgeting, the term 'relevant cash flows' means:",
+            "options": [
+                "All cash flows of the company",
+                "Future cash flows that differ between alternatives",
+                "Historical cash flows",
+                "Financing cash flows"
+            ],
+            "answer": 1,
+            "explanation": "Relevant cash flows are future, incremental, and differ between alternatives."
+        },
+        {
+            "id": "p2s5_76",
+            "question": "The tax shield on depreciation is included because:",
+            "options": [
+                "Depreciation is a cash expense",
+                "Depreciation reduces taxes payable",
+                "Depreciation increases revenue",
+                "Depreciation is a financing cost"
+            ],
+            "answer": 1,
+            "explanation": "Depreciation reduces taxable income, reducing taxes—a cash saving."
+        },
+        {
+            "id": "p2s5_77",
+            "question": "A company with a tax rate of 40% has annual cash revenue of $100,000 and cash expenses of $60,000. Depreciation is $20,000. After-tax operating cash flow is:",
+            "options": [
+                "$24,000",
+                "$32,000",
+                "$40,000",
+                "$44,000"
+            ],
+            "answer": 3,
+            "explanation": "Pre-tax profit = $100,000 - $60,000 - $20,000 = $20,000. Tax = $20,000 × 0.40 = $8,000. ATCF = $100,000 - $60,000 - $8,000 = $32,000. Or using formula: ($100,000 - $60,000) × 0.6 + ($20,000 × 0.4) = $24,000 + $8,000 = $32,000."
+        },
+        {
+            "id": "p2s5_78",
+            "question": "Using the same data, the depreciation tax shield is:",
+            "options": [
+                "$20,000",
+                "$12,000",
+                "$8,000",
+                "$4,000"
+            ],
+            "answer": 2,
+            "explanation": "Tax shield = Depreciation × Tax Rate = $20,000 × 0.40 = $8,000."
+        },
+        {
+            "id": "p2s5_79",
+            "question": "If a project's NPV is negative, the project should be:",
+            "options": [
+                "Accepted if IRR > WACC",
+                "Rejected",
+                "Accepted if payback is short",
+                "Re-evaluated with higher discount rate"
+            ],
+            "answer": 1,
+            "explanation": "Negative NPV destroys value and should be rejected."
+        },
+        {
+            "id": "p2s5_80",
+            "question": "The discount rate that makes NPV zero is the:",
+            "options": [
+                "WACC",
+                "IRR",
+                "Payback rate",
+                "Accounting rate"
+            ],
+            "answer": 1,
+            "explanation": "IRR is the discount rate at which NPV = 0 [citation:2][citation:10]."
+        },
+        {
+            "id": "p2s5_81",
+            "question": "Two projects are mutually exclusive. Project X has NPV $50,000 and IRR 18%. Project Y has NPV $60,000 and IRR 15%. Choose:",
+            "options": [
+                "Project X",
+                "Project Y",
+                "Both",
+                "Neither"
+            ],
+            "answer": 1,
+            "explanation": "For mutually exclusive projects, choose the higher NPV ($60,000 > $50,000)."
+        },
+        {
+            "id": "p2s5_82",
+            "question": "Capital budgeting decisions are typically:",
+            "options": [
+                "Short-term decisions",
+                "Long-term decisions with significant impact",
+                "Operational decisions",
+                "Working capital decisions"
+            ],
+            "answer": 1,
+            "explanation": "Capital budgeting involves long-term commitments with significant strategic impact."
+        },
+        {
+            "id": "p2s5_83",
+            "question": "The payback period method is best suited for:",
+            "options": [
+                "Projects with long lives",
+                "Companies with liquidity concerns",
+                "High-risk projects",
+                "All capital budgeting decisions"
+            ],
+            "answer": 1,
+            "explanation": "Payback is useful for assessing liquidity and risk of early recovery, but not profitability [citation:6]."
+        },
+        {
+            "id": "p2s5_84",
+            "question": "Which of the following is a disadvantage of NPV?",
+            "options": [
+                "Ignores TVM",
+                "Difficult to explain to non-financial managers",
+                "Uses accounting income",
+                "Ignores risk"
+            ],
+            "answer": 1,
+            "explanation": "NPV is conceptually sound but can be difficult to explain to non-financial managers compared to IRR's percentage."
+        },
+        {
+            "id": "p2s5_85",
+            "question": "The profitability index is most useful when:",
+            "options": [
+                "Funds are unlimited",
+                "Capital is rationed",
+                "Projects are mutually exclusive",
+                "IRR cannot be calculated"
+            ],
+            "answer": 1,
+            "explanation": "PI helps rank projects by efficiency (value per dollar invested) under capital rationing."
+        },
+        {
+            "id": "p2s5_86",
+            "question": "A project with PI = 0.9 should be:",
+            "options": [
+                "Accepted",
+                "Rejected",
+                "Accepted if funds available",
+                "Compared with IRR"
+            ],
+            "answer": 1,
+            "explanation": "PI < 1 means NPV negative, so reject."
+        },
+        {
+            "id": "p2s5_87",
+            "question": "Which risk analysis technique uses probability distributions and random sampling?",
+            "options": [
+                "Sensitivity analysis",
+                "Scenario analysis",
+                "Monte Carlo simulation",
+                "Break-even analysis"
+            ],
+            "answer": 2,
+            "explanation": "Monte Carlo simulation assigns probability distributions and runs thousands of iterations."
+        },
+        {
+            "id": "p2s5_88",
+            "question": "Break-even analysis in capital budgeting determines:",
+            "options": [
+                "The sales volume where NPV = 0",
+                "The discount rate where NPV = 0",
+                "The payback period",
+                "The accounting break-even"
+            ],
+            "answer": 0,
+            "explanation": "Break-even analysis finds the level of a key variable (like sales) where NPV equals zero."
+        },
+        {
+            "id": "p2s5_89",
+            "question": "A real option to delay is most valuable when:",
+            "options": [
+                "Uncertainty is low",
+                "Uncertainty is high and waiting reveals information",
+                "First-mover advantage is critical",
+                "Competition is intense"
+            ],
+            "answer": 1,
+            "explanation": "Delay options are valuable when waiting can resolve uncertainty, though they risk losing early advantage [citation:3]."
+        },
+        {
+            "id": "p2s5_90",
+            "question": "A real option to abandon is most valuable when:",
+            "options": [
+                "Project has high salvage value",
+                "Project has low salvage value",
+                "Project has guaranteed success",
+                "Project has no risk"
+            ],
+            "answer": 0,
+            "explanation": "Abandonment options are valuable when salvage value is high relative to continuing value [citation:3]."
+        },
+        {
+            "id": "p2s5_91",
+            "question": "The equivalent annual annuity (EAA) method is used to compare projects with:",
+            "options": [
+                "Equal lives",
+                "Unequal lives",
+                "Equal initial investment",
+                "Equal cash flows"
+            ],
+            "answer": 1,
+            "explanation": "EAA converts NPV to an annual annuity, allowing comparison across different project lives."
+        },
+        {
+            "id": "p2s5_92",
+            "question": "If two mutually exclusive projects have different lives, the preferred project is the one with:",
+            "options": [
+                "Higher NPV over its life",
+                "Higher EAA",
+                "Higher IRR",
+                "Shorter payback"
+            ],
+            "answer": 1,
+            "explanation": "EAA standardizes returns to an annual equivalent, enabling valid comparison."
+        },
+        {
+            "id": "p2s5_93",
+            "question": "Which of the following is an advantage of using NPV over IRR?",
+            "options": [
+                "NPV is a percentage, easier to understand",
+                "NPV assumes realistic reinvestment rate",
+                "NPV ignores TVM",
+                "NPV always gives a single value"
+            ],
+            "answer": 1,
+            "explanation": "NPV assumes reinvestment at WACC (realistic), while IRR assumes reinvestment at IRR (often unrealistic) [citation:2]."
+        },
+        {
+            "id": "p2s5_94",
+            "question": "The cost of capital for a project should reflect:",
+            "options": [
+                "The risk of the project",
+                "The company's overall risk",
+                "The risk-free rate",
+                "Historical returns"
+            ],
+            "answer": 0,
+            "explanation": "Discount rate should match project risk, not necessarily company average risk."
+        },
+        {
+            "id": "p2s5_95",
+            "question": "In capital budgeting, cannibalization refers to:",
+            "options": [
+                "New product sales reducing sales of existing products",
+                "Competitors eating market share",
+                "Inflation reducing purchasing power",
+                "Taxes reducing cash flows"
+            ],
+            "answer": 0,
+            "explanation": "Cannibalization occurs when a new project takes sales from existing products—a relevant cash flow effect."
+        },
+        {
+            "id": "p2s5_96",
+            "question": "Externalities in capital budgeting (like cannibalization) should be:",
+            "options": [
+                "Ignored",
+                "Included as incremental cash flows",
+                "Treated as sunk costs",
+                "Capitalized"
+            ],
+            "answer": 1,
+            "explanation": "Externalities affect company cash flows and should be included in analysis."
+        },
+        {
+            "id": "p2s5_97",
+            "question": "A company is considering a project that will use an existing idle building. The building's market value is:",
+            "options": [
+                "Irrelevant",
+                "An opportunity cost if sold",
+                "A sunk cost",
+                "Depreciated value"
+            ],
+            "answer": 1,
+            "explanation": "The building could be sold; its market value is an opportunity cost of using it."
+        },
+        {
+            "id": "p2s5_98",
+            "question": "If a project uses a resource that has no alternative use, its cost is:",
+            "options": [
+                "Market value",
+                "Zero (no opportunity cost)",
+                "Historical cost",
+                "Depreciated cost"
+            ],
+            "answer": 1,
+            "explanation": "If the resource has no alternative use, the opportunity cost is zero."
+        },
+        {
+            "id": "p2s5_99",
+            "question": "The primary goal of capital budgeting is to:",
+            "options": [
+                "Maximize accounting profits",
+                "Maximize shareholder wealth",
+                "Minimize risk",
+                "Achieve quick payback"
+            ],
+            "answer": 1,
+            "explanation": "Capital budgeting aims to select projects that maximize shareholder value (NPV)."
+        },
+        {
+            "id": "p2s5_100",
+            "question": "Which of the following statements about real options is TRUE?",
+            "options": [
+                "Real options decrease project value",
+                "Real options increase project value by adding flexibility",
+                "Real options are always quantifiable",
+                "Real options eliminate risk"
+            ],
+            "answer": 1,
+            "explanation": "Real options add value by providing managerial flexibility to adapt to new information [citation:3]."
+        }
+    ]
+}

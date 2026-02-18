@@ -1,0 +1,251 @@
+{
+    "standard": {
+        "id": "standard",
+        "title": "6-Month Structured Plan",
+        "description": "The recommended pace for most aspirants. Balances depth with consistent progress.",
+        "duration": "24 Weeks",
+        "phases": [
+            {
+                "title": "Phase 1 - Part 1 (Weeks 1-12)",
+                "weeks": [
+                    {
+                        "week": "1-2",
+                        "topic": "External Financial Reporting Decisions",
+                        "action": "Read Notes + Practice 100 MCQs"
+                    },
+                    {
+                        "week": "3-5",
+                        "topic": "Planning, Budgeting, and Forecasting",
+                        "action": "Deep Dive into Budgeting + 150 MCQs"
+                    },
+                    {
+                        "week": "6-7",
+                        "topic": "Performance Management",
+                        "action": "Focus on Variances + 100 MCQs"
+                    },
+                    {
+                        "week": "8-9",
+                        "topic": "Cost Management",
+                        "action": "Master Costing Systems + 100 MCQs"
+                    },
+                    {
+                        "week": "10",
+                        "topic": "Internal Controls",
+                        "action": "Theory Focus + 50 MCQs"
+                    },
+                    {
+                        "week": "11",
+                        "topic": "Technology and Analytics",
+                        "action": "Data concepts + 50 MCQs"
+                    },
+                    {
+                        "week": "12",
+                        "topic": "BUFFER & REVISION",
+                        "action": "Review Weak Areas + Full Mock Test 1"
+                    }
+                ]
+            },
+            {
+                "title": "Phase 2 - Part 2 (Weeks 13-24)",
+                "weeks": [
+                    {
+                        "week": "13-15",
+                        "topic": "Financial Statement Analysis",
+                        "action": "Ratios & Analysis + 150 MCQs"
+                    },
+                    {
+                        "week": "16-18",
+                        "topic": "Corporate Finance",
+                        "action": "Risk, Return, & Capital + 150 MCQs"
+                    },
+                    {
+                        "week": "19-20",
+                        "topic": "Decision Analysis",
+                        "action": "CVP & Marginal Analysis + 100 MCQs"
+                    },
+                    {
+                        "week": "21",
+                        "topic": "Enterprise Risk Management",
+                        "action": "ERM Frameworks + 50 MCQs"
+                    },
+                    {
+                        "week": "22",
+                        "topic": "Capital Investment Decisions",
+                        "action": "NPV, IRR Calculations + 50 MCQs"
+                    },
+                    {
+                        "week": "23",
+                        "topic": "Professional Ethics",
+                        "action": "IMA Statement of Ethics + Case Studies"
+                    },
+                    {
+                        "week": "24",
+                        "topic": "FINAL REVIEW",
+                        "action": "Full Mock Tests + Essay Practice"
+                    }
+                ]
+            }
+        ]
+    },
+    "fast": {
+        "id": "fast",
+        "title": "3-Month Fast Track",
+        "description": "Intensive plan for those with strong background or full-time study availability.",
+        "duration": "12 Weeks",
+        "phases": [
+            {
+                "title": "Integrated (Weeks 1-12)",
+                "weeks": [
+                    {
+                        "week": "1",
+                        "topic": "P1: Ext. Reporting + Planning",
+                        "action": "High Intensity Study"
+                    },
+                    {
+                        "week": "2",
+                        "topic": "P1: Planning & Budgeting",
+                        "action": "Daily Practice"
+                    },
+                    {
+                        "week": "3",
+                        "topic": "P1: Performance & Cost",
+                        "action": "Focus on Numericals"
+                    },
+                    {
+                        "week": "4",
+                        "topic": "P1: Controls & Tech",
+                        "action": "Complete P1 Theory"
+                    },
+                    {
+                        "week": "5",
+                        "topic": "P1 Revision & Label",
+                        "action": "Full Mock P1"
+                    },
+                    {
+                        "week": "6",
+                        "topic": "P2: Fin. Analysis",
+                        "action": "Ratios & Interpretations"
+                    },
+                    {
+                        "week": "7",
+                        "topic": "P2: Corp Finance",
+                        "action": "Finance Concepts"
+                    },
+                    {
+                        "week": "8",
+                        "topic": "P2: Decision Analysis",
+                        "action": "CVP & Pricing"
+                    },
+                    {
+                        "week": "9",
+                        "topic": "P2: Risk & Investment",
+                        "action": "Calculations Focus"
+                    },
+                    {
+                        "week": "10",
+                        "topic": "P2: Ethics",
+                        "action": "Ethics Scenarios"
+                    },
+                    {
+                        "week": "11",
+                        "topic": "P2 Revision",
+                        "action": "Full Mock P2"
+                    },
+                    {
+                        "week": "12",
+                        "topic": "FINAL EXAM SIMULATION",
+                        "action": "Back-to-back Mocks"
+                    }
+                ]
+            }
+        ]
+    },
+    "working": {
+        "id": "working",
+        "title": "9-Month Working Professional",
+        "description": "Paced for 1-2 hours of daily study. Ideal for full-time employees.",
+        "duration": "36 Weeks",
+        "phases": [
+            {
+                "title": "Part 1 (Weeks 1-18)",
+                "weeks": [
+                    {
+                        "week": "1-3",
+                        "topic": "External Financial Reporting",
+                        "action": "Slow & Steady"
+                    },
+                    {
+                        "week": "4-7",
+                        "topic": "Planning, Budgeting & Forecasting",
+                        "action": "Weekend deep dives"
+                    },
+                    {
+                        "week": "8-10",
+                        "topic": "Performance Management",
+                        "action": "Practical application"
+                    },
+                    {
+                        "week": "11-13",
+                        "topic": "Cost Management",
+                        "action": "Costing focus"
+                    },
+                    {
+                        "week": "14-15",
+                        "topic": "Internal Controls",
+                        "action": "Audit concepts"
+                    },
+                    {
+                        "week": "16-17",
+                        "topic": "Technology & Analytics",
+                        "action": "IT concepts"
+                    },
+                    {
+                        "week": "18",
+                        "topic": "Part 1 Revision",
+                        "action": "Mock Test 1"
+                    }
+                ]
+            },
+            {
+                "title": "Part 2 (Weeks 19-36)",
+                "weeks": [
+                    {
+                        "week": "19-23",
+                        "topic": "Financial Statement Analysis",
+                        "action": "Analyzing Reports"
+                    },
+                    {
+                        "week": "24-28",
+                        "topic": "Corporate Finance",
+                        "action": "Finance Management"
+                    },
+                    {
+                        "week": "29-31",
+                        "topic": "Decision Analysis",
+                        "action": "Strategic Decisions"
+                    },
+                    {
+                        "week": "32",
+                        "topic": "Risk Management",
+                        "action": "Risk Frameworks"
+                    },
+                    {
+                        "week": "33",
+                        "topic": "Investment Decisions",
+                        "action": "Capital Budgeting"
+                    },
+                    {
+                        "week": "34",
+                        "topic": "Professional Ethics",
+                        "action": "Ethics Code"
+                    },
+                    {
+                        "week": "35-36",
+                        "topic": "FINAL PREP",
+                        "action": "Comprehensive Mocks"
+                    }
+                ]
+            }
+        ]
+    }
+}

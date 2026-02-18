@@ -1,0 +1,1368 @@
+{
+    "id": "p1-s3",
+    "title": "Performance Management",
+    "weightage": "20%",
+    "recommendedStudyHours": "40-45 hours",
+    "examLevel": "Level C (Analysis, Application, Evaluation)",
+    "overview": "Performance Management (20% of Part 1) is not just calculation—it is diagnostic analysis. It answers: Did we perform as expected? If not, why? Who is responsible? It covers the full spectrum from Variance Analysis (Static vs. Flexible budgets, Mix/Yield) to Responsibility Accounting (ROI, RI, EVA, Transfer Pricing) and non-financial measures (Balanced Scorecard, COQ). The goal is to align behavior with strategy, prevent suboptimization, and ensure long-term value creation.",
+    "bulletNotes": [
+        "Flex Your Budget: Always compare Actual Results to a Flexible Budget (adjusted for actual volume), never the Static Budget.",
+        "Variance Hierarchy: Total Variance = Sales Volume Variance (Quantity) + Flexible Budget Variance (Price/Efficiency).",
+        "Material Price Variance is based on Quantity PURCHASED (Procurement responsibility); Usage on Quantity USED (Production responsibility).",
+        "Fixed Overhead Volume Variance is unique: It measures CAPACITY utilization (Over/Under absorption), not spending control.",
+        "ROI Trap: Managers may reject profitable projects (e.g., 15% return) if they lower their current high ROI (e.g., 20%). This is Suboptimization.",
+        "Residual Income (RI) Fix: Measures absolute $ value added above cost of capital. Aligns with shareholder value.",
+        "Transfer Pricing: Minimum Price = Variable Cost + Opportunity Cost (Lost Contribution Margin).",
+        "Balanced Scorecard: Adds Leading Indicators (Customer, Process, Learning) to Lagging Financial Indicators.",
+        "Cost of Quality: Investing in Conformance (Prevention/Appraisal) drastically reduces Non-Conformance (Failure) costs."
+    ],
+    "shortNotes": "Think Economically: Favorable variances aren't always 'good' (e.g., cheap materials causing rework). Master the 'AQ x AP | AQ x SP | SQ x SP' column method. Understand that Performance Measures drive Behavior—be able to predict how a manager will act under ROI vs RI. Variance analysis is for control, not punishment.",
+    "concepts": [
+        {
+            "title": "1. Philosophy & Budgeting Framework",
+            "content": "<h3>The Philosophy</h3><p>Performance management answers: \"Did we perform as expected? Why not? Who is responsible? What behavior will this encourage?\" It is diagnostic analysis.</p><h3>Static vs Flexible Budget (The Foundation)</h3><p><strong>Static Budget:</strong> Prepared at the start of the period based on <em>planned</em> output. Does NOT adjust. Used for planning.</p><p><strong>Flexible Budget:</strong> Adjusted to the <em>actual</em> output level using standard costs per unit. Used for <em>performance evaluation</em>.</p><p><strong>Why This Matters:</strong> If sales increase, total variable costs naturally increase. This is not 'poor performance'. We must compare Actual Results vs <strong>Flexible Budget</strong> to isolate efficiency.</p>"
+        },
+        {
+            "title": "2. Variance Hierarchy & Sales Variances",
+            "content": "<h3>The Big Picture</h3><p><strong>Total Variance = Actual Results - Static Budget</strong></p><p>Broken down into:</p><ol><li><strong>Sales Volume Variance:</strong> (Flexible Budget - Static Budget). Difference due purely to <em>quantity</em> sold.</li><li><strong>Flexible Budget Variance:</strong> (Actual Results - Flexible Budget). Difference due to <em>price, cost, or efficiency</em>.</li></ol><h3>Sales Variances (Revenue Side)</h3><p><strong>Sales Price Variance:</strong> <code>(Actual Price - Std Price) × Actual Qty Sold</code>. Measures pricing power. Responsibility: Sales Mgr.</p><p><strong>Sales Volume Variance:</strong> <code>(Actual Qty - Std Qty) × Std Contribution Margin</code>. <br><em>Crucial:</em> Uses Contribution Margin, NOT Selling Price, because fixed costs don't change with volume.</p>"
+        },
+        {
+            "title": "3. Direct Material & Labor Variances",
+            "content": "<h3>Direct Materials (Two-Way Split)</h3><ul><li><strong>Price Variance (MPV):</strong> <code>(AP - SP) × AQ Purchased</code>. <br><em>Trap:</em> Use Qty PURCHASED. Purchasing Manager controls price at the point of buy.</li><li><strong>Usage Variance (MUV):</strong> <code>(AQ Used - SQ Allowed) × SP</code>. <br><em>SQ Allowed:</em> Actual Output × Std Qty per Unit. Responsibility: Production Manager.</li></ul><h3>Direct Labor Variances</h3><ul><li><strong>Rate Variance (LRV):</strong> <code>(Actual Rate - Std Rate) × Actual Hours</code>. Responsibility: HR/Hiring.</li><li><strong>Efficiency Variance (LEV):</strong> <code>(Actual Hours - Std Hours Allowed) × Std Rate</code>. Responsibility: Production.</li></ul>"
+        },
+        {
+            "title": "4. Manufacturing Overhead Variances",
+            "content": "<h3>Variable Overhead</h3><ul><li><strong>Spending Variance:</strong> <code>(Actual Rate - Std Rate) × Actual Hours</code>. Similar to Labor Rate variance.</li><li><strong>Efficiency Variance:</strong> <code>(Actual Hours - Std Hours) × Std Rate</code>. Driven by the efficiency of the base (e.g., labor hours).</li></ul><h3>Fixed Overhead (4-Way Analysis)</h3><ul><li><strong>Spending Variance:</strong> <code>Actual Fixed Cost - Budgeted Fixed Cost</code>. Measures over/under spending vs budget in dollars.</li><li><strong>Volume Variance:</strong> <code>Budgeted Fixed Cost - Applied Fixed Cost</code>. <br><em>Applied = Std Hours × Fixed Rate.</em><br>This variance exists because fixed costs are allocated based on standard capacity. If Actual Output &lt; Budgeted Capacity, we have <strong>Under-absorption</strong> (Unfavorable Volume Variance). It measures <em>Capacity Utilization</em>.</li></ul>"
+        },
+        {
+            "title": "5. Advanced Variance Analysis",
+            "content": "<h3>The 3-Column Method (Best for Exam)</h3><div class='table-responsive'><table class='notes-table'><thead><tr><th>Actual (AQ × AP)</th><th>Flexible (AQ × SP)</th><th>Standard (SQ × SP)</th></tr></thead><tbody><tr><td>Real costs incurred</td><td>Input for Price Variance</td><td>Target cost for output</td></tr><tr><td colspan='2'><strong>&larr; Price/Rate Variance &rarr;</strong></td><td colspan='2'><strong>&larr; Usage/Efficiency Variance &rarr;</strong></td></tr></tbody></table></div><h3>Trade-Offs & Interpretation</h3><p><strong>Economic View:</strong> A Favorable variance isn't always good. Example: Buying cheap material (Favorable Price Var) causes scrap (Unfavorable Usage Var) and rework (Unfavorable Efficiency Var). Always analyze the <em>Net Impact</em>.</p><p><strong>When to Investigate:</strong> If variance is Material, Recurring, Controllable, or Strategic.</p><h3>Mix & Yield Variances (Advanced)</h3><ul><li><strong>Sales Mix Variance:</strong> Impact of selling a different proportion of high-margin vs low-margin products.</li><li><strong>Sales Quantity Variance:</strong> Impact of total volume difference involved.</li></ul>"
+        },
+        {
+            "title": "6. Responsibility Accounting (ROI vs RI)",
+            "content": "<h3>Responsibility Centers</h3><ul><li><strong>Cost Center:</strong> Costs only (Maintenance).</li><li><strong>Revenue Center:</strong> Revenue only (Sales).</li><li><strong>Profit Center:</strong> Both (Product Line).</li><li><strong>Investment Center:</strong> Revenue, Costs, Assets (Subsidiary). Evaluated via ROI/RI.</li></ul><h3>Return on Investment (ROI)</h3><p><code>ROI = Income / Invested Capital</code></p><p><strong>DuPont Analysis:</strong> <code>(Income/Sales) × (Sales/Assets)</code> = Margin × Turnover.</p><p><strong>The Trap:</strong> Managers reject project with 15% return if current ROI is 20%, even if Cost of Capital is 10%. This is <strong>Suboptimization</strong>.</p><h3>Residual Income (RI)</h3><p><code>RI = Operating Income - (Invested Capital × Required Rate)</code></p><p><strong>The Fix:</strong> Measures dollar value created. If RI is positive, value is added. Solves underinvestment problem.</p><h3>Economic Value Added (EVA)</h3><p>Refined RI using NOPAT and WACC. <code>EVA = NOPAT - (Capital × WACC)</code>.</p>"
+        },
+        {
+            "title": "7. Transfer Pricing",
+            "content": "<h3>Purpose</h3><p>Goal congruence, Autonomy, Performance evaluation, Tax planning.</p><h3>General Rule</h3><p><code>Minimum Transfer Price = Variable Cost + Opportunity Cost</code></p><ul><li><strong>Excess Capacity:</strong> Opp Cost = 0. Min Price = Variable Cost.</li><li><strong>Full Capacity:</strong> Opp Cost = Lost Contribution Margin. Min Price = Market Price.</li></ul><h3>Methods</h3><ul><li><strong>Market-Based:</strong> Best for autonomy/congruence if market exists.</li><li><strong>Cost-Based:</strong> Variable or Full Cost. (Full cost can pass on inefficiencies).</li><li><strong>Negotiated:</strong> Can cause conflict.</li></ul>"
+        },
+        {
+            "title": "8. Balanced Scorecard & Quality",
+            "content": "<h3>Balanced Scorecard (BSC)</h3><p>Links strategy to operations via 4 perspectives:</p><ol><li><strong>Financial:</strong> \"How do we look to shareholders?\" (ROI, EPS, EVA). <em>Lagging.</em></li><li><strong>Customer:</strong> \"How do customers see us?\" (Market share, Retention).</li><li><strong>Internal Process:</strong> \"What must we excel at?\" (Cycle time, Defect rate).</li><li><strong>Learning & Growth:</strong> \"Can we continue to improve?\" (Training, IT systems). <em>Leading.</em></li></ol><p><strong>Strategy Map:</strong> Learning &rarr; Process &rarr; Customer &rarr; Financial.</p><h3>Cost of Quality (COQ)</h3><ul><li><strong>Conformance (Good Quality):</strong> Prevention (Design, Training) + Appraisal (Testing, Audits).</li><li><strong>Non-Conformance (Bad Quality):</strong> Internal Failure (Scrap, Rework) + External Failure (Warranty, Brand damage).</li></ul><p><em>Insight:</em> Spending on Prevention is cheaper than paying for Failure.</p>"
+        },
+        {
+            "title": "9. Behavioral & Advanced Issues",
+            "content": "<h3>Behavioral Implications</h3><ul><li><strong>Suboptimization:</strong> Division maximizes own results at company expense (common with ROI).</li><li><strong>Short-Termism:</strong> Cutting R&D or Maintenance to boost quarterly income.</li><li><strong>Gaming:</strong> Accelerating sales or delaying maintenance.</li></ul><h3>Goal Congruence</h3><p>The system must align managers' personal incentives with the company's best interests. RI and EVA are generally better than ROI for this.</p><h3>Common Exam Traps</h3><ul><li>Using Budgeted Hours instead of <strong>Standard Hours Allowed</strong> for efficiency variances.</li><li>Confusing Fixed overhead Spending (Cost control) vs <strong>Volume</strong> (Capacity utilization).</li><li>Forgetting Sales Volume uses <strong>Contribution Margin</strong>.</li><li>Classifying Inspection as Prevention (it is Appraisal).</li></ul>"
+        }
+    ],
+    "formulas": [
+        {
+            "name": "ROI",
+            "formula": "Operating Income / Average Invested Capital"
+        },
+        {
+            "name": "Residual Income",
+            "formula": "Operating Income - (Invested Capital × Required Rate)"
+        },
+        {
+            "name": "Sales Volume Variance",
+            "formula": "(Actual Sold - Budgeted Sold) × Std Contribution Margin"
+        },
+        {
+            "name": "Material Price Variance",
+            "formula": "(Actual Price - Std Price) × Actual Qty Purcased"
+        },
+        {
+            "name": "Material Usage Variance",
+            "formula": "(Actual Qty Used - Std Qty Allowed) × Std Price"
+        },
+        {
+            "name": "Labor Efficiency Variance",
+            "formula": "(Actual Hours - Std Hours Allowed) × Std Rate"
+        },
+        {
+            "name": "Fixed OH Spending Var",
+            "formula": "Actual Fixed Cost - Budgeted Fixed Cost"
+        },
+        {
+            "name": "Fixed OH Volume Var",
+            "formula": "Budgeted Fixed Cost - (Std Hours × Fixed Rate)"
+        },
+        {
+            "name": "Transfer Price (Min)",
+            "formula": "Variable Cost + Opportunity Cost"
+        }
+    ],
+    "mistakes": [
+        "Using Budgeted Hours for efficiency variances (Must use Standard Hours Allowed for Actual Output).",
+        "Using Quantity Used for Price Variance (Must use Quantity Purchased).",
+        "Thinking Favorable Variance = Good Performance (Could be low quality).",
+        "Confusing Fixed OH Volume Variance with Spending (Volume is about capacity).",
+        "Ignoring Opportunity Cost in Transfer Pricing when at full capacity.",
+        "Rejecting a positive-NPV project because it lowers division ROI."
+    ],
+    "quiz": [
+        {
+            "question": "Which of the following best describes the 'Minimum Transfer Price' when the selling division has excess capacity?",
+            "options": [
+                "Market Price",
+                "Full Cost + Markup",
+                "Variable Cost",
+                "Variable Cost + Lost Contribution Margin"
+            ],
+            "answer": 2,
+            "explanation": "With excess capacity, there is no opportunity cost (no lost sales). Thus, the minimum price is simply the Variable Cost."
+        },
+        {
+            "question": "A favorable Direct Material Price Variance coupled with an unfavorable Direct Material Usage Variance most likely indicates:",
+            "options": [
+                "Efficient production processes",
+                "Purchase of lower-quality materials",
+                "Higher market prices for materials",
+                "Improved labor efficiency"
+            ],
+            "answer": 1,
+            "explanation": "Buying cheap materials (Favorable Price) often leads to waste/scrap (Unfavorable Usage). This is a classic trade-off."
+        },
+        {
+            "question": "Why is Residual Income (RI) often preferred over Return on Investment (ROI) for performance evaluation?",
+            "options": [
+                "It is a percentage, making comparison easier",
+                "It eliminates the suboptimization problem of underinvestment",
+                "It focuses solely on gross margin",
+                "It ignores the cost of capital"
+            ],
+            "answer": 1,
+            "explanation": "RI encourages managers to accept ANY project that earns more than the cost of capital, whereas ROI leads managers to reject profitable projects that might lower their average ROI."
+        },
+        {
+            "question": "Which of the four Balanced Scorecard perspectives is considered a 'Leading Indicator'?",
+            "options": [
+                "Financial",
+                "Customer",
+                "Learning and Growth",
+                "Internal Business Process"
+            ],
+            "answer": 2,
+            "explanation": "Learning & Growth (training, systems) drives improvement in Process, which drives Customer, which drives Financial results. It is the foundation."
+        },
+        {
+            "question": "Fixed Overhead Volume Variance determines the difference between:",
+            "options": [
+                "Actual Fixed Costs and Budgeted Fixed Costs",
+                "Budgeted Fixed Costs and Applied Fixed Costs",
+                "Actual Fixed Costs and Applied Fixed Costs",
+                "Sales Price and Standard Price"
+            ],
+            "answer": 1,
+            "explanation": "Volume Variance = Budgeted Fixed Overhead - Applied Fixed Overhead. It measures whether the company produced enough volume to validly 'absorb' the fixed costs."
+        }
+    ],
+    "essay": {
+        "question": "Evaluate the behavioral implications of using ROI as the sole performance metric for an investment center manager. Start by defining ROI, then discuss at least two specific dysfunctional behaviors it might encourage, and propose an alternative metric that could mitigate these issues.",
+        "modelAnswer": "<p><strong>1. Definition:</strong> ROI (Return on Investment) = Operating Income / Invested Capital. It measures the return generated per dollar of investment.</p><p><strong>2. Dysfunctional Behaviors:</strong><br><ul><li><strong>Underinvestment (Suboptimization):</strong> A manager with a high current ROI (e.g., 20%) may reject a profitable project yielding 15% (above the company's 10% cost of capital) because it would mathematically lower their average 20% ROI. This hurts the company's total value.</li><li><strong>Short-Termism:</strong> Managers may cut R&D, maintenance, or training costs to boost the numerator (Income) or delay asset purchases to reduce the denominator (Invested Capital), harming long-term viability.</li></ul></p><p><strong>3. Alternative Metric:</strong> <strong>Residual Income (RI)</strong> or <strong>EVA</strong>. RI = Income - (Capital × Cost of Capital). Since RI measures absolute dollar value added, the manager in the example above would accept the 15% project because it generates positive RI, aligning personal incentives with company shareholders.</p>"
+    },
+    "summary": "Performance Management (20%) is the diagnostic heart of Part 1. It requires moving beyond calculation to interpretation. Mastery involves understanding the 'Why' behind variances (Trade-offs), the 'Who' behind responsibility (Centers), and the 'How' of motivation (ROI vs RI). Success here means thinking like a CFO, not just a calculator.",
+    "test": [
+        {
+            "id": "p1s3_1",
+            "question": "Which variance isolates the impact of selling more or fewer units than budgeted?",
+            "options": [
+                "Sales Price Variance",
+                "Sales Volume Variance",
+                "Flexible Budget Variance",
+                "Contribution Margin Variance"
+            ],
+            "answer": 1,
+            "explanation": "Sales Volume Variance measures the effect of quantity difference using standard contribution margin."
+        },
+        {
+            "id": "p1s3_2",
+            "question": "Material Price Variance is calculated using:",
+            "options": [
+                "Quantity Used",
+                "Quantity Purchased",
+                "Standard Quantity Allowed",
+                "Budgeted Quantity"
+            ],
+            "answer": 1,
+            "explanation": "Material price variance isolates purchasing decisions and uses quantity purchased."
+        },
+        {
+            "id": "p1s3_3",
+            "question": "Labor Efficiency Variance equals:",
+            "options": [
+                "(AR − SR) × AH",
+                "(AH − SH) × SR",
+                "(AP − SP) × AQ",
+                "(AH − SH) × AR"
+            ],
+            "answer": 1,
+            "explanation": "Labor Efficiency Variance measures difference between actual and standard hours valued at standard rate."
+        },
+        {
+            "id": "p1s3_4",
+            "question": "Fixed Overhead Volume Variance arises because:",
+            "options": [
+                "Actual fixed cost differs from budgeted",
+                "Production differs from planned capacity",
+                "Variable costs changed",
+                "Labor efficiency changed"
+            ],
+            "answer": 1,
+            "explanation": "Volume variance reflects under- or over-utilization of capacity."
+        },
+        {
+            "id": "p1s3_5",
+            "question": "If actual labor rate exceeds standard rate, the variance is:",
+            "options": [
+                "Favorable",
+                "Unfavorable",
+                "Zero",
+                "Volume related"
+            ],
+            "answer": 1,
+            "explanation": "Paying more than standard rate results in unfavorable variance."
+        },
+        {
+            "id": "p1s3_6",
+            "question": "Standard Hours Allowed equals:",
+            "options": [
+                "Budgeted hours",
+                "Actual units × Standard hours per unit",
+                "Actual hours",
+                "Budgeted units × Actual hours"
+            ],
+            "answer": 1,
+            "explanation": "Standard Hours Allowed is based on actual output."
+        },
+        {
+            "id": "p1s3_7",
+            "question": "Sales Volume Variance uses:",
+            "options": [
+                "Selling Price",
+                "Standard Contribution Margin",
+                "Gross Profit",
+                "Variable Cost"
+            ],
+            "answer": 1,
+            "explanation": "Volume variance isolates contribution margin impact."
+        },
+        {
+            "id": "p1s3_8",
+            "question": "ROI equals:",
+            "options": [
+                "Net Income / Sales",
+                "Operating Income / Invested Capital",
+                "Sales / Assets",
+                "Contribution Margin / Assets"
+            ],
+            "answer": 1,
+            "explanation": "ROI measures operating income relative to invested capital."
+        },
+        {
+            "id": "p1s3_9",
+            "question": "ROI can discourage managers from accepting profitable projects because:",
+            "options": [
+                "It measures absolute dollars",
+                "It increases tax burden",
+                "It may reduce average ROI percentage",
+                "It ignores capital cost"
+            ],
+            "answer": 2,
+            "explanation": "Managers may reject projects that reduce their average ROI."
+        },
+        {
+            "id": "p1s3_10",
+            "question": "Residual Income encourages managers to:",
+            "options": [
+                "Maximize ROI percentage",
+                "Reject lower-return projects",
+                "Accept all projects above required rate",
+                "Minimize assets"
+            ],
+            "answer": 2,
+            "explanation": "RI promotes goal congruence by rewarding value creation above hurdle rate."
+        },
+        {
+            "id": "p1s3_11",
+            "question": "Minimum transfer price equals:",
+            "options": [
+                "Variable cost",
+                "Full cost",
+                "Variable cost + Opportunity cost",
+                "Market price always"
+            ],
+            "answer": 2,
+            "explanation": "Minimum transfer price includes opportunity cost if capacity is constrained."
+        },
+        {
+            "id": "p1s3_12",
+            "question": "If excess capacity exists, minimum transfer price equals:",
+            "options": [
+                "Market price",
+                "Full cost",
+                "Variable cost",
+                "Full cost + markup"
+            ],
+            "answer": 2,
+            "explanation": "Opportunity cost is zero when excess capacity exists."
+        },
+        {
+            "id": "p1s3_13",
+            "question": "Balanced Scorecard includes how many perspectives?",
+            "options": [
+                "3",
+                "4",
+                "5",
+                "6"
+            ],
+            "answer": 1,
+            "explanation": "Financial, Customer, Internal Process, Learning & Growth."
+        },
+        {
+            "id": "p1s3_14",
+            "question": "Employee training cost is classified under:",
+            "options": [
+                "Prevention cost",
+                "Appraisal cost",
+                "Internal failure",
+                "External failure"
+            ],
+            "answer": 0,
+            "explanation": "Training prevents defects."
+        },
+        {
+            "id": "p1s3_15",
+            "question": "Warranty claims are:",
+            "options": [
+                "Prevention",
+                "Appraisal",
+                "Internal failure",
+                "External failure"
+            ],
+            "answer": 3,
+            "explanation": "Warranty costs occur after delivery to customer."
+        },
+        {
+            "id": "p1s3_16",
+            "question": "A division evaluated as a Cost Center controls:",
+            "options": [
+                "Revenue and cost",
+                "Assets only",
+                "Costs only",
+                "Profit"
+            ],
+            "answer": 2,
+            "explanation": "Cost centers control expenses only."
+        },
+        {
+            "id": "p1s3_17",
+            "question": "EVA differs from RI because it:",
+            "options": [
+                "Uses NOPAT and WACC",
+                "Ignores capital cost",
+                "Is percentage based",
+                "Measures volume"
+            ],
+            "answer": 0,
+            "explanation": "EVA refines RI using economic adjustments."
+        },
+        {
+            "id": "p1s3_18",
+            "question": "If material usage exceeds standard, variance is:",
+            "options": [
+                "Favorable",
+                "Unfavorable",
+                "Zero",
+                "Spending variance"
+            ],
+            "answer": 1,
+            "explanation": "Using more material than standard increases cost."
+        },
+        {
+            "id": "p1s3_19",
+            "question": "Flexible budget is used primarily for:",
+            "options": [
+                "Planning",
+                "Performance evaluation",
+                "Capital budgeting",
+                "Strategic analysis"
+            ],
+            "answer": 1,
+            "explanation": "Flexible budget adjusts to actual output for evaluation."
+        },
+        {
+            "id": "p1s3_20",
+            "question": "Underinvestment problem occurs primarily under:",
+            "options": [
+                "Residual Income",
+                "EVA",
+                "ROI",
+                "Balanced Scorecard"
+            ],
+            "answer": 2,
+            "explanation": "ROI may discourage investment."
+        },
+        {
+            "id": "p1s3_21",
+            "question": "A favorable sales price variance means:",
+            "options": [
+                "Actual price < standard",
+                "Actual price > standard",
+                "Actual quantity > budget",
+                "Costs were lower"
+            ],
+            "answer": 1,
+            "explanation": "Higher actual selling price increases revenue."
+        },
+        {
+            "id": "p1s3_22",
+            "question": "Fixed overhead spending variance measures:",
+            "options": [
+                "Capacity utilization",
+                "Efficiency",
+                "Difference between actual and budgeted fixed cost",
+                "Variable rate changes"
+            ],
+            "answer": 2,
+            "explanation": "Spending variance isolates fixed cost control."
+        },
+        {
+            "id": "p1s3_23",
+            "question": "If SH Allowed exceeds AH, labor efficiency variance is:",
+            "options": [
+                "Favorable",
+                "Unfavorable",
+                "Zero",
+                "Volume variance"
+            ],
+            "answer": 0,
+            "explanation": "Using fewer hours than standard is favorable."
+        },
+        {
+            "id": "p1s3_24",
+            "question": "Contribution margin is used in sales volume variance because:",
+            "options": [
+                "Fixed cost varies",
+                "It isolates impact of quantity",
+                "Selling price varies",
+                "Taxes vary"
+            ],
+            "answer": 1,
+            "explanation": "It isolates volume effect excluding fixed costs."
+        },
+        {
+            "id": "p1s3_25",
+            "question": "Balanced Scorecard financial perspective measures:",
+            "options": [
+                "Employee training",
+                "Customer retention",
+                "ROI and profitability",
+                "Cycle time"
+            ],
+            "answer": 2,
+            "explanation": "Financial perspective evaluates profitability."
+        },
+        {
+            "id": "p1s3_26",
+            "question": "Which variance is most directly controllable by the Purchasing Manager?",
+            "options": [
+                "Material Usage Variance",
+                "Material Price Variance",
+                "Labor Efficiency Variance",
+                "Fixed Volume Variance"
+            ],
+            "answer": 1,
+            "explanation": "Purchasing controls the price paid for materials."
+        },
+        {
+            "id": "p1s3_27",
+            "question": "A favorable labor rate variance combined with an unfavorable labor efficiency variance may indicate:",
+            "options": [
+                "Highly skilled workers hired",
+                "Lower-paid, less skilled workers hired",
+                "Production above capacity",
+                "Improved automation"
+            ],
+            "answer": 1,
+            "explanation": "Lower wage workers may work slower, causing inefficiency."
+        },
+        {
+            "id": "p1s3_28",
+            "question": "Fixed overhead volume variance is favorable when:",
+            "options": [
+                "Actual production exceeds planned capacity",
+                "Actual fixed costs exceed budget",
+                "Actual hours exceed actual output",
+                "Variable costs decrease"
+            ],
+            "answer": 0,
+            "explanation": "Producing above expected capacity spreads fixed cost more efficiently."
+        },
+        {
+            "id": "p1s3_29",
+            "question": "Residual Income is calculated using:",
+            "options": [
+                "Net income only",
+                "Operating income minus capital charge",
+                "Sales minus expenses",
+                "Contribution margin minus fixed cost"
+            ],
+            "answer": 1,
+            "explanation": "RI subtracts required return on invested capital from operating income."
+        },
+        {
+            "id": "p1s3_30",
+            "question": "Which performance measure best promotes goal congruence?",
+            "options": [
+                "ROI",
+                "Sales Growth",
+                "Residual Income",
+                "Gross Margin"
+            ],
+            "answer": 2,
+            "explanation": "RI aligns divisional decisions with shareholder value."
+        },
+        {
+            "id": "p1s3_31",
+            "question": "If actual quantity sold exceeds budgeted quantity, sales volume variance is:",
+            "options": [
+                "Unfavorable",
+                "Favorable",
+                "Zero",
+                "Spending variance"
+            ],
+            "answer": 1,
+            "explanation": "Selling more units increases contribution margin."
+        },
+        {
+            "id": "p1s3_32",
+            "question": "Which variance reflects wage inflation?",
+            "options": [
+                "Labor Efficiency Variance",
+                "Labor Rate Variance",
+                "Variable Overhead Efficiency",
+                "Fixed Volume Variance"
+            ],
+            "answer": 1,
+            "explanation": "Rate variance captures differences in wage rates."
+        },
+        {
+            "id": "p1s3_33",
+            "question": "If actual fixed overhead equals budgeted fixed overhead, spending variance is:",
+            "options": [
+                "Favorable",
+                "Unfavorable",
+                "Zero",
+                "Volume variance"
+            ],
+            "answer": 2,
+            "explanation": "Spending variance measures difference between actual and budgeted fixed cost."
+        },
+        {
+            "id": "p1s3_34",
+            "question": "Market-based transfer pricing is preferred because it:",
+            "options": [
+                "Maximizes divisional autonomy",
+                "Ignores opportunity cost",
+                "Always lowers prices",
+                "Eliminates profit centers"
+            ],
+            "answer": 0,
+            "explanation": "Market prices reflect economic reality and promote autonomy."
+        },
+        {
+            "id": "p1s3_35",
+            "question": "Customer retention is part of which Balanced Scorecard perspective?",
+            "options": [
+                "Financial",
+                "Customer",
+                "Internal Process",
+                "Learning & Growth"
+            ],
+            "answer": 1,
+            "explanation": "Customer perspective focuses on satisfaction and retention."
+        },
+        {
+            "id": "p1s3_36",
+            "question": "Inspection costs are classified as:",
+            "options": [
+                "Prevention",
+                "Appraisal",
+                "Internal Failure",
+                "External Failure"
+            ],
+            "answer": 1,
+            "explanation": "Inspection evaluates quality before shipment."
+        },
+        {
+            "id": "p1s3_37",
+            "question": "Internal failure costs include:",
+            "options": [
+                "Training",
+                "Warranty",
+                "Scrap and rework",
+                "Advertising"
+            ],
+            "answer": 2,
+            "explanation": "Internal failures occur before delivery."
+        },
+        {
+            "id": "p1s3_38",
+            "question": "DuPont analysis breaks ROI into:",
+            "options": [
+                "Sales variance and cost variance",
+                "Margin and turnover",
+                "Rate and efficiency",
+                "Fixed and variable"
+            ],
+            "answer": 1,
+            "explanation": "ROI = Profit Margin × Asset Turnover."
+        },
+        {
+            "id": "p1s3_39",
+            "question": "If contribution margin is $20 per unit and 500 extra units are sold, sales volume variance equals:",
+            "options": [
+                "10,000 Favorable",
+                "10,000 Unfavorable",
+                "20,000 Favorable",
+                "500 Favorable"
+            ],
+            "answer": 0,
+            "explanation": "500 × 20 = 10,000 Favorable."
+        },
+        {
+            "id": "p1s3_40",
+            "question": "If material price is lower than standard but more material is used, overall effect depends on:",
+            "options": [
+                "Only price variance",
+                "Only usage variance",
+                "Net combined impact",
+                "Sales volume"
+            ],
+            "answer": 2,
+            "explanation": "Total effect must consider both price and usage."
+        },
+        {
+            "id": "p1s3_41",
+            "question": "Investment centers are evaluated using:",
+            "options": [
+                "Only cost variances",
+                "Only revenue growth",
+                "ROI, RI, or EVA",
+                "Customer satisfaction"
+            ],
+            "answer": 2,
+            "explanation": "Investment centers control assets and are evaluated on capital efficiency."
+        },
+        {
+            "id": "p1s3_42",
+            "question": "If actual labor hours exceed standard hours, efficiency variance is:",
+            "options": [
+                "Favorable",
+                "Unfavorable",
+                "Zero",
+                "Spending variance"
+            ],
+            "answer": 1,
+            "explanation": "Using more hours increases cost."
+        },
+        {
+            "id": "p1s3_43",
+            "question": "External failure costs are usually:",
+            "options": [
+                "Lower than prevention costs",
+                "Higher than prevention costs",
+                "Zero",
+                "Irrelevant"
+            ],
+            "answer": 1,
+            "explanation": "External failures are typically most expensive."
+        },
+        {
+            "id": "p1s3_44",
+            "question": "If a division has positive RI, it means:",
+            "options": [
+                "ROI is negative",
+                "Return exceeds required rate",
+                "Assets decreased",
+                "Sales declined"
+            ],
+            "answer": 1,
+            "explanation": "Positive RI means value created beyond hurdle rate."
+        },
+        {
+            "id": "p1s3_45",
+            "question": "Which variance is affected by production volume but not spending?",
+            "options": [
+                "Fixed Spending Variance",
+                "Fixed Volume Variance",
+                "Labor Rate Variance",
+                "Material Price Variance"
+            ],
+            "answer": 1,
+            "explanation": "Volume variance measures capacity utilization."
+        },
+        {
+            "id": "p1s3_46",
+            "question": "Balanced Scorecard internal process measures include:",
+            "options": [
+                "ROI",
+                "Cycle time",
+                "Employee turnover",
+                "Market share"
+            ],
+            "answer": 1,
+            "explanation": "Internal process focuses on operational excellence."
+        },
+        {
+            "id": "p1s3_47",
+            "question": "Learning and Growth perspective emphasizes:",
+            "options": [
+                "Short-term profit",
+                "Employee development",
+                "Market pricing",
+                "Transfer pricing"
+            ],
+            "answer": 1,
+            "explanation": "Learning & Growth focuses on long-term capability."
+        },
+        {
+            "id": "p1s3_48",
+            "question": "If actual fixed cost exceeds budget, spending variance is:",
+            "options": [
+                "Favorable",
+                "Unfavorable",
+                "Volume variance",
+                "Zero"
+            ],
+            "answer": 1,
+            "explanation": "Overspending fixed cost creates unfavorable variance."
+        },
+        {
+            "id": "p1s3_49",
+            "question": "Which measure is percentage-based?",
+            "options": [
+                "Residual Income",
+                "EVA",
+                "ROI",
+                "Contribution Margin"
+            ],
+            "answer": 2,
+            "explanation": "ROI is expressed as a percentage."
+        },
+        {
+            "id": "p1s3_50",
+            "question": "Which is considered a leading indicator in Balanced Scorecard?",
+            "options": [
+                "Net Income",
+                "Earnings per share",
+                "Employee training hours",
+                "Return on assets"
+            ],
+            "answer": 2,
+            "explanation": "Training hours drive future performance."
+        },
+        {
+            "id": "p1s3_51",
+            "question": "Which variance measures the effect of paying a different price for variable overhead items?",
+            "options": [
+                "Variable Overhead Efficiency Variance",
+                "Variable Overhead Spending Variance",
+                "Fixed Volume Variance",
+                "Labor Rate Variance"
+            ],
+            "answer": 1,
+            "explanation": "VOH spending variance captures difference between actual and standard variable overhead rate."
+        },
+        {
+            "id": "p1s3_52",
+            "question": "If actual output is less than denominator capacity, fixed overhead volume variance is:",
+            "options": [
+                "Favorable",
+                "Unfavorable",
+                "Zero",
+                "Spending variance"
+            ],
+            "answer": 1,
+            "explanation": "Underproduction leads to under-absorption of fixed cost."
+        },
+        {
+            "id": "p1s3_53",
+            "question": "A profit center manager is responsible for:",
+            "options": [
+                "Costs only",
+                "Revenue only",
+                "Revenue and costs",
+                "Assets only"
+            ],
+            "answer": 2,
+            "explanation": "Profit centers control both revenues and expenses."
+        },
+        {
+            "id": "p1s3_54",
+            "question": "Which metric subtracts a capital charge from operating income?",
+            "options": [
+                "ROI",
+                "Residual Income",
+                "Contribution Margin",
+                "Gross Profit"
+            ],
+            "answer": 1,
+            "explanation": "RI deducts required return on invested capital."
+        },
+        {
+            "id": "p1s3_55",
+            "question": "If actual selling price is lower than standard, sales price variance is:",
+            "options": [
+                "Favorable",
+                "Unfavorable",
+                "Volume variance",
+                "Zero"
+            ],
+            "answer": 1,
+            "explanation": "Lower actual price reduces revenue."
+        },
+        {
+            "id": "p1s3_56",
+            "question": "Which of the following is a lag indicator?",
+            "options": [
+                "Employee satisfaction",
+                "Customer complaints",
+                "ROI",
+                "Training hours"
+            ],
+            "answer": 2,
+            "explanation": "Financial results like ROI are lagging indicators."
+        },
+        {
+            "id": "p1s3_57",
+            "question": "An unfavorable labor efficiency variance may be caused by:",
+            "options": [
+                "Poor material quality",
+                "Lower wage rate",
+                "Improved automation",
+                "Higher selling price"
+            ],
+            "answer": 0,
+            "explanation": "Poor material quality can slow production."
+        },
+        {
+            "id": "p1s3_58",
+            "question": "If market price exists, best transfer price is:",
+            "options": [
+                "Variable cost",
+                "Full cost",
+                "Market price",
+                "Negotiated price only"
+            ],
+            "answer": 2,
+            "explanation": "Market price promotes goal congruence."
+        },
+        {
+            "id": "p1s3_59",
+            "question": "Which perspective asks: 'How do customers see us?'",
+            "options": [
+                "Financial",
+                "Customer",
+                "Internal Process",
+                "Learning & Growth"
+            ],
+            "answer": 1,
+            "explanation": "Customer perspective evaluates customer satisfaction and retention."
+        },
+        {
+            "id": "p1s3_60",
+            "question": "If actual material cost equals standard cost, total material variance is:",
+            "options": [
+                "Favorable",
+                "Unfavorable",
+                "Zero",
+                "Volume variance"
+            ],
+            "answer": 2,
+            "explanation": "No difference between actual and standard means zero variance."
+        },
+        {
+            "id": "p1s3_61",
+            "question": "Which variance is impacted by changes in capacity utilization?",
+            "options": [
+                "Labor Rate Variance",
+                "Material Price Variance",
+                "Fixed Overhead Volume Variance",
+                "Variable Spending Variance"
+            ],
+            "answer": 2,
+            "explanation": "Volume variance reflects capacity usage."
+        },
+        {
+            "id": "p1s3_62",
+            "question": "If variable cost per unit increases unexpectedly, which variance captures it?",
+            "options": [
+                "Efficiency Variance",
+                "Spending Variance",
+                "Volume Variance",
+                "Contribution Variance"
+            ],
+            "answer": 1,
+            "explanation": "Spending variance captures rate differences."
+        },
+        {
+            "id": "p1s3_63",
+            "question": "A manager evaluated using ROI may focus on:",
+            "options": [
+                "Long-term innovation",
+                "Short-term profitability",
+                "Employee training",
+                "Customer loyalty"
+            ],
+            "answer": 1,
+            "explanation": "ROI encourages short-term financial focus."
+        },
+        {
+            "id": "p1s3_64",
+            "question": "Prevention costs are intended to:",
+            "options": [
+                "Detect defects",
+                "Eliminate root causes of defects",
+                "Cover warranty claims",
+                "Increase scrap"
+            ],
+            "answer": 1,
+            "explanation": "Prevention stops defects before they occur."
+        },
+        {
+            "id": "p1s3_65",
+            "question": "A favorable material usage variance means:",
+            "options": [
+                "More material used than standard",
+                "Less material used than standard",
+                "Price lower than standard",
+                "Output lower than planned"
+            ],
+            "answer": 1,
+            "explanation": "Using fewer inputs than standard reduces cost."
+        },
+        {
+            "id": "p1s3_66",
+            "question": "If a division increases assets but income remains constant, ROI will:",
+            "options": [
+                "Increase",
+                "Decrease",
+                "Remain same",
+                "Become negative"
+            ],
+            "answer": 1,
+            "explanation": "Higher denominator reduces ROI."
+        },
+        {
+            "id": "p1s3_67",
+            "question": "Which cost is most damaging to brand reputation?",
+            "options": [
+                "Prevention",
+                "Appraisal",
+                "Internal failure",
+                "External failure"
+            ],
+            "answer": 3,
+            "explanation": "External failures affect customers directly."
+        },
+        {
+            "id": "p1s3_68",
+            "question": "Transfer pricing should ideally achieve:",
+            "options": [
+                "Maximum divisional conflict",
+                "Goal incongruence",
+                "Goal congruence",
+                "Minimum profit"
+            ],
+            "answer": 2,
+            "explanation": "Transfer pricing should align divisional goals with company goals."
+        },
+        {
+            "id": "p1s3_69",
+            "question": "Asset turnover measures:",
+            "options": [
+                "Profit margin",
+                "Efficiency of asset use",
+                "Cost control",
+                "Revenue growth"
+            ],
+            "answer": 1,
+            "explanation": "Asset turnover reflects revenue generated per dollar of assets."
+        },
+        {
+            "id": "p1s3_70",
+            "question": "If actual hours are less than standard hours allowed, efficiency variance is:",
+            "options": [
+                "Unfavorable",
+                "Favorable",
+                "Volume",
+                "Spending"
+            ],
+            "answer": 1,
+            "explanation": "Using fewer hours indicates efficiency."
+        },
+        {
+            "id": "p1s3_71",
+            "question": "Which responsibility center controls assets and profits?",
+            "options": [
+                "Cost Center",
+                "Revenue Center",
+                "Profit Center",
+                "Investment Center"
+            ],
+            "answer": 3,
+            "explanation": "Investment centers control revenue, cost, and assets."
+        },
+        {
+            "id": "p1s3_72",
+            "question": "If a project return exceeds hurdle rate but is below current ROI, ROI evaluation may cause:",
+            "options": [
+                "Acceptance",
+                "Rejection",
+                "Indifference",
+                "Automatic approval"
+            ],
+            "answer": 1,
+            "explanation": "ROI system may reject profitable project."
+        },
+        {
+            "id": "p1s3_73",
+            "question": "Cycle time reduction falls under:",
+            "options": [
+                "Financial perspective",
+                "Customer perspective",
+                "Internal process perspective",
+                "Learning perspective"
+            ],
+            "answer": 2,
+            "explanation": "Internal process focuses on operational efficiency."
+        },
+        {
+            "id": "p1s3_74",
+            "question": "If standard hours allowed equal actual hours, efficiency variance is:",
+            "options": [
+                "Favorable",
+                "Unfavorable",
+                "Zero",
+                "Spending"
+            ],
+            "answer": 2,
+            "explanation": "No difference results in zero variance."
+        },
+        {
+            "id": "p1s3_75",
+            "question": "Which metric is most aligned with shareholder wealth creation?",
+            "options": [
+                "Gross Profit",
+                "ROI",
+                "EVA",
+                "Sales Volume"
+            ],
+            "answer": 2,
+            "explanation": "EVA measures economic profit after cost of capital."
+        },
+        {
+            "id": "p1s3_76",
+            "question": "If actual material price equals standard price but more quantity is used, which variance is affected?",
+            "options": [
+                "Price Variance only",
+                "Usage Variance only",
+                "Both Price and Usage",
+                "Volume Variance"
+            ],
+            "answer": 1,
+            "explanation": "If price is equal but more material is used, only usage variance is affected."
+        },
+        {
+            "id": "p1s3_77",
+            "question": "A favorable fixed overhead volume variance indicates:",
+            "options": [
+                "Actual fixed costs were lower than budgeted",
+                "Production exceeded expected capacity",
+                "Variable costs decreased",
+                "Labor was efficient"
+            ],
+            "answer": 1,
+            "explanation": "Producing more than expected spreads fixed costs more efficiently."
+        },
+        {
+            "id": "p1s3_78",
+            "question": "Which performance measure focuses on dollar value created above cost of capital?",
+            "options": [
+                "ROI",
+                "Residual Income",
+                "Contribution Margin",
+                "Asset Turnover"
+            ],
+            "answer": 1,
+            "explanation": "Residual Income measures profit after capital charge."
+        },
+        {
+            "id": "p1s3_79",
+            "question": "If a company wants to improve long-term innovation, it should emphasize which BSC perspective?",
+            "options": [
+                "Financial",
+                "Customer",
+                "Internal Process",
+                "Learning & Growth"
+            ],
+            "answer": 3,
+            "explanation": "Learning & Growth supports innovation and capability development."
+        },
+        {
+            "id": "p1s3_80",
+            "question": "A negotiated transfer price may lead to:",
+            "options": [
+                "Guaranteed goal congruence",
+                "Internal conflict",
+                "Lower divisional autonomy",
+                "Zero profit"
+            ],
+            "answer": 1,
+            "explanation": "Negotiations can create disputes between divisions."
+        },
+        {
+            "id": "p1s3_81",
+            "question": "If actual sales are lower than budgeted, sales volume variance is:",
+            "options": [
+                "Favorable",
+                "Unfavorable",
+                "Zero",
+                "Spending"
+            ],
+            "answer": 1,
+            "explanation": "Lower sales reduce contribution margin."
+        },
+        {
+            "id": "p1s3_82",
+            "question": "Which variance reflects differences in wage rates paid?",
+            "options": [
+                "Labor Efficiency",
+                "Labor Rate",
+                "Fixed Volume",
+                "Material Usage"
+            ],
+            "answer": 1,
+            "explanation": "Labor Rate Variance captures wage rate differences."
+        },
+        {
+            "id": "p1s3_83",
+            "question": "Which cost would most likely be reduced by increasing prevention activities?",
+            "options": [
+                "Training cost",
+                "Appraisal cost",
+                "External failure cost",
+                "Research cost"
+            ],
+            "answer": 2,
+            "explanation": "Prevention reduces costly external failures."
+        },
+        {
+            "id": "p1s3_84",
+            "question": "If actual variable overhead rate exceeds standard rate, variance is:",
+            "options": [
+                "Favorable",
+                "Unfavorable",
+                "Volume",
+                "Zero"
+            ],
+            "answer": 1,
+            "explanation": "Higher actual rate increases cost."
+        },
+        {
+            "id": "p1s3_85",
+            "question": "Which measure combines margin and asset efficiency?",
+            "options": [
+                "Residual Income",
+                "EVA",
+                "DuPont ROI",
+                "Contribution Margin"
+            ],
+            "answer": 2,
+            "explanation": "DuPont decomposes ROI into margin and turnover."
+        },
+        {
+            "id": "p1s3_86",
+            "question": "If material usage variance is unfavorable, possible cause is:",
+            "options": [
+                "Improved machine calibration",
+                "Lower-quality inputs",
+                "Higher selling price",
+                "Lower fixed costs"
+            ],
+            "answer": 1,
+            "explanation": "Poor quality materials can increase waste."
+        },
+        {
+            "id": "p1s3_87",
+            "question": "Which BSC perspective directly drives customer satisfaction?",
+            "options": [
+                "Financial",
+                "Internal Process",
+                "Learning & Growth",
+                "External Reporting"
+            ],
+            "answer": 1,
+            "explanation": "Improved internal processes improve customer experience."
+        },
+        {
+            "id": "p1s3_88",
+            "question": "If division ROI is 18% and new project ROI is 14% while hurdle rate is 10%, RI evaluation would:",
+            "options": [
+                "Reject project",
+                "Accept project",
+                "Be indifferent",
+                "Ignore capital"
+            ],
+            "answer": 1,
+            "explanation": "Since 14% exceeds hurdle rate, RI increases."
+        },
+        {
+            "id": "p1s3_89",
+            "question": "Which cost occurs before defects happen?",
+            "options": [
+                "Appraisal",
+                "Internal Failure",
+                "Prevention",
+                "Warranty"
+            ],
+            "answer": 2,
+            "explanation": "Prevention costs stop defects before occurrence."
+        },
+        {
+            "id": "p1s3_90",
+            "question": "If actual hours exceed standard hours allowed, labor efficiency variance is:",
+            "options": [
+                "Favorable",
+                "Unfavorable",
+                "Zero",
+                "Volume"
+            ],
+            "answer": 1,
+            "explanation": "Using more hours than standard increases cost."
+        },
+        {
+            "id": "p1s3_91",
+            "question": "Which variance is independent of cost spending?",
+            "options": [
+                "Fixed Volume Variance",
+                "Material Price Variance",
+                "Labor Rate Variance",
+                "Variable Spending Variance"
+            ],
+            "answer": 0,
+            "explanation": "Volume variance depends on production level, not spending."
+        },
+        {
+            "id": "p1s3_92",
+            "question": "EVA is considered superior because it:",
+            "options": [
+                "Ignores capital cost",
+                "Measures economic profit",
+                "Is easier than ROI",
+                "Uses gross income"
+            ],
+            "answer": 1,
+            "explanation": "EVA measures value created after cost of capital."
+        },
+        {
+            "id": "p1s3_93",
+            "question": "If asset turnover increases while margin stays constant, ROI will:",
+            "options": [
+                "Decrease",
+                "Increase",
+                "Remain constant",
+                "Become negative"
+            ],
+            "answer": 1,
+            "explanation": "Higher turnover increases ROI."
+        },
+        {
+            "id": "p1s3_94",
+            "question": "A company operating below capacity should use which minimum transfer price?",
+            "options": [
+                "Market price",
+                "Full cost",
+                "Variable cost",
+                "Variable cost plus markup"
+            ],
+            "answer": 2,
+            "explanation": "Opportunity cost is zero at excess capacity."
+        },
+        {
+            "id": "p1s3_95",
+            "question": "Balanced Scorecard reduces risk of:",
+            "options": [
+                "Underinvestment only",
+                "Short-term financial focus",
+                "Variance analysis",
+                "Transfer pricing"
+            ],
+            "answer": 1,
+            "explanation": "It balances financial and non-financial metrics."
+        },
+        {
+            "id": "p1s3_96",
+            "question": "If actual output equals denominator capacity, fixed volume variance is:",
+            "options": [
+                "Favorable",
+                "Unfavorable",
+                "Zero",
+                "Spending"
+            ],
+            "answer": 2,
+            "explanation": "No under- or over-absorption occurs."
+        },
+        {
+            "id": "p1s3_97",
+            "question": "Which responsibility center has highest level of autonomy?",
+            "options": [
+                "Cost Center",
+                "Revenue Center",
+                "Profit Center",
+                "Investment Center"
+            ],
+            "answer": 3,
+            "explanation": "Investment centers control assets, revenue, and costs."
+        },
+        {
+            "id": "p1s3_98",
+            "question": "If prevention costs increase, total quality cost should:",
+            "options": [
+                "Increase long-term",
+                "Decrease long-term",
+                "Remain constant",
+                "Become irrelevant"
+            ],
+            "answer": 1,
+            "explanation": "Prevention reduces expensive failure costs."
+        },
+        {
+            "id": "p1s3_99",
+            "question": "If actual material price is lower but usage higher, net effect depends on:",
+            "options": [
+                "Price variance only",
+                "Usage variance only",
+                "Combined total material variance",
+                "Sales volume"
+            ],
+            "answer": 2,
+            "explanation": "Total material variance determines overall effect."
+        },
+        {
+            "id": "p1s3_100",
+            "question": "The primary objective of performance management systems is to:",
+            "options": [
+                "Punish managers",
+                "Maximize variance investigation",
+                "Align managerial behavior with organizational strategy",
+                "Reduce fixed costs only"
+            ],
+            "answer": 2,
+            "explanation": "Effective systems align incentives with long-term corporate goals."
+        }
+    ]
+}

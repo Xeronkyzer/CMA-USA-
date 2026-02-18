@@ -1,0 +1,1408 @@
+{
+    "id": "p2-s3",
+    "title": "Decision Analysis – Comprehensive CMA Exam Guide (2026 Syllabus)",
+    "weightage": "25%",
+    "recommendedStudyHours": "45-50 hours",
+    "examLevel": "Level C (Analysis, Evaluation, Synthesis)",
+    "overview": "Decision Analysis (25% of Part 2) is the most heavily weighted section, critical for passing the CMA exam. It focuses on using financial data to make short-term profitability decisions. Mastery of CVP Analysis, Relevant Costing (Marginal Analysis), and Pricing Methodologies is non-negotiable. The 2026 syllabus emphasizes case-based questions (CBQs) that simulate real-world scenarios requiring both quantitative analysis and qualitative judgment. This guide incorporates the latest exam trends, common traps, and integration with other Part 2 topics.",
+    "bulletNotes": [
+        "**Relevant Range**: The range of activity where total fixed costs remain constant and variable cost per unit remains constant. Outside this range, cost behavior changes.",
+        "**Breakeven Point**: Total Revenue = Total Costs. Contribution Margin covers Fixed Costs exactly. Net Income = 0.",
+        "**Contribution Margin (CM)**: Sales - Variable Costs. Represents the amount available to cover fixed costs and provide profit.",
+        "**Margin of Safety**: The amount by which sales can drop before the company incurs a loss. Budgeted Sales - Breakeven Sales.",
+        "**Operating Leverage**: A measure of the sensitivity of Operating Income to changes in Sales. High Fixed Costs = High Leverage = High Risk & Return.",
+        "**Sunk Costs**: Past costs that cannot be changed. ALWAYS IRRELEVANT for decision making.",
+        "**Opportunity Costs**: The benefit foregone by choosing one alternative over the next best alternative. ALWAYS RELEVANT when capacity is constrained.",
+        "**Special Orders**: Accept if Price > Variable Cost (idle capacity). At full capacity, Price must > Variable Cost + Opportunity Cost (lost CM from regular sales).",
+        "**Make or Buy**: Compare Variable Cost + Avoidable Fixed Cost of making vs. Purchase Price + Incremental Costs of buying. Ignore Unavoidable (Allocated) Fixed Costs.",
+        "**Sell or Process Further**: Process if Incremental Revenue > Incremental Cost. Joint costs incurred prior to split-off are Sunk/Irrelevant.",
+        "**Constrained Resources**: Prioritize products with the highest Contribution Margin per unit of the CONSTRAINED resource (e.g., CM per machine hour).",
+        "**Target Costing**: Market Price - Desired Profit = Target Cost. Design product to meet this cost through value engineering.",
+        "**Demand Elasticity**: % Change in Quantity / % Change in Price. |Ed|>1 is Elastic (price decrease raises revenue). |Ed|<1 is Inelastic (price increase raises revenue).",
+        "**Life-Cycle Costing**: Considers all costs from R&D to disposal; essential for products with significant non-production costs.",
+        "**Price Discrimination**: Charging different prices to different segments; requires ability to prevent resale."
+    ],
+    "shortNotes": "Always distinguish between TOTAL fixed costs (constant within relevant range) and FIXED cost per unit (decreases as volume rises). In exams, 'Allocated Common Costs' are almost always irrelevant/unavoidable—do not include them in 'Keep/Drop' or 'Make or Buy' analysis unless explicitly stated they are avoidable. For target profit after tax, always gross up: Pre-tax = After-tax/(1 - tax rate). When capacity is constrained, think in terms of contribution per unit of constraint.",
+    "concepts": [
+        {
+            "title": "1. Cost-Volume-Profit (CVP) Fundamentals",
+            "content": "<p><strong>The Equation Method</strong><br><code>Revenue - Variable Costs - Fixed Costs = Operating Income</code><br>Or: <code>(Unit Price × Q) - (Unit VC × Q) - Fixed Costs = Income</code></p><p><strong>Contribution Margin (CM) Method</strong><br><code>Unit CM = Price - Unit VC</code><br><code>CM Ratio = Unit CM / Price</code></p><p><strong>Breakeven Formulas</strong><br>Units: <code>Fixed Costs / Unit CM</code><br>Dollars: <code>Fixed Costs / CM Ratio</code></p><p><strong>Target Profit (Pre-tax)</strong><br>Units: <code>(Fixed Costs + Target Profit) / Unit CM</code><br>Dollars: <code>(Fixed Costs + Target Profit) / CM Ratio</code></p><p><em>Note:</em> All CVP analysis assumes operations remain within the relevant range, and for multi-product, sales mix remains constant.</p>"
+        },
+        {
+            "title": "2. Advanced CVP: Taxes & Multiple Products",
+            "content": "<h3>Target Net Income (After-Tax)</h3><p>CVP formulas use Pre-Tax Income. If given After-Tax Income, gross it up first:<br><code>Pre-Tax Income = After-Tax Income / (1 - Tax Rate)</code><br>Then use standard formulas.</p><h3>Multiple Products (Sales Mix)</h3><p>Use <strong>Weighted Average CM (WACM)</strong>.<br><code>WACM = (CM₁ × Mix₁%) + (CM₂ × Mix₂%) + ...</code><br><code>Breakeven Bundles = Fixed Costs / WACM</code><br>Then multiply bundles by each product's units per bundle to get individual breakeven units.<br><strong>Assumption:</strong> Sales mix remains constant. If mix changes, breakeven point changes.</p>"
+        },
+        {
+            "title": "3. Risk & Safety Margins",
+            "content": "<p><strong>Margin of Safety (MOS)</strong><br>Measures the cushion against loss.<br><code>MOS ($) = Actual Sales - Breakeven Sales</code><br><code>MOS (units) = Actual Units - Breakeven Units</code><br><code>MOS (%) = MOS($) / Actual Sales</code><br>Higher MOS indicates lower risk.</p><p><strong>Degree of Operating Leverage (DOL)</strong><br>Measures profit volatility relative to sales changes.<br><code>DOL = Total Contribution Margin / Operating Income</code><br><code>% Change in Income = DOL × % Change in Sales</code><br><em>Interpretation:</em> High DOL (high fixed costs) amplifies both profits and losses. At breakeven, DOL is undefined (infinite).</p>"
+        },
+        {
+            "title": "4. Marginal Analysis: Special Orders & Capacity",
+            "content": "<h3>Special Orders</h3><p><strong>Scenario:</strong> One-time order at below-market price.<br><strong>Idle Capacity Exists:</strong> Accept if Price > Variable Cost. (Fixed costs are irrelevant).<br><strong>Full Capacity:</strong> Accept only if Price > Variable Cost + Opportunity Cost (CM of lost regular sales).<br><em>Opportunity cost = CM per unit of regular sales displaced.</em></p><h3>Theory of Constraints</h3><p>When a resource (bottleneck) is limited, maximize <strong>CM per unit of the Constraint</strong>.<br><code>CM per constraint unit = Unit CM / Units of constraint required per product</code><br>Rank products by this metric, not simple CM per unit.</p>"
+        },
+        {
+            "title": "5. Marginal Analysis: Make vs Buy & Keep/Drop",
+            "content": "<h3>Make or Buy (Outsourcing)</h3><p>Compare total relevant costs:<br><strong>Cost to Make:</strong> Direct Materials + Direct Labor + Variable Overhead + <em>Avoidable</em> Fixed Costs.<br><strong>Cost to Buy:</strong> Purchase Price + Incremental costs (e.g., freight, inspection).<br>Choose the lower cost option. Consider qualitative factors: quality control, supplier reliability, core competency.</p><h3>Keep or Drop Segment</h3><p>Compare:<br><strong>CM Lost:</strong> (Revenues - VC) of the segment.<br><strong>Fixed Costs Avoided:</strong> Specific fixed costs that vanish if dropped.<br>If CM Lost > Avoided Costs → KEEP.<br>If CM Lost < Avoided Costs → DROP.<br><strong>Critical Trap:</strong> Allocated common costs (e.g., corporate overhead) are unavoidable and irrelevant.</p>"
+        },
+        {
+            "title": "6. Pricing Methodologies",
+            "content": "<h3>Cost-Plus Pricing</h3><p><code>Price = Cost Base × (1 + Markup%)</code><br>Markup% = Desired Profit / Total Cost.<br>Simple, but ignores demand and competition.</p><h3>Target Costing (Market-Based)</h3><p>Used in competitive markets.<br>1. Determine Market Price (what customers are willing to pay).<br>2. Subtract Desired Profit.<br>3. Result is <strong>Target Cost</strong>.<br>4. Use value engineering to design product to meet target cost.</p><h3>Life-Cycle Pricing</h3><p>Sets price to cover all costs over the entire life: R&D, design, manufacturing, marketing, distribution, warranty, disposal. Essential for long-term contracts and industries with high non-production costs.</p><h3>Value-Based Pricing</h3><p>Price based on perceived value to customer, not costs. Yields highest margins but requires deep market insight.</p>"
+        },
+        {
+            "title": "7. Elasticity & Economics in Pricing",
+            "content": "<p><strong>Price Elasticity of Demand (Ed)</strong><br><code>Ed = % Change in Quantity Demanded / % Change in Price</code><br><strong>Elastic (|Ed| > 1):</strong> Quantity change > Price change → Price decrease raises revenue.<br><strong>Inelastic (|Ed| < 1):</strong> Quantity change < Price change → Price increase raises revenue.<br><strong>Unitary (|Ed| = 1):</strong> Total revenue unchanged.</p><p><strong>Market Structures & Pricing Power:</strong><br>- Perfect Competition: Price taker.<br>- Monopolistic Competition: Some pricing power (differentiation).<br>- Oligopoly: Few sellers, interdependent pricing.<br>- Monopoly: One seller, but often regulated.</p><p><strong>Pricing Strategies:</strong><br>- <strong>Skimming:</strong> High intro price (tech/luxury).<br>- <strong>Penetration:</strong> Low intro price to capture share (price-sensitive markets).<br>- <strong>Peak-Load:</strong> Higher rates at high demand times (utilities, hotels).<br>- <strong>Price Discrimination:</strong> Different prices to different segments; requires preventing resale (arbitrage).</p>"
+        }
+    ],
+    "formulas": [
+        {
+            "name": "Unit Contribution Margin",
+            "formula": "Price - Unit Variable Cost"
+        },
+        {
+            "name": "Contribution Margin Ratio",
+            "formula": "Unit CM / Price"
+        },
+        {
+            "name": "Breakeven Point (Units)",
+            "formula": "Total Fixed Costs / Unit CM"
+        },
+        {
+            "name": "Breakeven Point (Dollars)",
+            "formula": "Total Fixed Costs / CM Ratio"
+        },
+        {
+            "name": "Target Sales (Units) – Pre-Tax",
+            "formula": "(Fixed Costs + Target Operating Income) / Unit CM"
+        },
+        {
+            "name": "Target Sales (Dollars) – Pre-Tax",
+            "formula": "(Fixed Costs + Target Operating Income) / CM Ratio"
+        },
+        {
+            "name": "Pre-Tax Target Income from After-Tax",
+            "formula": "After-Tax Income / (1 - Tax Rate)"
+        },
+        {
+            "name": "Margin of Safety ($)",
+            "formula": "Actual Sales - Breakeven Sales"
+        },
+        {
+            "name": "Margin of Safety (%)",
+            "formula": "Margin of Safety ($) / Actual Sales"
+        },
+        {
+            "name": "Degree of Operating Leverage",
+            "formula": "Total Contribution Margin / Operating Income"
+        },
+        {
+            "name": "Weighted Average CM (WACM)",
+            "formula": "Σ (Unit CM × Sales Mix %)"
+        },
+        {
+            "name": "Breakeven Bundles (Multiple Products)",
+            "formula": "Total Fixed Costs / WACM"
+        },
+        {
+            "name": "Minimum Special Order Price (Full Capacity)",
+            "formula": "Unit Variable Cost + Opportunity Cost (CM lost per unit)"
+        },
+        {
+            "name": "CM per Unit of Constraint",
+            "formula": "Unit CM / Units of Constraint per Unit"
+        },
+        {
+            "name": "Markup % (Cost-Plus)",
+            "formula": "Desired Profit / Total Cost"
+        },
+        {
+            "name": "Target Cost",
+            "formula": "Market Price - Desired Profit"
+        },
+        {
+            "name": "Price Elasticity of Demand",
+            "formula": "% Change in Quantity / % Change in Price"
+        },
+        {
+            "name": "Incremental Revenue (Sell or Process Further)",
+            "formula": "Final Sales Value - Sales Value at Split-Off"
+        }
+    ],
+    "mistakes": [
+        "Confusing **Variable Costing** with **Absorption Costing**. CVP uses only Variable Costs.",
+        "Ignoring the **Tax Effect** on Target Profit. CVP formulas need Before-Tax numbers.",
+        "Including **Allocated Fixed Costs** in Make/Buy or Keep/Drop decisions. These are usually unavoidable and irrelevant.",
+        "Treating **Fixed Costs per unit** as constant. Fixed costs per unit vary inversely with volume.",
+        "Assuming **High Operating Leverage** is always good. It amplifies losses just as much as profits.",
+        "Forgetting **Opportunity Cost** when evaluating Special Orders at Full Capacity.",
+        "Calculating **Elasticity** incorrectly. Always % change in quantity over % change in price.",
+        "Mistaking **Margin of Safety** for Profit. It's the revenue buffer above breakeven.",
+        "Using total joint costs in sell-or-process-further decisions. Joint costs are sunk and irrelevant.",
+        "Overlooking **qualitative factors** in decision making (employee morale, customer relationships, quality).",
+        "Failing to check if fixed costs are **avoidable** before including them.",
+        "Misreading 'except' or 'least likely' questions and picking the opposite answer."
+    ],
+    "quiz": [
+        {
+            "question": "If a company has high operating leverage, a small increase in sales will result in:",
+            "options": [
+                "A small increase in Net Income",
+                "A large increase in Net Income",
+                "A decrease in Net Income",
+                "No change in Net Income"
+            ],
+            "answer": 1,
+            "explanation": "High Operating Leverage means high fixed costs and low variable costs. Once fixed costs are covered, most revenue flows straight to the bottom line."
+        },
+        {
+            "question": "Which cost is NOT relevant in a 'Special Order' decision involving idle capacity?",
+            "options": [
+                "Direct Materials",
+                "Variable Overhead",
+                "Avoidable Fixed Costs",
+                "Allocated Corporate Overhead"
+            ],
+            "answer": 3,
+            "explanation": "Allocated corporate overhead is not relevant because it will not change whether the special order is accepted or rejected. It is unavoidable."
+        },
+        {
+            "question": "At the breakeven point, the Contribution Margin equals:",
+            "options": [
+                "Total Variable Costs",
+                "Total Fixed Costs",
+                "Operating Income",
+                "Sales Revenue"
+            ],
+            "answer": 1,
+            "explanation": "At breakeven, Profit is 0. Revenue - VC - FC = 0. Therefore, Revenue - VC = FC. Since CM = Revenue - VC, CM must equal FC."
+        },
+        {
+            "question": "When calculating the Breakeven Point for multiple products, the sales mix is assumed to be:",
+            "options": [
+                "Variable",
+                "Constant",
+                "Increasing",
+                "Decreasing"
+            ],
+            "answer": 1,
+            "explanation": "CVP analysis for multiple products relies on the assumption that the sales mix (proportion of each product sold) remains constant. If mix changes, breakeven point changes."
+        },
+        {
+            "question": "Target Costing starts with:",
+            "options": [
+                "Product Cost",
+                "Market Price",
+                "Desired Markup",
+                "Variable Cost"
+            ],
+            "answer": 1,
+            "explanation": "Target Costing is market-driven. It starts with the Market Price customers are willing to pay, then subtracts the desired margin to find the Target Cost."
+        }
+    ],
+    "essay": {
+        "question": "A division of Company Y is operating at full capacity. It receives a special order from a new customer at a price lower than its regular selling price but higher than its variable cost. Should the company accept it? Explain using the concept of Opportunity Cost and discuss qualitative factors that might influence the decision.",
+        "modelAnswer": "<p><strong>Quantitative Analysis:</strong><br>Since the division is operating at <strong>full capacity</strong>, accepting the special order requires displacing regular sales. The relevant cost of the special order includes not only the variable cost but also the <strong>opportunity cost</strong>—the contribution margin lost from the regular sales that must be given up.</p><p>Minimum acceptable price = Variable Cost + Opportunity Cost (CM per unit of regular sales). Unless the special order price exceeds this sum (which is typically the regular price), accepting the order would destroy value. If the special order price is less than this minimum, the company should reject it.</p><p><strong>Qualitative Factors:</strong><br>Even if quantitative analysis suggests acceptance, management should consider:<br>1. <strong>Customer relationships:</strong> Will displacing regular customers harm long-term relationships?<br>2. <strong>Market strategy:</strong> Could the special order lead to a new market or strategic partnership?<br>3. <strong>Brand image:</strong> Does selling at a lower price dilute brand perception?<br>4. <strong>Legal/ethical:</strong> Is there any predatory pricing or dumping concern?<br>5. <strong>Employee morale:</strong> Will overtime or changes affect workforce?</p><p><strong>Conclusion:</strong> The decision should integrate both quantitative and qualitative analyses. Typically, at full capacity, special orders below regular price are rejected unless the opportunity cost is zero (i.e., idle capacity exists).</p>"
+    },
+    "summary": "Decision Analysis (25%) is the highest-value section. Focus on the core mechanics of CVP (Breakeven, Margin of Safety, Leverage) and the logic of Relevant Costing (Marginal Analysis). Being able to identify Sunk Costs (ignore) vs Opportunity Costs (include) is the key to passing. For the 2026 exam, expect case-based questions that require both calculations and written explanations, integrating qualitative considerations. Master the formulas, avoid common traps, and think like a CFO.",
+    "test": [
+        {
+            "id": "p2s3_1",
+            "question": "Cost-Volume-Profit (CVP) analysis assumes that over the relevant range:",
+            "options": [
+                "Variable costs per unit are variable",
+                "Fixed costs per unit are constant",
+                "Total fixed costs are constant",
+                "Total variable costs are constant"
+            ],
+            "answer": 2,
+            "explanation": "CVP assumes total fixed costs are constant and variable costs per unit are constant over the relevant range."
+        },
+        {
+            "id": "p2s3_2",
+            "question": "The contribution margin per unit is equal to:",
+            "options": [
+                "Sales price - Fixed cost per unit",
+                "Sales price - Variable cost per unit",
+                "Sales price - Total cost per unit",
+                "Variable cost per unit - Fixed cost per unit"
+            ],
+            "answer": 1,
+            "explanation": "Unit CM = Selling Price - Unit Variable Cost."
+        },
+        {
+            "id": "p2s3_3",
+            "question": "Breakeven point in units is calculated as:",
+            "options": [
+                "Fixed Costs / Contribution Margin Ratio",
+                "Fixed Costs / Unit Contribution Margin",
+                "Variable Costs / Unit Contribution Margin",
+                "Sales / Unit Contribution Margin"
+            ],
+            "answer": 1,
+            "explanation": "Breakeven Units = Total Fixed Costs / Unit Contribution Margin."
+        },
+        {
+            "id": "p2s3_4",
+            "question": "If the selling price is $20, variable cost is $12, and fixed costs are $100,000, what is the breakeven point in units?",
+            "options": [
+                "5,000",
+                "8,333",
+                "12,500",
+                "20,000"
+            ],
+            "answer": 2,
+            "explanation": "CM per unit = $20 - $12 = $8. Breakeven = $100,000 / $8 = 12,500 units."
+        },
+        {
+            "id": "p2s3_5",
+            "question": "The margin of safety is defined as:",
+            "options": [
+                "Actual Sales - Breakeven Sales",
+                "Budgeted Sales + Breakeven Sales",
+                "Actual Sales - Variable Costs",
+                "Fixed Costs - Variable Costs"
+            ],
+            "answer": 0,
+            "explanation": "Margin of Safety is the excess of actual/budgeted sales over the breakeven volume."
+        },
+        {
+            "id": "p2s3_6",
+            "question": "If a company has a high degree of operating leverage (DOL), a small increase in sales will lead to:",
+            "options": [
+                "A small increase in operating income",
+                "A disproportionately large increase in operating income",
+                "A decrease in operating income",
+                "No change in operating income"
+            ],
+            "answer": 1,
+            "explanation": "High DOL (high fixed costs) magnifies the effect of sales changes on profits."
+        },
+        {
+            "id": "p2s3_7",
+            "question": "Which of the following costs is irrelevant in a decision to accept a special order?",
+            "options": [
+                "Direct materials",
+                "Variable overhead",
+                "Sunk costs",
+                "Incremental fixed costs"
+            ],
+            "answer": 2,
+            "explanation": "Sunk costs are past costs that cannot be changed and are always irrelevant in decision making."
+        },
+        {
+            "id": "p2s3_8",
+            "question": "In a make-or-buy decision, relevant costs include:",
+            "options": [
+                "Unavoidable fixed costs",
+                "Depreciation on existing equipment",
+                "Avoidable fixed costs",
+                "General administrative overhead"
+            ],
+            "answer": 2,
+            "explanation": "Only costs that change between alternatives (e.g., avoidable fixed costs) are relevant. Unavoidable costs and sunk costs (depreciation) are ignored."
+        },
+        {
+            "id": "p2s3_9",
+            "question": "Opportunity cost is best defined as:",
+            "options": [
+                "The cost of a new machine",
+                "The profit foregone by selecting one alternative over another",
+                "A sunk cost",
+                "A variable cost"
+            ],
+            "answer": 1,
+            "explanation": "Opportunity cost is the benefit given up when choosing one option precludes another."
+        },
+        {
+            "id": "p2s3_10",
+            "question": "A product sells for $50 and has variable costs of $30. What is the contribution margin ratio?",
+            "options": [
+                "40%",
+                "60%",
+                "20%",
+                "50%"
+            ],
+            "answer": 0,
+            "explanation": "CM = $50 - $30 = $20. CM Ratio = $20 / $50 = 40%."
+        },
+        {
+            "id": "p2s3_11",
+            "question": "When constrained by a bottleneck, a company should prioritize products with the highest:",
+            "options": [
+                "Selling price per unit",
+                "Contribution margin per unit",
+                "Contribution margin per unit of the constrained resource",
+                "Gross margin per unit"
+            ],
+            "answer": 2,
+            "explanation": "To maximize profit with limited resources, maximize CM per unit of the constraint (e.g., CM per machine hour)."
+        },
+        {
+            "id": "p2s3_12",
+            "question": "Target Costing calculates the allowable cost as:",
+            "options": [
+                "Target Price + Desired Profit",
+                "Target Price - Desired Profit",
+                "Actual Cost + Markup",
+                "Variable Cost + Fixed Cost"
+            ],
+            "answer": 1,
+            "explanation": "Target Costing starts with the market price and subtracts the desired profit margin."
+        },
+        {
+            "id": "p2s3_13",
+            "question": "If demand is price elastic, a decrease in price will usually:",
+            "options": [
+                "Decrease total revenue",
+                "Increase total revenue",
+                "Have no effect on revenue",
+                "Decrease quantity demanded"
+            ],
+            "answer": 1,
+            "explanation": "Elastic demand means quantity increases by a larger % than price decreases, leading to higher total revenue."
+        },
+        {
+            "id": "p2s3_14",
+            "question": "Which pricing strategy involves setting a high initial price for a new product?",
+            "options": [
+                "Penetration pricing",
+                "Cost-plus pricing",
+                "Price skimming",
+                "Target pricing"
+            ],
+            "answer": 2,
+            "explanation": "Price Skimming sets high prices initially to capture surplus from early adopters."
+        },
+        {
+            "id": "p2s3_15",
+            "question": "In a sell-or-process-further decision, joint costs incurred before the split-off point are:",
+            "options": [
+                "Relevant",
+                "Sunk and irrelevant",
+                "Opportunity costs",
+                "Differential costs"
+            ],
+            "answer": 1,
+            "explanation": "Joint costs are incurred regardless of the decision to process further, making them sunk and irrelevant."
+        },
+        {
+            "id": "p2s3_16",
+            "question": "Operating Income is calculated as:",
+            "options": [
+                "Sales - Variable Costs",
+                "Contribution Margin - Fixed Costs",
+                "Gross Margin - Variable Costs",
+                "Sales - Fixed Costs"
+            ],
+            "answer": 1,
+            "explanation": "Operating Income = Sales - Total Variable Costs - Total Fixed Costs = Contribution Margin - Fixed Costs."
+        },
+        {
+            "id": "p2s3_17",
+            "question": "If fixed costs increase while variable cost per unit remains constant, the breakeven point will:",
+            "options": [
+                "Decrease",
+                "Increase",
+                "Remain unchanged",
+                "Become zero"
+            ],
+            "answer": 1,
+            "explanation": "Higher fixed costs require more units to be sold to cover them, increasing the breakeven point."
+        },
+        {
+            "id": "p2s3_18",
+            "question": "Which of the following is NOT an assumption of CVP analysis?",
+            "options": [
+                "Costs are linear",
+                "Selling price is constant",
+                "Inventory levels change significantly",
+                "Sales mix is constant"
+            ],
+            "answer": 2,
+            "explanation": "CVP assumes production equals sales (inventory levels do not change)."
+        },
+        {
+            "id": "p2s3_19",
+            "question": "To calculate the sales dollars required to meet a target net income (after-tax), you must first:",
+            "options": [
+                "Subtract taxes from fixed costs",
+                "Divide the target net income by (1 - tax rate)",
+                "Multiply target net income by the tax rate",
+                "Ignore taxes"
+            ],
+            "answer": 1,
+            "explanation": "CVP formulas use Pre-Tax Profit. Convert After-Tax to Pre-Tax by dividing by (1 - tax rate)."
+        },
+        {
+            "id": "p2s3_20",
+            "question": "A special order should be accepted if the incremental revenue exceeds:",
+            "options": [
+                "Total costs",
+                "Sunk costs",
+                "Incremental costs",
+                "Allocated fixed costs"
+            ],
+            "answer": 2,
+            "explanation": "Accept if Incremental Revenue > Incremental Costs (provided capacity exists)."
+        },
+        {
+            "id": "p2s3_21",
+            "question": "If a company operates at full capacity, the minimum price for a special order must cover:",
+            "options": [
+                "Variable costs only",
+                "Variable costs + Allocated fixed costs",
+                "Variable costs + Opportunity cost",
+                "Fixed costs only"
+            ],
+            "answer": 2,
+            "explanation": "At full capacity, you displace regular sales. The price must cover VC + the lost CM from regular sales (Opportunity Cost)."
+        },
+        {
+            "id": "p2s3_22",
+            "question": "Depreciation on a factory building is usually classified as a:",
+            "options": [
+                "Variable cost",
+                "Step cost",
+                "Fixed cost",
+                "Mixed cost"
+            ],
+            "answer": 2,
+            "explanation": "Depreciation is typically a fixed cost that does not change with production volume."
+        },
+        {
+            "id": "p2s3_23",
+            "question": "Which method of pricing adds a markup to the cost base?",
+            "options": [
+                "Target costing",
+                "Cost-plus pricing",
+                "Market-based pricing",
+                "Value-based pricing"
+            ],
+            "answer": 1,
+            "explanation": "Cost-plus adds a percentage markup to the calculated cost to determine price."
+        },
+        {
+            "id": "p2s3_24",
+            "question": "Peak-load pricing is used when:",
+            "options": [
+                "Demand is constant",
+                "Supplies are unlimited",
+                "Demand fluctuates significantly and capacity is limited",
+                "Competition is fierce"
+            ],
+            "answer": 2,
+            "explanation": "Peak-load pricing charges higher rates during high-demand periods to manage capacity (e.g., electricity, hotels)."
+        },
+        {
+            "id": "p2s3_25",
+            "question": "If the price of a substitute product decreases, demand for your product will likely:",
+            "options": [
+                "Increase",
+                "Decrease",
+                "Stay the same",
+                "Become perfectly elastic"
+            ],
+            "answer": 1,
+            "explanation": "Substitutes are competitors. If a competitor gets cheaper, customers switch, reducing your demand."
+        },
+        {
+            "id": "p2s3_26",
+            "question": "Predatory pricing involves:",
+            "options": [
+                "Setting prices high",
+                "Setting prices below cost to drive out competitors",
+                "Colluding with competitors",
+                "Using cost-plus pricing"
+            ],
+            "answer": 1,
+            "explanation": "Predatory pricing is the illegal act of pricing below cost to eliminate competition."
+        },
+        {
+            "id": "p2s3_27",
+            "question": "Value-based pricing focuses on:",
+            "options": [
+                "Production costs",
+                "Competitor prices",
+                "The perceived value to the customer",
+                "Fixed costs"
+            ],
+            "answer": 2,
+            "explanation": "Value-based pricing sets prices based on how much the customer believes the product is worth."
+        },
+        {
+            "id": "p2s3_28",
+            "question": "In a keep-or-drop decision, allocated common costs are:",
+            "options": [
+                "Relevant",
+                "Avoidable",
+                "Unavoidable and irrelevant",
+                "Variable"
+            ],
+            "answer": 2,
+            "explanation": "Allocated common costs (like CEO salary) continue even if the segment is dropped, making them irrelevant."
+        },
+        {
+            "id": "p2s3_29",
+            "question": "The indifference point between two alternatives is where:",
+            "options": [
+                "Revenues are equal",
+                "Fixed costs are equal",
+                "Total costs (or profits) are equal",
+                "Variable costs are equal"
+            ],
+            "answer": 2,
+            "explanation": "The indifference point is the volume level where the total cost or profit of two options is identical."
+        },
+        {
+            "id": "p2s3_30",
+            "question": "Sensitivity analysis answers the question:",
+            "options": [
+                "What did we spend?",
+                "What is our profit?",
+                "What if a key variable changes?",
+                "How do we reduce costs?"
+            ],
+            "answer": 2,
+            "explanation": "Sensitivity analysis (\"what-if\") tests how results change if assumptions (price, cost) change."
+        },
+        {
+            "id": "p2s3_31",
+            "question": "A higher CM ratio indicates that:",
+            "options": [
+                "Variable costs are high",
+                "Fixed costs are low",
+                "More of each sales dollar contributes to fixed costs/profit",
+                "Profit is lower"
+            ],
+            "answer": 2,
+            "explanation": "Higher CM ratio means a larger portion of revenue remains after covering variable costs."
+        },
+        {
+            "id": "p2s3_32",
+            "question": "If volume increases, fixed cost per unit:",
+            "options": [
+                "Increases",
+                "Decreases",
+                "Stays the same",
+                "Becomes variable"
+            ],
+            "answer": 1,
+            "explanation": "Total fixed costs are constant, so spreading them over more units lowers the cost per unit."
+        },
+        {
+            "id": "p2s3_33",
+            "question": "If volume increases, variable cost per unit:",
+            "options": [
+                "Increases",
+                "Decreases",
+                "Stays the same",
+                "Becomes fixed"
+            ],
+            "answer": 2,
+            "explanation": "Variable cost per unit is constant; total variable costs change with volume."
+        },
+        {
+            "id": "p2s3_34",
+            "question": "Relevant revenues are:",
+            "options": [
+                "Past revenues",
+                "Expected future revenues that differ between alternatives",
+                "All future revenues",
+                "Budgeted revenues"
+            ],
+            "answer": 1,
+            "explanation": "Relevance requires being in the future AND differing between the choices."
+        },
+        {
+            "id": "p2s3_35",
+            "question": "Qualitative factors in decision making include:",
+            "options": [
+                "Cost savings",
+                "Net income",
+                "Employee morale and customer satisfaction",
+                "Asset values"
+            ],
+            "answer": 2,
+            "explanation": "Qualitative factors are non-financial (morale, quality, reputation) but crucial for long-term success."
+        },
+        {
+            "id": "p2s3_36",
+            "question": "In the Theory of Constraints, the constraint is often called the:",
+            "options": [
+                "Anchor",
+                "Bottleneck",
+                "Driver",
+                "Lever"
+            ],
+            "answer": 1,
+            "explanation": "The limiting resource in a process is the bottleneck."
+        },
+        {
+            "id": "p2s3_37",
+            "question": "Throughput contribution is defined as:",
+            "options": [
+                "Sales - Variable Costs",
+                "Sales - Direct Materials",
+                "Sales - Fixed Costs",
+                "Sales - Labor"
+            ],
+            "answer": 1,
+            "explanation": "In TOC, Throughput = Sales - Totally Variable Costs (usually just Direct Materials)."
+        },
+        {
+            "id": "p2s3_38",
+            "question": "Dumping is defined as:",
+            "options": [
+                "Selling below cost in a foreign market",
+                "Reducing inventory",
+                "Increasing prices",
+                "Outsourcing production"
+            ],
+            "answer": 0,
+            "explanation": "Dumping is selling goods in a foreign market below their domestic price or cost, often considered predatory."
+        },
+        {
+            "id": "p2s3_39",
+            "question": "Collusive pricing occurs when:",
+            "options": [
+                "Companies compete aggressively",
+                "Companies agree to set prices together",
+                "Prices satisfy customers",
+                "Costs are minimized"
+            ],
+            "answer": 1,
+            "explanation": "Collusion (illegal) involves firms agreeing to fix prices rather than competing."
+        },
+        {
+            "id": "p2s3_40",
+            "question": "Demand is perfectly inelastic when the elasticity coefficient is:",
+            "options": [
+                "0",
+                "1",
+                "Infinity",
+                "-1"
+            ],
+            "answer": 0,
+            "explanation": "Perfectly inelastic demand means quantity doesn't change at all when price changes (Ed = 0)."
+        },
+        {
+            "id": "p2s3_41",
+            "question": "Which budgeting method uses CVP concepts?",
+            "options": [
+                "Zero-based budgeting",
+                "Flexible budgeting",
+                "Static budgeting",
+                "Capital budgeting"
+            ],
+            "answer": 1,
+            "explanation": "Flexible budgets adjust expenses based on actual volume, using CVP principles (VC per unit)."
+        },
+        {
+            "id": "p2s3_42",
+            "question": "If the Margin of Safety is 20%, it means:",
+            "options": [
+                "Profit is 20%",
+                "Sales can drop 20% before a loss occurs",
+                "Fixed costs are 20%",
+                "Variable costs are 20%"
+            ],
+            "answer": 1,
+            "explanation": "MOS % represents the percentage drop in sales the company can withstand before hitting breakeven."
+        },
+        {
+            "id": "p2s3_43",
+            "question": "Operating Leverage is highest when:",
+            "options": [
+                "Fixed costs are low",
+                "Variable costs are high",
+                "Fixed costs are high relative to variable costs",
+                "Sales are zero"
+            ],
+            "answer": 2,
+            "explanation": "High fixed cost structures create high operating leverage (and risk)."
+        },
+        {
+            "id": "p2s3_44",
+            "question": "A drawback of Cost-Plus pricing is:",
+            "options": [
+                "It guarantees profit",
+                "It ignores customer willingness to pay",
+                "It is hard to calculate",
+                "It requires market research"
+            ],
+            "answer": 1,
+            "explanation": "Cost-plus is internal-facing; it might set a price higher than customers will pay or lower than they would pay."
+        },
+        {
+            "id": "p2s3_45",
+            "question": "Penetration pricing is most effective when:",
+            "options": [
+                "Demand is inelastic",
+                "Demand is elastic and customers are price sensitive",
+                "The product is a luxury item",
+                "There is no competition"
+            ],
+            "answer": 1,
+            "explanation": "Penetration (low price) works best when customers are sensitive to price (elastic) and volume can be scaled."
+        },
+        {
+            "id": "p2s3_46",
+            "question": "When deciding to drop a product line, you should drop it if:",
+            "options": [
+                "It has a net loss",
+                "Its contribution margin is positive",
+                "Avoidable fixed costs > Contribution margin lost",
+                "It has allocated costs"
+            ],
+            "answer": 2,
+            "explanation": "Drop if the costs you SAVE (avoidable FC) are greater than the profit you LOSE (CM)."
+        },
+        {
+            "id": "p2s3_47",
+            "question": "Sunk costs are:",
+            "options": [
+                "Future costs",
+                "Differential costs",
+                "Historical costs needed for bookkeeping but irrelevant for decisions",
+                "Opportunity costs"
+            ],
+            "answer": 2,
+            "explanation": "Sunk costs have already been incurred and cannot be changed."
+        },
+        {
+            "id": "p2s3_48",
+            "question": "Which is an example of a relevant cost?",
+            "options": [
+                "Book value of old machine",
+                "Accumulated depreciation",
+                "Future maintenance cost of a new machine",
+                "CEO salary"
+            ],
+            "answer": 2,
+            "explanation": "Future maintenance costs differ depending on which machine you buy, making them relevant."
+        },
+        {
+            "id": "p2s3_49",
+            "question": "The book value of an old asset is:",
+            "options": [
+                "Relevant",
+                "A sunk cost",
+                "An opportunity cost",
+                "A variable cost"
+            ],
+            "answer": 1,
+            "explanation": "Book value represents past cost minus depreciation. It is sunk and irrelevant."
+        },
+        {
+            "id": "p2s3_50",
+            "question": "If a company produces two products, A and B, and A has a higher CM ratio, promoting A will:",
+            "options": [
+                "Decrease profits",
+                "Increase profits more than promoting B",
+                "Have no effect",
+                "Increase fixed costs"
+            ],
+            "answer": 1,
+            "explanation": "Selling products with higher CM ratios generates more profit per dollar of sales."
+        },
+        {
+            "id": "p2s3_51",
+            "question": "Weighted Average CM is used for:",
+            "options": [
+                "Single product analysis",
+                "Multi-product breakeven analysis",
+                "Tax calculation",
+                "Inventory valuation"
+            ],
+            "answer": 1,
+            "explanation": "WACM is required to find the breakeven point for a bundle of different products."
+        },
+        {
+            "id": "p2s3_52",
+            "question": "Target Income Volume =",
+            "options": [
+                "(FC + Target Income) / Price",
+                "(FC + Target Income) / Unit CM",
+                "Target Income / CM Ratio",
+                "FC / Unit CM"
+            ],
+            "answer": 1,
+            "explanation": "Target Units = (Total Fixed + Target Profit) / Contribution Margin per Unit."
+        },
+        {
+            "id": "p2s3_53",
+            "question": "If the tax rate is 30% and target after-tax income is $70,000, what is the pre-tax target?",
+            "options": [
+                "$70,000",
+                "$91,000",
+                "$100,000",
+                "$233,333"
+            ],
+            "answer": 2,
+            "explanation": "$70,000 / (1 - 0.30) = $70,000 / 0.7 = $100,000."
+        },
+        {
+            "id": "p2s3_54",
+            "question": "The Law of Demand states that:",
+            "options": [
+                "As price rises, quantity demanded rises",
+                "As price rises, quantity demanded falls",
+                "Price and quantity are unrelated",
+                "Demand is always elastic"
+            ],
+            "answer": 1,
+            "explanation": "There is an inverse relationship between price and quantity demanded."
+        },
+        {
+            "id": "p2s3_55",
+            "question": "Cross-elasticity of demand measures:",
+            "options": [
+                "Sensitivity of one product's demand to another product's price",
+                "Income sensitivity",
+                "Price sensitivity",
+                "Supply sensitivity"
+            ],
+            "answer": 0,
+            "explanation": "Cross-elasticity shows if goods are substitutes (positive) or complements (negative)."
+        },
+        {
+            "id": "p2s3_56",
+            "question": "If Cross-Elasticity is positive, the goods are:",
+            "options": [
+                "Complements",
+                "Substitutes",
+                "Unrelated",
+                "Inferior"
+            ],
+            "answer": 1,
+            "explanation": "Positive cross-elasticity means if Price of A goes up, Demand for B goes up (people switch to B). They are substitutes."
+        },
+        {
+            "id": "p2s3_57",
+            "question": "If Cross-Elasticity is negative, the goods are:",
+            "options": [
+                "Complements",
+                "Substitutes",
+                "Unrelated",
+                "Normal"
+            ],
+            "answer": 0,
+            "explanation": "Negative cross-elasticity means if Price of A goes up, Demand for B goes DOWN (e.g., Cars and Gas). They are complements."
+        },
+        {
+            "id": "p2s3_58",
+            "question": "Income Elasticity of Demand > 1 implies:",
+            "options": [
+                "Normal necessity",
+                "Inferior good",
+                "Luxury good",
+                "Giffen good"
+            ],
+            "answer": 2,
+            "explanation": "Demand rises faster than income => Luxury good."
+        },
+        {
+            "id": "p2s3_59",
+            "question": "Marginal Revenue is:",
+            "options": [
+                "Total Revenue",
+                "Revenue from selling one additional unit",
+                "Average Revenue",
+                "Profit"
+            ],
+            "answer": 1,
+            "explanation": "MR is the change in Total Revenue from selling one more unit."
+        },
+        {
+            "id": "p2s3_60",
+            "question": "Profit is maximized when:",
+            "options": [
+                "Total Revenue is maximized",
+                "Marginal Revenue = Marginal Cost",
+                "Average Cost is minimized",
+                "Price is highest"
+            ],
+            "answer": 1,
+            "explanation": "Microeconomic theory states profit is maxed where MR = MC."
+        },
+        {
+            "id": "p2s3_61",
+            "question": "Which chart shows the relationship between total cost and total revenue?",
+            "options": [
+                "Pareto chart",
+                "CVP (Breakeven) chart",
+                "Control chart",
+                "Gantt chart"
+            ],
+            "answer": 1,
+            "explanation": "A CVP graph plots Total Revenue and Total Cost lines; their intersection is the Breakeven Point."
+        },
+        {
+            "id": "p2s3_62",
+            "question": "Idle capacity makes accepting a special order:",
+            "options": [
+                "More likely",
+                "Less likely",
+                "Impossible",
+                "Illegal"
+            ],
+            "answer": 0,
+            "explanation": "Idle capacity means there is no opportunity cost of displacing regular sales, making special orders more attractive (only need to cover VC)."
+        },
+        {
+            "id": "p2s3_63",
+            "question": "Constraint management is also known as:",
+            "options": [
+                "Activity Based Costing",
+                "Theory of Constraints",
+                "Just-In-Time",
+                "Six Sigma"
+            ],
+            "answer": 1,
+            "explanation": "Goldratt's Theory of Constraints focuses on managing bottlenecks."
+        },
+        {
+            "id": "p2s3_64",
+            "question": "In a decision to sell or process further, the split-off point is:",
+            "options": [
+                "When joint costs reach zero",
+                "Where products become separately identifiable",
+                "Where sales occur",
+                "Where separation stops"
+            ],
+            "answer": 1,
+            "explanation": "The split-off point is the stage in production where joint products separate into distinct products."
+        },
+        {
+            "id": "p2s3_65",
+            "question": "Separable costs are:",
+            "options": [
+                "Incurred before split-off",
+                "Incurred after split-off",
+                "Joint costs",
+                "Fixed costs"
+            ],
+            "answer": 1,
+            "explanation": "Separable costs are incurred ONLY if the product is processed further; they are relevant to that decision."
+        },
+        {
+            "id": "p2s3_66",
+            "question": "If a company is at the breakeven point, its DOL is:",
+            "options": [
+                "0",
+                "1",
+                "Undefined (Infinite)",
+                "Negative"
+            ],
+            "answer": 2,
+            "explanation": "At breakeven, Income is 0. DOL = CM / 0 = Undefined/Infinite. Small sales changes cause massive % income changes."
+        },
+        {
+            "id": "p2s3_67",
+            "question": "Which increases the Margin of Safety?",
+            "options": [
+                "Increasing fixed costs",
+                "Decreasing sales price",
+                "Decreasing variable costs",
+                "Decreasing sales volume"
+            ],
+            "answer": 2,
+            "explanation": "Decreasing VC increases CM, which effectively lowers the breakeven point, widening the gap (safety margin) between actual sales and breakeven."
+        },
+        {
+            "id": "p2s3_68",
+            "question": "Target Costing is most appropriate for companies in:",
+            "options": [
+                "Monopolies",
+                "Highly competitive markets",
+                "Regulated industries",
+                "Declining industries"
+            ],
+            "answer": 1,
+            "explanation": "In competitive markets, companies are price-takers. They must cost-engineer products to fit the market price."
+        },
+        {
+            "id": "p2s3_69",
+            "question": "Life-cycle costing includes:",
+            "options": [
+                "Only production costs",
+                "Only design costs",
+                "Upstream (R&D) and Downstream (Warranty) costs",
+                "Variable costs only"
+            ],
+            "answer": 2,
+            "explanation": "Life-cycle costing captures the total cost of ownership from cradle to grave."
+        },
+        {
+            "id": "p2s3_70",
+            "question": "Price discrimination involves:",
+            "options": [
+                "Assuming all customers are the same",
+                "Charging different prices to different customers for the same product",
+                "Setting one global price",
+                "Refusing to sell"
+            ],
+            "answer": 1,
+            "explanation": "Charging different segments (e.g., students vs adults) different prices to capture consumer surplus."
+        },
+        {
+            "id": "p2s3_71",
+            "question": "For price discrimination to work, the seller must be able to:",
+            "options": [
+                "Prevent resale between markets",
+                "Produce at zero cost",
+                "Advertise freely",
+                "Ignore demand"
+            ],
+            "answer": 0,
+            "explanation": "If leakage/resale occurs (arbitrage), the low-price segment will sell to the high-price segment, defeating the strategy."
+        },
+        {
+            "id": "p2s3_72",
+            "question": "Which reflects a short-run decision?",
+            "options": [
+                "Building a new factory",
+                "Launching a new product line",
+                "Accepting a one-time special order",
+                "Entering a new country"
+            ],
+            "answer": 2,
+            "explanation": "Special orders are temporary, short-term tactical decisions."
+        },
+        {
+            "id": "p2s3_73",
+            "question": "Qualitative analysis asks:",
+            "options": [
+                "Is it profitable?",
+                "Is it strategic and ethical?",
+                "What is the ROI?",
+                "What is the tax rate?"
+            ],
+            "answer": 1,
+            "explanation": "Qualitative analysis looks at reputation, strategy, brand image, and ethics."
+        },
+        {
+            "id": "p2s3_74",
+            "question": "A bottleneck is:",
+            "options": [
+                "A resource with excess capacity",
+                "A resource where capacity is less than demand",
+                "A finished good",
+                "A variable cost"
+            ],
+            "answer": 1,
+            "explanation": "Bottlenecks constrain the total output of the system."
+        },
+        {
+            "id": "p2s3_75",
+            "question": "To relieve a bottleneck, a company should:",
+            "options": [
+                "Ensure the bottleneck never stops working",
+                "Reduce feeding the bottleneck",
+                "Focus on non-bottlenecks",
+                "Decrease demand"
+            ],
+            "answer": 0,
+            "explanation": "Because the bottleneck determines total throughput, an hour lost at the bottleneck is an hour lost for the whole system."
+        },
+        {
+            "id": "p2s3_76",
+            "question": "The margin of safety can be expressed in:",
+            "options": [
+                "Units",
+                "Dollars",
+                "Percentage",
+                "All of the above"
+            ],
+            "answer": 3,
+            "explanation": "All three are valid ways to express the safety margin."
+        },
+        {
+            "id": "p2s3_77",
+            "question": "If Sales = $200, VC = $100, FC = $80, what is Operating Income?",
+            "options": [
+                "$20",
+                "$100",
+                "$120",
+                "$0"
+            ],
+            "answer": 0,
+            "explanation": "$200 - $100 - $80 = $20."
+        },
+        {
+            "id": "p2s3_78",
+            "question": "Using the data above, what is the Operating Leverage?",
+            "options": [
+                "1",
+                "5",
+                "10",
+                "4"
+            ],
+            "answer": 1,
+            "explanation": "CM = $200 - $100 = $100. Income = $20. DOL = $100 / $20 = 5."
+        },
+        {
+            "id": "p2s3_79",
+            "question": "In a make-or-buy decision, if the supplier raises the price:",
+            "options": [
+                "The 'Make' option becomes relatively more attractive",
+                "The 'Buy' option becomes more attractive",
+                "Both are equal",
+                "Decision assumes indifference"
+            ],
+            "answer": 0,
+            "explanation": "Higher buy cost favors making it in-house (assuming make costs stay constant)."
+        },
+        {
+            "id": "p2s3_80",
+            "question": "Allocating fixed costs to a product that doesn't cause them can lead to:",
+            "options": [
+                "The Death Spiral",
+                "Increased profits",
+                "Better decision making",
+                "Lower prices"
+            ],
+            "answer": 0,
+            "explanation": "Total costs appear deceptively high, leading managers to raise prices or drop products, which eventually kills volume (Death Spiral)."
+        },
+        {
+            "id": "p2s3_81",
+            "question": "Robinson-Patman Act relates to:",
+            "options": [
+                "Price discrimination",
+                "Environmental protection",
+                "Labor unions",
+                "Taxation"
+            ],
+            "answer": 0,
+            "explanation": "US law restricting price discrimination that reduces competition."
+        },
+        {
+            "id": "p2s3_82",
+            "question": "Cartels generally try to:",
+            "options": [
+                "Lower prices",
+                "Restrict supply to raise prices",
+                "Increase output",
+                "Increase competition"
+            ],
+            "answer": 1,
+            "explanation": "Cartels (e.g., OPEC) restrict supply to artificially inflate prices."
+        },
+        {
+            "id": "p2s3_83",
+            "question": "Fixed costs that cannot be eliminated if a segment is dropped are:",
+            "options": [
+                "Avoidable",
+                "Unavoidable",
+                "Variable",
+                "Incremental"
+            ],
+            "answer": 1,
+            "explanation": "Unavoidable costs persist regardless of the decision (e.g., share of corporate HQ)."
+        },
+        {
+            "id": "p2s3_84",
+            "question": "Marginal Cost is the cost of producing:",
+            "options": [
+                "The first unit",
+                "The last unit",
+                "One additional unit",
+                "The average unit"
+            ],
+            "answer": 2,
+            "explanation": "Marginal cost is the cost of producing one more unit."
+        },
+        {
+            "id": "p2s3_85",
+            "question": "Variable costing is chosen for internal decisions because:",
+            "options": [
+                "It complies with GAAP",
+                "It removes the effect of inventory changes on profit",
+                "It results in higher income",
+                "IRS requires it"
+            ],
+            "answer": 1,
+            "explanation": "Variable costing shows the true relationship between sales and profit (CVP), unaffected by production volume (unlike Absorption)."
+        },
+        {
+            "id": "p2s3_86",
+            "question": "Absorption costing is required for:",
+            "options": [
+                "CVP analysis",
+                "External reporting (GAAP)",
+                "Breakeven calc",
+                "Special order decisions"
+            ],
+            "answer": 1,
+            "explanation": "GAAP requires Absorption costing (capitalizing FOH in inventory) for external statements."
+        },
+        {
+            "id": "p2s3_87",
+            "question": "When Production > Sales, Absorption Income is:",
+            "options": [
+                "Lower than Variable Income",
+                "Higher than Variable Income",
+                "Equal to Variable Income",
+                "Zero"
+            ],
+            "answer": 1,
+            "explanation": "Absorption 'hides' some fixed costs in ending inventory, boosting reported income."
+        },
+        {
+            "id": "p2s3_88",
+            "question": "When Production < Sales, Absorption Income is:",
+            "options": [
+                "Lower than Variable Income",
+                "Higher than Variable Income",
+                "Equal",
+                "Zero"
+            ],
+            "answer": 0,
+            "explanation": "Inventory shrinks; previously capitalized fixed costs flow to COGS, lowering income compared to variable costing."
+        },
+        {
+            "id": "p2s3_89",
+            "question": "The basic decision rule for 'Sell or Process Further' is:",
+            "options": [
+                "Maximize total revenue",
+                "Process if Incremental Revenue > Incremental Cost",
+                "Process if Total Revenue > Total Cost",
+                "Process if Joint Costs are low"
+            ],
+            "answer": 1,
+            "explanation": "Comparing incremental benefits vs incremental costs isolates the decision's value."
+        },
+        {
+            "id": "p2s3_90",
+            "question": "Which market structure has one seller?",
+            "options": [
+                "Perfect Competition",
+                "Monopoly",
+                "Oligopoly",
+                "Monopolistic Competition"
+            ],
+            "answer": 1,
+            "explanation": "Monopoly = Single seller."
+        },
+        {
+            "id": "p2s3_91",
+            "question": "Which market structure has a few powerful sellers?",
+            "options": [
+                "Monopoly",
+                "Oligopoly",
+                "Duopoly",
+                "Perfect Competition"
+            ],
+            "answer": 1,
+            "explanation": "Oligopoly (e.g., Airline, Auto) has few sellers who are interdependent."
+        },
+        {
+            "id": "p2s3_92",
+            "question": "In perfect competition, the firm is a:",
+            "options": [
+                "Price maker",
+                "Price taker",
+                "Market leader",
+                "Monopolist"
+            ],
+            "answer": 1,
+            "explanation": "Firms (e.g., wheat farmers) have no power to set prices; they take the market price."
+        },
+        {
+            "id": "p2s3_93",
+            "question": "Elasticity of demand for luxury goods is typically:",
+            "options": [
+                "Inelastic",
+                "Elastic",
+                "Unitary",
+                "Zero"
+            ],
+            "answer": 1,
+            "explanation": "Luxuries are optional; consumers cut back sharply if prices rise."
+        },
+        {
+            "id": "p2s3_94",
+            "question": "Elasticity of demand for necessities (e.g., insulin) is typically:",
+            "options": [
+                "Elastic",
+                "Inelastic",
+                "Infinite",
+                "Positive"
+            ],
+            "answer": 1,
+            "explanation": "Necessities have few substitutes; people buy regardless of price."
+        },
+        {
+            "id": "p2s3_95",
+            "question": "Pricing below the competition to gain share is:",
+            "options": [
+                "Skimming",
+                "Penetration",
+                "Premium",
+                "Cost-plus"
+            ],
+            "answer": 1,
+            "explanation": "Penetration strategy targets market share via low prices."
+        },
+        {
+            "id": "p2s3_96",
+            "question": "The difference between Sales and Breakeven Sales is:",
+            "options": [
+                "Profit",
+                "Contribution Margin",
+                "Margin of Safety",
+                "Fixed Cost"
+            ],
+            "answer": 2,
+            "explanation": "Definition of Margin of Safety."
+        },
+        {
+            "id": "p2s3_97",
+            "question": "If price increases and volume drops slightly (less than price rise), revenue:",
+            "options": [
+                "Increases",
+                "Decreases",
+                "Stays same",
+                "Is undetermined"
+            ],
+            "answer": 0,
+            "explanation": "Inelastic demand: Price Effect > Quantity Effect => Revenue rises."
+        },
+        {
+            "id": "p2s3_98",
+            "question": "Contribution Margin Ratio = 30%. Sales = $1,000. CM = ?",
+            "options": [
+                "$300",
+                "$700",
+                "$100",
+                "$30"
+            ],
+            "answer": 0,
+            "explanation": "$1,000 * 0.30 = $300."
+        },
+        {
+            "id": "p2s3_99",
+            "question": "Which cost is avoidable in a decision?",
+            "options": [
+                "Sunk cost",
+                "Unavoidable fixed cost",
+                "Variable cost of the item not produced",
+                "General overhead"
+            ],
+            "answer": 2,
+            "explanation": "Variable costs are always avoidable if you stop production."
+        },
+        {
+            "id": "p2s3_100",
+            "question": "The 'Relevant Range' assumption is important because:",
+            "options": [
+                "Costs fluctuate wildly outside it",
+                "It defines the fixed/variable cost behavior validity",
+                "It ignores inflation",
+                "It sets the price"
+            ],
+            "answer": 1,
+            "explanation": "Constant Unit VC and Constant Total FC are only valid within the relevant range."
+        }
+    ]
+}

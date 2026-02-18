@@ -1,0 +1,1714 @@
+{
+    "exams": [
+        {
+            "id": "p1-full",
+            "title": "Part 1: Full Mock Exam",
+            "duration": 180,
+            "questionCount": 25,
+            "description": "Comprehensive Part 1 simulation. 25 MCQs across all topics."
+        },
+        {
+            "id": "p2-full",
+            "title": "Part 2: Full Mock Exam",
+            "duration": 180,
+            "questionCount": 25,
+            "description": "Comprehensive Part 2 simulation. 25 MCQs across all topics."
+        },
+        {
+            "id": "p1-mini",
+            "title": "Part 1: Quick Drill",
+            "duration": 30,
+            "questionCount": 15,
+            "description": "Fast-paced drill on Part 1 core concepts."
+        },
+        {
+            "id": "p2-mini",
+            "title": "Part 2: Quick Drill",
+            "duration": 30,
+            "questionCount": 15,
+            "description": "Fast-paced drill on Part 2 core concepts."
+        },
+        {
+            "id": "p1-cost",
+            "title": "Cost Management Focus",
+            "duration": 20,
+            "questionCount": 10,
+            "description": "Topic-specific test on Cost Management (Part 1)."
+        },
+        {
+            "id": "p1-budget",
+            "title": "Budgeting & Forecasting Focus",
+            "duration": 20,
+            "questionCount": 10,
+            "description": "Topic-specific test on Planning, Budgeting & Forecasting (Part 1)."
+        },
+        {
+            "id": "p2-finance",
+            "title": "Corporate Finance Focus",
+            "duration": 20,
+            "questionCount": 10,
+            "description": "Topic-specific test on Corporate Finance (Part 2)."
+        },
+        {
+            "id": "p2-ethics",
+            "title": "Professional Ethics Focus",
+            "duration": 15,
+            "questionCount": 8,
+            "description": "Ethics-focused practice for Part 2."
+        }
+    ],
+    "questions": [
+        {
+            "id": 1,
+            "examId": "p1-full",
+            "topic": "External Financial Reporting",
+            "question": "Which of the following is NOT a component of internal control under the COSO framework?",
+            "options": [
+                "Control Environment",
+                "Risk Assessment",
+                "Financial Reporting",
+                "Monitoring Activities"
+            ],
+            "answer": 2,
+            "explanation": "Financial Reporting is an objective of internal control, not a component. The five components are: Control Environment, Risk Assessment, Control Activities, Information & Communication, and Monitoring Activities."
+        },
+        {
+            "id": 2,
+            "examId": "p1-full",
+            "topic": "Cost Management",
+            "question": "In a standard cost system, the materials price variance is calculated as:",
+            "options": [
+                "Actual Price × Actual Quantity Purchased",
+                "Standard Price × Actual Quantity Purchased",
+                "(Actual Price − Standard Price) × Actual Quantity Purchased",
+                "(Actual Price − Standard Price) × Standard Quantity Allowed"
+            ],
+            "answer": 2,
+            "explanation": "Materials Price Variance = (Actual Price − Standard Price) × Actual Quantity Purchased. It isolates the price effect using actual quantity."
+        },
+        {
+            "id": 3,
+            "examId": "p1-full",
+            "topic": "Performance Management",
+            "question": "If a company has a current ratio of 2.0 and pays off a short-term liability with cash, the current ratio will:",
+            "options": [
+                "Increase",
+                "Decrease",
+                "Remain the same",
+                "Cannot be determined"
+            ],
+            "answer": 0,
+            "explanation": "When Current Ratio > 1, reducing both numerator and denominator by the same amount increases the ratio. Example: 200/100 = 2.0 → 180/80 = 2.25."
+        },
+        {
+            "id": 4,
+            "examId": "p1-full",
+            "topic": "Planning & Budgeting",
+            "question": "A flexible budget differs from a static budget in that a flexible budget:",
+            "options": [
+                "Is prepared for a single level of activity",
+                "Is adjusted for actual activity levels",
+                "Only includes fixed costs",
+                "Is prepared at the end of the period"
+            ],
+            "answer": 1,
+            "explanation": "A flexible budget adjusts budgeted amounts based on actual activity. It allows meaningful comparison between budgeted and actual results."
+        },
+        {
+            "id": 5,
+            "examId": "p1-full",
+            "topic": "Cost Management",
+            "question": "Under absorption costing, which costs are included in product cost?",
+            "options": [
+                "Only variable manufacturing costs",
+                "All manufacturing costs (fixed and variable)",
+                "All costs including selling expenses",
+                "Only direct materials and direct labor"
+            ],
+            "answer": 1,
+            "explanation": "Absorption costing includes all manufacturing costs — direct materials, direct labor, variable overhead, AND fixed overhead — as product costs."
+        },
+        {
+            "id": 6,
+            "examId": "p1-full",
+            "topic": "Performance Management",
+            "question": "Return on Investment (ROI) is calculated as:",
+            "options": [
+                "Net Income ÷ Total Assets",
+                "Operating Income ÷ Average Invested Capital",
+                "Net Income ÷ Sales",
+                "Sales ÷ Total Assets"
+            ],
+            "answer": 1,
+            "explanation": "ROI = Operating Income ÷ Average Invested Capital. It measures the efficiency of capital utilization by a responsibility center."
+        },
+        {
+            "id": 7,
+            "examId": "p1-full",
+            "topic": "Internal Controls",
+            "question": "Which of the following is an example of a detective control?",
+            "options": [
+                "Requiring dual signatures for checks",
+                "Bank reconciliation",
+                "Password-protected access",
+                "Segregation of duties"
+            ],
+            "answer": 1,
+            "explanation": "Bank reconciliation is a detective control — it identifies discrepancies AFTER transactions occur. The others are preventive controls."
+        },
+        {
+            "id": 8,
+            "examId": "p1-full",
+            "topic": "Technology & Analytics",
+            "question": "In data analytics, what does a 'regression analysis' help determine?",
+            "options": [
+                "The frequency of data errors",
+                "The relationship between dependent and independent variables",
+                "The most common data point",
+                "The standard deviation of data"
+            ],
+            "answer": 1,
+            "explanation": "Regression analysis models the relationship between a dependent variable and one or more independent variables to predict outcomes."
+        },
+        {
+            "id": 9,
+            "examId": "p1-full",
+            "topic": "External Financial Reporting",
+            "question": "Under US GAAP, research costs are:",
+            "options": [
+                "Capitalized as an intangible asset",
+                "Expensed as incurred",
+                "Capitalized if success is probable",
+                "Deferred until commercial viability"
+            ],
+            "answer": 1,
+            "explanation": "Under US GAAP, ALL research costs must be expensed as incurred. Development costs are also generally expensed (unlike IFRS which allows capitalization under IAS 38)."
+        },
+        {
+            "id": 10,
+            "examId": "p1-full",
+            "topic": "Planning & Budgeting",
+            "question": "Zero-based budgeting requires managers to:",
+            "options": [
+                "Start from the prior year's budget",
+                "Justify all expenditures from scratch each period",
+                "Only budget for variable costs",
+                "Eliminate all discretionary spending"
+            ],
+            "answer": 1,
+            "explanation": "Zero-based budgeting requires every expense to be justified from zero for each new period. Nothing is automatically carried over from the prior budget."
+        },
+        {
+            "id": 11,
+            "examId": "p1-full",
+            "topic": "Cost Management",
+            "question": "The contribution margin per unit equals:",
+            "options": [
+                "Selling price minus total cost per unit",
+                "Selling price minus variable cost per unit",
+                "Selling price minus fixed cost per unit",
+                "Total revenue minus total variable cost"
+            ],
+            "answer": 1,
+            "explanation": "Contribution Margin per Unit = Selling Price per Unit − Variable Cost per Unit. It represents the amount available to cover fixed costs and profit."
+        },
+        {
+            "id": 12,
+            "examId": "p1-full",
+            "topic": "Performance Management",
+            "question": "A favorable labor efficiency variance indicates that:",
+            "options": [
+                "Workers were paid less than expected",
+                "Fewer hours were used than the standard allowed",
+                "More units were produced than planned",
+                "Material waste was reduced"
+            ],
+            "answer": 1,
+            "explanation": "Labor Efficiency Variance = (Standard Hours Allowed − Actual Hours Worked) × Standard Rate. A favorable variance means fewer hours were used."
+        },
+        {
+            "id": 13,
+            "examId": "p1-full",
+            "topic": "Internal Controls",
+            "question": "Segregation of duties is most effective when it separates:",
+            "options": [
+                "Planning and execution",
+                "Authorization, custody, and record-keeping",
+                "Management and staff",
+                "IT and finance functions"
+            ],
+            "answer": 1,
+            "explanation": "Segregation of duties separates authorization of transactions, custody of related assets, and record-keeping to prevent fraud."
+        },
+        {
+            "id": 14,
+            "examId": "p1-full",
+            "topic": "Technology & Analytics",
+            "question": "Which technology enables real-time tracking of financial transactions across distributed ledgers?",
+            "options": [
+                "Cloud computing",
+                "Blockchain",
+                "Artificial Intelligence",
+                "Robotic Process Automation"
+            ],
+            "answer": 1,
+            "explanation": "Blockchain uses distributed ledger technology providing immutable, transparent, and real-time tracking of financial transactions."
+        },
+        {
+            "id": 15,
+            "examId": "p1-full",
+            "topic": "External Financial Reporting",
+            "question": "Goodwill is:",
+            "options": [
+                "Amortized over 15 years under US GAAP",
+                "Tested for impairment annually under US GAAP",
+                "Expensed immediately upon acquisition",
+                "Recorded when internally generated"
+            ],
+            "answer": 1,
+            "explanation": "Under US GAAP, goodwill is NOT amortized (for public companies). It is tested for impairment at least annually at the reporting unit level."
+        },
+        {
+            "id": 16,
+            "examId": "p1-full",
+            "topic": "Planning & Budgeting",
+            "question": "Which forecasting method uses historical data patterns to predict future values?",
+            "options": [
+                "Delphi method",
+                "Time series analysis",
+                "Scenario planning",
+                "Market research"
+            ],
+            "answer": 1,
+            "explanation": "Time series analysis examines historical data to identify trends, seasonal patterns, and cyclical movements for forecasting."
+        },
+        {
+            "id": 17,
+            "examId": "p1-full",
+            "topic": "Cost Management",
+            "question": "Activity-Based Costing (ABC) assigns overhead based on:",
+            "options": [
+                "Direct labor hours only",
+                "Machine hours only",
+                "Multiple cost drivers that cause the costs",
+                "A single predetermined rate"
+            ],
+            "answer": 2,
+            "explanation": "ABC identifies activities, determines cost drivers for each, and allocates costs based on actual consumption of activities."
+        },
+        {
+            "id": 18,
+            "examId": "p1-full",
+            "topic": "Performance Management",
+            "question": "Economic Value Added (EVA) is calculated as:",
+            "options": [
+                "Net Income − Dividends",
+                "NOPAT − (Invested Capital × WACC)",
+                "Operating Income − Taxes",
+                "Revenue − Total Costs"
+            ],
+            "answer": 1,
+            "explanation": "EVA = NOPAT − (Invested Capital × WACC). It measures true economic profit by deducting the cost of capital."
+        },
+        {
+            "id": 19,
+            "examId": "p1-full",
+            "topic": "Internal Controls",
+            "question": "The COSO ERM framework identifies how many components of enterprise risk management?",
+            "options": [
+                "4",
+                "5",
+                "8",
+                "10"
+            ],
+            "answer": 1,
+            "explanation": "The 2017 COSO ERM framework identifies 5 components: Governance & Culture, Strategy & Objective-Setting, Performance, Review & Revision, and Information, Communication & Reporting."
+        },
+        {
+            "id": 20,
+            "examId": "p1-full",
+            "topic": "Technology & Analytics",
+            "question": "Which of the following best describes 'data governance'?",
+            "options": [
+                "Backing up data regularly",
+                "Managing the availability, usability, integrity, and security of data",
+                "Storing data in the cloud",
+                "Creating data visualizations"
+            ],
+            "answer": 1,
+            "explanation": "Data governance is the overall management of data, ensuring its availability, usability, integrity, and security within an organization."
+        },
+        {
+            "id": 21,
+            "examId": "p1-full",
+            "topic": "External Financial Reporting",
+            "question": "A subsequent event that provides evidence about conditions existing at the balance sheet date is called:",
+            "options": [
+                "A non-adjusting event",
+                "An adjusting event (Type I)",
+                "A Type II event",
+                "A contingent event"
+            ],
+            "answer": 1,
+            "explanation": "Type I subsequent events provide additional evidence about conditions existing at the balance sheet date and require adjustment."
+        },
+        {
+            "id": 22,
+            "examId": "p1-full",
+            "topic": "Planning & Budgeting",
+            "question": "The master budget typically begins with the:",
+            "options": [
+                "Cash budget",
+                "Sales budget",
+                "Production budget",
+                "Capital expenditure budget"
+            ],
+            "answer": 1,
+            "explanation": "The sales budget is the starting point because all other budgets (production, materials, labor, overhead) depend on the sales forecast."
+        },
+        {
+            "id": 23,
+            "examId": "p1-full",
+            "topic": "Cost Management",
+            "question": "Process costing is MOST appropriate for:",
+            "options": [
+                "Custom furniture manufacturing",
+                "Oil refining",
+                "Legal services",
+                "Construction projects"
+            ],
+            "answer": 1,
+            "explanation": "Process costing is used for homogeneous, continuous production (like oil refining, chemicals, food processing). Job costing is for custom orders."
+        },
+        {
+            "id": 24,
+            "examId": "p1-full",
+            "topic": "Performance Management",
+            "question": "A balanced scorecard includes all of the following perspectives EXCEPT:",
+            "options": [
+                "Financial",
+                "Customer",
+                "Tax compliance",
+                "Learning and growth"
+            ],
+            "answer": 2,
+            "explanation": "The four BSC perspectives are: Financial, Customer, Internal Business Processes, and Learning & Growth. Tax compliance is not a separate perspective."
+        },
+        {
+            "id": 25,
+            "examId": "p1-full",
+            "topic": "Cost Management",
+            "question": "The high-low method estimates:",
+            "options": [
+                "The break-even point",
+                "Fixed and variable cost components of a mixed cost",
+                "The margin of safety",
+                "The degree of operating leverage"
+            ],
+            "answer": 1,
+            "explanation": "The high-low method uses the highest and lowest activity levels to estimate the variable cost per unit and the total fixed cost."
+        },
+        {
+            "id": 101,
+            "examId": "p2-full",
+            "topic": "Financial Statement Analysis",
+            "question": "The DuPont analysis breaks down ROE into:",
+            "options": [
+                "Profit margin, asset turnover, and equity multiplier",
+                "Current ratio, quick ratio, and cash ratio",
+                "Debt ratio, coverage ratio, and leverage ratio",
+                "Gross margin, operating margin, and net margin"
+            ],
+            "answer": 0,
+            "explanation": "DuPont: ROE = Profit Margin × Asset Turnover × Equity Multiplier. This decomposition reveals the sources of return on equity."
+        },
+        {
+            "id": 102,
+            "examId": "p2-full",
+            "topic": "Corporate Finance",
+            "question": "The Weighted Average Cost of Capital (WACC) is used to:",
+            "options": [
+                "Calculate net income",
+                "Discount future cash flows for investment decisions",
+                "Determine dividend payout ratios",
+                "Compute the break-even point"
+            ],
+            "answer": 1,
+            "explanation": "WACC represents a firm's blended cost of capital and is used as the discount rate for evaluating capital investment projects."
+        },
+        {
+            "id": 103,
+            "examId": "p2-full",
+            "topic": "Decision Analysis",
+            "question": "In CVP analysis, the break-even point in units equals:",
+            "options": [
+                "Fixed Costs ÷ Contribution Margin per Unit",
+                "Variable Costs ÷ Selling Price",
+                "Total Costs ÷ Number of Units",
+                "Fixed Costs ÷ Selling Price per Unit"
+            ],
+            "answer": 0,
+            "explanation": "Break-even Units = Total Fixed Costs ÷ Contribution Margin per Unit. At this point, total revenue equals total costs."
+        },
+        {
+            "id": 104,
+            "examId": "p2-full",
+            "topic": "Risk Management",
+            "question": "Enterprise Risk Management (ERM) is best described as:",
+            "options": [
+                "Buying insurance coverage",
+                "A process to manage all risks across the enterprise holistically",
+                "Avoiding all business risks",
+                "Compliance with government regulations"
+            ],
+            "answer": 1,
+            "explanation": "ERM is a comprehensive, entity-wide approach to identifying, assessing, managing, and monitoring risks across all business areas."
+        },
+        {
+            "id": 105,
+            "examId": "p2-full",
+            "topic": "Investment Decisions",
+            "question": "Net Present Value (NPV) is the difference between:",
+            "options": [
+                "Total revenues and total costs",
+                "Present value of cash inflows and present value of cash outflows",
+                "Future value of inflows and cost of capital",
+                "Accounting profit and economic profit"
+            ],
+            "answer": 1,
+            "explanation": "NPV = PV of Cash Inflows − PV of Cash Outflows. A positive NPV means the investment creates value."
+        },
+        {
+            "id": 106,
+            "examId": "p2-full",
+            "topic": "Professional Ethics",
+            "question": "According to the IMA Statement of Ethical Professional Practice, a management accountant should:",
+            "options": [
+                "Always maximize shareholder wealth regardless of methods",
+                "Maintain competence, confidentiality, integrity, and credibility",
+                "Report only favorable results to management",
+                "Focus exclusively on cost reduction"
+            ],
+            "answer": 1,
+            "explanation": "The IMA's four principles of ethical conduct are: Competence, Confidentiality, Integrity, and Credibility."
+        },
+        {
+            "id": 107,
+            "examId": "p2-full",
+            "topic": "Financial Statement Analysis",
+            "question": "The quick ratio excludes which current asset?",
+            "options": [
+                "Cash",
+                "Accounts receivable",
+                "Inventory",
+                "Marketable securities"
+            ],
+            "answer": 2,
+            "explanation": "Quick Ratio = (Cash + Marketable Securities + A/R) ÷ Current Liabilities. Inventory is excluded because it's the least liquid current asset."
+        },
+        {
+            "id": 108,
+            "examId": "p2-full",
+            "topic": "Corporate Finance",
+            "question": "Financial leverage magnifies:",
+            "options": [
+                "Only losses",
+                "Only gains",
+                "Both gains and losses for equity holders",
+                "Neither gains nor losses"
+            ],
+            "answer": 2,
+            "explanation": "Financial leverage (using debt) amplifies returns — both positive and negative — for equity holders because interest is a fixed obligation."
+        },
+        {
+            "id": 109,
+            "examId": "p2-full",
+            "topic": "Decision Analysis",
+            "question": "Sunk costs should be:",
+            "options": [
+                "Included in all investment decisions",
+                "Ignored in decision-making because they cannot be changed",
+                "Allocated to future products",
+                "Reported as liabilities"
+            ],
+            "answer": 1,
+            "explanation": "Sunk costs are past costs that cannot be recovered. They are irrelevant to future decisions and should be excluded from analysis."
+        },
+        {
+            "id": 110,
+            "examId": "p2-full",
+            "topic": "Investment Decisions",
+            "question": "The Internal Rate of Return (IRR) is the discount rate that makes NPV equal to:",
+            "options": [
+                "The cost of capital",
+                "The initial investment",
+                "Zero",
+                "One"
+            ],
+            "answer": 2,
+            "explanation": "IRR is the discount rate at which NPV = 0. If IRR > WACC, the project is acceptable."
+        },
+        {
+            "id": 111,
+            "examId": "p2-full",
+            "topic": "Professional Ethics",
+            "question": "If a management accountant discovers fraudulent activity, they should first:",
+            "options": [
+                "Report immediately to the media",
+                "Resign from the position",
+                "Discuss with their immediate supervisor and follow organizational escalation procedures",
+                "Ignore it if it doesn't affect their department"
+            ],
+            "answer": 2,
+            "explanation": "Per IMA guidelines, the accountant should first discuss with the supervisor, then escalate through internal channels, and if unresolved, consult an ethics counselor."
+        },
+        {
+            "id": 112,
+            "examId": "p2-full",
+            "topic": "Financial Statement Analysis",
+            "question": "A company's debt-to-equity ratio is 1.5. This means:",
+            "options": [
+                "The company has $1.50 in equity for every $1 in debt",
+                "The company has $1.50 in debt for every $1 in equity",
+                "The company's total assets are 1.5 times its equity",
+                "The company's interest coverage is 1.5 times"
+            ],
+            "answer": 1,
+            "explanation": "D/E = 1.5 means the company uses $1.50 of debt for every $1.00 of equity, indicating relatively high leverage."
+        },
+        {
+            "id": 113,
+            "examId": "p2-full",
+            "topic": "Corporate Finance",
+            "question": "Working capital management primarily focuses on:",
+            "options": [
+                "Long-term debt structure",
+                "Current assets and current liabilities",
+                "Equity financing decisions",
+                "Capital budgeting"
+            ],
+            "answer": 1,
+            "explanation": "Working capital management involves managing the relationship between current assets (cash, inventory, A/R) and current liabilities (A/P, accruals)."
+        },
+        {
+            "id": 114,
+            "examId": "p2-full",
+            "topic": "Decision Analysis",
+            "question": "An opportunity cost is:",
+            "options": [
+                "A cost that has already been incurred",
+                "The benefit lost from choosing one alternative over the next best option",
+                "An avoidable cost",
+                "A cost assigned to a future period"
+            ],
+            "answer": 1,
+            "explanation": "Opportunity cost is the value of the best alternative forgone when making a decision. It is relevant in decision analysis."
+        },
+        {
+            "id": 115,
+            "examId": "p2-full",
+            "topic": "Risk Management",
+            "question": "Which risk response involves reducing the probability or impact of a negative event?",
+            "options": [
+                "Risk avoidance",
+                "Risk mitigation",
+                "Risk transfer",
+                "Risk acceptance"
+            ],
+            "answer": 1,
+            "explanation": "Risk mitigation (reduction) aims to reduce either the likelihood of the risk occurring or the impact if it does occur."
+        },
+        {
+            "id": 116,
+            "examId": "p2-full",
+            "topic": "Professional Ethics",
+            "question": "Confidentiality under the IMA standards requires a management accountant to:",
+            "options": [
+                "Share all information with shareholders",
+                "Refrain from disclosing confidential information unless legally obligated",
+                "Report all findings publicly",
+                "Disclose information to competitors for benchmarking"
+            ],
+            "answer": 1,
+            "explanation": "Confidentiality requires keeping information confidential except where disclosure is authorized or legally required."
+        },
+        {
+            "id": 117,
+            "examId": "p2-full",
+            "topic": "Financial Statement Analysis",
+            "question": "Times Interest Earned (TIE) ratio is calculated as:",
+            "options": [
+                "Net Income ÷ Interest Expense",
+                "EBIT ÷ Interest Expense",
+                "EBITDA ÷ Total Debt",
+                "Operating Cash Flow ÷ Interest Expense"
+            ],
+            "answer": 1,
+            "explanation": "TIE = EBIT ÷ Interest Expense. It measures a company's ability to meet interest obligations from operating earnings."
+        },
+        {
+            "id": 118,
+            "examId": "p2-full",
+            "topic": "Corporate Finance",
+            "question": "The Capital Asset Pricing Model (CAPM) calculates the expected return as:",
+            "options": [
+                "Risk-free rate + Beta × (Market return − Risk-free rate)",
+                "Risk-free rate × Beta",
+                "Market return + Risk premium",
+                "Dividend yield + Growth rate"
+            ],
+            "answer": 0,
+            "explanation": "CAPM: E(R) = Rf + β × (Rm − Rf). It relates expected return to systematic risk (beta)."
+        },
+        {
+            "id": 119,
+            "examId": "p2-full",
+            "topic": "Decision Analysis",
+            "question": "Transfer pricing affects:",
+            "options": [
+                "Only the selling division",
+                "Only the buying division",
+                "Both divisions and the company as a whole",
+                "Only external customers"
+            ],
+            "answer": 2,
+            "explanation": "Transfer price affects the profitability of both the selling and buying divisions, and can impact overall company decisions and tax liabilities."
+        },
+        {
+            "id": 120,
+            "examId": "p2-full",
+            "topic": "Investment Decisions",
+            "question": "The payback period method's main weakness is that it:",
+            "options": [
+                "Is too complicated to calculate",
+                "Ignores cash flows after the payback period and the time value of money",
+                "Requires estimating the cost of capital",
+                "Always gives the same result as NPV"
+            ],
+            "answer": 1,
+            "explanation": "Payback period ignores the time value of money and all cash flows that occur after the payback period, potentially rejecting profitable projects."
+        },
+        {
+            "id": 121,
+            "examId": "p2-full",
+            "topic": "Financial Statement Analysis",
+            "question": "Earnings per share (EPS) is calculated as:",
+            "options": [
+                "Net Income ÷ Total Shares Outstanding",
+                "(Net Income − Preferred Dividends) ÷ Weighted Average Common Shares",
+                "Operating Income ÷ Total Shares",
+                "Revenue ÷ Number of Shareholders"
+            ],
+            "answer": 1,
+            "explanation": "Basic EPS = (Net Income − Preferred Dividends) ÷ Weighted Average Common Shares Outstanding."
+        },
+        {
+            "id": 122,
+            "examId": "p2-full",
+            "topic": "Corporate Finance",
+            "question": "A stock split:",
+            "options": [
+                "Increases total market capitalization",
+                "Decreases the number of shares outstanding",
+                "Reduces the par value per share proportionally",
+                "Increases retained earnings"
+            ],
+            "answer": 2,
+            "explanation": "In a stock split, the number of shares increases and par value decreases proportionally. Total equity and market cap remain unchanged."
+        },
+        {
+            "id": 123,
+            "examId": "p2-full",
+            "topic": "Decision Analysis",
+            "question": "Marginal cost is:",
+            "options": [
+                "Total cost divided by number of units",
+                "The cost of producing one additional unit",
+                "Average variable cost",
+                "Total fixed cost per unit"
+            ],
+            "answer": 1,
+            "explanation": "Marginal cost is the incremental cost of producing one more unit. It's critical for short-term pricing and production decisions."
+        },
+        {
+            "id": 124,
+            "examId": "p2-full",
+            "topic": "Risk Management",
+            "question": "Currency hedging is used to protect against:",
+            "options": [
+                "Interest rate risk",
+                "Foreign exchange rate risk",
+                "Commodity price risk",
+                "Liquidity risk"
+            ],
+            "answer": 1,
+            "explanation": "Currency hedging uses financial instruments (forwards, futures, options) to manage exposure to foreign exchange rate fluctuations."
+        },
+        {
+            "id": 125,
+            "examId": "p2-full",
+            "topic": "Professional Ethics",
+            "question": "Credibility under IMA standards requires:",
+            "options": [
+                "Communicating information fairly and objectively",
+                "Maximizing profit at all costs",
+                "Following only the instructions of senior management",
+                "Avoiding all financial risks"
+            ],
+            "answer": 0,
+            "explanation": "Credibility requires communicating information fairly and objectively, disclosing all relevant information, and disclosing delays or deficiencies."
+        },
+        {
+            "id": 201,
+            "examId": "p1-mini",
+            "topic": "Cost Management",
+            "question": "Which costing method charges only variable manufacturing costs to product cost?",
+            "options": [
+                "Absorption costing",
+                "Variable (direct) costing",
+                "Standard costing",
+                "Activity-based costing"
+            ],
+            "answer": 1,
+            "explanation": "Variable costing treats fixed manufacturing overhead as a period expense, not a product cost."
+        },
+        {
+            "id": 202,
+            "examId": "p1-mini",
+            "topic": "Planning & Budgeting",
+            "question": "A rolling budget is updated:",
+            "options": [
+                "Only at year-end",
+                "Continuously by adding a new period as the current one expires",
+                "Every five years",
+                "Only when variances exceed 10%"
+            ],
+            "answer": 1,
+            "explanation": "A rolling (continuous) budget always maintains a constant planning horizon by adding a new period (month/quarter) as one expires."
+        },
+        {
+            "id": 203,
+            "examId": "p1-mini",
+            "topic": "Performance Management",
+            "question": "Residual income equals:",
+            "options": [
+                "Net Income minus preferred dividends",
+                "Operating income minus a charge for invested capital",
+                "Revenue minus variable costs",
+                "Gross margin minus operating expenses"
+            ],
+            "answer": 1,
+            "explanation": "Residual Income = Operating Income − (Invested Capital × Required Rate of Return). Unlike ROI, it encourages managers to accept projects above the cost of capital."
+        },
+        {
+            "id": 204,
+            "examId": "p1-mini",
+            "topic": "External Financial Reporting",
+            "question": "Under LIFO in a period of rising prices, compared to FIFO:",
+            "options": [
+                "COGS is lower, ending inventory is higher",
+                "COGS is higher, ending inventory is lower",
+                "Both COGS and ending inventory are higher",
+                "There is no difference"
+            ],
+            "answer": 1,
+            "explanation": "LIFO assigns the most recent (higher) costs to COGS, resulting in higher COGS and lower ending inventory during inflation."
+        },
+        {
+            "id": 205,
+            "examId": "p1-mini",
+            "topic": "Internal Controls",
+            "question": "An IT general control is:",
+            "options": [
+                "A control applied to a specific transaction",
+                "A control that applies broadly across the IT environment",
+                "A manual check performed by end users",
+                "A financial statement assertion"
+            ],
+            "answer": 1,
+            "explanation": "IT general controls apply broadly across the technology environment, including access controls, change management, and operations."
+        },
+        {
+            "id": 206,
+            "examId": "p1-mini",
+            "topic": "Cost Management",
+            "question": "Joint costs are costs incurred:",
+            "options": [
+                "In a single department",
+                "Before the split-off point for multiple products",
+                "Only for by-products",
+                "After the products are completed"
+            ],
+            "answer": 1,
+            "explanation": "Joint costs are incurred in processes that simultaneously produce two or more products up to the split-off point."
+        },
+        {
+            "id": 207,
+            "examId": "p1-mini",
+            "topic": "Planning & Budgeting",
+            "question": "Kaizen budgeting focuses on:",
+            "options": [
+                "Maintaining the status quo",
+                "Continuous improvement and cost reduction",
+                "Eliminating all costs",
+                "Zero-based approaches"
+            ],
+            "answer": 1,
+            "explanation": "Kaizen budgeting incorporates continuous improvement targets into the budget, requiring ongoing cost reductions."
+        },
+        {
+            "id": 208,
+            "examId": "p1-mini",
+            "topic": "Performance Management",
+            "question": "The margin of safety represents:",
+            "options": [
+                "Minimum inventory levels",
+                "The excess of actual (or budgeted) sales over break-even sales",
+                "The company's cash reserves",
+                "The maximum loss a company can absorb"
+            ],
+            "answer": 1,
+            "explanation": "Margin of Safety = Actual Sales − Break-even Sales. It shows how much sales can decline before losses begin."
+        },
+        {
+            "id": 209,
+            "examId": "p1-mini",
+            "topic": "Technology & Analytics",
+            "question": "Robotic Process Automation (RPA) is used in finance to:",
+            "options": [
+                "Replace all human workers",
+                "Automate repetitive, rule-based tasks",
+                "Develop new accounting standards",
+                "Create financial regulations"
+            ],
+            "answer": 1,
+            "explanation": "RPA automates high-volume, repetitive, rule-based tasks like data entry, reconciliation, and report generation."
+        },
+        {
+            "id": 210,
+            "examId": "p1-mini",
+            "topic": "External Financial Reporting",
+            "question": "A contingent liability should be recorded (accrued) when:",
+            "options": [
+                "There is no probability of loss",
+                "The loss is possible and the amount is estimable",
+                "The loss is probable and the amount can be reasonably estimated",
+                "All contingencies must always be recorded"
+            ],
+            "answer": 2,
+            "explanation": "Under US GAAP (ASC 450), a contingent liability is accrued when loss is probable AND the amount is reasonably estimable."
+        },
+        {
+            "id": 211,
+            "examId": "p1-mini",
+            "topic": "Cost Management",
+            "question": "Equivalent units of production in process costing represent:",
+            "options": [
+                "The total units started",
+                "Work done expressed in terms of fully completed units",
+                "Units sold during the period",
+                "Units transferred to finished goods"
+            ],
+            "answer": 1,
+            "explanation": "Equivalent units convert partially completed units into the number of whole units that could have been completed with the same effort."
+        },
+        {
+            "id": 212,
+            "examId": "p1-mini",
+            "topic": "Planning & Budgeting",
+            "question": "The primary purpose of a cash budget is to:",
+            "options": [
+                "Calculate net income",
+                "Plan for adequate cash to meet obligations",
+                "Determine product costs",
+                "Prepare the income statement"
+            ],
+            "answer": 1,
+            "explanation": "The cash budget projects cash inflows and outflows to ensure the company has sufficient liquidity to meet its obligations."
+        },
+        {
+            "id": 213,
+            "examId": "p1-mini",
+            "topic": "Performance Management",
+            "question": "The degree of operating leverage measures:",
+            "options": [
+                "How much debt a company uses",
+                "The sensitivity of operating income to changes in sales",
+                "The efficiency of asset utilization",
+                "The company's liquidity position"
+            ],
+            "answer": 1,
+            "explanation": "DOL measures how a percentage change in sales affects operating income. Higher fixed costs = higher DOL."
+        },
+        {
+            "id": 214,
+            "examId": "p1-mini",
+            "topic": "Internal Controls",
+            "question": "The Sarbanes-Oxley Act (SOX) requires:",
+            "options": [
+                "All companies to go public",
+                "Public company management to assess internal controls over financial reporting",
+                "Elimination of external audits",
+                "Voluntary compliance for all companies"
+            ],
+            "answer": 1,
+            "explanation": "SOX Section 404 requires management to assess and report on the effectiveness of internal controls over financial reporting for public companies."
+        },
+        {
+            "id": 215,
+            "examId": "p1-mini",
+            "topic": "Technology & Analytics",
+            "question": "Descriptive analytics answers the question:",
+            "options": [
+                "Why did it happen?",
+                "What happened?",
+                "What will happen?",
+                "What should we do?"
+            ],
+            "answer": 1,
+            "explanation": "Descriptive analytics summarizes historical data to answer 'What happened?' Diagnostic, predictive, and prescriptive analytics address the others."
+        },
+        {
+            "id": 301,
+            "examId": "p2-mini",
+            "topic": "Financial Statement Analysis",
+            "question": "Horizontal analysis compares:",
+            "options": [
+                "Items within a single financial statement as percentages",
+                "Financial data over multiple periods to identify trends",
+                "Industry benchmarks to company data",
+                "Budget to actual results"
+            ],
+            "answer": 1,
+            "explanation": "Horizontal (trend) analysis examines financial data across multiple periods, showing the direction and magnitude of changes."
+        },
+        {
+            "id": 302,
+            "examId": "p2-mini",
+            "topic": "Corporate Finance",
+            "question": "The cost of retained earnings is generally:",
+            "options": [
+                "Zero, since the company doesn't pay for equity",
+                "Lower than the cost of new equity",
+                "Higher than the cost of debt",
+                "Equal to the dividend yield"
+            ],
+            "answer": 1,
+            "explanation": "Retained earnings have an implicit cost (opportunity cost for shareholders) but lower than new equity since there are no flotation costs."
+        },
+        {
+            "id": 303,
+            "examId": "p2-mini",
+            "topic": "Decision Analysis",
+            "question": "In a make-or-buy decision, relevant costs include:",
+            "options": [
+                "Allocated fixed overhead",
+                "Sunk costs",
+                "Avoidable costs and opportunity costs",
+                "All historical costs"
+            ],
+            "answer": 2,
+            "explanation": "Only avoidable costs and opportunity costs are relevant. Sunk costs and unavoidable fixed costs should be excluded."
+        },
+        {
+            "id": 304,
+            "examId": "p2-mini",
+            "topic": "Risk Management",
+            "question": "Value at Risk (VaR) measures:",
+            "options": [
+                "The total value of an investment portfolio",
+                "The maximum potential loss within a specified confidence interval",
+                "The expected return on investment",
+                "The standard deviation of returns"
+            ],
+            "answer": 1,
+            "explanation": "VaR estimates the maximum potential loss of a portfolio over a given time period at a specified confidence level (e.g., 95% or 99%)."
+        },
+        {
+            "id": 305,
+            "examId": "p2-mini",
+            "topic": "Investment Decisions",
+            "question": "The modified internal rate of return (MIRR) differs from IRR by:",
+            "options": [
+                "Using the same reinvestment rate assumption",
+                "Assuming reinvestment at the cost of capital rather than the IRR",
+                "Ignoring the time value of money",
+                "Only considering the payback period"
+            ],
+            "answer": 1,
+            "explanation": "MIRR assumes cash flows are reinvested at the cost of capital (WACC), making it more realistic than IRR's assumption of reinvestment at the IRR."
+        },
+        {
+            "id": 306,
+            "examId": "p2-mini",
+            "topic": "Professional Ethics",
+            "question": "Which IMA ethical principle requires maintaining professional knowledge and skills?",
+            "options": [
+                "Credibility",
+                "Integrity",
+                "Competence",
+                "Confidentiality"
+            ],
+            "answer": 2,
+            "explanation": "Competence requires maintaining knowledge and skills, following applicable laws and standards, and providing accurate information."
+        },
+        {
+            "id": 307,
+            "examId": "p2-mini",
+            "topic": "Financial Statement Analysis",
+            "question": "Vertical analysis expresses each line item as a percentage of:",
+            "options": [
+                "Net income",
+                "Total assets (for balance sheet) or revenue (for income statement)",
+                "Gross profit",
+                "Total equity"
+            ],
+            "answer": 1,
+            "explanation": "Vertical (common-size) analysis expresses each item as a percentage of a base: total assets for the balance sheet, total revenue for the income statement."
+        },
+        {
+            "id": 308,
+            "examId": "p2-mini",
+            "topic": "Corporate Finance",
+            "question": "Trade credit terms of '2/10, net 30' mean:",
+            "options": [
+                "2% discount if paid within 30 days",
+                "10% discount if paid within 2 days",
+                "2% discount if paid within 10 days, otherwise full amount due in 30 days",
+                "No discount available"
+            ],
+            "answer": 2,
+            "explanation": "2/10, net 30 means the buyer gets a 2% discount if payment is made within 10 days; otherwise, the full amount is due in 30 days."
+        },
+        {
+            "id": 309,
+            "examId": "p2-mini",
+            "topic": "Decision Analysis",
+            "question": "The theory of constraints focuses on:",
+            "options": [
+                "Eliminating all costs",
+                "Identifying and managing the bottleneck in a process",
+                "Maximizing revenue at any cost",
+                "Reducing staff"
+            ],
+            "answer": 1,
+            "explanation": "Theory of Constraints (TOC) identifies the system's constraint (bottleneck) and focuses improvement efforts on maximizing throughput."
+        },
+        {
+            "id": 310,
+            "examId": "p2-mini",
+            "topic": "Risk Management",
+            "question": "Operational risk includes:",
+            "options": [
+                "Only market price changes",
+                "Risk of loss from failed internal processes, people, and systems",
+                "Only credit default risk",
+                "Currency exchange rate risk"
+            ],
+            "answer": 1,
+            "explanation": "Operational risk is the risk of loss resulting from inadequate or failed internal processes, people, systems, or external events."
+        },
+        {
+            "id": 311,
+            "examId": "p2-mini",
+            "topic": "Investment Decisions",
+            "question": "Sensitivity analysis in capital budgeting is used to:",
+            "options": [
+                "Determine the exact NPV",
+                "Assess how changes in key variables affect project outcomes",
+                "Calculate the IRR",
+                "Compare mutually exclusive projects"
+            ],
+            "answer": 1,
+            "explanation": "Sensitivity analysis tests how changes in individual variables (sales volume, costs, discount rate) affect the NPV or IRR of a project."
+        },
+        {
+            "id": 312,
+            "examId": "p2-mini",
+            "topic": "Professional Ethics",
+            "question": "A management accountant who discovers manipulation of financial data should:",
+            "options": [
+                "Participate in the manipulation to protect their job",
+                "Follow the organization's established overriding conflict resolution process",
+                "Immediately contact the media",
+                "Ignore it"
+            ],
+            "answer": 1,
+            "explanation": "Per IMA guidelines, the accountant should follow the organization's conflict resolution process, escalating through proper channels."
+        },
+        {
+            "id": 313,
+            "examId": "p2-mini",
+            "topic": "Financial Statement Analysis",
+            "question": "The price-to-earnings (P/E) ratio indicates:",
+            "options": [
+                "How much investors are willing to pay per dollar of earnings",
+                "The company's profit margin",
+                "The dividend payout percentage",
+                "The company's leverage"
+            ],
+            "answer": 0,
+            "explanation": "P/E ratio = Market Price per Share ÷ Earnings per Share. It reflects investor expectations and willingness to pay for each dollar of earnings."
+        },
+        {
+            "id": 314,
+            "examId": "p2-mini",
+            "topic": "Corporate Finance",
+            "question": "Diversification reduces:",
+            "options": [
+                "Systematic risk",
+                "Unsystematic (company-specific) risk",
+                "Total risk to zero",
+                "Market risk"
+            ],
+            "answer": 1,
+            "explanation": "Diversification reduces unsystematic (unique/company-specific) risk. Systematic (market) risk cannot be diversified away."
+        },
+        {
+            "id": 315,
+            "examId": "p2-mini",
+            "topic": "Decision Analysis",
+            "question": "When a company has a scarce resource, it should prioritize products with the highest:",
+            "options": [
+                "Selling price",
+                "Total contribution margin",
+                "Contribution margin per unit of the scarce resource",
+                "Fixed cost coverage"
+            ],
+            "answer": 2,
+            "explanation": "With limited resources, maximize total contribution by producing products with the highest contribution margin per unit of the constraining resource."
+        },
+        {
+            "id": 401,
+            "examId": "p1-cost",
+            "topic": "Cost Management",
+            "question": "Standard costing systems primarily help with:",
+            "options": [
+                "Inventory valuation only",
+                "Cost control through variance analysis",
+                "External reporting only",
+                "Cash flow management"
+            ],
+            "answer": 1,
+            "explanation": "Standard costing sets predetermined costs and compares them with actual costs, enabling variance analysis for cost control."
+        },
+        {
+            "id": 402,
+            "examId": "p1-cost",
+            "topic": "Cost Management",
+            "question": "The overhead volume variance measures:",
+            "options": [
+                "The difference between actual and budgeted overhead rates",
+                "The effect of operating at a different level than the denominator level",
+                "Material waste in production",
+                "Labor idle time"
+            ],
+            "answer": 1,
+            "explanation": "Volume variance = Budgeted Fixed Overhead − Applied Fixed Overhead. It arises when actual production differs from the denominator (budgeted) level."
+        },
+        {
+            "id": 403,
+            "examId": "p1-cost",
+            "topic": "Cost Management",
+            "question": "In a job order costing system, costs are accumulated by:",
+            "options": [
+                "Department",
+                "Process",
+                "Individual job or batch",
+                "Time period"
+            ],
+            "answer": 2,
+            "explanation": "Job costing tracks costs (materials, labor, overhead) to specific jobs, contracts, or batches of distinct products."
+        },
+        {
+            "id": 404,
+            "examId": "p1-cost",
+            "topic": "Cost Management",
+            "question": "A cost that remains the same in total regardless of changes in activity is:",
+            "options": [
+                "Variable cost",
+                "Mixed cost",
+                "Fixed cost",
+                "Step cost"
+            ],
+            "answer": 2,
+            "explanation": "Fixed costs remain constant in total within a relevant range, regardless of the level of activity. Per-unit fixed cost changes with volume."
+        },
+        {
+            "id": 405,
+            "examId": "p1-cost",
+            "topic": "Cost Management",
+            "question": "The weighted average method in process costing:",
+            "options": [
+                "Separates beginning inventory costs from current period costs",
+                "Blends beginning inventory costs with current period costs",
+                "Uses FIFO exclusively",
+                "Ignores beginning work-in-process inventory"
+            ],
+            "answer": 1,
+            "explanation": "Weighted average method combines beginning WIP costs with current period costs and divides by total equivalent units (beginning + current)."
+        },
+        {
+            "id": 406,
+            "examId": "p1-cost",
+            "topic": "Cost Management",
+            "question": "Target costing starts with:",
+            "options": [
+                "Actual production costs",
+                "Desired market price minus desired profit",
+                "Historical cost data",
+                "Overhead allocation rates"
+            ],
+            "answer": 1,
+            "explanation": "Target Cost = Target Selling Price − Desired Profit. The company then engineers the product to meet this cost target."
+        },
+        {
+            "id": 407,
+            "examId": "p1-cost",
+            "topic": "Cost Management",
+            "question": "Life-cycle costing considers:",
+            "options": [
+                "Only manufacturing costs",
+                "All costs from R&D through disposal",
+                "Only the costs during the product's peak sales",
+                "Post-sale service costs only"
+            ],
+            "answer": 1,
+            "explanation": "Life-cycle costing tracks costs across the entire product life cycle: R&D, design, manufacturing, marketing, distribution, and disposal."
+        },
+        {
+            "id": 408,
+            "examId": "p1-cost",
+            "topic": "Cost Management",
+            "question": "Spoilage in manufacturing that occurs within normal limits is:",
+            "options": [
+                "Charged to a special loss account",
+                "Treated as a product cost included in COGS",
+                "Written off as an extraordinary item",
+                "Ignored in cost calculations"
+            ],
+            "answer": 1,
+            "explanation": "Normal spoilage is an expected cost of production and is included in the cost of good units produced (product cost)."
+        },
+        {
+            "id": 409,
+            "examId": "p1-cost",
+            "topic": "Cost Management",
+            "question": "Backflush costing is most appropriate for:",
+            "options": [
+                "Companies with long production cycles",
+                "JIT manufacturing environments",
+                "Custom order production",
+                "Companies with large WIP inventories"
+            ],
+            "answer": 1,
+            "explanation": "Backflush costing delays recording costs until units are completed. It works best in JIT environments where WIP is minimal."
+        },
+        {
+            "id": 410,
+            "examId": "p1-cost",
+            "topic": "Cost Management",
+            "question": "The learning curve effect suggests that:",
+            "options": [
+                "Costs always increase with volume",
+                "Per-unit labor costs decrease as cumulative production increases",
+                "Fixed costs become variable over time",
+                "Material costs decrease with inflation"
+            ],
+            "answer": 1,
+            "explanation": "The learning curve predicts that cumulative average time (and cost) per unit decreases as workers gain experience."
+        },
+        {
+            "id": 501,
+            "examId": "p1-budget",
+            "topic": "Planning & Budgeting",
+            "question": "The production budget is derived from:",
+            "options": [
+                "The sales budget and desired ending inventory",
+                "The cash budget",
+                "The capital expenditure budget",
+                "The labor budget"
+            ],
+            "answer": 0,
+            "explanation": "Production Budget = Budgeted Sales + Desired Ending Inventory − Beginning Inventory."
+        },
+        {
+            "id": 502,
+            "examId": "p1-budget",
+            "topic": "Planning & Budgeting",
+            "question": "Participative budgeting's main advantage is:",
+            "options": [
+                "It's faster to prepare",
+                "It increases employee buy-in and motivation",
+                "It eliminates budget padding",
+                "It requires no management review"
+            ],
+            "answer": 1,
+            "explanation": "Participative budgeting involves lower-level managers, increasing ownership and motivation, though it may lead to budgetary slack."
+        },
+        {
+            "id": 503,
+            "examId": "p1-budget",
+            "topic": "Planning & Budgeting",
+            "question": "Budget slack (padding) is:",
+            "options": [
+                "A desirable budget feature",
+                "The deliberate underestimation of revenues or overestimation of costs",
+                "A sign of effective budgeting",
+                "Required by auditing standards"
+            ],
+            "answer": 1,
+            "explanation": "Budget slack occurs when managers deliberately set easy-to-achieve targets, understating revenue or overstating costs."
+        },
+        {
+            "id": 504,
+            "examId": "p1-budget",
+            "topic": "Planning & Budgeting",
+            "question": "A capital budget is used to plan for:",
+            "options": [
+                "Daily operating expenses",
+                "Short-term cash needs",
+                "Long-term asset acquisitions and investments",
+                "Employee salaries"
+            ],
+            "answer": 2,
+            "explanation": "Capital budgets plan for significant long-term investments such as equipment, facilities, and technology acquisitions."
+        },
+        {
+            "id": 505,
+            "examId": "p1-budget",
+            "topic": "Planning & Budgeting",
+            "question": "The direct materials purchases budget depends on:",
+            "options": [
+                "The sales budget only",
+                "Production needs, desired ending inventory, and beginning inventory of materials",
+                "The cash budget",
+                "The overhead budget"
+            ],
+            "answer": 1,
+            "explanation": "Materials Purchases = Production Needs + Desired Ending Materials Inventory − Beginning Materials Inventory."
+        },
+        {
+            "id": 506,
+            "examId": "p1-budget",
+            "topic": "Planning & Budgeting",
+            "question": "Strategic planning differs from operational planning in that strategic planning:",
+            "options": [
+                "Focuses on daily operations",
+                "Sets long-term direction and goals for the organization",
+                "Only covers a one-month period",
+                "Is prepared by line managers"
+            ],
+            "answer": 1,
+            "explanation": "Strategic planning establishes long-term goals and direction, while operational planning implements the strategy through shorter-term actions."
+        },
+        {
+            "id": 507,
+            "examId": "p1-budget",
+            "topic": "Planning & Budgeting",
+            "question": "Using regression analysis for forecasting provides:",
+            "options": [
+                "Only qualitative predictions",
+                "A mathematical model showing relationships between variables",
+                "A guaranteed accurate forecast",
+                "Historical cost data only"
+            ],
+            "answer": 1,
+            "explanation": "Regression analysis produces a mathematical model (equation) that quantifies relationships between variables for prediction."
+        },
+        {
+            "id": 508,
+            "examId": "p1-budget",
+            "topic": "Planning & Budgeting",
+            "question": "An imposed (top-down) budget is set by:",
+            "options": [
+                "Lower-level employees",
+                "Senior management without input from lower levels",
+                "External auditors",
+                "Government regulators"
+            ],
+            "answer": 1,
+            "explanation": "An imposed budget is determined by senior management and passed down. It's faster to prepare but may lack employee buy-in."
+        },
+        {
+            "id": 509,
+            "examId": "p1-budget",
+            "topic": "Planning & Budgeting",
+            "question": "Budget variance analysis compares:",
+            "options": [
+                "Current year to prior year actual results",
+                "Budgeted results to actual results",
+                "Industry averages to company results",
+                "Cash flow to net income"
+            ],
+            "answer": 1,
+            "explanation": "Variance analysis compares budgeted (planned) amounts with actual results to identify and investigate deviations."
+        },
+        {
+            "id": 510,
+            "examId": "p1-budget",
+            "topic": "Planning & Budgeting",
+            "question": "The sales forecast is typically developed using:",
+            "options": [
+                "Only mathematical models",
+                "Only management judgment",
+                "A combination of quantitative methods and qualitative judgment",
+                "Government economic reports only"
+            ],
+            "answer": 2,
+            "explanation": "Best practice combines quantitative techniques (trend analysis, regression) with qualitative inputs (market research, management judgment)."
+        },
+        {
+            "id": 601,
+            "examId": "p2-finance",
+            "topic": "Corporate Finance",
+            "question": "The optimal capital structure:",
+            "options": [
+                "Uses 100% equity financing",
+                "Minimizes the WACC and maximizes firm value",
+                "Uses 100% debt financing",
+                "Ignores the cost of debt"
+            ],
+            "answer": 1,
+            "explanation": "The optimal capital structure balances debt and equity to minimize WACC, thereby maximizing the total firm value."
+        },
+        {
+            "id": 602,
+            "examId": "p2-finance",
+            "topic": "Corporate Finance",
+            "question": "The Modigliani-Miller theorem (without taxes) states that:",
+            "options": [
+                "Leverage always increases firm value",
+                "Capital structure is irrelevant to firm value in perfect markets",
+                "Debt is always cheaper than equity",
+                "Dividends always affect stock price"
+            ],
+            "answer": 1,
+            "explanation": "In a perfect market (no taxes, no bankruptcy costs, symmetric information), capital structure does not affect total firm value."
+        },
+        {
+            "id": 603,
+            "examId": "p2-finance",
+            "topic": "Corporate Finance",
+            "question": "A company's beta of 1.5 means:",
+            "options": [
+                "The stock moves 50% less than the market",
+                "The stock is 50% more volatile than the market",
+                "The stock has no market risk",
+                "The stock always returns 1.5%"
+            ],
+            "answer": 1,
+            "explanation": "Beta = 1.5 means the stock is expected to move 1.5 times the market movement. If the market rises 10%, the stock is expected to rise 15%."
+        },
+        {
+            "id": 604,
+            "examId": "p2-finance",
+            "topic": "Corporate Finance",
+            "question": "The dividend growth model (Gordon model) values a stock as:",
+            "options": [
+                "D1 ÷ (r − g)",
+                "EPS × P/E ratio",
+                "Book value per share",
+                "Total dividends ÷ number of shares"
+            ],
+            "answer": 0,
+            "explanation": "Gordon Growth Model: P = D1 ÷ (r − g), where D1 is the expected dividend, r is the required return, and g is the constant growth rate."
+        },
+        {
+            "id": 605,
+            "examId": "p2-finance",
+            "topic": "Corporate Finance",
+            "question": "Factoring accounts receivable means:",
+            "options": [
+                "Lending money to customers",
+                "Selling receivables to a third party at a discount",
+                "Writing off bad debts",
+                "Extending credit terms"
+            ],
+            "answer": 1,
+            "explanation": "Factoring involves selling A/R to a factor (financial institution) at a discount. The factor assumes collection risk."
+        },
+        {
+            "id": 606,
+            "examId": "p2-finance",
+            "topic": "Corporate Finance",
+            "question": "A leveraged buyout (LBO) primarily uses:",
+            "options": [
+                "Only equity financing",
+                "A significant amount of debt to acquire a company",
+                "Government grants",
+                "Retained earnings only"
+            ],
+            "answer": 1,
+            "explanation": "An LBO uses a large proportion of debt (often using the target's assets as collateral) to finance the acquisition of a company."
+        },
+        {
+            "id": 607,
+            "examId": "p2-finance",
+            "topic": "Corporate Finance",
+            "question": "The pecking order theory suggests companies prefer to finance:",
+            "options": [
+                "First with debt, then equity, then internal funds",
+                "First with internal funds, then debt, then equity",
+                "Only with equity",
+                "Only with debt"
+            ],
+            "answer": 1,
+            "explanation": "Pecking order theory (Myers): companies prefer internal financing first, then debt, and issue equity only as a last resort."
+        },
+        {
+            "id": 608,
+            "examId": "p2-finance",
+            "topic": "Corporate Finance",
+            "question": "Interest rate swaps allow companies to:",
+            "options": [
+                "Eliminate all interest expenses",
+                "Exchange fixed-rate payments for floating-rate payments (or vice versa)",
+                "Avoid paying any taxes",
+                "Increase their debt capacity"
+            ],
+            "answer": 1,
+            "explanation": "Interest rate swaps allow parties to exchange interest payment obligations, typically swapping fixed for floating rates to manage interest rate risk."
+        },
+        {
+            "id": 609,
+            "examId": "p2-finance",
+            "topic": "Corporate Finance",
+            "question": "The agency problem in corporate finance refers to:",
+            "options": [
+                "Government regulation of corporations",
+                "Conflict of interest between managers and shareholders",
+                "Competition between companies",
+                "International trade disputes"
+            ],
+            "answer": 1,
+            "explanation": "The agency problem arises when managers (agents) may pursue their own interests rather than maximizing shareholder (principal) wealth."
+        },
+        {
+            "id": 610,
+            "examId": "p2-finance",
+            "topic": "Corporate Finance",
+            "question": "Economic Order Quantity (EOQ) minimizes:",
+            "options": [
+                "Total production costs",
+                "Total ordering and carrying costs of inventory",
+                "Only storage costs",
+                "Only purchasing costs"
+            ],
+            "answer": 1,
+            "explanation": "EOQ determines the optimal order size that minimizes the total of ordering costs and carrying (holding) costs."
+        },
+        {
+            "id": 701,
+            "examId": "p2-ethics",
+            "topic": "Professional Ethics",
+            "question": "The IMA Statement of Ethical Professional Practice includes which overarching principle?",
+            "options": [
+                "Profit maximization",
+                "Honesty",
+                "Market dominance",
+                "Revenue recognition"
+            ],
+            "answer": 1,
+            "explanation": "The IMA's overarching ethical principles include Honesty, Fairness, Objectivity, and Responsibility."
+        },
+        {
+            "id": 702,
+            "examId": "p2-ethics",
+            "topic": "Professional Ethics",
+            "question": "A conflict of interest exists when:",
+            "options": [
+                "An accountant works overtime",
+                "Personal interests could influence professional judgment",
+                "A company has too many employees",
+                "Two companies sell similar products"
+            ],
+            "answer": 1,
+            "explanation": "A conflict of interest occurs when personal or financial interests could compromise or appear to compromise professional objectivity."
+        },
+        {
+            "id": 703,
+            "examId": "p2-ethics",
+            "topic": "Professional Ethics",
+            "question": "Whistle-blowing in a business context means:",
+            "options": [
+                "Using a literal whistle at work",
+                "Reporting illegal or unethical conduct to authorities",
+                "Competing with other employees",
+                "Filing a tax return"
+            ],
+            "answer": 1,
+            "explanation": "Whistle-blowing involves reporting misconduct, fraud, or illegal activity, often to external authorities, when internal channels fail."
+        },
+        {
+            "id": 704,
+            "examId": "p2-ethics",
+            "topic": "Professional Ethics",
+            "question": "Under the IMA standards, a member who faces an ethical conflict should first:",
+            "options": [
+                "Resign immediately",
+                "Contact the media",
+                "Discuss the conflict with their immediate supervisor",
+                "File a lawsuit"
+            ],
+            "answer": 2,
+            "explanation": "The first step is to discuss the issue with the immediate supervisor. If unresolved, escalate to higher management or an ethics counselor."
+        },
+        {
+            "id": 705,
+            "examId": "p2-ethics",
+            "topic": "Professional Ethics",
+            "question": "The primary purpose of professional ethics codes is to:",
+            "options": [
+                "Increase company profits",
+                "Provide guidance for responsible professional behavior",
+                "Eliminate all legal liability",
+                "Guarantee job security"
+            ],
+            "answer": 1,
+            "explanation": "Ethics codes establish standards of conduct, providing guidance to professionals for making responsible, ethical decisions."
+        },
+        {
+            "id": 706,
+            "examId": "p2-ethics",
+            "topic": "Professional Ethics",
+            "question": "Integrity under IMA standards requires that practitioners:",
+            "options": [
+                "Avoid conflicts of interest and refuse gifts that compromise judgment",
+                "Always agree with management decisions",
+                "Maximize personal compensation",
+                "Keep all information confidential without exception"
+            ],
+            "answer": 0,
+            "explanation": "Integrity requires abstaining from activities that would discredit the profession, including conflicts of interest and gifts that could influence judgment."
+        },
+        {
+            "id": 707,
+            "examId": "p2-ethics",
+            "topic": "Professional Ethics",
+            "question": "The Sarbanes-Oxley Act was primarily enacted in response to:",
+            "options": [
+                "International trade agreements",
+                "Major corporate accounting scandals (e.g., Enron, WorldCom)",
+                "Changes in tax law",
+                "Technological innovation"
+            ],
+            "answer": 1,
+            "explanation": "SOX was enacted in 2002 after major accounting scandals to strengthen corporate governance, internal controls, and financial reporting."
+        },
+        {
+            "id": 708,
+            "examId": "p2-ethics",
+            "topic": "Professional Ethics",
+            "question": "The concept of 'tone at the top' refers to:",
+            "options": [
+                "The office noise level",
+                "Senior management's commitment to ethical behavior setting the organizational culture",
+                "Music played in the workplace",
+                "The CEO's salary"
+            ],
+            "answer": 1,
+            "explanation": "Tone at the top reflects how senior leadership's attitude and actions toward ethics influences the entire organization's ethical culture."
+        }
+    ]
+}

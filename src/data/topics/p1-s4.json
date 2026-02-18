@@ -1,0 +1,1348 @@
+{
+    "id": "p1-s4",
+    "title": "Cost Management – Ultra Detailed Revision Edition",
+    "weightage": "15%",
+    "examLevel": "Level B & C (Application, Analysis, Integration)",
+    "overview": "Cost Management (15%) is about accurately measuring and managing the costs of resources, processes, and products. This section covers the full lifecycle: from Cost Concepts (Behavior, Objects) to Systems (Job, Process, ABC), Overhead Management (Allocation, Capacity), and Strategic Improvements (Lean, TOC, Value Chain). Success requires mastering both the calculation of product costs and the strategic analysis of efficiency.",
+    "bulletNotes": [
+        "**Cost Behavior**: Variable (Total varies, Unit constant), Fixed (Total constant, Unit varies), Mixed (High-Low/Regression), Step (Constant in ranges).",
+        "**Measurement Methods**: **Actual** (All actual), **Normal** (Actual DM/DL + Budgeted OH), **Standard** (All Standard).",
+        "**Absorption vs Variable Costing**: The 'Income Difference' depends on Inventory. Inventory Up = Absorption Income Higher (Fixed OH trapped).",
+        "**Process Costing**: **Weighted Average** (Blends BI + Current) vs **FIFO** (Separate BI). EUP calculation is critical.",
+        "**Service Allocation**: **Direct** (Ignores inter-service), **Step-Down** (One-way), **Reciprocal** (Fully recognizes inter-service).",
+        "**Capacity Levels**: **Theoretical** (Ideal), **Practical** (Realistic), **Normal** (Long-term avg), **Master Budget** (Next year exp).",
+        "**Supply Chain & BPI**: **Lean** (Pull/JIT), **TOC** (Bottlenecks), **Value Chain** (R&D to Service), **ABM** (Strategic ABC)."
+    ],
+    "concepts": [
+        {
+            "title": "1. Measurement Concepts & Cost Behavior",
+            "content": "<p><strong>Cost Objects:</strong> Anything for which a cost is measured (Product, Dept, Customer).<br><strong>Direct Costs:</strong> Traced economically.<br><strong>Indirect Costs:</strong> Allocated (Overhead).</p><p><strong>Cost Behavior:</strong><ul><li><strong>Variable:</strong> Total changes w/ volume. Cost/unit constant.</li><li><strong>Fixed:</strong> Total constant. Cost/unit changes inversely.</li><li><strong>Step:</strong> Constant for a range, then jumps.</li><li><strong>Mixed:</strong> Y = a + bX. Separate using High-Low or Regression.</li></ul></p><p><strong>Costing Timing Systems:</strong><ul><li><strong>Actual Costing:</strong> Actual DM + Actual DL + Actual OH. (Slow, rarely used).</li><li><strong>Normal Costing:</strong> Actual DM + Actual DL + <em>Allocated</em> OH (based on Budgeted Rate × Actual Activity).</li><li><strong>Standard Costing:</strong> Standard DM + Standard DL + Standard OH. (Best for control).</li></ul></p>"
+        },
+        {
+            "title": "2. Absorption vs Variable Costing (The Inventory Effect)",
+            "content": "<table class='notes-table'><thead><tr><th>Feature</th><th>Absorption (GAAP)</th><th>Variable (Internal)</th></tr></thead><tbody><tr><td><strong>Product Costs</strong></td><td>DM + DL + VOH + <strong>FOH</strong></td><td>DM + DL + VOH</td></tr><tr><td><strong>Fixed Overhead</strong></td><td>Inventoriable Product Cost</td><td>Period Cost (Expensed)</td></tr><tr><td><strong>Production > Sales</strong></td><td>Income Higher (FOH trapped in End Inv)</td><td>Income Lower (FOH expensed)</td></tr><tr><td><strong>Sales > Production</strong></td><td>Income Lower (FOH released)</td><td>Income Higher</td></tr></tbody></table><p><strong>Formula:</strong> <code>Diff in Income = Change in Inv Units × Fixed OH per Unit</code></p>"
+        },
+        {
+            "title": "3. Cost Accumulation Systems",
+            "content": "<p><strong>Job Order Costing:</strong> Custom products (Law firm, Construction). Costs tracked by Job. Key: Job Cost Sheet.</p><p><strong>Process Costing:</strong> Mass production (Oil, Soda). Costs by Dept. Key: Equivalent Units of Production (EUP).</p><ul><li><strong>Weighted Average:</strong> <code>(Beg Cost + Curr Cost) / (Equiv Units)</code>. Blends periods.</li><li><strong>FIFO:</strong> <code>Current Cost / Equiv Units</code>. Separates Beg Inv cost. EUP = (BI × % to finish) + Started&Completed + (EI × % complete).</li></ul><p><strong>Life-Cycle Costing:</strong> Tracks measurement from R&D &rarr; Disposal. 80-90% of costs committed in Design phase. Target Costing is often used here (Price - Desired Profit = Target Cost).</p>"
+        },
+        {
+            "title": "4. Overhead Allocation & Capacity",
+            "content": "<p><strong>Departmental Rates:</strong> More accurate than Plant-wide if depts use overhead differently.</p><p><strong>Service Dept Allocation:</strong><br>1. <strong>Direct Method:</strong> Allocates only to Production Depts. Ignores service-to-service support.<br>2. <strong>Step-Down (Sequential):</strong> Allocates one-way (e.g., IT to HR, but not HR to IT). Order matters.<br>3. <strong>Reciprocal:</strong> Fully recognizes mutual services (simultaneous equations). Most accurate.</p><p><strong>Capacity Levels (Denominator Level):</strong><ul><li><strong>Theoretical:</strong> 100% efficiency (Ideal). Avoids under-applied OH but unachievable.</li><li><strong>Practical:</strong> Realistic (includes maintenance). Best for product costing/pricing.</li><li><strong>Normal:</strong> Long-term average (3-5 years). Smooths fluctuations.</li><li><strong>Master Budget:</strong> Expected usage for <em>next period</em>. Can lead to 'Death Spiral' if demand drops (Rate goes up &rarr; Price up &rarr; Demand down).</li></ul></p>"
+        },
+        {
+            "title": "5. Activity-Based Costing (ABC) & Management (ABM)",
+            "content": "<p><strong>ABC:</strong> Refines costing by assigning overhead to Activities, then to Objects.</p><ul><li><strong>Hierarchy:</strong> Unit, Batch, Product, Facility.</li><li><strong>Goal:</strong> Fix cross-subsidization (Low-volume complex products are usually under-costed by traditional methods).</li></ul><p><strong>Activity-Based Management (ABM):</strong> Using ABC data to improve processes. Focus on <strong>Value-Added</strong> (Customer willing to pay) vs <strong>Non-Value Added</strong> (Storage, Moving, Rework) activities.</p>"
+        },
+        {
+            "title": "6. Joint Product & By-Product Costing",
+            "content": "<p><strong>Joint Products:</strong> High relativity value, produced together.</p><ul><li><strong>Split-off Point:</strong> Point of separation.</li><li><strong>Allocation Methods:</strong> Physical Measure, Sales Value at Split-off, NRV (Sales - Separable Cost).</li><li><strong>Decision Rule:</strong> Allocation is irrelevant. Process further if <code>Inc Revenue > Inc Cost</code>.</li></ul><p><strong>By-Products:</strong> Low value. 2 Methods:<br>1. Production Method: Recognize at production (reduces COGS).<br>2. Sales Method: Recognize when sold (Other Income).</p>"
+        },
+        {
+            "title": "7. Supply Chain & Business Process Improvement",
+            "content": "<p><strong>Lean Manufacturing:</strong><br>Goal: Remove Waste. <strong>JIT</strong> (Demand Pull, Cell Layout, Kanbans).<br><strong>Theory of Constraints (TOC):</strong><br>Focus on Bottleneck. <code>Throughput = Sales - DM</code> (DL/VOH are fixed). Drum-Buffer-Rope.</p><p><strong>Value Chain Analysis:</strong><br>R&D &rarr; Design &rarr; Supply &rarr; Prod &rarr; Mktg &rarr; Dist &rarr; Service.<br>Strategy: Coordinate all links to add customer value.</p><p><strong>Business Process Reengineering (BPR):</strong> Radical redesign (clean slate).<br><strong>Benchmarking:</strong> Compare to best-in-class.</p><p><strong>ERP (Enterprise Resource Planning):</strong> Integrated software suite (Finance, HR, Ops) sharing a central database.</p>"
+        }
+    ],
+    "formulas": [
+        {
+            "name": "High-Low Variable Rate",
+            "formula": "(High Cost - Low Cost) / (High Activity - Low Activity)"
+        },
+        {
+            "name": "Predetermined OH Rate",
+            "formula": "Est OH / Est Activity (Capacity)"
+        },
+        {
+            "name": "Abs vs Var Income Diff",
+            "formula": "Change in Inventory Units × Fixed OH per Unit"
+        },
+        {
+            "name": "Weighted Avg EUP",
+            "formula": "Units Completed + (Ending WIP × % Complete)"
+        },
+        {
+            "name": "FIFO EUP",
+            "formula": "(BI Units × % to finish) + Started&Comp + (EI × % comp)"
+        },
+        {
+            "name": "Throughput Contribution",
+            "formula": "Sales - Direct Materials"
+        },
+        {
+            "name": "Target Cost",
+            "formula": "Market Price - Desired Profit Margin"
+        }
+    ],
+    "mistakes": [
+        "Thinking 'Fixed' means 'Unavoidable' (Sunk).",
+        "Using Master Budget Capacity for fixed overhead rates (can cause Death Spiral).",
+        "Allocating Joint Costs for 'Process Further' decisions (Joint costs are Sunk).",
+        "Confusing Normal Spoilage (Product Cost) with Abnormal Spoilage (Period Loss).",
+        "ignoring the 'Step-Down' order in service allocation.",
+        "Using Variable Costing for GAAP/External Reporting (Forbidden)."
+    ],
+    "summary": "This Ultra Detailed edition ensures full coverage: from the details of Cost Behavior and Absorption Costing to the strategic nuances of Capacity Levels, Service Department Allocation, and Business Process Improvement. Mastery here means understanding not just 'how to calculate' but 'why it matters' for internal decision-making vs. external reporting stability.",
+    "quiz": [
+        {
+            "question": "Which capacity level is recommended for calculating fixed overhead rates to avoid the 'death spiral'?",
+            "options": [
+                "Theoretical Capacity",
+                "Master Budget Capacity",
+                "Practical Capacity",
+                "Normal Capacity"
+            ],
+            "answer": 2,
+            "explanation": "Practical Capacity is best because it provides a stable rate that doesn't fluctuate with demand drops (unlike Master Budget) and is achievable (unlike Theoretical). It highlights the cost of unused capacity."
+        },
+        {
+            "question": "In Service Department Allocation, which method accounts for services provided between service departments in a one-way fashion?",
+            "options": [
+                "Direct Method",
+                "Reciprocal Method",
+                "Step-Down Method",
+                "Dual-Rate Method"
+            ],
+            "answer": 2,
+            "explanation": "The Step-Down (Sequential) method allocates costs one-way (e.g., A to B, but not B back to A). The Direct method ignores all inter-service support. Reciprocal accounts for both ways."
+        },
+        {
+            "question": "If Beginning Inventory is 0, Production is 10,000 units, and Sales are 8,000 units, how does Absorption Costing income compare to Variable Costing income?",
+            "options": [
+                "Absorption is Higher",
+                "Variable is Higher",
+                "They are equal",
+                "Cannot determine"
+            ],
+            "answer": 0,
+            "explanation": "Inventory increased (Prod > Sales). Fixed Overhead is 'trapped' in the 2,000 units of Ending Inventory under Absorption Costing, deferring expense and thus increasing current income compared to Variable Costing."
+        },
+        {
+            "question": "Using the High-Low method, if the cost at 1,000 hours is $5,000 and at 2,000 hours is $8,000, what is the fixed cost?",
+            "options": [
+                "$2,000",
+                "$3,000",
+                "$1,000",
+                "$0"
+            ],
+            "answer": 0,
+            "explanation": "Variable Rate = ($8000 - $5000) / (2000 - 1000) = $3/hr. Total Cost = Fixed + (Rate × Activity). $5000 = Fixed + ($3 × 1000) -> Fixed = $2000."
+        },
+        {
+            "question": "Which quality cost category includes 'Warranty Repairs'?",
+            "options": [
+                "Prevention",
+                "Appraisal",
+                "Internal Failure",
+                "External Failure"
+            ],
+            "answer": 3,
+            "explanation": "Warranty repairs happen after the product has reached the customer, making them External Failure costs (the most expensive kind)."
+        }
+    ],
+    "essay": {
+        "question": "Compare and contrast the Direct Method and the Reciprocal Method of service department cost allocation. Which is more accurate and why?",
+        "modelAnswer": "<p><strong>1. Direct Method:</strong><br>Allocates service department costs <em>only</em> to production departments. It completely ignores any services provided by one service department to another (e.g., IT support given to HR). It is simplest but least accurate.</p><p><strong>2. Reciprocal Method:</strong><br>Allocates costs by recognizing <em>all</em> mutual services between support departments using simultaneous equations. It reflects the full cost of support.</p><p><strong>Conclusion:</strong><br>The Reciprocal Method is more accurate because it captures the true consumption of resources across the entire organization, whereas the Direct Method may understate the cost of service departments that heavily utilize other support functions.</p>"
+    },
+    "test": [
+        {
+            "id": "p1s4_1",
+            "question": "If total fixed costs remain constant and production increases, fixed cost per unit will:",
+            "options": [
+                "Increase",
+                "Decrease",
+                "Remain constant",
+                "Become zero"
+            ],
+            "answer": 1,
+            "explanation": "Fixed cost per unit decreases as volume increases because total fixed cost is spread over more units."
+        },
+        {
+            "id": "p1s4_2",
+            "question": "Which cost behavior pattern shows total cost constant within a relevant range?",
+            "options": [
+                "Variable",
+                "Mixed",
+                "Fixed",
+                "Step-variable"
+            ],
+            "answer": 2,
+            "explanation": "Total fixed cost remains constant within the relevant range."
+        },
+        {
+            "id": "p1s4_3",
+            "question": "High-Low method is used to separate:",
+            "options": [
+                "Joint costs",
+                "Mixed costs",
+                "Step costs",
+                "Sunk costs"
+            ],
+            "answer": 1,
+            "explanation": "High-Low method separates mixed cost into fixed and variable components."
+        },
+        {
+            "id": "p1s4_4",
+            "question": "Under absorption costing, fixed manufacturing overhead is:",
+            "options": [
+                "Period cost",
+                "Product cost",
+                "Sunk cost",
+                "Variable cost"
+            ],
+            "answer": 1,
+            "explanation": "Absorption costing treats fixed manufacturing overhead as product cost."
+        },
+        {
+            "id": "p1s4_5",
+            "question": "If production exceeds sales, absorption income compared to variable income will be:",
+            "options": [
+                "Lower",
+                "Higher",
+                "Equal",
+                "Negative"
+            ],
+            "answer": 1,
+            "explanation": "Absorption defers some fixed overhead in inventory, increasing income."
+        },
+        {
+            "id": "p1s4_6",
+            "question": "Which costing method is allowed for GAAP external reporting?",
+            "options": [
+                "Variable",
+                "Absorption",
+                "Throughput",
+                "Direct costing"
+            ],
+            "answer": 1,
+            "explanation": "GAAP requires absorption costing."
+        },
+        {
+            "id": "p1s4_7",
+            "question": "Equivalent units are primarily used in:",
+            "options": [
+                "Job costing",
+                "Process costing",
+                "ABC costing",
+                "Joint costing"
+            ],
+            "answer": 1,
+            "explanation": "Equivalent units are used in process costing."
+        },
+        {
+            "id": "p1s4_8",
+            "question": "Predetermined overhead rate is calculated using:",
+            "options": [
+                "Actual OH / Actual Activity",
+                "Estimated OH / Estimated Activity",
+                "Actual OH / Estimated Activity",
+                "Estimated OH / Actual Activity"
+            ],
+            "answer": 1,
+            "explanation": "POHR uses estimated annual figures."
+        },
+        {
+            "id": "p1s4_9",
+            "question": "Applied overhead equals:",
+            "options": [
+                "Actual OH × Activity",
+                "POHR × Actual Activity",
+                "Estimated OH × Activity",
+                "POHR × Estimated Activity"
+            ],
+            "answer": 1,
+            "explanation": "Applied overhead is POHR multiplied by actual activity."
+        },
+        {
+            "id": "p1s4_10",
+            "question": "Under variable costing, fixed manufacturing overhead is:",
+            "options": [
+                "Inventoried",
+                "Capitalized",
+                "Expensed immediately",
+                "Allocated to WIP"
+            ],
+            "answer": 2,
+            "explanation": "Variable costing treats fixed OH as period expense."
+        },
+        {
+            "id": "p1s4_11",
+            "question": "Income difference between absorption and variable costing equals:",
+            "options": [
+                "Sales × FMOH",
+                "Change in inventory × FMOH per unit",
+                "Production × Variable OH",
+                "Sales - Production"
+            ],
+            "answer": 1,
+            "explanation": "Difference depends on inventory change times fixed OH per unit."
+        },
+        {
+            "id": "p1s4_12",
+            "question": "ABC costing improves accuracy by:",
+            "options": [
+                "Using one overhead pool",
+                "Allocating by volume only",
+                "Using multiple cost drivers",
+                "Ignoring fixed costs"
+            ],
+            "answer": 2,
+            "explanation": "ABC allocates costs using multiple activity drivers."
+        },
+        {
+            "id": "p1s4_13",
+            "question": "Which is NOT part of ABC hierarchy?",
+            "options": [
+                "Unit-level",
+                "Batch-level",
+                "Facility-level",
+                "Department-level"
+            ],
+            "answer": 3,
+            "explanation": "Department-level is traditional, not ABC hierarchy."
+        },
+        {
+            "id": "p1s4_14",
+            "question": "Joint costs are allocated for:",
+            "options": [
+                "Decision-making",
+                "Financial reporting",
+                "Pricing decisions",
+                "Further processing analysis"
+            ],
+            "answer": 1,
+            "explanation": "Joint allocation is required for reporting only."
+        },
+        {
+            "id": "p1s4_15",
+            "question": "Further processing decision should consider:",
+            "options": [
+                "Allocated joint cost",
+                "Incremental revenue vs incremental cost",
+                "Physical units",
+                "Historical cost"
+            ],
+            "answer": 1,
+            "explanation": "Decision based on incremental analysis."
+        },
+        {
+            "id": "p1s4_16",
+            "question": "Throughput under TOC equals:",
+            "options": [
+                "Sales - Variable cost",
+                "Sales - Direct materials",
+                "Sales - Total cost",
+                "Contribution margin"
+            ],
+            "answer": 1,
+            "explanation": "TOC defines throughput as sales minus direct materials only."
+        },
+        {
+            "id": "p1s4_17",
+            "question": "Normal spoilage is treated as:",
+            "options": [
+                "Loss",
+                "Period cost",
+                "Product cost",
+                "Abnormal cost"
+            ],
+            "answer": 2,
+            "explanation": "Normal spoilage is absorbed into product cost."
+        },
+        {
+            "id": "p1s4_18",
+            "question": "Abnormal spoilage is:",
+            "options": [
+                "Inventoried",
+                "Capitalized",
+                "Expensed immediately",
+                "Allocated"
+            ],
+            "answer": 2,
+            "explanation": "Abnormal spoilage is treated as loss."
+        },
+        {
+            "id": "p1s4_19",
+            "question": "JIT production system is based on:",
+            "options": [
+                "Push system",
+                "Pull system",
+                "Forecast-driven production",
+                "Bulk inventory"
+            ],
+            "answer": 1,
+            "explanation": "JIT produces based on demand."
+        },
+        {
+            "id": "p1s4_20",
+            "question": "Which stage commits most life-cycle cost?",
+            "options": [
+                "Production",
+                "Design",
+                "Marketing",
+                "Disposal"
+            ],
+            "answer": 1,
+            "explanation": "Most costs are committed in design stage."
+        },
+        {
+            "id": "p1s4_21",
+            "question": "Weighted average EUP blends:",
+            "options": [
+                "Only current costs",
+                "Only prior costs",
+                "Prior and current costs",
+                "No costs"
+            ],
+            "answer": 2,
+            "explanation": "Weighted average combines beginning and current period costs."
+        },
+        {
+            "id": "p1s4_22",
+            "question": "FIFO process costing separates:",
+            "options": [
+                "All costs together",
+                "Beginning and current costs",
+                "Joint costs",
+                "Overhead costs"
+            ],
+            "answer": 1,
+            "explanation": "FIFO isolates current period costs."
+        },
+        {
+            "id": "p1s4_23",
+            "question": "Cross-subsidization occurs when:",
+            "options": [
+                "High-volume products overcosted",
+                "Low-volume complex products undercosted",
+                "ABC used properly",
+                "No overhead exists"
+            ],
+            "answer": 1,
+            "explanation": "Traditional costing undercosts complex low-volume products."
+        },
+        {
+            "id": "p1s4_24",
+            "question": "Under absorption costing, managers may overproduce to:",
+            "options": [
+                "Lower inventory",
+                "Increase variable cost",
+                "Increase income",
+                "Reduce sales"
+            ],
+            "answer": 2,
+            "explanation": "Overproduction defers fixed OH into inventory."
+        },
+        {
+            "id": "p1s4_25",
+            "question": "Step costs change when:",
+            "options": [
+                "Volume decreases",
+                "Capacity threshold exceeded",
+                "Fixed costs change randomly",
+                "Variable cost increases"
+            ],
+            "answer": 1,
+            "explanation": "Step costs jump when capacity limit is exceeded."
+        },
+        {
+            "id": "p1s4_26",
+            "question": "If beginning inventory equals zero and production equals sales, absorption and variable costing income will be:",
+            "options": [
+                "Different",
+                "Equal",
+                "Absorption higher",
+                "Variable higher"
+            ],
+            "answer": 1,
+            "explanation": "When no inventory change occurs, both methods report the same income."
+        },
+        {
+            "id": "p1s4_27",
+            "question": "Which cost is included in product cost under both absorption and variable costing?",
+            "options": [
+                "Fixed manufacturing overhead",
+                "Variable manufacturing overhead",
+                "Fixed selling expense",
+                "Administrative salary"
+            ],
+            "answer": 1,
+            "explanation": "Variable manufacturing overhead is included under both methods."
+        },
+        {
+            "id": "p1s4_28",
+            "question": "If sales exceed production, variable costing income will be:",
+            "options": [
+                "Higher than absorption",
+                "Lower than absorption",
+                "Equal",
+                "Negative"
+            ],
+            "answer": 0,
+            "explanation": "Previously deferred fixed overhead is released under absorption, reducing income."
+        },
+        {
+            "id": "p1s4_29",
+            "question": "Underapplied overhead occurs when:",
+            "options": [
+                "Applied OH > Actual OH",
+                "Actual OH > Applied OH",
+                "Estimated OH < Budget",
+                "Variable OH increases"
+            ],
+            "answer": 1,
+            "explanation": "Underapplied overhead means actual overhead exceeded applied amount."
+        },
+        {
+            "id": "p1s4_30",
+            "question": "Overapplied overhead results in:",
+            "options": [
+                "Increase in COGS",
+                "Decrease in COGS",
+                "Increase in WIP",
+                "Increase in inventory"
+            ],
+            "answer": 1,
+            "explanation": "Overapplied overhead reduces cost of goods sold."
+        },
+        {
+            "id": "p1s4_31",
+            "question": "Equivalent units measure:",
+            "options": [
+                "Physical units only",
+                "Partially completed units in full-unit terms",
+                "Total materials purchased",
+                "Units sold"
+            ],
+            "answer": 1,
+            "explanation": "Equivalent units convert partial work into complete units."
+        },
+        {
+            "id": "p1s4_32",
+            "question": "If ending WIP is 50% complete for conversion costs, equivalent units for conversion include:",
+            "options": [
+                "0%",
+                "50% of ending WIP",
+                "100% of ending WIP",
+                "Sales units only"
+            ],
+            "answer": 1,
+            "explanation": "Equivalent units reflect percent completion."
+        },
+        {
+            "id": "p1s4_33",
+            "question": "Which joint cost allocation method uses market value at split-off?",
+            "options": [
+                "Physical measure",
+                "NRV",
+                "Sales value at split-off",
+                "Contribution margin"
+            ],
+            "answer": 2,
+            "explanation": "Sales value at split-off allocates based on relative market values."
+        },
+        {
+            "id": "p1s4_34",
+            "question": "Net realizable value equals:",
+            "options": [
+                "Sales value minus separable costs",
+                "Joint cost minus separable costs",
+                "Variable cost only",
+                "Sales minus joint cost"
+            ],
+            "answer": 0,
+            "explanation": "NRV = Final sales value minus further processing costs."
+        },
+        {
+            "id": "p1s4_35",
+            "question": "ABC is most beneficial when:",
+            "options": [
+                "Overhead is low",
+                "Products are homogeneous",
+                "Overhead is high and products are diverse",
+                "Only one product exists"
+            ],
+            "answer": 2,
+            "explanation": "ABC improves costing accuracy in complex environments."
+        },
+        {
+            "id": "p1s4_36",
+            "question": "Which cost is NOT included in throughput calculation?",
+            "options": [
+                "Direct materials",
+                "Sales revenue",
+                "Direct labor",
+                "None"
+            ],
+            "answer": 2,
+            "explanation": "TOC treats only direct materials as variable."
+        },
+        {
+            "id": "p1s4_37",
+            "question": "TOC prioritizes production based on:",
+            "options": [
+                "Contribution margin per unit",
+                "Throughput per constraint hour",
+                "Sales volume",
+                "Gross profit"
+            ],
+            "answer": 1,
+            "explanation": "Products are ranked by throughput per bottleneck hour."
+        },
+        {
+            "id": "p1s4_38",
+            "question": "JIT reduces:",
+            "options": [
+                "Fixed costs",
+                "Inventory carrying costs",
+                "Sales volume",
+                "Product quality"
+            ],
+            "answer": 1,
+            "explanation": "JIT minimizes inventory holding."
+        },
+        {
+            "id": "p1s4_39",
+            "question": "Which cost is period cost under both absorption and variable costing?",
+            "options": [
+                "Direct materials",
+                "Fixed selling expense",
+                "Variable overhead",
+                "Fixed manufacturing overhead"
+            ],
+            "answer": 1,
+            "explanation": "Selling expenses are period costs under both methods."
+        },
+        {
+            "id": "p1s4_40",
+            "question": "If fixed OH per unit is $5 and inventory increases by 1,000 units, income difference equals:",
+            "options": [
+                "$5,000",
+                "$1,000",
+                "$500",
+                "$0"
+            ],
+            "answer": 0,
+            "explanation": "1,000 × $5 = $5,000 higher absorption income."
+        },
+        {
+            "id": "p1s4_41",
+            "question": "Mixed cost equation is represented by:",
+            "options": [
+                "Y = a + bX",
+                "Y = aX",
+                "Y = bX",
+                "Y = a - bX"
+            ],
+            "answer": 0,
+            "explanation": "Mixed costs have fixed (a) and variable (bX) components."
+        },
+        {
+            "id": "p1s4_42",
+            "question": "High-Low method uses:",
+            "options": [
+                "All data points",
+                "Only highest and lowest activity levels",
+                "Average values",
+                "Regression analysis"
+            ],
+            "answer": 1,
+            "explanation": "High-Low uses extreme activity observations."
+        },
+        {
+            "id": "p1s4_43",
+            "question": "Which cost hierarchy level includes machine setups?",
+            "options": [
+                "Unit-level",
+                "Batch-level",
+                "Product-level",
+                "Facility-level"
+            ],
+            "answer": 1,
+            "explanation": "Setups occur per batch."
+        },
+        {
+            "id": "p1s4_44",
+            "question": "Facility-sustaining costs are:",
+            "options": [
+                "Traceable to units",
+                "Traceable to batches",
+                "Not traceable to specific products",
+                "Variable only"
+            ],
+            "answer": 2,
+            "explanation": "Facility-level costs support entire plant."
+        },
+        {
+            "id": "p1s4_45",
+            "question": "Under FIFO process costing, cost per equivalent unit uses:",
+            "options": [
+                "Beginning + current costs",
+                "Current period costs only",
+                "Joint cost",
+                "Standard cost"
+            ],
+            "answer": 1,
+            "explanation": "FIFO separates current period cost."
+        },
+        {
+            "id": "p1s4_46",
+            "question": "If applied overhead exceeds actual overhead, adjustment will:",
+            "options": [
+                "Increase COGS",
+                "Decrease COGS",
+                "Increase WIP",
+                "Increase fixed cost"
+            ],
+            "answer": 1,
+            "explanation": "Overapplied overhead reduces cost of goods sold."
+        },
+        {
+            "id": "p1s4_47",
+            "question": "Which waste is targeted in Lean?",
+            "options": [
+                "Overproduction",
+                "Efficiency",
+                "Customer demand",
+                "Throughput"
+            ],
+            "answer": 0,
+            "explanation": "Overproduction is a major form of waste."
+        },
+        {
+            "id": "p1s4_48",
+            "question": "Life-cycle costing emphasizes:",
+            "options": [
+                "Only production costs",
+                "Total cost from design to disposal",
+                "Only marketing costs",
+                "Only variable costs"
+            ],
+            "answer": 1,
+            "explanation": "It considers full life-cycle costs."
+        },
+        {
+            "id": "p1s4_49",
+            "question": "If beginning WIP exists, weighted average method will:",
+            "options": [
+                "Ignore it",
+                "Blend it with current period",
+                "Expense it",
+                "Eliminate it"
+            ],
+            "answer": 1,
+            "explanation": "Weighted average combines prior and current costs."
+        },
+        {
+            "id": "p1s4_50",
+            "question": "Under throughput costing, inventory includes:",
+            "options": [
+                "All manufacturing costs",
+                "Only direct materials",
+                "Fixed OH",
+                "Variable OH"
+            ],
+            "answer": 1,
+            "explanation": "Throughput costing capitalizes only direct materials."
+        },
+        {
+            "id": "p1s4_51",
+            "question": "Which cost remains constant in total within the relevant range?",
+            "options": [
+                "Variable cost",
+                "Mixed cost",
+                "Fixed cost",
+                "Marginal cost"
+            ],
+            "answer": 2,
+            "explanation": "Total fixed cost does not change within the relevant range."
+        },
+        {
+            "id": "p1s4_52",
+            "question": "If total cost increases proportionally with activity level, the cost is:",
+            "options": [
+                "Fixed",
+                "Step",
+                "Variable",
+                "Sunk"
+            ],
+            "answer": 2,
+            "explanation": "Variable costs change proportionally with activity."
+        },
+        {
+            "id": "p1s4_53",
+            "question": "Under absorption costing, which cost is included in inventory valuation?",
+            "options": [
+                "Fixed selling expense",
+                "Variable selling expense",
+                "Fixed manufacturing overhead",
+                "Administrative salaries"
+            ],
+            "answer": 2,
+            "explanation": "Fixed manufacturing overhead is included in product cost."
+        },
+        {
+            "id": "p1s4_54",
+            "question": "If inventory decreases during the period, absorption income compared to variable income will be:",
+            "options": [
+                "Higher",
+                "Lower",
+                "Equal",
+                "Zero"
+            ],
+            "answer": 1,
+            "explanation": "Absorption releases previously deferred fixed overhead, reducing income."
+        },
+        {
+            "id": "p1s4_55",
+            "question": "Job order costing is most appropriate when:",
+            "options": [
+                "Products are identical",
+                "Production is continuous",
+                "Products are customized",
+                "Overhead is minimal"
+            ],
+            "answer": 2,
+            "explanation": "Job costing is used for customized or unique products."
+        },
+        {
+            "id": "p1s4_56",
+            "question": "Which costing system uses departments to accumulate costs?",
+            "options": [
+                "Job order",
+                "Process costing",
+                "ABC",
+                "Throughput"
+            ],
+            "answer": 1,
+            "explanation": "Process costing accumulates costs by department."
+        },
+        {
+            "id": "p1s4_57",
+            "question": "Equivalent units for materials and conversion costs may differ because:",
+            "options": [
+                "Materials are added at different stages",
+                "Sales differ",
+                "Overhead differs",
+                "Joint costs differ"
+            ],
+            "answer": 0,
+            "explanation": "Materials and conversion may have different completion percentages."
+        },
+        {
+            "id": "p1s4_58",
+            "question": "Which allocation base is most traditional?",
+            "options": [
+                "Multiple cost drivers",
+                "Machine setups",
+                "Direct labor hours",
+                "Customer orders"
+            ],
+            "answer": 2,
+            "explanation": "Traditional costing typically uses labor or machine hours."
+        },
+        {
+            "id": "p1s4_59",
+            "question": "ABC costing reduces distortion by:",
+            "options": [
+                "Using single overhead pool",
+                "Allocating based on activities",
+                "Ignoring fixed costs",
+                "Reducing product lines"
+            ],
+            "answer": 1,
+            "explanation": "ABC assigns overhead based on specific activities."
+        },
+        {
+            "id": "p1s4_60",
+            "question": "Which joint cost allocation method may distort profitability if products differ significantly in value?",
+            "options": [
+                "Physical measure",
+                "NRV",
+                "Sales value",
+                "Contribution margin"
+            ],
+            "answer": 0,
+            "explanation": "Physical measure ignores economic value differences."
+        },
+        {
+            "id": "p1s4_61",
+            "question": "Under JIT, inventory levels are typically:",
+            "options": [
+                "High",
+                "Zero or minimal",
+                "Irrelevant",
+                "Unpredictable"
+            ],
+            "answer": 1,
+            "explanation": "JIT aims to minimize inventory."
+        },
+        {
+            "id": "p1s4_62",
+            "question": "Throughput accounting assumes which costs are fixed in short term?",
+            "options": [
+                "Direct materials",
+                "Direct labor and overhead",
+                "Selling costs",
+                "Joint costs"
+            ],
+            "answer": 1,
+            "explanation": "TOC treats DL and overhead as fixed short-term."
+        },
+        {
+            "id": "p1s4_63",
+            "question": "Which cost is typically unit-level in ABC hierarchy?",
+            "options": [
+                "Machine depreciation",
+                "Direct materials",
+                "Factory rent",
+                "Plant management salaries"
+            ],
+            "answer": 1,
+            "explanation": "Unit-level costs occur for each unit produced."
+        },
+        {
+            "id": "p1s4_64",
+            "question": "Batch-level activities occur:",
+            "options": [
+                "Per unit",
+                "Per batch",
+                "Per facility",
+                "Per product line"
+            ],
+            "answer": 1,
+            "explanation": "Batch-level activities occur for each production batch."
+        },
+        {
+            "id": "p1s4_65",
+            "question": "Product-sustaining activities support:",
+            "options": [
+                "Individual units",
+                "Entire batches",
+                "Specific product lines",
+                "Entire facility"
+            ],
+            "answer": 2,
+            "explanation": "Product-level activities support a specific product line."
+        },
+        {
+            "id": "p1s4_66",
+            "question": "Facility-sustaining costs are:",
+            "options": [
+                "Traceable to products",
+                "Traceable to batches",
+                "Allocated arbitrarily",
+                "Variable"
+            ],
+            "answer": 2,
+            "explanation": "Facility-level costs are difficult to trace directly."
+        },
+        {
+            "id": "p1s4_67",
+            "question": "If abnormal spoilage occurs, it is:",
+            "options": [
+                "Added to inventory",
+                "Allocated to good units",
+                "Expensed as loss",
+                "Capitalized"
+            ],
+            "answer": 2,
+            "explanation": "Abnormal spoilage is expensed immediately."
+        },
+        {
+            "id": "p1s4_68",
+            "question": "Which method is more precise in process costing?",
+            "options": [
+                "Weighted Average",
+                "FIFO",
+                "ABC",
+                "Joint cost method"
+            ],
+            "answer": 1,
+            "explanation": "FIFO separates current period performance."
+        },
+        {
+            "id": "p1s4_69",
+            "question": "If sales value at split-off is used, allocation is based on:",
+            "options": [
+                "Weight",
+                "Volume",
+                "Market value at split-off",
+                "Physical units"
+            ],
+            "answer": 2,
+            "explanation": "Sales value at split-off uses relative market values."
+        },
+        {
+            "id": "p1s4_70",
+            "question": "Further processing should continue if:",
+            "options": [
+                "Joint cost increases",
+                "Incremental revenue exceeds incremental cost",
+                "Allocated cost decreases",
+                "Physical units increase"
+            ],
+            "answer": 1,
+            "explanation": "Decision is based on incremental analysis."
+        },
+        {
+            "id": "p1s4_71",
+            "question": "Lean manufacturing primarily focuses on:",
+            "options": [
+                "Maximizing inventory",
+                "Eliminating waste",
+                "Increasing batch size",
+                "Increasing fixed costs"
+            ],
+            "answer": 1,
+            "explanation": "Lean eliminates non-value-added activities."
+        },
+        {
+            "id": "p1s4_72",
+            "question": "High-Low method is less accurate because it:",
+            "options": [
+                "Uses regression",
+                "Uses only two data points",
+                "Includes all data",
+                "Uses averages"
+            ],
+            "answer": 1,
+            "explanation": "It relies on only highest and lowest observations."
+        },
+        {
+            "id": "p1s4_73",
+            "question": "Throughput per constraint hour is used to:",
+            "options": [
+                "Allocate joint costs",
+                "Rank product mix",
+                "Determine spoilage",
+                "Calculate EUP"
+            ],
+            "answer": 1,
+            "explanation": "TOC ranks products by throughput per bottleneck hour."
+        },
+        {
+            "id": "p1s4_74",
+            "question": "Under absorption costing, unsold inventory carries:",
+            "options": [
+                "Variable cost only",
+                "Fixed and variable manufacturing cost",
+                "Selling cost",
+                "Administrative cost"
+            ],
+            "answer": 1,
+            "explanation": "Absorption includes both fixed and variable manufacturing costs."
+        },
+        {
+            "id": "p1s4_75",
+            "question": "If beginning inventory is zero and ending inventory increases, absorption income will:",
+            "options": [
+                "Decrease",
+                "Increase",
+                "Stay same",
+                "Be negative"
+            ],
+            "answer": 1,
+            "explanation": "Fixed overhead deferred increases absorption income."
+        },
+        {
+            "id": "p1s4_76",
+            "question": "Which cost is most likely a mixed cost?",
+            "options": [
+                "Direct materials",
+                "Factory rent with usage charge",
+                "Salaried supervisor",
+                "Piece-rate labor"
+            ],
+            "answer": 1,
+            "explanation": "A base rent plus usage component contains both fixed and variable elements."
+        },
+        {
+            "id": "p1s4_77",
+            "question": "If applied overhead is less than actual overhead, the variance is:",
+            "options": [
+                "Overapplied",
+                "Underapplied",
+                "Favorable",
+                "Irrelevant"
+            ],
+            "answer": 1,
+            "explanation": "Actual OH > Applied OH results in underapplied overhead."
+        },
+        {
+            "id": "p1s4_78",
+            "question": "In process costing, units completed and transferred out are treated as:",
+            "options": [
+                "100% complete",
+                "Partially complete",
+                "0% complete",
+                "Abnormal spoilage"
+            ],
+            "answer": 0,
+            "explanation": "Completed units are fully complete for both materials and conversion."
+        },
+        {
+            "id": "p1s4_79",
+            "question": "Which cost would NOT be included in product cost under absorption costing?",
+            "options": [
+                "Direct materials",
+                "Direct labor",
+                "Variable manufacturing overhead",
+                "Administrative salaries"
+            ],
+            "answer": 3,
+            "explanation": "Administrative costs are period costs."
+        },
+        {
+            "id": "p1s4_80",
+            "question": "The main advantage of variable costing is:",
+            "options": [
+                "GAAP compliance",
+                "Prevents income manipulation through overproduction",
+                "Higher reported income",
+                "Capitalizes fixed overhead"
+            ],
+            "answer": 1,
+            "explanation": "Variable costing avoids income distortion from inventory changes."
+        },
+        {
+            "id": "p1s4_81",
+            "question": "Which cost is included in inventory under throughput costing?",
+            "options": [
+                "Direct materials only",
+                "All manufacturing costs",
+                "Variable costs only",
+                "Fixed overhead only"
+            ],
+            "answer": 0,
+            "explanation": "Throughput costing capitalizes only direct materials."
+        },
+        {
+            "id": "p1s4_82",
+            "question": "When using sales value at split-off, joint costs are allocated based on:",
+            "options": [
+                "Final selling price",
+                "Relative market value at split-off",
+                "Physical units",
+                "Variable cost"
+            ],
+            "answer": 1,
+            "explanation": "Allocation uses relative sales values at split-off point."
+        },
+        {
+            "id": "p1s4_83",
+            "question": "If separable costs exceed incremental revenue, further processing should:",
+            "options": [
+                "Continue",
+                "Stop",
+                "Allocate joint cost differently",
+                "Increase production"
+            ],
+            "answer": 1,
+            "explanation": "Further processing should only occur if incremental revenue exceeds incremental cost."
+        },
+        {
+            "id": "p1s4_84",
+            "question": "Lean systems attempt to reduce which of the following?",
+            "options": [
+                "Quality",
+                "Inventory buffers",
+                "Customer value",
+                "Process efficiency"
+            ],
+            "answer": 1,
+            "explanation": "Lean reduces excess inventory."
+        },
+        {
+            "id": "p1s4_85",
+            "question": "Which type of cost increases in total but remains constant per unit?",
+            "options": [
+                "Fixed",
+                "Variable",
+                "Mixed",
+                "Step-fixed"
+            ],
+            "answer": 1,
+            "explanation": "Variable cost per unit remains constant."
+        },
+        {
+            "id": "p1s4_86",
+            "question": "In job costing, direct materials are traced using:",
+            "options": [
+                "Department reports",
+                "Job cost sheets",
+                "Process reports",
+                "Joint cost allocation"
+            ],
+            "answer": 1,
+            "explanation": "Job cost sheets accumulate costs per job."
+        },
+        {
+            "id": "p1s4_87",
+            "question": "A favorable inventory change under absorption costing occurs when:",
+            "options": [
+                "Sales exceed production",
+                "Production exceeds sales",
+                "Inventory decreases",
+                "Inventory is zero"
+            ],
+            "answer": 1,
+            "explanation": "Fixed OH is deferred when production exceeds sales."
+        },
+        {
+            "id": "p1s4_88",
+            "question": "Which cost behavior assumption is valid only within relevant range?",
+            "options": [
+                "Variable cost constant per unit",
+                "Fixed cost constant in total",
+                "Mixed cost linearity",
+                "All of the above"
+            ],
+            "answer": 3,
+            "explanation": "Cost behavior assumptions apply within relevant range."
+        },
+        {
+            "id": "p1s4_89",
+            "question": "A company operating at bottleneck capacity should prioritize products with:",
+            "options": [
+                "Highest selling price",
+                "Highest contribution margin per unit",
+                "Highest throughput per constraint hour",
+                "Lowest direct material cost"
+            ],
+            "answer": 2,
+            "explanation": "TOC ranks based on throughput per bottleneck hour."
+        },
+        {
+            "id": "p1s4_90",
+            "question": "Which activity is NOT value-added?",
+            "options": [
+                "Assembly",
+                "Inspection due to defects",
+                "Packaging",
+                "Customer customization"
+            ],
+            "answer": 1,
+            "explanation": "Inspection due to defects is non-value-added."
+        },
+        {
+            "id": "p1s4_91",
+            "question": "If applied overhead exceeds actual overhead, net income will initially be:",
+            "options": [
+                "Understated",
+                "Overstated",
+                "Correct",
+                "Zero"
+            ],
+            "answer": 1,
+            "explanation": "Overapplied OH reduces COGS, overstating income."
+        },
+        {
+            "id": "p1s4_92",
+            "question": "Which costing method is best for internal decision-making?",
+            "options": [
+                "Absorption",
+                "Variable",
+                "Joint allocation",
+                "FIFO process"
+            ],
+            "answer": 1,
+            "explanation": "Variable costing provides clearer contribution margin."
+        },
+        {
+            "id": "p1s4_93",
+            "question": "Which type of spoilage is considered part of product cost?",
+            "options": [
+                "Abnormal spoilage",
+                "Normal spoilage",
+                "Unexpected spoilage",
+                "All spoilage"
+            ],
+            "answer": 1,
+            "explanation": "Normal spoilage is absorbed into product cost."
+        },
+        {
+            "id": "p1s4_94",
+            "question": "Life-cycle costing supports decisions related to:",
+            "options": [
+                "Short-term production only",
+                "Total product profitability",
+                "Joint allocation only",
+                "Variable costing only"
+            ],
+            "answer": 1,
+            "explanation": "Life-cycle costing considers full cost over product life."
+        },
+        {
+            "id": "p1s4_95",
+            "question": "High-Low method assumes:",
+            "options": [
+                "Cost is nonlinear",
+                "Cost behavior is linear",
+                "Costs are fixed",
+                "Activity irrelevant"
+            ],
+            "answer": 1,
+            "explanation": "High-Low assumes linear relationship."
+        },
+        {
+            "id": "p1s4_96",
+            "question": "Which overhead variance results from incorrect estimation of annual activity?",
+            "options": [
+                "Spending variance",
+                "Volume variance",
+                "Efficiency variance",
+                "Rate variance"
+            ],
+            "answer": 1,
+            "explanation": "Volume variance arises from difference between expected and actual activity."
+        },
+        {
+            "id": "p1s4_97",
+            "question": "ABC costing would most likely change product cost when:",
+            "options": [
+                "All products use resources equally",
+                "Products differ in complexity",
+                "Overhead is negligible",
+                "Only one product exists"
+            ],
+            "answer": 1,
+            "explanation": "ABC captures complexity differences."
+        },
+        {
+            "id": "p1s4_98",
+            "question": "If beginning WIP exists and FIFO is used, equivalent units will:",
+            "options": [
+                "Include prior period work fully",
+                "Exclude prior period work completed",
+                "Blend all work",
+                "Ignore ending WIP"
+            ],
+            "answer": 1,
+            "explanation": "FIFO excludes prior work when calculating current cost per EU."
+        },
+        {
+            "id": "p1s4_99",
+            "question": "Throughput accounting emphasizes:",
+            "options": [
+                "Cost control only",
+                "Maximizing flow through constraint",
+                "Inventory growth",
+                "Joint cost allocation"
+            ],
+            "answer": 1,
+            "explanation": "TOC focuses on maximizing throughput at bottleneck."
+        },
+        {
+            "id": "p1s4_100",
+            "question": "The primary purpose of cost management systems is to:",
+            "options": [
+                "Maximize fixed cost",
+                "Support decision-making and strategic alignment",
+                "Increase inventory",
+                "Allocate joint costs arbitrarily"
+            ],
+            "answer": 1,
+            "explanation": "Cost management supports informed decision-making."
+        }
+    ]
+}

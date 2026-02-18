@@ -1,141 +1,131 @@
-.page {
-  --background: #fafafa;
-  --foreground: #fff;
-
-  --text-primary: #000;
-  --text-secondary: #666;
-
-  --button-primary-hover: #383838;
-  --button-secondary-hover: #f2f2f2;
-  --button-secondary-border: #ebebeb;
-
+.wrapper {
   display: flex;
-  min-height: 100vh;
-  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+  padding-bottom: 4rem;
+}
+
+.hero {
+  background: #f8f9fa;
+  /* Light clean background */
+  padding: 5rem 0;
+  text-align: center;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.title {
+  font-size: 3rem;
+  color: #003366;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+
+.subtitle {
+  font-weight: 300;
+  color: #555;
+  display: block;
+  font-size: 2rem;
+  margin-top: 0.5rem;
+}
+
+.description {
+  max-width: 700px;
+  margin: 0 auto 2.5rem;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.ctaGroup {
+  display: flex;
+  gap: 1.5rem;
   justify-content: center;
-  font-family: var(--font-geist-sans);
-  background-color: var(--background);
 }
 
-.main {
-  display: flex;
-  min-height: 100vh;
-  width: 100%;
-  max-width: 800px;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-between;
-  background-color: var(--foreground);
-  padding: 120px 60px;
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
 }
 
-.intro {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  text-align: left;
-  gap: 24px;
+.featureCard {
+  border: 1px solid #eaeaea;
+  padding: 2rem;
+  border-radius: 8px;
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.intro h1 {
-  max-width: 320px;
-  font-size: 40px;
+.featureCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+.featureCard h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.featureCard p {
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.linkArrow {
+  color: #005b96;
   font-weight: 600;
-  line-height: 48px;
-  letter-spacing: -2.4px;
-  text-wrap: balance;
-  color: var(--text-primary);
+  text-decoration: none;
 }
 
-.intro p {
-  max-width: 440px;
-  font-size: 18px;
-  line-height: 32px;
-  text-wrap: balance;
-  color: var(--text-secondary);
+.linkArrow:hover {
+  text-decoration: underline;
 }
 
-.intro a {
-  font-weight: 500;
-  color: var(--text-primary);
+.infoSection {
+  background: #fdfdfd;
+  padding: 4rem 0;
 }
 
-.ctas {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  max-width: 440px;
-  gap: 16px;
-  font-size: 14px;
+.infoSection h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
 }
 
-.ctas a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 40px;
-  padding: 0 16px;
-  border-radius: 128px;
-  border: 1px solid transparent;
-  transition: 0.2s;
-  cursor: pointer;
-  width: fit-content;
-  font-weight: 500;
+.examGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
 }
 
-a.primary {
-  background: var(--text-primary);
-  color: var(--background);
-  gap: 8px;
+.examPart {
+  background: white;
+  padding: 2rem;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
 }
 
-a.secondary {
-  border-color: var(--button-secondary-border);
+.examPart h3 {
+  border-bottom: 2px solid #003366;
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
-/* Enable hover only on non-touch devices */
-@media (hover: hover) and (pointer: fine) {
-  a.primary:hover {
-    background: var(--button-primary-hover);
-    border-color: transparent;
+.examPart ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.examPart li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #f0f0f0;
+  color: #444;
+}
+
+@media (max-width: 768px) {
+  .examGrid {
+    grid-template-columns: 1fr;
   }
 
-  a.secondary:hover {
-    background: var(--button-secondary-hover);
-    border-color: transparent;
-  }
-}
-
-@media (max-width: 600px) {
-  .main {
-    padding: 48px 24px;
-  }
-
-  .intro {
-    gap: 16px;
-  }
-
-  .intro h1 {
-    font-size: 32px;
-    line-height: 40px;
-    letter-spacing: -1.92px;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .logo {
-    filter: invert();
-  }
-
-  .page {
-    --background: #000;
-    --foreground: #000;
-
-    --text-primary: #ededed;
-    --text-secondary: #999;
-
-    --button-primary-hover: #ccc;
-    --button-secondary-hover: #1a1a1a;
-    --button-secondary-border: #1a1a1a;
+  .title {
+    font-size: 2rem;
   }
 }

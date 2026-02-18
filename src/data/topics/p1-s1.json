@@ -1,0 +1,1370 @@
+{
+    "id": "p1-s1",
+    "title": "External Financial Reporting Decisions – Ultra Detailed Revision Edition",
+    "weightage": "15%",
+    "recommendedStudyHours": "35-40 hours",
+    "examLevel": "Level C (Analysis, Application, Interpretation)",
+    "overview": "External Financial Reporting Decisions (15%) forms the technical accounting backbone of Part 1. This section requires mastery of financial statement structure, recognition and measurement principles under US GAAP (including consolidated financial statements), analytical interpretation of reporting choices, and understanding of key differences between US GAAP and IFRS. The CMA exam emphasizes application — candidates must evaluate how accounting decisions affect earnings, cash flows, ratios, and long-term business decisions.",
+    "bulletNotes": [
+        "Financial statements are fully interconnected — one transaction often affects multiple statements.",
+        "Net income is not the same as cash flow.",
+        "The indirect method of cash flows is heavily tested.",
+        "Inventory valuation impacts profitability, liquidity, and taxes.",
+        "Impairment testing differs significantly between GAAP and IFRS.",
+        "Revenue recognition timing affects earnings quality.",
+        "Deferred taxes arise from temporary (timing) differences only.",
+        "Lease accounting increases reported leverage under ASC 842.",
+        "**Consolidated FS**: Eliminate intercompany transactions. VIE = Risk/Reward model. Voting Interest = >50% ownership."
+    ],
+    "shortNotes": "Begin with structural clarity: understand how each statement is built. Then focus on measurement rules (historical cost, amortized cost, fair value, NRV). Finally, connect accounting choices to financial ratios and performance evaluation. CMA questions frequently require tracing transaction impact across income statement, balance sheet, and cash flow statement.",
+    "concepts": [
+        {
+            "title": "1. Financial Statements – Structural & Analytical Foundation",
+            "content": "<p><strong>Purpose of Financial Reporting:</strong> To provide relevant and faithfully represented financial information useful to investors, creditors, and decision-makers.</p><p><strong>Balance Sheet (Statement of Financial Position):</strong><br>Reports assets, liabilities, and equity at a specific point in time.<br><em>Fundamental Equation:</em> Assets = Liabilities + Equity.</p><p><strong>Classification:</strong><br>Current assets and liabilities are expected to be realized or settled within one year or the operating cycle (whichever is longer).</p><p><strong>Income Statement:</strong><br>Reports revenues and expenses over a period using accrual accounting.</p><p><em>Matching Principle:</em> Expenses are recognized in the same period as related revenues.</p><p><strong>Multi-step format includes:</strong><br>Sales → COGS → Gross Profit → Operating Income → Income Before Tax → Net Income.</p><p><strong>Statement of Changes in Equity:</strong><br>Beginning Retained Earnings + Net Income − Dividends = Ending Retained Earnings.</p><p><strong>Statement of Cash Flows:</strong><br>Explains changes in cash using three sections: Operating, Investing, Financing.</p><p><strong>Key Insight:</strong> Profitability (Net Income) and liquidity (Cash Flow) are different measures.</p>"
+        },
+        {
+            "title": "2. Statement of Cash Flows – Indirect Method (Technically Accurate)",
+            "content": "<p>The CMA exam frequently tests preparation and interpretation of the operating section using the indirect method.</p><p><strong>Steps:</strong></p><ol><li>Start with Net Income.</li><li>Add back non-cash expenses (Depreciation, Amortization).</li><li>Subtract gains and add losses from asset sales (these belong in investing).</li><li>Adjust for changes in working capital.</li></ol><p><strong>Working Capital Adjustment Rules:</strong></p><ul><li>Increase in current asset → subtract.</li><li>Decrease in current asset → add.</li><li>Increase in current liability → add.</li><li>Decrease in current liability → subtract.</li></ul><p><strong>Important Clarification:</strong> Gains are subtracted from CFO because the full cash proceeds appear in Investing activities.</p><p><strong>Free Cash Flow:</strong> CFO − Capital Expenditures.</p><p><strong>Analytical Insight:</strong> Positive Net Income with negative CFO may indicate earnings quality issues.</p>"
+        },
+        {
+            "title": "3. Revenue Recognition (ASC 606 – Corrected & Expanded)",
+            "content": "<p><strong>Core Principle:</strong> Recognize revenue when control of goods or services transfers to the customer.</p><p><strong>The 5-Step Model:</strong></p><ol><li>Identify the contract.</li><li>Identify performance obligations.</li><li>Determine transaction price.</li><li>Allocate transaction price to performance obligations.</li><li>Recognize revenue when (or as) performance obligations are satisfied.</li></ol><p><strong>Over Time Recognition Criteria (one must be met):</strong></p><ul><li>Customer simultaneously receives and consumes benefits.</li><li>Asset created is controlled by customer as created.</li><li>No alternative use and enforceable right to payment.</li></ul><p><strong>Variable Consideration:</strong> Estimated using expected value or most likely amount, constrained to avoid significant reversal.</p><p><strong>Principal vs Agent:</strong> Principal records gross revenue; agent records net commission.</p>"
+        },
+        {
+            "title": "4. Inventory – Measurement & Analytical Effects",
+            "content": "<p><strong>Inventory Cost Includes:</strong> Purchase price, freight-in, import duties.</p><p><strong>Excludes:</strong> Freight-out (selling expense).</p><p><strong>Cost Flow Methods (GAAP):</strong></p><ul><li>FIFO</li><li>LIFO</li><li>Weighted Average</li></ul><p><strong>IFRS Prohibits LIFO.</strong></p><p><strong>Lower of Cost or Market (GAAP LIFO/Retail):</strong><br>Market = Replacement cost bounded by NRV and NRV minus normal profit margin.</p><p><strong>IFRS:</strong> Always Lower of Cost or NRV.</p><p><strong>LIFO Reserve:</strong> Difference between FIFO and LIFO inventory balances.</p><p><strong>LIFO Liquidation:</strong> Occurs when older inventory layers are sold, artificially increasing income.</p>"
+        },
+        {
+            "title": "5. Long-Lived Assets & Impairment (Correct GAAP Detail)",
+            "content": "<p><strong>Depreciation Methods:</strong> Straight-line, Units of Production, Declining Balance.</p><p><strong>GAAP Impairment (Assets Held for Use):</strong></p><ol><li>Recoverability Test: Carrying Value compared to Undiscounted Future Cash Flows.</li><li>If not recoverable → Write down to Fair Value.</li></ol><p><strong>IFRS:</strong> Single-step impairment using Recoverable Amount (higher of Fair Value less costs to sell or Value in Use).</p><p><strong>Reversal:</strong> Allowed under IFRS (except goodwill). Not permitted under GAAP for assets held for use.</p>"
+        },
+        {
+            "title": "6. Investments & Financial Instruments (Correct Classification)",
+            "content": "<p><strong>Debt Securities:</strong></p><ul><li>Held-to-Maturity → Amortized Cost.</li><li>Trading → Fair Value with unrealized gains/losses in Net Income.</li><li>Available-for-Sale → Fair Value with unrealized gains/losses in OCI.</li></ul><p><strong>Equity Securities (GAAP):</strong><br>Generally measured at Fair Value through Net Income unless equity method or consolidation applies.</p><p><strong>Equity Method (20–50% ownership):</strong><br>Record share of investee's net income as income; dividends reduce investment balance.</p>"
+        },
+        {
+            "title": "7. Consolidated Financial Statements (New 2024 CSO Topic)",
+            "content": "<p><strong>Definition:</strong> Consolidated financial statements present the financial position and results of a parent and its subsidiaries as a <strong>single economic entity</strong>.</p><p><strong>Two Consolidation Models:</strong></p><table class='notes-table'><thead><tr><th>Model</th><th>Basis</th><th>When Used</th></tr></thead><tbody><tr><td><strong>Voting Interest Model</strong></td><td>Ownership of >50% of voting shares</td><td>Traditional parent-subsidiary (majority ownership)</td></tr><tr><td><strong>Variable Interest Entity (VIE)</strong></td><td>Power + Risk/Reward exposure</td><td>Entity bears majority of risks/rewards even without majority ownership</td></tr></tbody></table><p><strong>Three Types of Consolidation Accounting:</strong></p><ul><li><strong>Full Consolidation:</strong> 100% of subsidiary's assets, liabilities, revenues, and expenses are combined with the parent's. Non-controlling interest (NCI) is reported separately in equity. Used when parent has control (>50% voting or VIE primary beneficiary).</li><li><strong>Proportionate Consolidation:</strong> Only the parent's proportionate share of the investee's assets, liabilities, revenues, and expenses is reported. <em>Note: Generally NOT permitted under US GAAP</em> (allowed under IFRS for joint ventures).</li><li><strong>Equity Method:</strong> Investment reported as a single line on the balance sheet. Parent records its share of investee's net income. Used for significant influence (20-50% ownership).</li></ul><p><strong>Intercompany Eliminations (Critical):</strong></p><ul><li>All intercompany transactions must be eliminated in consolidation to avoid double-counting.</li><li><strong>Eliminate:</strong> Intercompany sales/purchases, intercompany receivables/payables, intercompany loans and interest, intercompany dividends, unrealized profit on intercompany inventory transfers.</li><li><strong>Example:</strong> If Parent sells $100,000 of goods to Subsidiary (still in Sub's inventory), eliminate $100,000 from both Sales and COGS, and remove any unrealized profit from inventory.</li></ul><p><strong>Goodwill:</strong> Arises when purchase price exceeds fair value of net identifiable assets acquired. Tested annually for impairment under GAAP (not amortized).</p>"
+        },
+        {
+            "title": "8. Deferred Taxes – Correct Explanation",
+            "content": "<p><strong>Temporary Differences:</strong> Differences between book and tax basis that reverse in future periods.</p><p><strong>Deferred Tax Liability (DTL):</strong> Future taxable amounts.</p><p><strong>Deferred Tax Asset (DTA):</strong> Future deductible amounts.</p><p><strong>Permanent Differences:</strong> Do not create deferred taxes.</p><p><strong>Valuation Allowance:</strong> Required if it is more likely than not that DTA will not be realized.</p>"
+        },
+        {
+            "title": "9. Lease Accounting (ASC 842 – Accurate)",
+            "content": "<p>Under ASC 842, lessees recognize a Right-of-Use (ROU) Asset and Lease Liability for nearly all leases.</p><p><strong>Finance Lease:</strong> Separate interest and amortization expense.</p><p><strong>Operating Lease:</strong> Single straight-line lease expense.</p><p><strong>Impact:</strong> Increases assets and liabilities, raising leverage ratios.</p>"
+        },
+        {
+            "title": "10. GAAP vs IFRS – Accurate Comparison",
+            "content": "<p><strong>Inventory:</strong> LIFO prohibited under IFRS.</p><p><strong>Impairment Reversal:</strong> Allowed under IFRS (except goodwill).</p><p><strong>Revaluation Model:</strong> Allowed under IFRS for PPE and intangibles.</p><p><strong>Development Costs:</strong> Capitalized under IFRS if criteria met; generally expensed under GAAP.</p><p><strong>Cash Flow Classification:</strong> IFRS allows more flexibility for interest and dividends classification.</p><p><strong>Consolidated FS:</strong> IFRS allows proportionate consolidation for joint ventures; GAAP does not.</p>"
+        }
+    ],
+    "formulas": [
+        {
+            "name": "COGS",
+            "formula": "Beginning Inventory + Purchases - Ending Inventory"
+        },
+        {
+            "name": "Free Cash Flow",
+            "formula": "CFO - Capital Expenditures"
+        },
+        {
+            "name": "Gross Margin",
+            "formula": "Gross Profit / Sales"
+        },
+        {
+            "name": "Current Ratio",
+            "formula": "Current Assets / Current Liabilities"
+        },
+        {
+            "name": "Debt-to-Equity",
+            "formula": "Total Liabilities / Total Equity"
+        },
+        {
+            "name": "Basic EPS",
+            "formula": "(Net Income - Preferred Dividends) / Weighted Average Shares"
+        },
+        {
+            "name": "LIFO Reserve",
+            "formula": "FIFO Inventory - LIFO Inventory"
+        },
+        {
+            "name": "Goodwill",
+            "formula": "Purchase Price - Fair Value of Net Identifiable Assets"
+        }
+    ],
+    "mistakes": [
+        "Forgetting to remove gain from CFO.",
+        "Using discounted cash flows in GAAP recoverability test (Step 1 uses undiscounted).",
+        "Reversing impairment under GAAP (not allowed for assets held for use).",
+        "Capitalizing freight-out (it is a selling expense, not a product cost).",
+        "Confusing OCI items with Net Income items.",
+        "Forgetting to eliminate intercompany transactions in consolidation.",
+        "Thinking proportionate consolidation is allowed under US GAAP (it is not).",
+        "Confusing VIE model (risk/reward) with voting interest model (>50% ownership)."
+    ],
+    "quiz": [
+        {
+            "question": "If ending inventory is overstated, what is the effect?",
+            "options": [
+                "COGS overstated",
+                "Net income understated",
+                "COGS understated and net income overstated",
+                "No impact"
+            ],
+            "answer": 2,
+            "explanation": "Ending inventory overstated reduces COGS, which increases net income."
+        },
+        {
+            "question": "Under which model does a parent consolidate an entity when it bears the majority of risks and rewards?",
+            "options": [
+                "Voting Interest Model",
+                "Variable Interest Entity (VIE) Model",
+                "Equity Method",
+                "Proportionate Consolidation"
+            ],
+            "answer": 1,
+            "explanation": "The VIE model requires consolidation based on risk and reward exposure, not voting ownership."
+        },
+        {
+            "question": "What must be eliminated in consolidated financial statements?",
+            "options": [
+                "External sales",
+                "Intercompany transactions",
+                "Depreciation expense",
+                "Tax liabilities"
+            ],
+            "answer": 1,
+            "explanation": "All intercompany transactions (sales, receivables, payables, loans) must be eliminated to avoid double-counting."
+        },
+        {
+            "question": "Goodwill arises when:",
+            "options": [
+                "FV of assets exceeds purchase price",
+                "Purchase price exceeds FV of net identifiable assets",
+                "Inventory is written down",
+                "Revenue is deferred"
+            ],
+            "answer": 1,
+            "explanation": "Goodwill = Purchase Price - Fair Value of Net Identifiable Assets. The excess represents intangible value like brand and reputation."
+        },
+        {
+            "question": "Proportionate consolidation for joint ventures is allowed under:",
+            "options": [
+                "US GAAP only",
+                "IFRS only",
+                "Both GAAP and IFRS",
+                "Neither"
+            ],
+            "answer": 1,
+            "explanation": "US GAAP does not permit proportionate consolidation; IFRS allows it for joint ventures."
+        }
+    ],
+    "essay": {
+        "question": "Explain how LIFO vs FIFO affects financial statements and financial ratios during inflation. Additionally, describe the concept of intercompany eliminations in consolidated financial statements and why they are necessary.",
+        "modelAnswer": "<p><strong>LIFO vs FIFO in Inflation:</strong><br>In inflation, LIFO increases COGS (newer, higher costs flow to income) and reduces net income and taxes, lowering inventory and current ratio. FIFO reduces COGS (older, lower costs flow to income) and increases income and ending inventory, improving liquidity ratios but increasing tax liability.</p><p><strong>Intercompany Eliminations:</strong><br>When a parent company and its subsidiaries transact with each other (e.g., intercompany sales, loans, dividends), these transactions must be eliminated in consolidation. The consolidated entity is treated as a single economic entity — you cannot sell to yourself. Without elimination, revenues, expenses, assets, and liabilities would be double-counted, overstating the entity's financial position.</p>"
+    },
+    "summary": "Mastery of this section requires understanding financial statement mechanics, revenue timing (ASC 606), inventory measurement, impairment testing, lease accounting (ASC 842), deferred taxes, consolidated financial statements (VIE vs Voting Interest, intercompany eliminations), and GAAP vs IFRS differences. The CMA exam focuses on application and analytical consequences rather than memorization.",
+    "test": [
+        {
+            "id": "p1s1_1",
+            "question": "Which financial statement reports financial position at a specific point in time?",
+            "options": [
+                "Income Statement",
+                "Statement of Cash Flows",
+                "Balance Sheet",
+                "Statement of Equity"
+            ],
+            "answer": 2,
+            "explanation": "The Balance Sheet (Statement of Financial Position) reports assets, liabilities, and equity at a specific date."
+        },
+        {
+            "id": "p1s1_2",
+            "question": "The fundamental accounting equation is:",
+            "options": [
+                "Assets = Revenue - Expenses",
+                "Assets = Liabilities + Equity",
+                "Revenue = Assets + Liabilities",
+                "Equity = Assets + Liabilities"
+            ],
+            "answer": 1,
+            "explanation": "Assets = Liabilities + Equity is the foundation of the balance sheet."
+        },
+        {
+            "id": "p1s1_3",
+            "question": "Net income flows directly into:",
+            "options": [
+                "Cash",
+                "Retained Earnings",
+                "Liabilities",
+                "OCI"
+            ],
+            "answer": 1,
+            "explanation": "Net income increases Retained Earnings on the statement of changes in equity."
+        },
+        {
+            "id": "p1s1_4",
+            "question": "Which is NOT a current asset?",
+            "options": [
+                "Inventory",
+                "Prepaid Insurance",
+                "Land",
+                "Accounts Receivable"
+            ],
+            "answer": 2,
+            "explanation": "Land is a long-term asset (PPE). Current assets are expected to be realized within one year."
+        },
+        {
+            "id": "p1s1_5",
+            "question": "Gross profit equals:",
+            "options": [
+                "Sales – Operating Expenses",
+                "Sales – COGS",
+                "Sales – Net Income",
+                "COGS – Expenses"
+            ],
+            "answer": 1,
+            "explanation": "Gross Profit = Sales Revenue minus Cost of Goods Sold."
+        },
+        {
+            "id": "p1s1_6",
+            "question": "Discontinued operations are reported:",
+            "options": [
+                "In operating income",
+                "Net of tax below continuing operations",
+                "In OCI",
+                "In the financing section"
+            ],
+            "answer": 1,
+            "explanation": "Discontinued operations are shown separately, net of tax, below income from continuing operations."
+        },
+        {
+            "id": "p1s1_7",
+            "question": "Which item bypasses Net Income and goes to OCI under GAAP?",
+            "options": [
+                "Gain on sale of equipment",
+                "Trading securities gain",
+                "Unrealized AFS gain",
+                "Revenue"
+            ],
+            "answer": 2,
+            "explanation": "Unrealized gains/losses on Available-for-Sale securities are reported in Other Comprehensive Income."
+        },
+        {
+            "id": "p1s1_8",
+            "question": "The multi-step income statement separates:",
+            "options": [
+                "Cash vs accrual items",
+                "Operating vs non-operating items",
+                "Current vs non-current items",
+                "GAAP vs IFRS items"
+            ],
+            "answer": 1,
+            "explanation": "The multi-step format distinguishes operating income from non-operating gains/losses."
+        },
+        {
+            "id": "p1s1_9",
+            "question": "OCI items accumulate in:",
+            "options": [
+                "Retained Earnings",
+                "Accumulated OCI (equity)",
+                "Liabilities",
+                "Cash"
+            ],
+            "answer": 1,
+            "explanation": "OCI flows into Accumulated Other Comprehensive Income, a separate equity component."
+        },
+        {
+            "id": "p1s1_10",
+            "question": "Retained Earnings is directly reduced by:",
+            "options": [
+                "Dividends declared",
+                "Asset revaluation under GAAP",
+                "Issuance of debt",
+                "Inventory purchases"
+            ],
+            "answer": 0,
+            "explanation": "Dividends reduce retained earnings. They are distributions to shareholders, not expenses."
+        },
+        {
+            "id": "p1s1_11",
+            "question": "The indirect method of calculating CFO starts with:",
+            "options": [
+                "Sales revenue",
+                "Gross profit",
+                "Net income",
+                "Cash balance"
+            ],
+            "answer": 2,
+            "explanation": "The indirect method begins with net income and adjusts for non-cash items and working capital changes."
+        },
+        {
+            "id": "p1s1_12",
+            "question": "Depreciation expense is treated as which adjustment in the indirect method?",
+            "options": [
+                "Subtracted from net income",
+                "Added back to net income",
+                "Ignored",
+                "Classified as investing"
+            ],
+            "answer": 1,
+            "explanation": "Depreciation is a non-cash expense, so it is added back to net income to determine CFO."
+        },
+        {
+            "id": "p1s1_13",
+            "question": "An increase in Accounts Receivable is:",
+            "options": [
+                "Added to CFO",
+                "Subtracted from CFO",
+                "Classified as investing",
+                "Classified as financing"
+            ],
+            "answer": 1,
+            "explanation": "Higher AR means sales were recorded but cash was not collected — subtract from CFO."
+        },
+        {
+            "id": "p1s1_14",
+            "question": "An increase in Accounts Payable is:",
+            "options": [
+                "Added to CFO",
+                "Subtracted from CFO",
+                "Classified as investing",
+                "No impact on CFO"
+            ],
+            "answer": 0,
+            "explanation": "Higher AP means expenses were recorded but cash was not yet paid — add to CFO."
+        },
+        {
+            "id": "p1s1_15",
+            "question": "A gain on sale of equipment is treated in CFO (indirect method) as:",
+            "options": [
+                "Added to CFO",
+                "Subtracted from CFO",
+                "Classified as financing",
+                "Reported in OCI"
+            ],
+            "answer": 1,
+            "explanation": "Gains are subtracted from CFO because the full cash proceeds appear in investing activities."
+        },
+        {
+            "id": "p1s1_16",
+            "question": "Free Cash Flow equals:",
+            "options": [
+                "Net Income – Depreciation",
+                "CFO – Capital Expenditures",
+                "CFO + Capital Expenditures",
+                "Net Income – Capital Expenditures"
+            ],
+            "answer": 1,
+            "explanation": "Free Cash Flow = Cash Flow from Operations minus Capital Expenditures."
+        },
+        {
+            "id": "p1s1_17",
+            "question": "Purchase of equipment is classified as:",
+            "options": [
+                "Operating activity",
+                "Investing outflow",
+                "Financing activity",
+                "OCI"
+            ],
+            "answer": 1,
+            "explanation": "Buying long-term assets is an investing cash outflow."
+        },
+        {
+            "id": "p1s1_18",
+            "question": "Issuing common stock is classified as:",
+            "options": [
+                "Operating",
+                "Investing",
+                "Financing inflow",
+                "OCI"
+            ],
+            "answer": 2,
+            "explanation": "Issuing stock raises capital from owners — classified as financing."
+        },
+        {
+            "id": "p1s1_19",
+            "question": "Interest paid is classified under GAAP as:",
+            "options": [
+                "Operating",
+                "Investing",
+                "Financing",
+                "OCI"
+            ],
+            "answer": 0,
+            "explanation": "Under US GAAP, interest paid is classified as an operating activity."
+        },
+        {
+            "id": "p1s1_20",
+            "question": "If inventory increases, the adjustment to CFO is:",
+            "options": [
+                "Add (positive)",
+                "Subtract (negative)",
+                "No change",
+                "Financing"
+            ],
+            "answer": 1,
+            "explanation": "An increase in inventory means cash was spent to buy inventory — subtract from CFO."
+        },
+        {
+            "id": "p1s1_21",
+            "question": "ASC 606 revenue recognition uses how many steps?",
+            "options": [
+                "3",
+                "4",
+                "5",
+                "6"
+            ],
+            "answer": 2,
+            "explanation": "ASC 606 uses a 5-step model: Identify contract → Identify POs → Determine price → Allocate → Recognize."
+        },
+        {
+            "id": "p1s1_22",
+            "question": "A performance obligation must be:",
+            "options": [
+                "Profitable",
+                "Distinct",
+                "Cash-based",
+                "Completed before recognition"
+            ],
+            "answer": 1,
+            "explanation": "Each performance obligation must be distinct — capable of being satisfied independently."
+        },
+        {
+            "id": "p1s1_23",
+            "question": "Variable consideration in ASC 606 must be:",
+            "options": [
+                "Ignored entirely",
+                "Fully recognized immediately",
+                "Estimated and constrained",
+                "Deferred until certain"
+            ],
+            "answer": 2,
+            "explanation": "Variable consideration is estimated and constrained to avoid significant revenue reversal."
+        },
+        {
+            "id": "p1s1_24",
+            "question": "A principal in a transaction records revenue at:",
+            "options": [
+                "Net amount",
+                "Gross amount",
+                "Cash basis only",
+                "OCI"
+            ],
+            "answer": 1,
+            "explanation": "A principal controls the good/service and records the full (gross) transaction price as revenue."
+        },
+        {
+            "id": "p1s1_25",
+            "question": "An agent in a transaction records revenue at:",
+            "options": [
+                "Gross amount",
+                "Net commission only",
+                "Full contract price",
+                "Deferred"
+            ],
+            "answer": 1,
+            "explanation": "An agent arranges for another party to provide the good/service and records only its commission."
+        },
+        {
+            "id": "p1s1_26",
+            "question": "Revenue recognized over time requires meeting at least:",
+            "options": [
+                "All three criteria",
+                "One of three criteria",
+                "Two of three criteria",
+                "No specific criteria"
+            ],
+            "answer": 1,
+            "explanation": "If at least one of the three over-time criteria is met, revenue is recognized over time."
+        },
+        {
+            "id": "p1s1_27",
+            "question": "Contract assets represent:",
+            "options": [
+                "Cash received in advance",
+                "Revenue earned but not yet billed",
+                "Deferred revenue",
+                "Accounts payable"
+            ],
+            "answer": 1,
+            "explanation": "A contract asset exists when the entity has satisfied a PO but does not yet have an unconditional right to payment."
+        },
+        {
+            "id": "p1s1_28",
+            "question": "Contract liabilities represent:",
+            "options": [
+                "Revenue earned but unbilled",
+                "Cash received before performance",
+                "Accounts receivable",
+                "Equity"
+            ],
+            "answer": 1,
+            "explanation": "Contract liabilities (deferred revenue) arise when payment is received before the PO is satisfied."
+        },
+        {
+            "id": "p1s1_29",
+            "question": "IFRS prohibits which inventory method?",
+            "options": [
+                "FIFO",
+                "LIFO",
+                "Weighted Average",
+                "Specific Identification"
+            ],
+            "answer": 1,
+            "explanation": "IFRS does not allow LIFO. Only FIFO, Weighted Average, and Specific Identification are permitted."
+        },
+        {
+            "id": "p1s1_30",
+            "question": "During inflation, FIFO results in:",
+            "options": [
+                "Lower net income",
+                "Higher net income",
+                "Same net income as LIFO",
+                "Higher COGS"
+            ],
+            "answer": 1,
+            "explanation": "FIFO uses older, lower costs for COGS → lower COGS → higher gross profit → higher net income."
+        },
+        {
+            "id": "p1s1_31",
+            "question": "During inflation, LIFO results in:",
+            "options": [
+                "Higher net income",
+                "Lower COGS",
+                "Higher COGS and lower net income",
+                "No effect"
+            ],
+            "answer": 2,
+            "explanation": "LIFO uses newer, higher costs for COGS → higher COGS → lower gross profit → lower net income."
+        },
+        {
+            "id": "p1s1_32",
+            "question": "LIFO Reserve equals:",
+            "options": [
+                "FIFO Inventory – LIFO Inventory",
+                "LIFO Inventory – FIFO Inventory",
+                "COGS – Sales",
+                "Inventory – Sales"
+            ],
+            "answer": 0,
+            "explanation": "LIFO Reserve = FIFO Inventory value minus LIFO Inventory value."
+        },
+        {
+            "id": "p1s1_33",
+            "question": "LIFO liquidation occurs when:",
+            "options": [
+                "Inventory is purchased",
+                "Older LIFO layers are sold",
+                "FIFO is adopted",
+                "Inventory is written up"
+            ],
+            "answer": 1,
+            "explanation": "LIFO liquidation happens when sales exceed purchases, causing older, lower-cost layers to be sold, inflating income."
+        },
+        {
+            "id": "p1s1_34",
+            "question": "Freight-in is classified as:",
+            "options": [
+                "Selling expense",
+                "Product cost (inventoriable)",
+                "Financing cost",
+                "OCI"
+            ],
+            "answer": 1,
+            "explanation": "Freight-in is a cost of acquiring inventory and is included in the product cost."
+        },
+        {
+            "id": "p1s1_35",
+            "question": "Freight-out is classified as:",
+            "options": [
+                "Product cost",
+                "Selling expense",
+                "Cost of goods sold",
+                "Financing cost"
+            ],
+            "answer": 1,
+            "explanation": "Freight-out is a delivery/selling expense, not a product cost."
+        },
+        {
+            "id": "p1s1_36",
+            "question": "Lower of Cost or NRV applies under:",
+            "options": [
+                "GAAP only",
+                "IFRS only",
+                "Both GAAP and IFRS",
+                "Neither"
+            ],
+            "answer": 2,
+            "explanation": "Both frameworks require inventory to be written down when its value declines (GAAP uses LCM for LIFO, LCNRV otherwise)."
+        },
+        {
+            "id": "p1s1_37",
+            "question": "COGS equals:",
+            "options": [
+                "Beginning Inventory + Purchases - Ending Inventory",
+                "Sales - Gross Profit",
+                "Ending Inventory + Purchases",
+                "Sales - Operating Expenses"
+            ],
+            "answer": 0,
+            "explanation": "COGS = Beginning Inventory + Purchases (net) - Ending Inventory."
+        },
+        {
+            "id": "p1s1_38",
+            "question": "If ending inventory is understated, net income will be:",
+            "options": [
+                "Overstated",
+                "Understated",
+                "Unaffected",
+                "Equal to COGS"
+            ],
+            "answer": 1,
+            "explanation": "Understated ending inventory → overstated COGS → understated net income."
+        },
+        {
+            "id": "p1s1_39",
+            "question": "The GAAP impairment test (Step 1) for long-lived assets uses:",
+            "options": [
+                "Discounted cash flows",
+                "Undiscounted cash flows",
+                "Fair value",
+                "NRV"
+            ],
+            "answer": 1,
+            "explanation": "Step 1 (recoverability test) compares carrying value to undiscounted future cash flows."
+        },
+        {
+            "id": "p1s1_40",
+            "question": "If the recoverability test is failed under GAAP, the asset is written down to:",
+            "options": [
+                "Undiscounted cash flows",
+                "Fair value",
+                "Book value",
+                "Replacement cost"
+            ],
+            "answer": 1,
+            "explanation": "Step 2 writes the asset down to fair value when the recoverability test fails."
+        },
+        {
+            "id": "p1s1_41",
+            "question": "IFRS impairment uses the higher of:",
+            "options": [
+                "Historical cost or replacement cost",
+                "Fair value less costs to sell or Value in Use",
+                "Book value or NRV",
+                "LIFO or FIFO value"
+            ],
+            "answer": 1,
+            "explanation": "IFRS Recoverable Amount = higher of Fair Value less costs to sell OR Value in Use (discounted cash flows)."
+        },
+        {
+            "id": "p1s1_42",
+            "question": "Can impairment losses be reversed under US GAAP for assets held for use?",
+            "options": [
+                "Yes, always",
+                "No, never",
+                "Only for goodwill",
+                "Only for PPE"
+            ],
+            "answer": 1,
+            "explanation": "US GAAP prohibits reversal of impairment losses on assets held for use."
+        },
+        {
+            "id": "p1s1_43",
+            "question": "Which depreciation method results in higher early-year expense?",
+            "options": [
+                "Straight-line",
+                "Units of production",
+                "Double declining balance",
+                "FIFO"
+            ],
+            "answer": 2,
+            "explanation": "Double declining balance (accelerated) produces higher depreciation in early years."
+        },
+        {
+            "id": "p1s1_44",
+            "question": "Goodwill under GAAP is:",
+            "options": [
+                "Amortized over 15 years",
+                "Amortized over 40 years",
+                "Tested annually for impairment, not amortized",
+                "Immediately expensed"
+            ],
+            "answer": 2,
+            "explanation": "Under GAAP, goodwill is not amortized but tested annually for impairment."
+        },
+        {
+            "id": "p1s1_45",
+            "question": "Trading securities unrealized gains are reported in:",
+            "options": [
+                "OCI",
+                "Net Income",
+                "Retained Earnings directly",
+                "Deferred tax"
+            ],
+            "answer": 1,
+            "explanation": "Trading securities are marked to fair value with unrealized gains/losses flowing through net income."
+        },
+        {
+            "id": "p1s1_46",
+            "question": "Available-for-Sale securities unrealized gains are reported in:",
+            "options": [
+                "Net Income",
+                "OCI",
+                "Cash",
+                "Retained Earnings directly"
+            ],
+            "answer": 1,
+            "explanation": "AFS unrealized gains/losses are reported in Other Comprehensive Income."
+        },
+        {
+            "id": "p1s1_47",
+            "question": "The equity method applies when ownership is approximately:",
+            "options": [
+                "Less than 10%",
+                "10–15%",
+                "20–50%",
+                "Over 80%"
+            ],
+            "answer": 2,
+            "explanation": "20-50% ownership typically conveys significant influence, requiring the equity method."
+        },
+        {
+            "id": "p1s1_48",
+            "question": "Under the equity method, dividends received from the investee:",
+            "options": [
+                "Increase income",
+                "Reduce the investment balance",
+                "Are reported in OCI",
+                "Have no effect"
+            ],
+            "answer": 1,
+            "explanation": "Dividends received reduce the investment balance (they are a return of investment, not income)."
+        },
+        {
+            "id": "p1s1_49",
+            "question": "Held-to-Maturity securities are measured at:",
+            "options": [
+                "Fair value through NI",
+                "Fair value through OCI",
+                "Amortized cost",
+                "Market value"
+            ],
+            "answer": 2,
+            "explanation": "HTM securities are held until maturity and reported at amortized cost."
+        },
+        {
+            "id": "p1s1_50",
+            "question": "A temporary difference between book and tax creates:",
+            "options": [
+                "A permanent adjustment",
+                "A DTA or DTL",
+                "An expense only",
+                "Revenue"
+            ],
+            "answer": 1,
+            "explanation": "Temporary differences create deferred tax assets or liabilities that reverse in future periods."
+        },
+        {
+            "id": "p1s1_51",
+            "question": "Permanent differences between book and tax create:",
+            "options": [
+                "DTA",
+                "DTL",
+                "No deferred tax effect",
+                "OCI"
+            ],
+            "answer": 2,
+            "explanation": "Permanent differences never reverse, so they do not create deferred tax assets or liabilities."
+        },
+        {
+            "id": "p1s1_52",
+            "question": "A DTA is reduced by a:",
+            "options": [
+                "Valuation allowance",
+                "Retained earnings adjustment",
+                "Depreciation charge",
+                "LIFO reserve"
+            ],
+            "answer": 0,
+            "explanation": "A valuation allowance reduces a DTA if it is more likely than not that it will not be realized."
+        },
+        {
+            "id": "p1s1_53",
+            "question": "Municipal bond interest is an example of a:",
+            "options": [
+                "Temporary difference",
+                "Permanent difference",
+                "Deferred tax asset",
+                "Cash flow item"
+            ],
+            "answer": 1,
+            "explanation": "Municipal bond interest is tax-exempt — included in book income but never in taxable income (permanent)."
+        },
+        {
+            "id": "p1s1_54",
+            "question": "Tax depreciation exceeding book depreciation creates a:",
+            "options": [
+                "DTA",
+                "DTL",
+                "Permanent difference",
+                "No effect"
+            ],
+            "answer": 1,
+            "explanation": "Higher tax depreciation creates a future taxable amount (DTL) when the difference reverses."
+        },
+        {
+            "id": "p1s1_55",
+            "question": "Under ASC 842, most leases create:",
+            "options": [
+                "No balance sheet impact",
+                "An expense only",
+                "A ROU asset and lease liability",
+                "Revenue"
+            ],
+            "answer": 2,
+            "explanation": "ASC 842 requires lessees to recognize a Right-of-Use asset and corresponding lease liability."
+        },
+        {
+            "id": "p1s1_56",
+            "question": "A finance lease expense pattern is:",
+            "options": [
+                "Straight-line",
+                "Back-loaded (increasing)",
+                "Front-loaded (decreasing)",
+                "Constant"
+            ],
+            "answer": 2,
+            "explanation": "Finance leases have separate interest (declining) and amortization expense, resulting in higher total expense in early years."
+        },
+        {
+            "id": "p1s1_57",
+            "question": "An operating lease expense under ASC 842 is:",
+            "options": [
+                "Interest only",
+                "Amortization only",
+                "Single straight-line lease expense",
+                "OCI"
+            ],
+            "answer": 2,
+            "explanation": "Operating leases recognize a single straight-line lease expense over the lease term."
+        },
+        {
+            "id": "p1s1_58",
+            "question": "Lease capitalization increases reported:",
+            "options": [
+                "Liquidity ratios",
+                "Leverage (debt) ratios",
+                "Revenue",
+                "Equity"
+            ],
+            "answer": 1,
+            "explanation": "Recognizing lease liabilities on the balance sheet increases total liabilities and leverage ratios."
+        },
+        {
+            "id": "p1s1_59",
+            "question": "IFRS allows impairment reversal for:",
+            "options": [
+                "Goodwill",
+                "All assets including goodwill",
+                "Assets other than goodwill",
+                "No assets"
+            ],
+            "answer": 2,
+            "explanation": "IFRS permits impairment reversal for all assets except goodwill."
+        },
+        {
+            "id": "p1s1_60",
+            "question": "The revaluation model for PPE is allowed under:",
+            "options": [
+                "US GAAP only",
+                "IFRS only",
+                "Both GAAP and IFRS",
+                "Neither"
+            ],
+            "answer": 1,
+            "explanation": "IFRS permits upward revaluation of PPE to fair value; GAAP uses historical cost only."
+        },
+        {
+            "id": "p1s1_61",
+            "question": "Development costs under IFRS are:",
+            "options": [
+                "Always expensed",
+                "Capitalized if criteria met",
+                "Reported in OCI",
+                "Classified as financing"
+            ],
+            "answer": 1,
+            "explanation": "IFRS allows capitalization of development costs when specific criteria are met (technical feasibility, intent to complete, etc.)."
+        },
+        {
+            "id": "p1s1_62",
+            "question": "Under IFRS, interest paid can be classified as:",
+            "options": [
+                "Operating only",
+                "Operating or financing",
+                "Investing only",
+                "OCI only"
+            ],
+            "answer": 1,
+            "explanation": "IFRS provides flexibility — interest paid can be classified as operating or financing."
+        },
+        {
+            "id": "p1s1_63",
+            "question": "Consolidated financial statements present the parent and subsidiaries as:",
+            "options": [
+                "Separate legal entities",
+                "A single economic entity",
+                "Independent divisions",
+                "Joint ventures"
+            ],
+            "answer": 1,
+            "explanation": "Consolidation combines the parent and subsidiaries into one economic entity for financial reporting."
+        },
+        {
+            "id": "p1s1_64",
+            "question": "The Voting Interest Model requires consolidation when ownership of voting shares exceeds:",
+            "options": [
+                "10%",
+                "20%",
+                "50%",
+                "80%"
+            ],
+            "answer": 2,
+            "explanation": "The Voting Interest Model typically requires consolidation when ownership exceeds 50% of voting shares."
+        },
+        {
+            "id": "p1s1_65",
+            "question": "The Variable Interest Entity (VIE) model is based on:",
+            "options": [
+                "Voting share ownership percentage",
+                "Power and exposure to risks/rewards",
+                "Revenue share agreements",
+                "Market capitalization"
+            ],
+            "answer": 1,
+            "explanation": "VIE consolidation is based on who has the power to direct activities and bears the majority of risks/rewards."
+        },
+        {
+            "id": "p1s1_66",
+            "question": "Full consolidation includes what percentage of the subsidiary's assets and liabilities?",
+            "options": [
+                "Only the parent's ownership %",
+                "50%",
+                "100%",
+                "80%"
+            ],
+            "answer": 2,
+            "explanation": "Full consolidation combines 100% of the subsidiary's assets, liabilities, revenues, and expenses."
+        },
+        {
+            "id": "p1s1_67",
+            "question": "Non-controlling interest (NCI) in full consolidation is reported in:",
+            "options": [
+                "Liabilities",
+                "Equity",
+                "Revenue",
+                "OCI"
+            ],
+            "answer": 1,
+            "explanation": "NCI represents the portion of equity not owned by the parent and is reported as a separate component of equity."
+        },
+        {
+            "id": "p1s1_68",
+            "question": "Proportionate consolidation is generally NOT permitted under:",
+            "options": [
+                "IFRS",
+                "US GAAP",
+                "Both",
+                "Neither"
+            ],
+            "answer": 1,
+            "explanation": "US GAAP does not allow proportionate consolidation. IFRS allows it for joint ventures."
+        },
+        {
+            "id": "p1s1_69",
+            "question": "Which intercompany item must be eliminated in consolidation?",
+            "options": [
+                "External customer sales",
+                "Intercompany receivables/payables",
+                "Third-party purchases",
+                "Bank loans"
+            ],
+            "answer": 1,
+            "explanation": "Intercompany receivables and payables must be eliminated to avoid double-counting."
+        },
+        {
+            "id": "p1s1_70",
+            "question": "Unrealized profit on intercompany inventory transfers is:",
+            "options": [
+                "Reported in OCI",
+                "Eliminated in consolidation",
+                "Added to revenue",
+                "Ignored"
+            ],
+            "answer": 1,
+            "explanation": "If inventory sold between entities remains unsold to third parties, the unrealized profit must be eliminated."
+        },
+        {
+            "id": "p1s1_71",
+            "question": "Goodwill in consolidation equals:",
+            "options": [
+                "Book value of subsidiary",
+                "Purchase price minus FV of net identifiable assets",
+                "Total assets of subsidiary",
+                "Parent's equity share"
+            ],
+            "answer": 1,
+            "explanation": "Goodwill = Purchase Price paid for subsidiary minus Fair Value of its net identifiable assets."
+        },
+        {
+            "id": "p1s1_72",
+            "question": "Intercompany dividends from subsidiary to parent are:",
+            "options": [
+                "Reported as dividend income",
+                "Eliminated in consolidation",
+                "Added to retained earnings",
+                "Reported in OCI"
+            ],
+            "answer": 1,
+            "explanation": "Intercompany dividends are eliminated because you cannot pay dividends to yourself as a single entity."
+        },
+        {
+            "id": "p1s1_73",
+            "question": "The primary beneficiary of a VIE must:",
+            "options": [
+                "Own >50% of voting shares",
+                "Have power and absorb majority of losses/returns",
+                "Be a government entity",
+                "Have the largest revenue"
+            ],
+            "answer": 1,
+            "explanation": "The primary beneficiary has the power to direct VIE activities and absorbs majority of risks/rewards."
+        },
+        {
+            "id": "p1s1_74",
+            "question": "Under the equity method, the investor records its share of investee's net income as:",
+            "options": [
+                "Cash received",
+                "Investment income (increases investment)",
+                "OCI",
+                "A liability"
+            ],
+            "answer": 1,
+            "explanation": "The investor increases the investment account and recognizes its proportionate share as investment income."
+        },
+        {
+            "id": "p1s1_75",
+            "question": "Ending cash balance appears on which statements?",
+            "options": [
+                "Income statement only",
+                "Cash flow statement only",
+                "Both balance sheet and cash flow statement",
+                "Equity statement only"
+            ],
+            "answer": 2,
+            "explanation": "Ending cash appears on the balance sheet (as cash asset) and at the bottom of the cash flow statement."
+        },
+        {
+            "id": "p1s1_76",
+            "question": "Dividends declared are classified as a(n):",
+            "options": [
+                "Expense on income statement",
+                "Liability when declared",
+                "Direct reduction of revenue",
+                "OCI item"
+            ],
+            "answer": 1,
+            "explanation": "When dividends are declared, a liability (Dividends Payable) is created. They are NOT expenses."
+        },
+        {
+            "id": "p1s1_77",
+            "question": "Revenue is recognized under accrual accounting when:",
+            "options": [
+                "Cash is received",
+                "Invoice is sent",
+                "Performance obligation is satisfied (control transfers)",
+                "Production begins"
+            ],
+            "answer": 2,
+            "explanation": "Under ASC 606, revenue is recognized when (or as) control of the promised good/service transfers to the customer."
+        },
+        {
+            "id": "p1s1_78",
+            "question": "The Statement of Changes in Equity reconciles:",
+            "options": [
+                "Cash changes",
+                "Changes in equity components including RE",
+                "Revenue changes",
+                "Asset changes"
+            ],
+            "answer": 1,
+            "explanation": "It shows changes in RE, common stock, APIC, treasury stock, and AOCI during the period."
+        },
+        {
+            "id": "p1s1_79",
+            "question": "Assets are reported at the measurement basis defined by:",
+            "options": [
+                "Always fair value",
+                "Always historical cost",
+                "The applicable accounting standard",
+                "Replacement cost"
+            ],
+            "answer": 2,
+            "explanation": "Different assets use different bases: historical cost, fair value, amortized cost, NRV — per applicable GAAP/IFRS guidance."
+        },
+        {
+            "id": "p1s1_80",
+            "question": "Inventory errors affect:",
+            "options": [
+                "Balance sheet only",
+                "Income statement only",
+                "Both balance sheet and income statement",
+                "Cash flow only"
+            ],
+            "answer": 2,
+            "explanation": "Inventory errors impact COGS (income statement) and ending inventory (balance sheet)."
+        },
+        {
+            "id": "p1s1_81",
+            "question": "Positive Net Income with negative CFO may indicate:",
+            "options": [
+                "Strong liquidity",
+                "Earnings quality issues",
+                "High dividend payments",
+                "Share buybacks"
+            ],
+            "answer": 1,
+            "explanation": "When income is positive but operating cash flow is negative, it raises questions about earnings quality (aggressive accruals)."
+        },
+        {
+            "id": "p1s1_82",
+            "question": "Under GAAP, dividends received are classified in the cash flow statement as:",
+            "options": [
+                "Operating",
+                "Investing",
+                "Financing",
+                "OCI"
+            ],
+            "answer": 0,
+            "explanation": "Under US GAAP, dividends received from investments are classified as operating activities."
+        },
+        {
+            "id": "p1s1_83",
+            "question": "A decrease in prepaid expenses results in:",
+            "options": [
+                "Subtraction from CFO",
+                "Addition to CFO",
+                "No impact",
+                "Investing outflow"
+            ],
+            "answer": 1,
+            "explanation": "A decrease in a current asset (prepaid) → add to CFO (cash was previously paid, now being expensed)."
+        },
+        {
+            "id": "p1s1_84",
+            "question": "A decrease in unearned revenue results in:",
+            "options": [
+                "Addition to CFO",
+                "Subtraction from CFO",
+                "No impact",
+                "Investing inflow"
+            ],
+            "answer": 1,
+            "explanation": "Decrease in a current liability (unearned revenue) → subtract from CFO (cash was received earlier, now recognized as revenue)."
+        },
+        {
+            "id": "p1s1_85",
+            "question": "Weighted Average cost method:",
+            "options": [
+                "Uses oldest costs for COGS",
+                "Uses newest costs for COGS",
+                "Averages all available costs",
+                "Is prohibited under both GAAP and IFRS"
+            ],
+            "answer": 2,
+            "explanation": "Weighted Average calculates a single average cost for all units available for sale."
+        },
+        {
+            "id": "p1s1_86",
+            "question": "NRV (Net Realizable Value) equals:",
+            "options": [
+                "Selling Price – Normal Profit",
+                "Estimated Selling Price – Costs to Complete and Sell",
+                "Cost + Normal Markup",
+                "Fair Value + Costs to Sell"
+            ],
+            "answer": 1,
+            "explanation": "NRV = Estimated Selling Price minus Estimated Costs of Completion and Disposal."
+        },
+        {
+            "id": "p1s1_87",
+            "question": "Straight-line depreciation allocates cost:",
+            "options": [
+                "Based on usage",
+                "Evenly over useful life",
+                "More in early years",
+                "Based on revenue generated"
+            ],
+            "answer": 1,
+            "explanation": "Straight-line allocates an equal amount of depreciation expense each year."
+        },
+        {
+            "id": "p1s1_88",
+            "question": "Units of Production depreciation is based on:",
+            "options": [
+                "Time",
+                "Actual usage or output",
+                "Revenue",
+                "Fair value"
+            ],
+            "answer": 1,
+            "explanation": "Units of Production allocates depreciation based on actual usage, making expense proportional to output."
+        },
+        {
+            "id": "p1s1_89",
+            "question": "An asset held for sale is measured at:",
+            "options": [
+                "Historical cost",
+                "Fair value less costs to sell",
+                "Undiscounted cash flows",
+                "Replacement cost"
+            ],
+            "answer": 1,
+            "explanation": "Assets held for sale are reported at the lower of carrying amount or fair value less costs to sell."
+        },
+        {
+            "id": "p1s1_90",
+            "question": "Under GAAP, which of the following is a non-cash item added back in the indirect method?",
+            "options": [
+                "Cash sales",
+                "Amortization of intangible assets",
+                "Dividends paid",
+                "Purchase of inventory"
+            ],
+            "answer": 1,
+            "explanation": "Amortization is a non-cash expense that reduces net income but does not use cash — add back."
+        },
+        {
+            "id": "p1s1_91",
+            "question": "Basic EPS equals:",
+            "options": [
+                "Net Income / Total Shares Outstanding",
+                "(Net Income – Preferred Dividends) / Weighted Average Common Shares",
+                "Gross Profit / Shares",
+                "CFO / Shares"
+            ],
+            "answer": 1,
+            "explanation": "Basic EPS = (Net Income – Preferred Dividends) ÷ Weighted Average Common Shares Outstanding."
+        },
+        {
+            "id": "p1s1_92",
+            "question": "Treasury stock is:",
+            "options": [
+                "An asset",
+                "A contra-equity account",
+                "A liability",
+                "Revenue"
+            ],
+            "answer": 1,
+            "explanation": "Treasury stock is a company's own shares repurchased. It reduces total equity (contra-equity)."
+        },
+        {
+            "id": "p1s1_93",
+            "question": "The matching principle requires:",
+            "options": [
+                "Cash receipts matched to cash payments",
+                "Expenses recognized in the same period as related revenues",
+                "Assets to equal liabilities",
+                "Revenue delayed until cash received"
+            ],
+            "answer": 1,
+            "explanation": "The matching principle ensures expenses are recorded in the period they help generate revenue."
+        },
+        {
+            "id": "p1s1_94",
+            "question": "Accrued expenses are:",
+            "options": [
+                "Paid in advance",
+                "Incurred but not yet paid",
+                "Revenue items",
+                "Non-current liabilities"
+            ],
+            "answer": 1,
+            "explanation": "Accrued expenses are obligations for services/goods received but not yet paid for (current liability)."
+        },
+        {
+            "id": "p1s1_95",
+            "question": "Prepaid expenses are classified as:",
+            "options": [
+                "Liabilities",
+                "Current assets",
+                "Equity",
+                "Revenue"
+            ],
+            "answer": 1,
+            "explanation": "Prepaid expenses represent future economic benefits paid in advance — current asset."
+        },
+        {
+            "id": "p1s1_96",
+            "question": "GAAP uses a two-step impairment test for:",
+            "options": [
+                "Inventory",
+                "Accounts receivable",
+                "Long-lived assets held for use",
+                "Trading securities"
+            ],
+            "answer": 2,
+            "explanation": "Long-lived assets held for use undergo Step 1 (recoverability) then Step 2 (write-down to FV) if needed."
+        },
+        {
+            "id": "p1s1_97",
+            "question": "Debt-to-Equity ratio equals:",
+            "options": [
+                "Equity / Assets",
+                "Total Liabilities / Total Equity",
+                "Assets / Liabilities",
+                "Net Income / Equity"
+            ],
+            "answer": 1,
+            "explanation": "Debt-to-Equity = Total Liabilities ÷ Total Equity. Measures financial leverage."
+        },
+        {
+            "id": "p1s1_98",
+            "question": "Current Ratio equals:",
+            "options": [
+                "Current Assets / Total Assets",
+                "Current Assets / Current Liabilities",
+                "Current Liabilities / Current Assets",
+                "Cash / Current Liabilities"
+            ],
+            "answer": 1,
+            "explanation": "Current Ratio = Current Assets ÷ Current Liabilities. Measures short-term liquidity."
+        },
+        {
+            "id": "p1s1_99",
+            "question": "Goodwill impairment under GAAP results in:",
+            "options": [
+                "A write-up to fair value",
+                "A write-down to fair value (loss recognized)",
+                "Amortization over remaining life",
+                "No accounting impact"
+            ],
+            "answer": 1,
+            "explanation": "When the carrying amount of a reporting unit exceeds its fair value, goodwill is written down (impairment loss)."
+        },
+        {
+            "id": "p1s1_100",
+            "question": "The qualitative characteristics of useful financial information include:",
+            "options": [
+                "Profitability and liquidity",
+                "Relevance and faithful representation",
+                "Cash flow and leverage",
+                "LIFO and FIFO"
+            ],
+            "answer": 1,
+            "explanation": "The FASB Conceptual Framework identifies Relevance and Faithful Representation as the two fundamental qualitative characteristics."
+        }
+    ]
+}

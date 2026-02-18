@@ -1,0 +1,1387 @@
+{
+    "id": "p2-s2",
+    "title": "Corporate Finance – Ultra Detailed Revision Edition",
+    "weightage": "20%",
+    "recommendedStudyHours": "40-45 hours",
+    "examLevel": "Level C (Analysis, Evaluation, Synthesis)",
+    "overview": "Corporate Finance (20% of Part 2) focuses on maximizing shareholder value through long-term investment financing (Capital Structure), short-term liquidity management (Working Capital), and risk management. Mastery of WACC, CAPM, Working Capital metrics, and International Finance instruments is essential.",
+    "bulletNotes": [
+        "**Risk & Return**: High risk = High expected return. **Systematic Risk** (Market/Beta) cannot be diversified. **Unsystematic Risk** (Company-specific) can be eliminated by diversification.",
+        "**CAPM**: Re = Rf + β(Rm – Rf). Beta measures sensitivity to market movements.",
+        "**WACC**: The average cost of funding (Debt + Equity). Used as the hurdle rate for capital budgeting. **Interest is tax-deductible**; dividends are not.",
+        "**Term Structure**: **Normal Yield Curve** (Upward sloping) = Expect higher future rates/inflation. **Inverted** = Expect recession.",
+        "**Market Efficiency (EMH)**: **Weak** (Past prices useless), **Semi-Strong** (Public info useless), **Strong** (All info useless - Inside info included).",
+        "**Working Capital**: **Aggressive** (Low current assets, uses short-term debt) = High Risk/Return. **Conservative** (High current assets, uses long-term debt) = Low Risk/Return.",
+        "**Cash Management**: **Lockbox** (Speeds collection), **Float** (Check clearing time), **Motives** (Transactional, Precautionary, Speculative).",
+        "**Inventory**: **EOQ** balances ordering costs vs holding costs. **JIT** reduces carrying costs but increases stockout risk.",
+        "**Corporate Restructuring**: **Spin-off** (New independent company, shares to existing owners), **Carve-out** (IPO of subsidiary), **Split-off** (Exchange shares).",
+        "**Derivatives**: **Forward** (Custom, OTC, Counterparty risk), **Future** (Standard, Exchange, Margin), **Option** (Right, not obligation), **Swap** (Exchange cash flows)."
+    ],
+    "shortNotes": "WACC is the most critical calculation. Always tax-adjust the Cost of Debt: Kd × (1 - t). For Working Capital, know the trade-off:holding more assets (cash/inventory) lowers risk but hurts profitability (ROA). In International Finance, 'Translation' is accounting (OCI), 'Transaction' is cash flow risk.",
+    "concepts": [
+        {
+            "title": "1. Risk and Return",
+            "content": "<p><strong>Systematic Risk (Market Risk)</strong><br>Affects all companies (e.g., inflation, recession, interest rates). Cannot be diversified away. Measured by <strong>Beta (&beta;)</strong>.</p><p><strong>Unsystematic Risk (Company Risk)</strong><br>Specific to one company (e.g., strike, lawsuit, new product fail). Can be eliminated by holding a <strong>diversified portfolio</strong>.</p><p><strong>Capital Asset Pricing Model (CAPM)</strong><br>Calculates required return on equity based on systematic risk.<br><code>Re = Rf + &beta;(Rm – Rf)</code><br><em>(Rm – Rf)</em> = Market Risk Premium.</p>"
+        },
+        {
+            "title": "2. Long-Term Financial Management",
+            "content": "<h3>Term Structure of Interest Rates (Yield Curve)</h3><ul><li><strong>Normal (Upward):</strong> Long-term rates > Short-term rates. Economy growing.</li><li><strong>Inverted (Downward):</strong> Long-term rates < Short-term rates. Predicts recession.</li><li><strong>Flat:</strong> Uncertainty or transition.</li></ul><h3>Bond Yields</h3><ul><li><strong>Coupon Rate:</strong> Stated interest rate.</li><li><strong>Current Yield:</strong> Annual Coupon / Market Price.</li><li><strong>Yield to Maturity (YTM):</strong> Total return if held to maturity (Internal Rate of Return).</li></ul><h3>Financial Instruments</h3><ul><li><strong>Debentures:</strong> Unsecured bonds (backed by creditworthiness).</li><li><strong>Indentures:</strong> Contract detailing bond terms and covenants.</li><li><strong>Zero-Coupon Bonds:</strong> No interest payments; sold at deep discount.</li></ul>"
+        },
+        {
+            "title": "3. Cost of Capital",
+            "content": "<p><strong>Weighted Average Cost of Capital (WACC)</strong><br>The minimum return a company must earn on its existing asset base to satisfy its creditors, owners, and other providers of capital.</p><p><code>WACC = (We × Ke) + (Wd × Kd × (1 - t)) + (Wps × Kps)</code></p><ul><li><strong>Components:</strong><br>- <strong>Ke (Common Equity):</strong> Most expensive. Calculated via CAPM, DDM, or Bond Yield + Premium.<br>- <strong>Kd (Debt):</strong> Cheapest. Interest is tax-deductible (1-t).<br>- <strong>Kps (Preferred Stock):</strong> Dividends / Net Price. No tax shield.</li><li><strong>Use:</strong> Discount rate for NPV; Hurdle rate for projects.</li></ul>"
+        },
+        {
+            "title": "4. Raising Capital & Market Efficiency",
+            "content": "<h3>Market Efficiency Hypothesis (EMH)</h3><ul><li><strong>Weak Form:</strong> Prices reflect all <em>past</em> market data. Technical analysis doesn't work.</li><li><strong>Semi-Strong Form:</strong> Prices reflect all <em>public</em> information. Fundamental analysis doesn't work.</li><li><strong>Strong Form:</strong> Prices reflect <em>all</em> info (public + private). Insider trading doesn't work.</li></ul><h3>Dividend Policy</h3><ul><li><strong>Declaration Date:</strong> Board authorizes dividend (Liability created).</li><li><strong>Ex-Dividend Date:</strong> Stock trades without dividend (Price drops).</li><li><strong>Record Date:</strong> Identify shareholders.</li><li><strong>Payment Date:</strong> Checks mailed.</li></ul>"
+        },
+        {
+            "title": "5. Working Capital – Inventory Management",
+            "content": "<p><strong>Economic Order Quantity (EOQ)</strong><br>Minimizes total inventory costs (Ordering + Carrying).</p><p><code>EOQ = &radic;[(2 × Annual Demand × Order Cost) / Carrying Cost per Unit]</code></p><ul><li><strong>Just-in-Time (JIT):</strong> Pull system. Reduces carrying costs to near zero but requires reliable suppliers and increases stockout risk.</li><li><strong>Safety Stock:</strong> Buffer against demand spikes or lead time delays.</li><li><strong>Lead Time:</strong> Time from placing order to receipt.</li></ul>"
+        },
+        {
+            "title": "6. Working Capital – Receivables & Cash",
+            "content": "<h3>Cash Management</h3><ul><li><strong>Float:</strong> Difference between bank balance and book balance. Benefit to payer, cost to payee.</li><li><strong>Lockbox System:</strong> Customers mail checks to local PO boxes; banks empty them daily. <em>Benefit:</em> Reduces processing and mail float.</li></ul><h3>Receivables Management</h3><ul><li><strong>Factoring:</strong> Selling AR to a third party (Factor) for cash.<br>- <em>With Recourse:</em> Seller bears bad debt risk.<br>- <em>Without Recourse:</em> Factor bears bad debt risk (higher fee).</li><li><strong>Credit Terms (2/10, net 30):</strong> 2% discount if paid in 10 days; otherwise full amount in 30 days.</li></ul>"
+        },
+        {
+            "title": "7. Corporate Restructuring",
+            "content": "<h3>Mergers & Acquisitions</h3><ul><li><strong>Horizontal:</strong> Competitors merge (Market share).</li><li><strong>Vertical:</strong> Supplier/Customer merge (Supply chain control).</li><li><strong>Conglomerate:</strong> Unrelated businesses (Diversification).</li></ul><h3>Divestitures</h3><ul><li><strong>Spin-off:</strong> Division becomes independent; shares distributed to parents' shareholders pro-rata. No cash changes hands.</li><li><strong>Carve-out:</strong> Parent sells partial interest in subsidiary to public (IPO). Raises cash.</li><li><strong>Split-off:</strong> Shareholders exchange parent shares for sub shares.</li></ul><h3>Defenses</h3><ul><li><strong>Poison Pill:</strong> Allows existing shareholders to buy shares at discount to dilute acquirer.</li><li><strong>White Knight:</strong> Friendly acquirer saves target from hostile one.</li></ul>"
+        },
+        {
+            "title": "8. International Finance – Risk & Hedging",
+            "content": "<h3>Exchange Rate Risk</h3><ul><li><strong>Transaction Risk:</strong> Risk that cash flows from committed transactions will change value due to FX rates. <em>Hedge:</em> Forwards, Futures, Options.</li><li><strong>Translation Risk (Accounting):</strong> Risk that reported financial statements change value when consolidating foreign subs. <em>Hedge:</em> Balance sheet matching.</li><li><strong>Economic Risk:</strong> Long-term competitive risk due to FX trends. <em>Hedge:</em> Operational changes (sourcing/selling locally).</li></ul><h3>Hedging Instruments</h3><ul><li><strong>Forward:</strong> Private, customizable, obligates exchange. Counterparty risk.</li><li><strong>Future:</strong> Standardized, exchange-traded, margin required.</li><li><strong>Option:</strong> Right to buy (Call) or sell (Put). Cost = Premium. Best for contingent cash flows.</li><li><strong>Swap:</strong> Agreement to exchange interest rates or currencies.</li></ul>"
+        }
+    ],
+    "formulas": [
+        {
+            "name": "CAPM",
+            "formula": "Re = Rf + Beta × (Rm - Rf)"
+        },
+        {
+            "name": "WACC",
+            "formula": "(We × Ke) + (Wd × Kd(1-t)) + (Wps × Kps)"
+        },
+        {
+            "name": "After-Tax Cost of Debt",
+            "formula": "Pre-tax Rate × (1 - Tax Rate)"
+        },
+        {
+            "name": "Cost of Preferred Stock",
+            "formula": "Dividend / Net Issuance Price"
+        },
+        {
+            "name": "Gordon Growth Model (DDM)",
+            "formula": "Price = D1 / (Ke - g)  OR  Ke = (D1 / Price) + g"
+        },
+        {
+            "name": "EOQ",
+            "formula": "Square Root of [(2 × Annual Demand × Cost per Order) / Carrying Cost per Unit]"
+        },
+        {
+            "name": "Cost of Trade Credit (APR)",
+            "formula": "[Discount % / (1 - Discount %)] × [365 / (Total Days - Discount Days)]"
+        },
+        {
+            "name": "Effective Interest Rate",
+            "formula": "(1 + Period Rate)^n - 1"
+        },
+        {
+            "name": "Reorder Point",
+            "formula": "(Average Daily Usage × Lead Time) + Safety Stock"
+        },
+        {
+            "name": "Current Yield",
+            "formula": "Annual Coupon Payment / Current Market Price"
+        },
+        {
+            "name": "Degree of Operating Leverage (DOL)",
+            "formula": "Contribution Margin / EBIT"
+        },
+        {
+            "name": "Degree of Financial Leverage (DFL)",
+            "formula": "EBIT / (EBIT - Interest)"
+        },
+        {
+            "name": "Degree of Total Leverage (DTL)",
+            "formula": "DOL × DFL"
+        },
+        {
+            "name": "Inventory Reorder Point",
+            "formula": "Avg Daily Usage × Lead Time"
+        }
+    ],
+    "mistakes": [
+        "Ignoring the **Tax Shield** on debt. Interest is tax-deductible; dividends are NOT.",
+        "Using **Book Value** instead of **Market Value** for WACC weights. Always prefer market value.",
+        "Confusing **Systematic** vs **Unsystematic** risk. Beta measures Systematic only.",
+        "Thinking **Retained Earnings** are free. They have an opportunity cost (Ke).",
+        "Confusing **Futures** (Exchange, Standard) with **Forwards** (OTC, Custom).",
+        "Miscalculating **Cost of Trade Credit** by not annualizing it. It's usually very expensive (>30%).",
+        "Forgetting that **Spin-offs** do not raise cash for the parent, while **Carve-outs** do.",
+        "Assuming **Diversification** eliminates all risk. It only eliminates Unsystematic risk."
+    ],
+    "quiz": [
+        {
+            "question": "Which component of WACC requires a tax adjustment?",
+            "options": [
+                "Cost of Common Equity",
+                "Cost of Debt",
+                "Cost of Preferred Stock",
+                "Retained Earnings"
+            ],
+            "answer": 1,
+            "explanation": "Interest on debt is tax-deductible, creating a tax shield that lowers the effective cost of debt. Dividends are paid from after-tax income."
+        },
+        {
+            "question": "According to the CAPM, the expected return on a stock is a function of its associated:",
+            "options": [
+                "Total risk",
+                "Unsystematic risk",
+                "Systematic risk",
+                "Business risk"
+            ],
+            "answer": 2,
+            "explanation": "CAPM prices systematic risk (Beta). Unsystematic risk is assumed to be diversified away."
+        },
+        {
+            "question": "Which inventory management technique focuses on minimizing the total of ordering and carrying costs?",
+            "options": [
+                "Just-in-Time (JIT)",
+                "Economic Order Quantity (EOQ)",
+                "Materials Requirements Planning (MRP)",
+                "ABC Analysis"
+            ],
+            "answer": 1,
+            "explanation": "EOQ is the mathematical model specifically designed to balance and minimize total ordering and carrying costs."
+        },
+        {
+            "question": "A 'Spin-off' differs from a 'Carve-out' in that:",
+            "options": [
+                "A spin-off generates cash for the parent",
+                "A carve-out distributes shares to existing shareholders",
+                "A spin-off distributes shares to existing shareholders and raises no cash",
+                "A carve-out results in total separation"
+            ],
+            "answer": 2,
+            "explanation": "In a spin-off, the parent distributes shares of the new sub to its own shareholders (pro-rata). No cash is raised. A carve-out sells shares to the public (IPO) and raises cash."
+        },
+        {
+            "question": "Which financial instrument grants the right, but not the obligation, to buy an asset at a set price?",
+            "options": [
+                "Futures contract",
+                "Forward contract",
+                "Call option",
+                "Swap"
+            ],
+            "answer": 2,
+            "explanation": "An option provides a right without obligation. Futures and forwards are obligations."
+        }
+    ],
+    "essay": {
+        "question": "Company X is considering moving from a conservative working capital policy to an aggressive one. 1) Define both policies. 2) Analyze the impact of this change on the company's risk and profitability (Return on Assets).",
+        "modelAnswer": "<p><strong>1. Definitions:</strong><br><ul><li><strong>Conservative Policy:</strong> High levels of current assets (large inventory/cash buffers) and financing with long-term debt.</li><li><strong>Aggressive Policy:</strong> Low levels of current assets (lean inventory/cash) and financing with short-term debt.</li></ul></p><p><strong>2. Impact Analysis:</strong><br><ul><li><strong>Risk:</strong> Moving to aggressive INCREASES risk. Lower liquidity buffers mean higher risk of stockouts or liquidity crunches. Reliance on short-term debt increases interest rate risk and refinancing risk.</li><li><strong>Profitability (ROA):</strong> Moving to aggressive INCREASES profitability. Reducing idle current assets lowers the asset base (denominator of ROA). Evaluating lower interest rates on short-term debt (normally) also boosts income. Thus, Aggressive = High Risk / High Return.</li></ul></p>"
+    },
+    "summary": "Corporate Finance (20%) tests the trade-off between Risk and Return. Mastery involves calculating WACC accurately (remember tax shields), understanding the risk diversification principles of CAPM, managing working capital efficiency (EOQ, Factoring), and navigating international risks using derivatives.",
+    "test": [
+        {
+            "id": "p2s2_1",
+            "question": "Which of the following best describes systematic risk?",
+            "options": [
+                "Risk that is unique to a specific company",
+                "Risk that can be eliminated through diversification",
+                "Risk inherent to the entire market",
+                "Risk from a labor strike"
+            ],
+            "answer": 2,
+            "explanation": "Systematic risk (market risk) affects the entire market and cannot be diversified away. Examples: inflation, recession."
+        },
+        {
+            "id": "p2s2_2",
+            "question": "Beta measures which type of risk?",
+            "options": [
+                "Total risk",
+                "Unsystematic risk",
+                "Systematic risk",
+                "Business risk"
+            ],
+            "answer": 2,
+            "explanation": "Beta measures the sensitivity of a stock's returns to market returns — solely measuring systematic risk."
+        },
+        {
+            "id": "p2s2_3",
+            "question": "If a stock has a beta of 1.2, it is:",
+            "options": [
+                "Less volatile than the market",
+                "More volatile than the market",
+                "Equal volatility to the market",
+                "Risk-free"
+            ],
+            "answer": 1,
+            "explanation": "Beta > 1.0 implies the stock is more volatile than the overall market (Beta = 1.0)."
+        },
+        {
+            "id": "p2s2_4",
+            "question": "Unsystematic risk can be reduced by:",
+            "options": [
+                "Increasing beta",
+                "Investing in Treasury bonds",
+                "Diversifying the portfolio",
+                "Buying index funds"
+            ],
+            "answer": 2,
+            "explanation": "Diversification eliminates unsystematic (company-specific) risk."
+        },
+        {
+            "id": "p2s2_5",
+            "question": "The Capital Asset Pricing Model (CAPM) calculates the:",
+            "options": [
+                "Cost of debt",
+                "Cost of preferred stock",
+                "Required rate of return on equity",
+                "Weighted average cost of capital"
+            ],
+            "answer": 2,
+            "explanation": "CAPM calculates the required return on equity (Ke) based on systematic risk (Beta)."
+        },
+        {
+            "id": "p2s2_6",
+            "question": "Company A has Beta = 1.5, Rf = 3%, Rm = 11%. The required return is:",
+            "options": [
+                "12%",
+                "15%",
+                "16.5%",
+                "19.5%"
+            ],
+            "answer": 1,
+            "explanation": "Re = 3% + 1.5(11% - 3%) = 3% + 1.5(8%) = 3% + 12% = 15%."
+        },
+        {
+            "id": "p2s2_7",
+            "question": "The 'Market Risk Premium' in CAPM is represented by:",
+            "options": [
+                "Rm",
+                "Rm – Rf",
+                "Beta × Rm",
+                "Rf + Beta"
+            ],
+            "answer": 1,
+            "explanation": "Market Risk Premium = (Market Return – Risk-Free Rate). It's the extra return demanded for taking market risk."
+        },
+        {
+            "id": "p2s2_8",
+            "question": "A normal yield curve is:",
+            "options": [
+                "Downward sloping",
+                "Flat",
+                "Upward sloping",
+                "Vertical"
+            ],
+            "answer": 2,
+            "explanation": "A normal yield curve slopes upward, indicating long-term rates are higher than short-term rates."
+        },
+        {
+            "id": "p2s2_9",
+            "question": "An inverted yield curve is a strong predictor of:",
+            "options": [
+                "Economic expansion",
+                "Inflation",
+                "Recession",
+                "Lower taxes"
+            ],
+            "answer": 2,
+            "explanation": "An inverted yield curve (short-term > long-term rates) historically precedes a recession."
+        },
+        {
+            "id": "p2s2_10",
+            "question": "Which bond has the highest interest rate risk?",
+            "options": [
+                "Short-term bond with high coupon",
+                "Long-term zero-coupon bond",
+                "Floating rate bond",
+                "Treasury bill"
+            ],
+            "answer": 1,
+            "explanation": "Long-term, low-coupon (or zero) bonds have the highest duration and price sensitivity to interest rate changes."
+        },
+        {
+            "id": "p2s2_11",
+            "question": "A debenture is:",
+            "options": [
+                "Secured by specific assets",
+                "An unsecured bond backed by creditworthiness",
+                "Convertible into stock",
+                "Risk-free"
+            ],
+            "answer": 1,
+            "explanation": "Debentures are unsecured bonds backed only by the general creditworthiness of the issuer."
+        },
+        {
+            "id": "p2s2_12",
+            "question": "The call provision in a bond allows:",
+            "options": [
+                "The holder to sell it back",
+                "The issuer to redeem it before maturity",
+                "The holder to convert it to stock",
+                "The coupon rate to change"
+            ],
+            "answer": 1,
+            "explanation": "Call provisions allow the issuer to buy back (redeem) the bond early, usually when interest rates fall."
+        },
+        {
+            "id": "p2s2_13",
+            "question": "Zero-coupon bonds are issued at:",
+            "options": [
+                "Par value",
+                "A premium",
+                "A deep discount",
+                "A variable rate"
+            ],
+            "answer": 2,
+            "explanation": "Zeros pay no interest; return comes from buying at a deep discount and redeeming at par."
+        },
+        {
+            "id": "p2s2_14",
+            "question": "Preferred stock is similar to debt because:",
+            "options": [
+                "Dividends are tax-deductible",
+                "It has a fixed dividend payment",
+                "It has voting rights",
+                "It matures in 10 years"
+            ],
+            "answer": 1,
+            "explanation": "Preferred stock pays a fixed dividend, similar to bond interest (though dividends are not tax-deductible)."
+        },
+        {
+            "id": "p2s2_15",
+            "question": "WACC represents the:",
+            "options": [
+                "Cost of equity only",
+                "Minimum return required on existing assets",
+                "Maximum return allowed by regulators",
+                "Risk-free rate"
+            ],
+            "answer": 1,
+            "explanation": "WACC is the weighted average cost of all capital sources and represents the hurdle rate for investments."
+        },
+        {
+            "id": "p2s2_16",
+            "question": "Why is the cost of debt adjusted for taxes in WACC?",
+            "options": [
+                "Interest is tax-deductible",
+                "Dividends are tax-deductible",
+                "Principal payments are tax-deductible",
+                "Debt is riskier than equity"
+            ],
+            "answer": 0,
+            "explanation": "Interest expense reduces taxable income, creating a tax shield. Cost of Debt = Kd × (1 - Tax Rate)."
+        },
+        {
+            "id": "p2s2_17",
+            "question": "Which component of WACC typically has the highest cost?",
+            "options": [
+                "Debt",
+                "Preferred Stock",
+                "Common Equity",
+                "Retained Earnings"
+            ],
+            "answer": 2,
+            "explanation": "Common equity is the riskiest (last claim on assets), so investors demand the highest return (Ke)."
+        },
+        {
+            "id": "p2s2_18",
+            "question": "If corporate tax rates increase, WACC will likely:",
+            "options": [
+                "Increase",
+                "Decrease",
+                "Stay the same",
+                "Double"
+            ],
+            "answer": 1,
+            "explanation": "Higher tax rates increase the tax shield value (1-t decreases), lowering the after-tax cost of debt and WACC."
+        },
+        {
+            "id": "p2s2_19",
+            "question": "A company should use which weights for WACC?",
+            "options": [
+                "Historical Book Value",
+                "Target Capital Structure (Market Value)",
+                "Industry Average",
+                "Liquidation Value"
+            ],
+            "answer": 1,
+            "explanation": "Target market value weights reflect the actual economic cost of raising new capital."
+        },
+        {
+            "id": "p2s2_20",
+            "question": "The Marginal Cost of Capital (MCC) is:",
+            "options": [
+                "The cost of the last dollar of capital raised",
+                "The average cost of all past capital",
+                "Equal to WACC",
+                "The risk-free rate"
+            ],
+            "answer": 0,
+            "explanation": "MCC is the cost of raising the NEXT dollar of capital. It typically increases as more capital is raised."
+        },
+        {
+            "id": "p2s2_21",
+            "question": "According to the Pecking Order Theory, firms prefer financing in this order:",
+            "options": [
+                "Equity first, then Debt, then Internal Funds",
+                "Internal Funds first, then Debt, then Equity",
+                "Debt first, then Equity, then Internal Funds",
+                "Equity only"
+            ],
+            "answer": 1,
+            "explanation": "Managers prefer Internal Funds (Retained Earnings) first (cheapest/easiest), then Debt, and Equity last (signal of overvaluation)."
+        },
+        {
+            "id": "p2s2_22",
+            "question": "Efficient Market Hypothesis (EMH) Weak Form asserts that:",
+            "options": [
+                "All public info is reflected in prices",
+                "Technical analysis (past prices) is useless",
+                "Insider information is reflected in prices",
+                "Fundamental analysis is useless"
+            ],
+            "answer": 1,
+            "explanation": "Weak form EMH says distinct patterns in past prices (technical analysis) cannot predict future prices."
+        },
+        {
+            "id": "p2s2_23",
+            "question": "EMH Semi-Strong Form asserts that:",
+            "options": [
+                "Prices reflect all public information",
+                "Insider trading is legal",
+                "Technical analysis works",
+                "Markets are always wrong"
+            ],
+            "answer": 0,
+            "explanation": "Semi-strong form says prices instantly reflect all publicly available information (earnings, news)."
+        },
+        {
+            "id": "p2s2_24",
+            "question": "Usually, the ex-dividend date is set:",
+            "options": [
+                "One business day before the record date",
+                "On the declaration date",
+                "On the payment date",
+                "One month after record date"
+            ],
+            "answer": 0,
+            "explanation": "Ex-dividend date is usually 1 business day before record date. You must buy BEFORE this day to get the dividend."
+        },
+        {
+            "id": "p2s2_25",
+            "question": "A stock dividend:",
+            "options": [
+                "Increases total equity",
+                "Decreases total equity",
+                "Does not change total equity",
+                "Increases cash"
+            ],
+            "answer": 2,
+            "explanation": "Stock dividends just reclassify Retained Earnings to Common Stock/APIC. Total Equity remains unchanged."
+        },
+        {
+            "id": "p2s2_26",
+            "question": "Working Capital management involves managing:",
+            "options": [
+                "Long-term assets and liabilities",
+                "Current assets and current liabilities",
+                "Only cash",
+                "Only inventory"
+            ],
+            "answer": 1,
+            "explanation": "Working Capital = Current Assets – Current Liabilities. Management involves optimizing both."
+        },
+        {
+            "id": "p2s2_27",
+            "question": "An aggressive working capital policy is characterized by:",
+            "options": [
+                "High current assets, low short-term debt",
+                "Low current assets, high short-term debt",
+                "Zero debt",
+                "High cash balances"
+            ],
+            "answer": 1,
+            "explanation": "Aggressive = Low liquidity buffer (low CA) and high use of cheaper but riskier short-term debt."
+        },
+        {
+            "id": "p2s2_28",
+            "question": "A conservative working capital policy results in:",
+            "options": [
+                "High risk, high return",
+                "Low risk, low return",
+                "Zero liquidity",
+                "High profitability"
+            ],
+            "answer": 1,
+            "explanation": "Conservative = High CA (liquidity buffer) and long-term financing. Lowers risk but lower returns (carrying cost)."
+        },
+        {
+            "id": "p2s2_29",
+            "question": "The primary goal of cash management is to:",
+            "options": [
+                "Maximize cash balance",
+                "Minimize cash balance",
+                "Speed up collections and slow down disbursements",
+                "Pay bills immediately"
+            ],
+            "answer": 2,
+            "explanation": "Accelerate cash inflows (collections) and decelerate cash outflows (disbursements) to maximize float."
+        },
+        {
+            "id": "p2s2_30",
+            "question": "Float is defined as:",
+            "options": [
+                "The time between sale and collection",
+                "Difference between bank balance and book balance",
+                "The interest rate on debt",
+                "Inventory lead time"
+            ],
+            "answer": 1,
+            "explanation": "Float is the difference between the balance shown on the company's books and the bank's records (clearing time)."
+        },
+        {
+            "id": "p2s2_31",
+            "question": "A lockbox system is used to:",
+            "options": [
+                "Slow down payments",
+                "Accelerate cash collections",
+                "Store inventory",
+                "Reduce bad debts"
+            ],
+            "answer": 1,
+            "explanation": "Lockboxes (bank-managed PO boxes) reduce mail float and processing float, speeding up cash availability."
+        },
+        {
+            "id": "p2s2_32",
+            "question": "Which of the following is a motive for holding cash?",
+            "options": [
+                "Speculative motive",
+                "Transactional motive",
+                "Precautionary motive",
+                "All of the above"
+            ],
+            "answer": 3,
+            "explanation": "Keynes identified three motives: Transactional (pay bills), Precautionary (buffer), Speculative (opportunities)."
+        },
+        {
+            "id": "p2s2_33",
+            "question": "Economic Order Quantity (EOQ) minimizes:",
+            "options": [
+                "Ordering costs only",
+                "Carrying costs only",
+                "Total of ordering and carrying costs",
+                "Purchase price"
+            ],
+            "answer": 2,
+            "explanation": "EOQ specifically finds the order size where the sum of Ordering Costs + Carrying Costs is minimized."
+        },
+        {
+            "id": "p2s2_34",
+            "question": "In the EOQ model, if order size increases:",
+            "options": [
+                "Ordering costs increase",
+                "Carrying costs decrease",
+                "Carrying costs increase",
+                "Total costs stay same"
+            ],
+            "answer": 2,
+            "explanation": "Larger orders mean higher average inventory, which increases carrying/holding costs."
+        },
+        {
+            "id": "p2s2_35",
+            "question": "Just-In-Time (JIT) inventory systems aim to:",
+            "options": [
+                "Maximize inventory buffers",
+                "Reduce inventory to near zero",
+                "Increase lead times",
+                "Reduce quality"
+            ],
+            "answer": 1,
+            "explanation": "JIT aims to eliminate waste by receiving inventory only when needed for production."
+        },
+        {
+            "id": "p2s2_36",
+            "question": "Safety stock is held to protect against:",
+            "options": [
+                "Price increases",
+                "Demand uncertainty and lead time delays",
+                "Obsolescence",
+                "Theft"
+            ],
+            "answer": 1,
+            "explanation": "Safety stock is a buffer against stockouts caused by unexpected demand spikes or supplier delays."
+        },
+        {
+            "id": "p2s2_37",
+            "question": "The Reorder Point is calculated as:",
+            "options": [
+                "EOQ + Safety Stock",
+                "(Avg Daily Usage × Lead Time) + Safety Stock",
+                "Max Usage × Lead Time",
+                "EOQ / 2"
+            ],
+            "answer": 1,
+            "explanation": "Reorder Point is the inventory level that triggers a new order. Enough to cover lead time demand + safety stock."
+        },
+        {
+            "id": "p2s2_38",
+            "question": "Factoring involves:",
+            "options": [
+                "Issuing new shares",
+                "Selling accounts receivable for cash",
+                "Buying inventory on credit",
+                "Merging with a competitor"
+            ],
+            "answer": 1,
+            "explanation": "Factoring is the sale of receivables to a third party (factor) for immediate cash (at a discount)."
+        },
+        {
+            "id": "p2s2_39",
+            "question": "Factoring 'without recourse' means:",
+            "options": [
+                "The seller bears the credit risk",
+                "The factor bears the credit risk",
+                "The bank guarantees payment",
+                "No fees are charged"
+            ],
+            "answer": 1,
+            "explanation": "Without recourse means if the customer effectively defaults, the loss is the factor's problem, not the seller's."
+        },
+        {
+            "id": "p2s2_40",
+            "question": "Terms '2/10, net 30' mean:",
+            "options": [
+                "2% interest if paid in 30 days",
+                "2% discount if paid in 10 days; full due in 30",
+                "10% discount if paid in 2 days",
+                "Net profit is 30%"
+            ],
+            "answer": 1,
+            "explanation": "2% discount if paid within 10 days; otherwise full amount due in 30 days."
+        },
+        {
+            "id": "p2s2_41",
+            "question": "The annual cost of foregoing a 2/10, net 30 discount is approx:",
+            "options": [
+                "2%",
+                "10%",
+                "37%",
+                "70%"
+            ],
+            "answer": 2,
+            "explanation": "(2/98) × (365/20) ≈ 37.2%. It's very expensive trade credit."
+        },
+        {
+            "id": "p2s2_42",
+            "question": "A horizontal merger occurs between:",
+            "options": [
+                "Sensitivity Training",
+                "Competitors in the same industry",
+                "Supplier and customer",
+                "Unrelated companies"
+            ],
+            "answer": 1,
+            "explanation": "Horizontal merger = Two firms at the same stage in the same industry (e.g., T-Mobile & Sprint)."
+        },
+        {
+            "id": "p2s2_43",
+            "question": "A vertical merger occurs between:",
+            "options": [
+                "Competitors",
+                "Firms at different stages of the supply chain",
+                "Unrelated firms",
+                "Banks"
+            ],
+            "answer": 1,
+            "explanation": "Vertical merger = Buying a supplier (backward) or customer (forward)."
+        },
+        {
+            "id": "p2s2_44",
+            "question": "A conglomerate merger involves:",
+            "options": [
+                "Unrelated business activities",
+                "Direct competitors",
+                "Supply chain partners",
+                "International firms"
+            ],
+            "answer": 0,
+            "explanation": "Conglomerate merger = Firms in completely different industries (diversification)."
+        },
+        {
+            "id": "p2s2_45",
+            "question": "In a spin-off:",
+            "options": [
+                "The parent sells the subsidiary for cash",
+                "Shares of the new sub are distributed to existing shareholders",
+                "The subsidiary is liquidated",
+                "New debt is issued"
+            ],
+            "answer": 1,
+            "explanation": "Spin-off distributes shares of the sub to parent shareholders. No cash changes hands; parent loses control."
+        },
+        {
+            "id": "p2s2_46",
+            "question": "Which defense against a hostile takeover involves issuing rights to buy shares at a discount?",
+            "options": [
+                "Golden Parachute",
+                "Poison Pill",
+                "White Knight",
+                "Greenmail"
+            ],
+            "answer": 1,
+            "explanation": "A Poison Pill (Shareholder Rights Plan) dilutes the acquirer by letting others buy cheap shares."
+        },
+        {
+            "id": "p2s2_47",
+            "question": "Exchange rate risk related to committed future transactions is:",
+            "options": [
+                "Translation exposure",
+                "Transaction exposure",
+                "Economic exposure",
+                "Political risk"
+            ],
+            "answer": 1,
+            "explanation": "Transaction exposure is the risk that cash flows from existing contracts will change value due to FX rates."
+        },
+        {
+            "id": "p2s2_48",
+            "question": "Translation exposure (accounting exposure) affects:",
+            "options": [
+                "Cash flows",
+                "The balance sheet and reported earnings",
+                "Future sales",
+                "Tax rates"
+            ],
+            "answer": 1,
+            "explanation": "Translation exposure impacts reported financial statements when consolidating foreign subsidiaries."
+        },
+        {
+            "id": "p2s2_49",
+            "question": "Economic exposure refers to:",
+            "options": [
+                "Short-term transaction risk",
+                "Long-term effect of FX on competitive position",
+                "Accounting adjustments",
+                "Inflation risk"
+            ],
+            "answer": 1,
+            "explanation": "Economic exposure is the long-term risk that FX changes will affect a firm's market value/competitiveness."
+        },
+        {
+            "id": "p2s2_50",
+            "question": "A forward contract is:",
+            "options": [
+                "Standardized and exchange-traded",
+                "Customized and Over-The-Counter (OTC)",
+                "Liquid",
+                "Risk-free"
+            ],
+            "answer": 1,
+            "explanation": "Forwards are private, customizable OTC contracts between two parties (e.g., firm and bank)."
+        },
+        {
+            "id": "p2s2_51",
+            "question": "A futures contract differs from a forward in that:",
+            "options": [
+                "Futures are standardized and exchange-traded",
+                "Futures are customizable",
+                "Futures have counterparty risk",
+                "Futures are free"
+            ],
+            "answer": 0,
+            "explanation": "Futures are standardized contracts traded on exchanges, with clearinghouses eliminating counterparty risk."
+        },
+        {
+            "id": "p2s2_52",
+            "question": "An option gives the holder:",
+            "options": [
+                "The obligation to buy",
+                "The right, but not obligation, to buy/sell",
+                "The obligation to sell",
+                "Immediate cash"
+            ],
+            "answer": 1,
+            "explanation": "Options provide a right (choice). If it's not favorable, the holder can let it expire."
+        },
+        {
+            "id": "p2s2_53",
+            "question": "Paying a premium is required for:",
+            "options": [
+                "Futures",
+                "Forwards",
+                "Options",
+                "Swaps"
+            ],
+            "answer": 2,
+            "explanation": "Options require an upfront cost (premium) to purchase the right."
+        },
+        {
+            "id": "p2s2_54",
+            "question": "A call option allows the holder to:",
+            "options": [
+                "Sell an asset",
+                "Buy an asset",
+                "Swap an asset",
+                "Short an asset"
+            ],
+            "answer": 1,
+            "explanation": "Call = Right to Buy. Put = Right to Sell."
+        },
+        {
+            "id": "p2s2_55",
+            "question": "A currency swap involves:",
+            "options": [
+                "Exchanging interest and principal in different currencies",
+                "Buying options",
+                "Selling futures",
+                "Translating earnings"
+            ],
+            "answer": 0,
+            "explanation": "Swaps involve exchanging cash flow streams (principal + interest) in different currencies."
+        },
+        {
+            "id": "p2s2_56",
+            "question": "Letter of Credit (L/C) is used in international trade to:",
+            "options": [
+                "Eliminate FX risk",
+                "Reduce default risk by substituting bank's credit",
+                "Lower tariffs",
+                "Increase shipping speed"
+            ],
+            "answer": 1,
+            "explanation": "L/C guarantees payment to the seller if documents are presented, using the bank's creditworthiness."
+        },
+        {
+            "id": "p2s2_57",
+            "question": "If a US company expects the Euro to appreciate, it should:",
+            "options": [
+                "Buy Euro payables early",
+                "Delay Euro payables",
+                "Sell Euros now",
+                "Do nothing"
+            ],
+            "answer": 0,
+            "explanation": "If Euro will cost more later (appreciate), buy/pay now while it's cheaper."
+        },
+        {
+            "id": "p2s2_58",
+            "question": "The primary purpose of hedging is to:",
+            "options": [
+                "Make a profit",
+                "Reduce risk/uncertainty",
+                "Avoid taxes",
+                "Increase sales"
+            ],
+            "answer": 1,
+            "explanation": "Hedging is about risk mitigation, not speculation for profit."
+        },
+        {
+            "id": "p2s2_59",
+            "question": "Commercial Paper is:",
+            "options": [
+                "Secured long-term debt",
+                "Unsecured short-term promissory note",
+                "Equity",
+                "Government bond"
+            ],
+            "answer": 1,
+            "explanation": "Commercial paper is unsecured, short-term debt issued by high-credit corporations."
+        },
+        {
+            "id": "p2s2_60",
+            "question": "Which provides a tax advantage for the issuer?",
+            "options": [
+                "Common Stock",
+                "Preferred Stock",
+                "Debt",
+                "Retained Earnings"
+            ],
+            "answer": 2,
+            "explanation": "Only Debt interest payments are tax-deductible."
+        },
+        {
+            "id": "p2s2_61",
+            "question": "Concentration banking is used to:",
+            "options": [
+                "Diversify risk",
+                "Pool funds to improve control and investment",
+                "Increase float",
+                "Separate divisions"
+            ],
+            "answer": 1,
+            "explanation": "Concentration banking consolidates cash from regional banks into a central account for better management."
+        },
+        {
+            "id": "p2s2_62",
+            "question": "Days Sales Outstanding (DSO) measures:",
+            "options": [
+                "Inventory speed",
+                "Average collection period",
+                "Payment speed",
+                "Sales growth"
+            ],
+            "answer": 1,
+            "explanation": "DSO measures how long it takes to collect cash from credit sales."
+        },
+        {
+            "id": "p2s2_63",
+            "question": "An increase in the Operating Cycle means:",
+            "options": [
+                "Cash is tied up longer",
+                "Cash is released sooner",
+                "Efficiency is improving",
+                "Accounts payable are increasing"
+            ],
+            "answer": 0,
+            "explanation": "Longer operating cycle = Slower inventory sales or slower collections = Cash tied up longer."
+        },
+        {
+            "id": "p2s2_64",
+            "question": "Treasury Bills (T-Bills) are considered:",
+            "options": [
+                "High risk",
+                "Risk-free",
+                "Junk bonds",
+                "Corporate debt"
+            ],
+            "answer": 1,
+            "explanation": "US T-Bills are the proxy for the risk-free rate (Rf)."
+        },
+        {
+            "id": "p2s2_65",
+            "question": "The correlation coefficient measures:",
+            "options": [
+                "Return magnitude",
+                "Relationship between two assets' returns",
+                "Volatility",
+                "Beta"
+            ],
+            "answer": 1,
+            "explanation": "Correlation measures how two assets move together (+1 to -1)."
+        },
+        {
+            "id": "p2s2_66",
+            "question": "Maximum diversification benefit occurs when correlation is:",
+            "options": [
+                "+1.0",
+                "0",
+                "-1.0",
+                "0.5"
+            ],
+            "answer": 2,
+            "explanation": "Perfect negative correlation (-1.0) allows for maximum risk reduction."
+        },
+        {
+            "id": "p2s2_67",
+            "question": "A Eurobond is:",
+            "options": [
+                "A bond issued in Euros",
+                "A bond issued outside the country of the currency's origin",
+                "A bond issued by the EU",
+                "A bond with 0% interest"
+            ],
+            "answer": 1,
+            "explanation": "Eurobond = Bond issued in a currency other than the home currency of the country where issued (e.g., USD bond sold in London)."
+        },
+        {
+            "id": "p2s2_68",
+            "question": "LIBOR (or SOFR) is typically used as a base rate for:",
+            "options": [
+                "Fixed rate bonds",
+                "Floating rate debt",
+                "Equity valuation",
+                "Tax rates"
+            ],
+            "answer": 1,
+            "explanation": "Floating rate loans/bonds are pegged to a benchmark index like LIBOR or SOFR."
+        },
+        {
+            "id": "p2s2_69",
+            "question": "Gordon Growth Model requires:",
+            "options": [
+                "Zero growth",
+                "Constant growth",
+                "Variable growth",
+                "No dividends"
+            ],
+            "answer": 1,
+            "explanation": "DDM (Gordon Growth) assumes dividends grow at a constant rate forever."
+        },
+        {
+            "id": "p2s2_70",
+            "question": "Cost of Retained Earnings is:",
+            "options": [
+                "Zero",
+                "Equal to Cost of Debt",
+                "Equal to Cost of Common Equity",
+                "Tax-deductible"
+            ],
+            "answer": 2,
+            "explanation": "Retained earnings have an opportunity cost equal to the return shareholders could earn elsewhere (Ke)."
+        },
+        {
+            "id": "p2s2_71",
+            "question": "Operating Leverage measures sensitivity of EBIT to:",
+            "options": [
+                "Sales",
+                "Interest",
+                "Taxes",
+                "Asset turnover"
+            ],
+            "answer": 0,
+            "explanation": "DOL measures how % change in Sales impacts % change in EBIT. Driven by fixed costs."
+        },
+        {
+            "id": "p2s2_72",
+            "question": "Financial Leverage measures sensitivity of EPS to:",
+            "options": [
+                "Sales",
+                "EBIT",
+                "COGS",
+                "Fixed costs"
+            ],
+            "answer": 1,
+            "explanation": "DFL measures how % change in EBIT impacts % change in EPS. Driven by interest expense."
+        },
+        {
+            "id": "p2s2_73",
+            "question": "A White Knight is:",
+            "options": [
+                "A hostile bidder",
+                "A friendly acquirer solicited by the target",
+                "A regulator",
+                "A bankrupt firm"
+            ],
+            "answer": 1,
+            "explanation": "A White Knight rescues a target from a hostile takeover by offering a better/friendlier deal."
+        },
+        {
+            "id": "p2s2_74",
+            "question": "Greenmail involves:",
+            "options": [
+                "Environmental investing",
+                "Buying back shares from a hostile bidder at a premium",
+                "Recycling cash",
+                "Issuing green bonds"
+            ],
+            "answer": 1,
+            "explanation": "Greenmail is paying a hostile bidder a premium to go away (legalized blackmail)."
+        },
+        {
+            "id": "p2s2_75",
+            "question": "Synergy in M&A implies:",
+            "options": [
+                "1 + 1 = 2",
+                "1 + 1 = 3",
+                "1 + 1 = 0",
+                "Value distruction"
+            ],
+            "answer": 1,
+            "explanation": "Synergy means the combined value is greater than the sum of standalone values."
+        },
+        {
+            "id": "p2s2_76",
+            "question": "Which market trades new securities?",
+            "options": [
+                "Secondary market",
+                "Primary market",
+                "Money market",
+                "Futures market"
+            ],
+            "answer": 1,
+            "explanation": "Primary market is where new securities (IPOs, FPOs) are sold to investors. Secondary is trading between investors."
+        },
+        {
+            "id": "p2s2_77",
+            "question": "Money markets trade:",
+            "options": [
+                "Long-term equity",
+                "Short-term (<1 year) debt instruments",
+                "Real estate",
+                "Derivatives"
+            ],
+            "answer": 1,
+            "explanation": "Money markets are for short-term, liquid, low-risk debt (T-Bills, CP, CD)."
+        },
+        {
+            "id": "p2s2_78",
+            "question": "Capital markets trade:",
+            "options": [
+                "Inventory",
+                "Short-term debt",
+                "Long-term debt and equity",
+                "Currencies"
+            ],
+            "answer": 2,
+            "explanation": "Capital markets match long-term capital seekers with suppliers (Stocks, Bonds)."
+        },
+        {
+            "id": "p2s2_79",
+            "question": "A negative Cash Conversion Cycle implies:",
+            "options": [
+                "Insolvency",
+                "Suppliers financing the company",
+                "Poor collection",
+                "Excessive inventory"
+            ],
+            "answer": 1,
+            "explanation": "Negative CCC means you get paid by customers before you pay suppliers — excellent working capital management."
+        },
+        {
+            "id": "p2s2_80",
+            "question": "Which reduces the Cost of Capital?",
+            "options": [
+                "Increasing risk",
+                "Increasing beta",
+                "Credit rating upgrade",
+                "Rising inflation"
+            ],
+            "answer": 2,
+            "explanation": "Better credit rating lowers borrowing costs (lower risk premium), reducing WACC."
+        },
+        {
+            "id": "p2s2_81",
+            "question": "What is the beta of the Risk-Free asset?",
+            "options": [
+                "1.0",
+                "0.0",
+                "-1.0",
+                "Infinity"
+            ],
+            "answer": 1,
+            "explanation": "Risk-free assets have zero variance and zero correlation with market; Beta = 0."
+        },
+        {
+            "id": "p2s2_82",
+            "question": "What is the beta of the Market Portfolio?",
+            "options": [
+                "0",
+                "0.5",
+                "1.0",
+                "2.0"
+            ],
+            "answer": 2,
+            "explanation": "The market portfolio is the benchmark risk; its Beta is 1.0 by definition."
+        },
+        {
+            "id": "p2s2_83",
+            "question": "Arbitrage Pricing Theory (APT) differs from CAPM by:",
+            "options": [
+                "Using only Beta",
+                "Using multiple risk factors",
+                "Ignoring risk",
+                "Assuming zero return"
+            ],
+            "answer": 1,
+            "explanation": "APT uses multiple macroeconomic factors (inflation, GDP, etc.) rather than just one (Market risk)."
+        },
+        {
+            "id": "p2s2_84",
+            "question": "A compensating balance is:",
+            "options": [
+                "A free gift from bank",
+                "Minimum balance required by bank on a loan",
+                "Hedging profit",
+                "Equity buffer"
+            ],
+            "answer": 1,
+            "explanation": "Banks require compensating balances (min deposits), which increase the effective interest rate on loans."
+        },
+        {
+            "id": "p2s2_85",
+            "question": "Net Working Capital equals:",
+            "options": [
+                "Assets - Liabilities",
+                "CA - CL",
+                "Cash - Debt",
+                "Inventory + AR"
+            ],
+            "answer": 1,
+            "explanation": "NWC = Current Assets – Current Liabilities."
+        },
+        {
+            "id": "p2s2_86",
+            "question": "Yield to Maturity (YTM) assumes:",
+            "options": [
+                "Bond is called early",
+                "Bond is held to maturity and coupons reinvested at YTM",
+                "Rates will fall",
+                "Coupons are spent"
+            ],
+            "answer": 1,
+            "explanation": "YTM assumes holding to maturity AND reinvesting coupons at the same rate."
+        },
+        {
+            "id": "p2s2_87",
+            "question": "If coupon rate > YTM, the bond trades at:",
+            "options": [
+                "Par",
+                "Discount",
+                "Premium",
+                "Zero"
+            ],
+            "answer": 2,
+            "explanation": "If bond pays more (coupon) than market demands (YTM), it trades at a Premium."
+        },
+        {
+            "id": "p2s2_88",
+            "question": "If coupon rate < YTM, the bond trades at:",
+            "options": [
+                "Par",
+                "Discount",
+                "Premium",
+                "Zero"
+            ],
+            "answer": 1,
+            "explanation": "If bond pays less than market demands, price must drop (Discount) to boost yield."
+        },
+        {
+            "id": "p2s2_89",
+            "question": "Default risk premium compensates for:",
+            "options": [
+                "Inflation",
+                "Liquidity",
+                "Risk of non-payment",
+                "Maturity"
+            ],
+            "answer": 2,
+            "explanation": "DRP is extra yield required for credit risk (risk of issuer default)."
+        },
+        {
+            "id": "p2s2_90",
+            "question": "Liquidity preference theory suggests:",
+            "options": [
+                "Investors prefer long-term bonds",
+                "Investors prefer short-term liquid bonds",
+                "Rates are random",
+                "Yield curve is always flat"
+            ],
+            "answer": 1,
+            "explanation": "Investors prefer liquidity (short-term), so they demand a premium (higher yield) for holding long-term bonds."
+        },
+        {
+            "id": "p2s2_91",
+            "question": "The decision to list a private company on exchange is:",
+            "options": [
+                "SEO",
+                "IPO",
+                "LBO",
+                "MBO"
+            ],
+            "answer": 1,
+            "explanation": "IPO (Initial Public Offering) is the first sale of stock to the public."
+        },
+        {
+            "id": "p2s2_92",
+            "question": "Which increases the effective cost of a bank loan?",
+            "options": [
+                "Lower interest rate",
+                "Compensating balance requirement",
+                "Interest paid at maturity",
+                "None"
+            ],
+            "answer": 1,
+            "explanation": "Compensating balances reduce usable funds, increasing the effective rate on the funds actually used."
+        },
+        {
+            "id": "p2s2_93",
+            "question": "Under a conservative working capital policy, current ratio would be:",
+            "options": [
+                "Low",
+                "High",
+                "Negative",
+                "Variable"
+            ],
+            "answer": 1,
+            "explanation": "Conservative = High Current Assets = High Current Ratio."
+        },
+        {
+            "id": "p2s2_94",
+            "question": "Ordering costs include:",
+            "options": [
+                "Storage",
+                "Insurance",
+                "Setup and shipping fees",
+                "Spoilage"
+            ],
+            "answer": 2,
+            "explanation": "Ordering costs = Setup, shipping, admin cost of placing orders. (Storage/Insurance are Carrying costs)."
+        },
+        {
+            "id": "p2s2_95",
+            "question": "Carrying costs include:",
+            "options": [
+                "Setup fees",
+                "Opportunity cost of capital tied in inventory",
+                "Shipping",
+                "Stockout cost"
+            ],
+            "answer": 1,
+            "explanation": "Carrying costs = Storage, Insurance, Obsolescence, Opportunity Cost."
+        },
+        {
+            "id": "p2s2_96",
+            "question": "Which derivative allows you to walk away if the price moves against you?",
+            "options": [
+                "Future",
+                "Forward",
+                "Swap",
+                "Option"
+            ],
+            "answer": 3,
+            "explanation": "Options give a right, not obligation. You can let it expire (walk away) losing only the premium."
+        },
+        {
+            "id": "p2s2_97",
+            "question": "Direct investment involves:",
+            "options": [
+                "Buying foreign stocks",
+                "Building a factory in a foreign country",
+                "Exporting",
+                "Licensing"
+            ],
+            "answer": 1,
+            "explanation": "FDI (Foreign Direct Investment) involves physical ownership/operations, not just financial assets."
+        },
+        {
+            "id": "p2s2_98",
+            "question": "Transfer pricing affects:",
+            "options": [
+                "Overall corporate profit",
+                "Divisional performance evaluation and taxes",
+                "Customer prices",
+                "Suppliers"
+            ],
+            "answer": 1,
+            "explanation": "Transfer prices shift profit between divisions (affecting bonuses) and jurisdictions (affecting taxes)."
+        },
+        {
+            "id": "p2s2_99",
+            "question": "The SML (Security Market Line) plots:",
+            "options": [
+                "Price vs Volume",
+                "Expected Return vs Beta",
+                "Risk vs Reward",
+                "Inflation vs Unemployment"
+            ],
+            "answer": 1,
+            "explanation": "SML is the graphical representation of CAPM: Return (Y-axis) vs Beta (X-axis)."
+        },
+        {
+            "id": "p2s2_100",
+            "question": "If a project's IRR > WACC, you should:",
+            "options": [
+                "Reject",
+                "Accept",
+                "Indifferent",
+                "Delay"
+            ],
+            "answer": 1,
+            "explanation": "Accept if return (IRR) exceeds cost of capital (WACC). It creates value."
+        }
+    ]
+}

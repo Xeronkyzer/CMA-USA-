@@ -1,0 +1,259 @@
+.container {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.backLink {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+.header {
+    margin-bottom: 3rem;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 2rem;
+}
+
+.weightage {
+    background: #003366;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+    color: #003366;
+}
+
+.overview {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 800px;
+}
+
+.examTipBox {
+    display: flex;
+    gap: 0.5rem;
+    align-items: flex-start;
+    background: #fffbeb;
+    border: 1px solid #fde68a;
+    border-radius: 8px;
+    padding: 1rem 1.25rem;
+    margin-top: 1.5rem;
+    max-width: 800px;
+}
+
+.examTipBox p {
+    margin: 0;
+    color: #92400e;
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+.contentGrid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 3rem;
+}
+
+.section {
+    margin-bottom: 4rem;
+}
+
+.section h2 {
+    font-size: 1.8rem;
+    border-left: 5px solid #005b96;
+    padding-left: 1rem;
+    margin-bottom: 1.5rem;
+    background: #f8f9fa;
+    padding: 0.5rem 1rem;
+}
+
+.conceptBlock {
+    margin-bottom: 2rem;
+}
+
+.conceptBlock h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.conceptBlock p,
+.conceptBlock ul {
+    color: #444;
+    margin-bottom: 1rem;
+}
+
+.conceptBlock ul {
+    padding-left: 1.5rem;
+}
+
+.formulaGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.formulaBox {
+    background: #eef4ff;
+    border: 1px solid #cce0ff;
+    padding: 1.5rem;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.formulaBox strong {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #003366;
+}
+
+.formulaBox code {
+    font-family: monospace;
+    font-size: 1.1rem;
+    background: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    display: block;
+}
+
+.mistakesSection ul {
+    list-style-type: none;
+}
+
+.mistakesSection li {
+    background: #fff0f0;
+    border-left: 4px solid #d9534f;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    color: #a94442;
+}
+
+.essayBox {
+    border: 1px solid #eaeaea;
+    padding: 1.5rem;
+    border-radius: 6px;
+}
+
+.essayQuestion {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.essayAnswer summary {
+    cursor: pointer;
+    color: #005b96;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.essayAnswer div {
+    background: #fdfdfd;
+    padding: 1rem;
+    border-top: 1px dashed #ddd;
+}
+
+.sidebar {
+    position: sticky;
+    top: 100px;
+    height: fit-content;
+}
+
+.summaryBox {
+    background: #003366;
+    color: white;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.summaryBox h3 {
+    color: white;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 0.5rem;
+}
+
+/* Bullet Notes Section */
+.bulletSection {
+    background: #f0fdf4;
+    border: 1px solid #bbf7d0;
+    padding: 1.5rem 2rem;
+    border-radius: 10px;
+}
+
+.bulletNotes {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.bulletNotes li {
+    position: relative;
+    padding: 0.5rem 0 0.5rem 1.5rem;
+    color: #1a472a;
+    line-height: 1.6;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.bulletNotes li:last-child {
+    border-bottom: none;
+}
+
+.bulletNotes li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: #16a34a;
+    font-weight: 700;
+}
+
+/* Short Notes Section */
+.shortNotesSection {
+    background: #eff6ff;
+    border: 1px solid #bfdbfe;
+    padding: 1.5rem 2rem;
+    border-radius: 10px;
+}
+
+.shortNotes {
+    color: #1e3a5f;
+    line-height: 1.8;
+    font-size: 1.05rem;
+}
+
+/* Quick Reference Sidebar */
+.quickRef {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-top: 1.5rem;
+}
+
+.quickRef h3 {
+    color: #334155;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #e2e8f0;
+    font-size: 1.1rem;
+}
+
+.quickRef p {
+    color: #475569;
+    font-size: 0.9rem;
+    line-height: 1.7;
+}
+
+@media (max-width: 900px) {
+    .contentGrid {
+        grid-template-columns: 1fr;
+    }
+}

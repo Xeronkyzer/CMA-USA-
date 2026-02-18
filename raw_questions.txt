@@ -1,0 +1,372 @@
+🔹 SECTION A: Financial Statement Structure (1–15)
+
+1. Which statement reports financial position at a specific date?
+A. Income Statement
+B. Statement of Cash Flows
+C. Balance Sheet
+D. Statement of Equity
+Answer: C
+
+2. Retained earnings is directly affected by:
+A. Dividends
+B. Asset revaluation under GAAP
+C. Issuance of debt
+D. Inventory purchases
+Answer: A
+
+3. Discontinued operations are reported:
+A. In operating income
+B. Net of tax below continuing operations
+C. In OCI
+D. In financing section
+Answer: B
+
+4. Which item bypasses Net Income under GAAP?
+A. Gain on sale of equipment
+B. Trading securities gain
+C. Unrealized AFS gain
+D. Revenue
+Answer: C
+
+5. Gross profit equals:
+A. Sales – Operating Expenses
+B. Sales – COGS
+C. Sales – Net Income
+D. COGS – Expenses
+Answer: B
+
+6. Ending cash balance appears on:
+A. Income statement only
+B. Cash flow only
+C. Balance sheet and cash flow statement
+D. Equity statement only
+Answer: C
+
+7. Dividends paid are classified as:
+A. Expense
+B. Liability
+C. Equity reduction
+D. Revenue
+Answer: C
+
+8. Which is NOT a current asset?
+A. Inventory
+B. Prepaid insurance
+C. Land
+D. Accounts receivable
+Answer: C
+
+9. Multi-step income statement separates:
+A. Cash vs accrual
+B. Operating vs non-operating
+C. Current vs non-current
+D. GAAP vs IFRS
+Answer: B
+
+10. OCI items accumulate in:
+A. Retained earnings
+B. Accumulated OCI (equity)
+C. Liabilities
+D. Cash
+Answer: B
+
+11. Revenue is recognized when:
+A. Cash received
+B. Invoice sent
+C. Earned and control transfers
+D. Production begins
+Answer: C
+
+12. Statement of equity reconciles:
+A. Cash changes
+B. Retained earnings changes
+C. Revenue changes
+D. Asset changes
+Answer: B
+
+13. Assets are reported at:
+A. Always fair value
+B. Always historical cost
+C. Measurement basis defined by GAAP
+D. Replacement cost
+Answer: C
+
+14. Inventory errors affect:
+A. Balance sheet only
+B. Income statement only
+C. Both balance sheet and income statement
+D. Cash flow only
+Answer: C
+
+15. Net income flows into:
+A. Cash
+B. Retained earnings
+C. Liabilities
+D. OCI
+Answer: B
+
+🔹 SECTION B: Statement of Cash Flows (16–35)
+
+16. Indirect method starts with:
+A. Sales
+B. Gross profit
+C. Net income
+D. Cash
+Answer: C
+
+17. Depreciation is:
+A. Subtracted
+B. Added back
+C. Ignored
+D. Investing
+Answer: B
+
+18. Increase in AR:
+A. Add
+B. Subtract
+C. Investing
+D. Financing
+Answer: B
+
+19. Increase in AP:
+A. Add
+B. Subtract
+C. Investing
+D. No impact
+Answer: A
+
+20. Gain on equipment sale is:
+A. Added to CFO
+B. Subtracted from CFO
+C. Financing
+D. OCI
+Answer: B
+
+21. Issuing stock is:
+A. Operating
+B. Investing
+C. Financing
+D. OCI
+Answer: C
+
+22. Purchase of equipment:
+A. Operating
+B. Investing outflow
+C. Financing
+D. OCI
+Answer: B
+
+23. Free cash flow equals:
+A. NI – Depreciation
+B. CFO – CapEx
+C. CFO + CapEx
+D. NI – CapEx
+Answer: B
+
+24. If inventory increases, CFO:
+A. Increases
+B. Decreases
+C. No change
+D. Financing
+Answer: B
+
+25. Interest paid (GAAP) is:
+A. Operating
+B. Investing
+C. Financing
+D. OCI
+Answer: A
+
+🔹 SECTION C: Revenue Recognition (36–50)
+
+36. ASC 606 requires how many steps?
+A. 3
+B. 4
+C. 5
+D. 6
+Answer: C
+
+37. Performance obligation must be:
+A. Profitable
+B. Distinct
+C. Cash-based
+D. Completed
+Answer: B
+
+38. Variable consideration must be:
+A. Ignored
+B. Fully recognized
+C. Estimated and constrained
+D. Deferred entirely
+Answer: C
+
+39. Principal records revenue:
+A. Net
+B. Gross
+C. Cash only
+D. OCI
+Answer: B
+
+40. Agent records revenue:
+A. Gross
+B. Net commission
+C. Full contract price
+D. Deferred
+Answer: B
+
+🔹 SECTION D: Inventory (51–65)
+
+51. IFRS prohibits:
+A. FIFO
+B. LIFO
+C. Weighted average
+D. NRV
+Answer: B
+
+52. In inflation, FIFO results in:
+A. Lower NI
+B. Higher NI
+C. Same NI
+D. Loss
+Answer: B
+
+53. LIFO liquidation:
+A. Reduces income
+B. Inflates income
+C. No effect
+D. Increases COGS
+Answer: B
+
+54. LIFO reserve equals:
+A. FIFO – LIFO inventory
+B. LIFO – FIFO inventory
+C. COGS – Sales
+D. Inventory – Sales
+Answer: A
+
+55. Freight-in is:
+A. Selling expense
+B. Product cost
+C. Financing cost
+D. OCI
+Answer: B
+
+🔹 SECTION E: Impairment & Long-Lived Assets (66–75)
+
+66. GAAP impairment step 1 uses:
+A. Discounted CF
+B. Undiscounted CF
+C. FV
+D. NRV
+Answer: B
+
+67. IFRS impairment uses:
+A. Two-step
+B. Three-step
+C. Single-step
+D. None
+Answer: C
+
+68. GAAP allows impairment reversal?
+A. Yes
+B. No
+C. Only goodwill
+D. Only PPE
+Answer: B
+
+69. Depreciation method that accelerates expense:
+A. Straight-line
+B. Units
+C. Double declining
+D. FIFO
+Answer: C
+
+🔹 SECTION F: Investments (76–85)
+
+76. Trading securities unrealized gain goes to:
+A. OCI
+B. NI
+C. Equity
+D. Deferred tax
+Answer: B
+
+77. AFS unrealized gain goes to:
+A. NI
+B. OCI
+C. Cash
+D. Retained earnings
+Answer: B
+
+78. Equity method applies at ownership:
+A. <10%
+B. 10–15%
+C. 20–50%
+D. >80%
+Answer: C
+
+79. HTM securities measured at:
+A. Fair value
+B. Amortized cost
+C. NRV
+D. Market
+Answer: B
+
+🔹 SECTION G: Deferred Taxes (86–95)
+
+86. Temporary difference creates:
+A. OCI
+B. DTA or DTL
+C. Expense only
+D. Revenue
+Answer: B
+
+87. Permanent differences create:
+A. DTA
+B. DTL
+C. No deferred tax
+D. OCI
+Answer: C
+
+88. DTA reduced by:
+A. Valuation allowance
+B. Retained earnings
+C. Depreciation
+D. LIFO reserve
+Answer: A
+
+🔹 SECTION H: Leases (96–100)
+
+96. Under ASC 842, most leases create:
+A. No asset
+B. Expense only
+C. ROU asset and liability
+D. Revenue
+Answer: C
+
+97. Finance lease expense pattern is:
+A. Straight-line
+B. Back-loaded
+C. Front-loaded
+D. Constant
+Answer: C
+
+98. Lease capitalization increases:
+A. Liquidity
+B. Leverage
+C. Revenue
+D. Equity
+Answer: B
+
+99. Operating lease expense under ASC 842 is:
+A. Interest only
+B. Amortization only
+C. Single lease expense
+D. OCI
+Answer: C
+
+100. Lease payments reduce:
+A. Cash and liability
+B. Revenue
+C. Inventory
+D. OCI
+Answer: A
