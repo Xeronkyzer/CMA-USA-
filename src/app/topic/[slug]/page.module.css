@@ -395,6 +395,8 @@
     border: 1px solid var(--bg-success-border);
     padding: 1.5rem 2rem;
     border-radius: 10px;
+    overflow-x: auto;
+    /* Handle wide content */
 }
 
 .bulletSection h2 {
