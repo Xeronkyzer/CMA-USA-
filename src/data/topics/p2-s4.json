@@ -2,145 +2,182 @@
     "id": "p2-s4",
     "title": "Risk Management – Comprehensive CMA Exam Guide (2026 Syllabus)",
     "weightage": "10%",
-    "examLevel": "Level B (Understanding and Application)",
     "recommendedStudyHours": "15-20 hours",
-    "overview": "Risk Management (10% of Part 2) covers Enterprise Risk Management (ERM) using the COSO 2017 framework. This section focuses on integrating risk with strategy and performance to create, preserve, and realize value. The 2026 CMA syllabus emphasizes understanding the five components of ERM (GOPRO), distinguishing between inherent and residual risk, and applying appropriate risk responses in various business scenarios. Mastery of this section requires memorizing the framework components and principles, understanding risk terminology, and applying risk response strategies to real-world situations.",
+    "examLevel": "Level B (Understanding and Application)",
+    "overview": "Risk Management (10% of Part 2) covers Enterprise Risk Management (ERM) using the COSO 2017 framework. This section focuses on integrating risk with strategy and performance to create, preserve, and realize value. The 2026 CMA syllabus emphasizes understanding the five components of ERM (GOPRO), distinguishing between inherent and residual risk, and applying appropriate risk responses in various business scenarios. Mastery of this section requires memorizing the framework components and principles, understanding risk terminology, and applying risk response strategies to real-world situations. Unlike other sections, Risk Management is more conceptual than computational, but the CMA exam tests application through scenario-based questions requiring identification of correct risk components, responses, and terminology.",
     "bulletNotes": [
         "**COSO ERM (2017)**: Framework to integrate risk management with strategy and performance. Replaced 2004 framework; streamlined from 8 to 5 components.",
         "**GOPRO – 5 Components**: **G**overnance & Culture, **O**bjective & Strategy Setting, **P**erformance, **R**eview & Revision, **O**ngoing Information/Communication/Reporting.",
-        "**Risk Appetite**: The amount and type of risk an organization is willing to accept in pursuit of value. Defined during strategy setting.",
-        "**Risk Capacity**: The maximum amount of risk an organization can absorb. Risk appetite must be within risk capacity.",
-        "**Risk Tolerance**: Acceptable variation around objectives (applied at objective level).",
+        "**GOPRO Mnemonic**: Think 'Go Pro' – to manage risk effectively, you need to 'Go Pro' with these five components.",
+        "**DOVES – Governance Principles**: Defines desired culture, Exercises board Oversight, Demonstrates commitment to core Values, Attracts/develops/retains Employees, Establishes operating Structure.",
+        "**SOAR – Strategy Principles**: Analyzes business context, Defines Risk appetite, Evaluates alternative Strategies, Formulates business Objectives.",
+        "**VAPIR – Performance Principles**: Identifies risk, Assesses severity, Prioritizes risk, Implements risk responses, Develops portfolio View.",
+        "**SIR – Review Principles**: Assesses Substantial change, pursues Improvement, Reviews risk and performance.",
+        "**TIP – Information Principles**: Leverages information Technology, Communicates risk Information, Reports on risk/culture/performance.",
+        "**Risk Appetite**: The amount and type of risk an organization is **willing** to accept in pursuit of value. Defined during strategy setting, varies across business lines.",
+        "**Risk Capacity**: The maximum amount of risk an organization **can** absorb (financially, reputationally, operationally). Risk appetite must be within risk capacity.",
+        "**Risk Tolerance**: Acceptable variation around objectives (applied at objective level, more granular than appetite).",
         "**Inherent Risk**: Risk in the absence of any management actions or controls.",
         "**Residual Risk**: Risk remaining after management's risk response.",
-        "**Risk Responses**: **Avoid** (exit activity), **Reduce/Mitigate** (controls), **Share/Transfer** (insurance, hedging), **Accept** (retention, self-insure), **Pursue** (accept increased risk for higher return).",
-        "**Event Identification**: Identifying internal/external events affecting strategy. Negative events = Risks; Positive events = Opportunities.",
-        "**Portfolio View**: Assessing risks collectively at entity level; risks may offset (natural hedge) or correlate (amplify).",
-        "**Risk Assessment**: Qualitative (heat maps) and quantitative (probabilistic models, VaR) techniques.",
-        "**Expected Loss**: Probability × Financial Impact."
+        "**Risk Responses – ARTS+P**: **Avoid** (exit activity), **Reduce/Mitigate** (controls), **Transfer/Share** (insurance, hedging), **Accept** (retention, self-insure), **Pursue** (accept increased risk for higher return – for opportunities).",
+        "**Event Identification**: Identifying internal/external events affecting strategy. Negative events = Risks; Positive events = Opportunities (feed back into strategy).",
+        "**Portfolio View**: Assessing risks collectively at entity level; risks may offset (natural hedge) or correlate (amplify each other).",
+        "**Risk Assessment**: Qualitative (heat maps, ranking) and quantitative (probabilistic models, VaR, Monte Carlo, expected loss).",
+        "**Expected Loss**: Probability × Financial Impact. Basic risk quantification.",
+        "**Value at Risk (VaR)**: Maximum expected loss over a given time period at a specified confidence level.",
+        "**Risk Heat Map**: Matrix plotting likelihood vs impact to visualize and prioritize risks.",
+        "**SORC – Objectives Categories**: Strategic, Operations, Reporting, Compliance. Same as COSO Internal Control objectives.",
+        "**CCPIS – What Organizations Rely On**: Culture, Capabilities, Practices, Integration with Strategy.",
+        "**CPER – Value Framework**: Creation, Preservation, Erosion, Realization – how risk management affects value.",
+        "**ERM vs Internal Control**: ERM (GOPRO) is broader, strategic, value-focused; Internal Control (CRIME) is tactical, compliance-focused, subset of ERM.",
+        "**Key Insight**: Risk is not inherently bad – optimal risk-taking creates value. The goal is to manage risk, not eliminate it."
     ],
-    "shortNotes": "Memorize GOPRO for the 5 components, DOVES for Governance principles, SOAR for Strategy principles, VAPIR for Performance principles, SIR for Review principles, and TIP for Information principles. Risk Appetite = willingness to take risk; Risk Capacity = ability to take risk. Residual Risk = Inherent Risk - Mitigation. Risk responses: Avoid (exit), Reduce (controls), Share (insurance), Accept (self-insure).",
+    "shortNotes": "Memorize GOPRO for the 5 components, DOVES for Governance principles, SOAR for Strategy principles, VAPIR for Performance principles, SIR for Review principles, and TIP for Information principles. Risk Appetite = willingness to take risk; Risk Capacity = ability to take risk. Residual Risk = Inherent Risk – Mitigation. Risk responses: Avoid (exit), Reduce (controls), Share (insurance), Accept (self-insure), Pursue (opportunities). The portfolio view is critical – risks interact. Expected loss = Probability × Impact. ERM is strategic and integrated with strategy, not a compliance exercise. Remember that ERM 2017 replaced the 2004 framework – the exam tests the updated version.",
     "mnemonics": [
         {
             "acronym": "GOPRO",
             "fullForm": "Governance & Culture, Objective & Strategy Setting, Performance, Review & Revision, Ongoing Information/Communication/Reporting",
-            "description": "The five components of COSO ERM 2017 framework [citation:2][citation:6][citation:8]"
+            "description": "The five components of COSO ERM 2017 framework. Think 'Go Pro' – you need to 'Go Pro' to manage risk effectively."
         },
         {
             "acronym": "DOVES",
             "fullForm": "Defines desired culture, Exercises board Oversight, Demonstrates commitment to core Values, Attracts/develops/retains Employees, Establishes operating Structure",
-            "description": "Principles within the Governance & Culture component [citation:2][citation:6]"
+            "description": "Principles within the Governance & Culture component – like doves representing peace and ethical culture."
         },
         {
             "acronym": "SOAR",
-            "fullForm": "Evaluates alternative Strategies, Formulates business Objectives, Analyzes business context, Defines Risk appetite",
-            "description": "Principles within the Strategy & Objective-Setting component [citation:2]"
+            "fullForm": "Analyzes business context, Defines Risk appetite, Evaluates alternative Strategies, Formulates business Objectives",
+            "description": "Principles within the Strategy & Objective-Setting component – strategy helps the organization SOAR."
         },
         {
             "acronym": "VAPIR",
-            "fullForm": "Develops portfolio View, Assesses severity risk, Prioritizes risk, Identifies risk, Implements Risk responses",
-            "description": "Principles within the Performance component [citation:2]"
+            "fullForm": "Identifies risk, Assesses severity, Prioritizes risk, Implements risk responses, Develops portfolio View",
+            "description": "Principles within the Performance component – think 'vapor' as risks that need to be assessed and addressed."
         },
         {
             "acronym": "SIR",
             "fullForm": "Assesses Substantial change, pursues Improvement, Reviews risk and performance",
-            "description": "Principles within the Review & Revision component [citation:2]"
+            "description": "Principles within the Review & Revision component – like addressing 'sir' with respect and attention."
         },
         {
             "acronym": "TIP",
             "fullForm": "Leverages information Technology, Communicates risk Information, Reports on risk/culture/performance",
-            "description": "Principles within the Information, Communication & Reporting component [citation:2]"
+            "description": "Principles within the Information, Communication & Reporting component – use TIPs to communicate effectively."
         },
         {
-            "acronym": "ARTS",
-            "fullForm": "Avoid, Reduce, Transfer/Share, Self-Insure/Accept",
-            "description": "Risk response strategies [citation:2]"
+            "acronym": "ARTS+P",
+            "fullForm": "Avoid, Reduce, Transfer/Share, Accept, Pursue",
+            "description": "Risk response strategies – think of the ARTS of risk management, plus Pursuing opportunities."
         },
         {
             "acronym": "SORC",
             "fullForm": "Strategic, Operations, Reporting, Compliance",
-            "description": "Four categories of objectives in ERM framework [citation:8]"
+            "description": "Four categories of objectives in ERM framework – same as COSO Internal Control."
         },
         {
             "acronym": "CCPIS",
             "fullForm": "Culture, Capabilities, Practices, Integration with Strategy",
-            "description": "Elements organizations rely on to manage risk [citation:2][citation:6]"
+            "description": "Elements organizations rely on to manage risk – these are the foundational elements."
         },
         {
             "acronym": "CPER",
             "fullForm": "Creation, Preservation, Erosion, Realization",
-            "description": "Four ways value is affected by risk management [citation:2][citation:6]"
+            "description": "Four ways value is affected by risk management – value can be created, preserved, eroded, or realized."
         }
     ],
     "concepts": [
         {
-            "title": "1. COSO ERM Framework Overview",
-            "content": "<p><strong>Purpose:</strong> COSO ERM (2017) is designed to assist organizations in developing a comprehensive response to risk management, integrating risk with strategy and performance [citation:6].</p><p><strong>Underlying Premise:</strong> Entities face risk in the pursuit of value for their stakeholders [citation:6].</p><p><strong>Risk Definition (COSO):</strong> The possibility that events will occur and affect the achievement of strategy and business objectives [citation:6].</p><p><strong>Value Framework (CPER):</strong><br>- <strong>Creation:</strong> Benefits exceed cost of resources used<br>- <strong>Preservation:</strong> Ongoing operations sustain created benefits<br>- <strong>Erosion:</strong> Faulty strategy/operations cause value decline<br>- <strong>Realization:</strong> Benefits received by stakeholders [citation:2][citation:6]</p><p><strong>Mission, Vision, Core Values:</strong><br>- <strong>Mission:</strong> Core purpose (why company exists)<br>- <strong>Vision:</strong> Aspirations (what company hopes to achieve)<br>- <strong>Core Values:</strong> Organization's beliefs (how company will achieve vision) [citation:6]</p>"
+            "title": "1. COSO ERM Framework Overview – 2017 Update",
+            "content": "<h3>Purpose and Evolution</h3><p>The COSO ERM (Enterprise Risk Management) framework, updated in 2017, is designed to help organizations integrate risk management with strategy and performance. It replaced the 2004 framework, streamlining from 8 components to 5, with a stronger emphasis on how risk affects value creation.</p><p><strong>Underlying Premise:</strong> Every entity exists to create value for its stakeholders. In pursuing value, entities face uncertainty (risk). Management must decide how much uncertainty to accept as it strives to grow stakeholder value [citation:6].</p><p><strong>Risk Definition (COSO):</strong> The possibility that events will occur and affect the achievement of strategy and business objectives [citation:6].</p><h3>Value Framework (CPER)</h3><p>Risk management affects value in four ways:</p><ul><li><strong>Creation:</strong> When the benefits of an activity exceed the cost of resources used.</li><li><strong>Preservation:</strong> Ongoing operations sustain the created benefits over time.</li><li><strong>Erosion:</strong> Faulty strategy, poor execution, or unexpected events cause value to decline.</li><li><strong>Realization:</strong> Benefits are ultimately received by stakeholders (shareholders, employees, customers).</li></ul><p><strong>Mission, Vision, Core Values:</strong></p><ul><li><strong>Mission:</strong> Core purpose – why the company exists.</li><li><strong>Vision:</strong> Aspirations – what the company hopes to achieve in the future.</li><li><strong>Core Values:</strong> Organization's beliefs and principles – how the company will achieve its vision.</li></ul><p>These three elements guide risk appetite and strategy formulation.</p>"
         },
         {
-            "title": "2. COSO ERM Five Components (GOPRO)",
-            "content": "<h3>Component 1: Governance & Culture (DOVES)</h3><p>Sets the tone, establishes oversight responsibility, and defines desired behaviors.<br><strong>Principles (DOVES):</strong><br>- Defines desired culture<br>- Exercises board oversight<br>- Demonstrates commitment to core values<br>- Attracts, develops, retains capable individuals<br>- Establishes operating structure [citation:2][citation:6][citation:8]</p><h3>Component 2: Strategy & Objective-Setting (SOAR)</h3><p>Integrates ERM with strategic planning. Risk appetite is defined here.<br><strong>Principles (SOAR):</strong><br>- Analyzes business context<br>- Defines risk appetite<br>- Evaluates alternative strategies<br>- Formulates business objectives [citation:2][citation:8]</p><h3>Component 3: Performance (VAPIR)</h3><p>Identifies, assesses, prioritizes, and responds to risks; develops portfolio view.<br><strong>Principles (VAPIR):</strong><br>- Identifies risk (events)<br>- Assesses severity risk<br>- Prioritizes risk<br>- Implements risk responses<br>- Develops portfolio view [citation:2][citation:8]</p><h3>Component 4: Review & Revision (SIR)</h3><p>Monitors changes and pursues improvement in ERM.<br><strong>Principles (SIR):</strong><br>- Assesses substantial change<br>- Reviews risk and performance<br>- Pursues improvement in ERM [citation:2][citation:8]</p><h3>Component 5: Information, Communication & Reporting (TIP)</h3><p>Leverages information systems to support ERM; communicates risk information; reports on risk, culture, and performance.<br><strong>Principles (TIP):</strong><br>- Leverages information technology<br>- Communicates risk information<br>- Reports on risk, culture, and performance [citation:2][citation:8]</p>"
+            "title": "2. COSO ERM Five Components – GOPRO Deep Dive",
+            "content": "<h3>The GOPRO Framework</h3><p>The five components are integrated and interrelated. All must be present for effective ERM.</p><h3>Component 1: Governance & Culture (DOVES)</h3><p>Governance sets the organization's tone, establishes oversight responsibilities, and defines desired behaviors. Culture relates to ethical values, desired behaviors, and understanding of risk in the entity.</p><p><strong>Principles (DOVES):</strong></p><ul><li><strong>D</strong>efines desired culture – articulates expected behaviors and risk awareness.</li><li><strong>O</strong>versight by board – board exercises oversight of risk management.</li><li><strong>V</strong>alues – demonstrates commitment to core values (integrity, ethics).</li><li><strong>E</strong>mployees – attracts, develops, and retains capable individuals aligned with values.</li><li><strong>S</strong>tructure – establishes operating structure and reporting lines.</li></ul><p><strong>Exam Focus:</strong> Weak tone at the top, lack of board oversight, or poor ethical culture undermines all other ERM components.</p><h3>Component 2: Strategy & Objective-Setting (SOAR)</h3><p>ERM is integrated with strategic planning. The organization analyzes the business context, defines risk appetite, and evaluates alternative strategies.</p><p><strong>Principles (SOAR):</strong></p><ul><li><strong>S</strong>trategies – evaluates alternative strategies and their risk implications.</li><li><strong>O</strong>bjectives – formulates business objectives aligned with strategy.</li><li><strong>A</strong>nalyzes business context – considers internal and external environment.</li><li><strong>R</strong>isk appetite – defines the types and amount of risk willing to accept.</li></ul><p><strong>Risk Appetite Definition:</strong> The amount and type of risk an organization is willing to accept in pursuit of value. Expressed first in mission and vision; varies between products, business lines, or over time [citation:3][citation:6][citation:8].</p><h3>Component 3: Performance (VAPIR)</h3><p>Identifies, assesses, prioritizes, and responds to risks that could affect achievement of strategy and objectives. Develops a portfolio view of risk.</p><p><strong>Principles (VAPIR):</strong></p><ul><li><strong>V</strong>iew – develops portfolio view (risks considered together).</li><li><strong>A</strong>ssesses severity of risk (likelihood and impact).</li><li><strong>P</strong>rioritizes risks relative to risk appetite.</li><li><strong>I</strong>dentifies risks (events that could affect objectives).</li><li><strong>R</strong>esponses – implements risk responses.</li></ul><h3>Component 4: Review & Revision (SIR)</h3><p>Monitors performance of ERM over time and pursues improvement in light of substantial changes.</p><p><strong>Principles (SIR):</strong></p><ul><li><strong>S</strong>ubstantial change – assesses impact of significant changes on strategy and objectives.</li><li><strong>I</strong>mprovement – pursues improvement in ERM processes.</li><li><strong>R</strong>eview – reviews risk and performance against targets.</li></ul><h3>Component 5: Information, Communication & Reporting (TIP)</h3><p>Leverages information systems to support ERM; communicates risk information throughout the organization; reports on risk, culture, and performance to stakeholders.</p><p><strong>Principles (TIP):</strong></p><ul><li><strong>T</strong>echnology – leverages information technology to capture and process risk data.</li><li><strong>I</strong>nformation – communicates risk information to relevant parties.</li><li><strong>P</strong>ortfolio reporting – reports on risk, culture, and performance at multiple levels.</li></ul>"
         },
         {
-            "title": "3. Risk Terminology",
-            "content": "<p><strong>Risk Appetite:</strong> The amount and type of risk an organization is willing to accept in pursuit of value. Expressed first in mission and vision; varies between products, business lines, or over time [citation:3][citation:6][citation:8].</p><p><strong>Risk Capacity:</strong> The maximum amount of risk an organization can absorb (financial, reputational, operational). Risk appetite must be within risk capacity.</p><p><strong>Risk Tolerance:</strong> Acceptable variation around objectives; applied at the objective level (more granular than appetite).</p><p><strong>Inherent Risk:</strong> Risk in the absence of any management actions or controls [citation:3].</p><p><strong>Residual Risk:</strong> Risk remaining after management's risk response [citation:3].</p><p><strong>Risk = Probability × Impact:</strong> Expected loss calculation [citation:3].</p>"
+            "title": "3. Risk Terminology – Critical Definitions",
+            "content": "<h3>Risk Appetite</h3><p>The amount and type of risk an organization is <strong>willing</strong> to accept in pursuit of value. It is set during strategy formulation and guides resource allocation. Risk appetite can be expressed qualitatively (e.g., 'we avoid risks that could harm our reputation') or quantitatively (e.g., 'we will not accept projects with >10% chance of loss exceeding $5M').</p><p><strong>Key Points:</strong></p><ul><li>Appetite varies across different business lines and objectives.</li><li>Appetite must be aligned with strategy – different strategies have different risk profiles.</li><li>Appetite is broader than tolerance – it sets the overall boundaries.</li></ul><h3>Risk Capacity</h3><p>The maximum amount of risk an organization <strong>can</strong> absorb given its resources (financial, reputational, operational). Risk appetite must be within risk capacity. If appetite exceeds capacity, the organization is taking on risks it cannot survive if they materialize.</p><h3>Risk Tolerance</h3><p>Acceptable variation around specific objectives. More granular than appetite. Example: Risk appetite may be 'moderate' for sales growth; tolerance might be 'actual sales within ±5% of target'.</p><h3>Inherent Risk</h3><p>The risk to an objective in the <strong>absence</strong> of any management actions, processes, or controls. The 'raw' risk before mitigation [citation:3].</p><h3>Residual Risk</h3><p>The risk that remains <strong>after</strong> management has taken action to mitigate the inherent risk. <code>Residual Risk = Inherent Risk – Impact of Risk Responses</code> [citation:3].</p><p><strong>Exam Application:</strong> A question might describe a risk and then describe controls. Inherent risk is before controls; residual risk is after controls. If residual risk exceeds appetite, additional responses are needed.</p><h3>Expected Loss</h3><p><code>Expected Loss = Probability of Event × Financial Impact</code> [citation:3]. Basic quantification used to prioritize risks and evaluate cost-effectiveness of controls.</p>"
         },
         {
-            "title": "4. Risk Responses (ARTS)",
-            "content": "<p><strong>1. Avoidance (Avoid):</strong> Exit the activity that generates risk. Examples: selling a division, withdrawing from a market, discontinuing a product line.<br><em>Trigger condition:</em> Residual risk > risk capacity/tolerance [citation:3][citation:4].</p><p><strong>2. Reduction (Reduce/Mitigate):</strong> Take actions to reduce risk likelihood or impact (or both). Examples: internal controls, diversification, quality checks.<br><em>Trigger condition:</em> Inherent risk > risk appetite [citation:3].</p><p><strong>3. Sharing/Transfer (Share):</strong> Transfer risk to third party via contract. Examples: insurance, hedging, outsourcing, joint ventures.<br><em>Trigger condition:</em> Inherent risk > risk appetite [citation:3].</p><p><strong>4. Acceptance (Accept/Self-Insure):</strong> No action taken; risk is within tolerance. May involve self-insurance (setting aside reserves).<br><em>Trigger condition:</em> Inherent risk < risk appetite [citation:3].</p><p><strong>5. Pursue (Exploit):</strong> Accept increased risk for higher potential return. Often for opportunities, not pure risks.</p>"
+            "title": "4. Risk Responses – ARTS+P Framework",
+            "content": "<p>Once risks are identified and assessed, management must decide how to respond. The response should bring residual risk into alignment with risk appetite and tolerance.</p><h3>The Five Risk Responses</h3><table class='notes-table'><thead><tr><th>Response</th><th>Description</th><th>When Appropriate</th><th>Examples</th></tr></thead><tbody><tr><td><strong>Avoid</strong></td><td>Exit the activity that generates the risk.</td><td>Residual risk > appetite/capacity; no cost-effective mitigation; not core to strategy.</td><td>Sell a division, discontinue a product line, withdraw from a geographic market.</td></tr><tr><td><strong>Reduce (Mitigate)</strong></td><td>Take actions to reduce likelihood or impact (or both).</td><td>Risk can be cost-effectively controlled; residual risk can be brought within appetite.</td><td>Internal controls, diversification, quality checks, safety training, backup systems.</td></tr><tr><td><strong>Transfer/Share</strong></td><td>Shift risk to third party via contract or arrangement.</td><td>Another party can manage risk better; risk is insurable or hedgeable.</td><td>Insurance, hedging with derivatives, outsourcing, joint ventures, service level agreements.</td></tr><tr><td><strong>Accept (Retain)</strong></td><td>No action taken; risk is within tolerance. May involve self-insurance (reserves).</td><td>Residual risk within appetite; cost of mitigation > benefit; low impact/likelihood.</td><td>Self-insurance for minor losses, accepting currency fluctuations within range.</td></tr><tr><td><strong>Pursue (Exploit)</strong></td><td>Accept increased risk for higher potential return. Applies to opportunities, not pure risks.</td><td>Opportunity with favorable risk-return trade-off; aligns with strategy.</td><td>Entering new market, launching innovative product, accepting more price volatility for higher margins.</td></tr></tbody></table><p><strong>Note:</strong> Organizations often combine responses (e.g., reduce some risks, transfer others, accept the remainder). The goal is to align residual risk with appetite.</p><h3>Decision Rule</h3><ul><li>If inherent risk > appetite → need response.</li><li>If residual risk after response > appetite → choose stronger response (or avoid).</li><li>If inherent risk < appetite → accept (no action needed).</li></ul>"
         },
         {
             "title": "5. Risk Assessment Techniques",
-            "content": "<p><strong>Qualitative Assessment:</strong><br>- Risk heat maps (Impact vs Likelihood matrices)<br>- Risk ranking and prioritization<br>- Scenario analysis</p><p><strong>Quantitative Assessment:</strong><br>- Expected loss = Probability × Financial impact [citation:3]<br>- Value at Risk (VaR): Maximum loss within confidence interval<br>- Monte Carlo simulation<br>- Sensitivity analysis<br>- Probabilistic models</p><p><strong>Portfolio View:</strong> Assessing risks collectively at entity level. Risks may offset (natural hedge) or correlate (amplify each other) [citation:2][citation:8].</p>"
+            "content": "<h3>Qualitative Risk Assessment</h3><ul><li><strong>Risk Heat Maps (Impact vs Likelihood Matrices):</strong> Plot risks on a grid with impact (low to high) on one axis and likelihood (low to high) on the other. Color-coded zones (red = high risk requiring action, yellow = monitor, green = accept). Helps visualize and prioritize risks.</li><li><strong>Risk Ranking:</strong> Subjective ranking of risks by severity.</li><li><strong>Scenario Analysis:</strong> Exploring 'what-if' scenarios to understand potential outcomes.</li></ul><h3>Quantitative Risk Assessment</h3><ul><li><strong>Expected Loss:</strong> <code>Probability × Impact</code>. Used to prioritize risks in dollar terms.</li><li><strong>Value at Risk (VaR):</strong> Statistical measure of maximum expected loss over a given time period at a specified confidence level (e.g., 95% VaR of $1M means there is a 95% chance losses will not exceed $1M). Used in finance and market risk.</li><li><strong>Monte Carlo Simulation:</strong> Computer-based technique that runs thousands of scenarios to generate probability distributions of outcomes.</li><li><strong>Sensitivity Analysis:</strong> Examines how changes in one variable affect outcomes.</li><li><strong>Probabilistic Models:</strong> Models that assign probabilities to different outcomes.</li></ul><h3>Portfolio View</h3><p>Risks should not be viewed in isolation. The <strong>portfolio view</strong> considers how risks interact at the entity level [citation:2][citation:8].</p><ul><li><strong>Correlation:</strong> Risks may move together (e.g., economic downturn affects multiple business lines simultaneously) – amplifies overall risk.</li><li><strong>Offset (Natural Hedge):</strong> Risks may move in opposite directions (e.g., currency gains in one market offset losses in another) – reduces overall risk.</li></ul><p>The portfolio view helps management understand total risk exposure and avoid surprises.</p>"
         },
         {
             "title": "6. Event Identification",
-            "content": "<p><strong>Internal Events:</strong> Infrastructure, personnel, processes, technology.</p><p><strong>External Events:</strong> Economic, natural environment, political, social, technological.</p><p><strong>Classification:</strong><br>- Negative events = Risks<br>- Positive events = Opportunities (feed back into strategy setting)</p>"
+            "content": "<p>Event identification is the process of recognizing potential events that could affect the achievement of strategy and objectives. Events can be internal or external, positive or negative.</p><h3>Internal Events</h3><ul><li><strong>Infrastructure:</strong> Plant capacity, IT systems, equipment failure.</li><li><strong>Personnel:</strong> Employee fraud, key person risk, talent shortages.</li><li><strong>Processes:</strong> Operational failures, supply chain disruptions.</li><li><strong>Technology:</strong> System outages, cybersecurity breaches.</li></ul><h3>External Events</h3><ul><li><strong>Economic:</strong> Interest rates, inflation, currency fluctuations, recession.</li><li><strong>Natural Environment:</strong> Natural disasters, climate change, pandemics.</li><li><strong>Political:</strong> Regulatory changes, trade policies, political instability.</li><li><strong>Social:</strong> Demographic shifts, changing consumer preferences.</li><li><strong>Technological:</strong> Disruptive innovations, obsolescence.</li></ul><h3>Classification</h3><ul><li><strong>Negative events:</strong> Represent <strong>risks</strong> – potential threats to value.</li><li><strong>Positive events:</strong> Represent <strong>opportunities</strong> – feed back into strategy and objective-setting. Management may choose to pursue opportunities (Pursue response).</li></ul>"
         },
         {
             "title": "7. Risk Communication & Monitoring",
-            "content": "<p><strong>Communication:</strong> Risk-related communication must occur at all levels of the organization [citation:3].</p><p><strong>Monitoring:</strong> Performance and risk indicators should be monitored on an ongoing basis [citation:3]. All of the following participate in monitoring activities: internal audit, audit committee, management [citation:4].</p>"
+            "content": "<h3>Communication</h3><p>Risk-related communication must flow <strong>throughout the organization</strong> – top-down, bottom-up, and cross-functionally [citation:3].</p><ul><li><strong>Board and senior management:</strong> Need high-level risk summaries, appetite alignment, and material risk exposures.</li><li><strong>Operational managers:</strong> Need detailed risk information relevant to their areas.</li><li><strong>Employees:</strong> Need understanding of risk culture, their role in managing risk, and reporting mechanisms.</li></ul><p>Whistleblower hotlines and anonymous reporting channels are key communication tools.</p><h3>Monitoring</h3><p>Performance and risk indicators should be monitored on an <strong>ongoing basis</strong> [citation:3]. Monitoring activities involve:</p><ul><li><strong>Management:</strong> Regular review of performance against targets, exception reports, key risk indicators (KRIs).</li><li><strong>Internal Audit:</strong> Independent assessment of ERM processes and controls.</li><li><strong>Audit Committee:</strong> Oversight of risk management and internal control.</li><li><strong>Board:</strong> Periodic review of risk appetite and strategy.</li></ul><p><strong>Key Risk Indicators (KRIs):</strong> Metrics that provide early warning of increasing risk exposure (e.g., employee turnover rate as KRI for talent risk; number of IT security incidents as KRI for cyber risk).</p>"
         },
         {
-            "title": "8. Internal Control vs. ERM",
-            "content": "<p><strong>Internal Control (COSO 2013 – CRIME):</strong><br>- Control Environment<br>- Risk Assessment<br>- Information & Communication<br>- Monitoring Activities<br>- Existing Control Activities [citation:2]</p><p><strong>ERM (COSO 2017 – GOPRO):</strong> Broader, strategic focus on value creation and preservation; integrates risk with strategy setting [citation:1][citation:5].</p><p><strong>Key Difference:</strong> Internal controls are tactical (accurate reporting, compliance); ERM is strategic (managing uncertainty to achieve performance goals).</p>"
+            "title": "8. Internal Control vs. ERM – Critical Distinction",
+            "content": "<p>The CMA exam often tests the difference between the COSO Internal Control framework (2013) and the COSO ERM framework (2017).</p><table class='notes-table'><thead><tr><th>Feature</th><th>COSO Internal Control (2013)</th><th>COSO ERM (2017)</th></tr></thead><tbody><tr><td><strong>Framework Mnemonic</strong></td><td>CRIME (Control Environment, Risk Assessment, Information & Communication, Monitoring, Control Activities)</td><td>GOPRO (Governance & Culture, Objective & Strategy Setting, Performance, Review & Revision, Ongoing Information/Communication/Reporting)</td></tr><tr><td><strong>Primary Focus</strong></td><td>Reliable financial reporting, operational efficiency, compliance with laws</td><td>Strategy setting, value creation, preservation, and realization</td></tr><tr><td><strong>Scope</strong></td><td>Narrower – focuses on controls over operations, reporting, and compliance</td><td>Broader – integrates risk with strategy and performance across the enterprise</td></tr><tr><td><strong>Risk Perspective</strong></td><td>Risk is something to be controlled/minimized</td><td>Risk is uncertainty that can create or erode value – optimal risk-taking is encouraged</td></tr><tr><td><strong>Application</strong></td><td>Tactical – applies to processes and transactions</td><td>Strategic – applies to strategy formulation and objective-setting</td></tr><tr><td><strong>Relationship</strong></td><td colspan='2' style='text-align:center;'>Internal control is a subset of ERM. ERM encompasses internal control but is broader.</td></tr></tbody></table><p><strong>Exam Tip:</strong> If a question discusses strategy, risk appetite, or value creation, it's ERM. If it discusses transaction controls, financial reporting, or compliance, it's Internal Control.</p>"
+        },
+        {
+            "title": "9. COSO ERM Principles Summary",
+            "content": "<p>The 2017 ERM framework includes 20 principles organized under the five components. While you don't need to memorize all 20, understanding the groupings helps answer scenario questions.</p><table class='notes-table'><thead><tr><th>Component</th><th>Principles (Mnemonic)</th><th>Key Focus</th></tr></thead><tbody><tr><td><strong>Governance & Culture</strong></td><td>DOVES (5 principles)</td><td>Board oversight, culture, values, talent, structure</td></tr><tr><td><strong>Strategy & Objective-Setting</strong></td><td>SOAR (4 principles)</td><td>Business context, risk appetite, strategy evaluation, objectives</td></tr><tr><td><strong>Performance</strong></td><td>VAPIR (5 principles)</td><td>Risk identification, assessment, prioritization, response, portfolio view</td></tr><tr><td><strong>Review & Revision</strong></td><td>SIR (3 principles)</td><td>Assess change, review performance, pursue improvement</td></tr><tr><td><strong>Information, Communication & Reporting</strong></td><td>TIP (3 principles)</td><td>Technology, communication, reporting</td></tr></tbody></table>"
+        },
+        {
+            "title": "10. Practical Application – Scenario Analysis",
+            "content": "<p>The CMA exam tests ERM through scenario-based questions. Here's how to approach them:</p><h3>Step 1: Identify the Objective Affected</h3><p>Is the risk affecting Strategic, Operations, Reporting, or Compliance objectives (SORC)?</p><h3>Step 2: Classify the Risk Type</h3><p>Is this inherent (before controls) or residual (after controls)?</p><h3>Step 3: Determine the Appropriate Response</h3><ul><li>If the risk is beyond appetite and cannot be mitigated cost-effectively → Avoid.</li><li>If controls can bring risk within appetite → Reduce.</li><li>If a third party can bear the risk → Transfer.</li><li>If risk is within appetite → Accept.</li><li>If it's an opportunity with favorable risk-return → Pursue.</li></ul><h3>Step 4: Identify the ERM Component</h3><p>Which of GOPRO is primarily involved?</p><ul><li>Tone from top, ethics, board oversight → Governance & Culture.</li><li>Setting risk appetite, evaluating strategies → Strategy & Objective-Setting.</li><li>Identifying, assessing, responding to risks → Performance.</li><li>Monitoring changes, improving ERM → Review & Revision.</li><li>Communicating risk information → Information, Communication & Reporting.</li></ul><h3>Step 5: Consider Qualitative Factors</h3><ul><li>Is the risk correlated with other risks? (Portfolio view)</li><li>Does the response align with risk appetite?</li><li>Are there stakeholder implications?</li></ul>"
         }
     ],
     "formulas": [
         {
             "name": "Expected Loss",
             "formula": "Probability of Event × Financial Impact",
-            "notes": "Basic risk quantification [citation:3]"
+            "notes": "Basic risk quantification for prioritizing risks"
         },
         {
             "name": "Residual Risk",
-            "formula": "Inherent Risk - Impact of Risk Response",
-            "notes": "Risk remaining after mitigation [citation:3]"
+            "formula": "Inherent Risk – Impact of Risk Response",
+            "notes": "Risk remaining after controls/mitigation"
         },
         {
             "name": "Risk Appetite Condition",
             "formula": "Risk Appetite ≤ Risk Capacity",
-            "notes": "Willingness cannot exceed ability"
+            "notes": "Willingness cannot exceed ability to absorb risk"
         },
         {
             "name": "Risk Tolerance Variation",
-            "formula": "Actual Performance - Target Performance",
-            "notes": "Deviation from objectives must be within tolerance"
+            "formula": "Actual Performance – Target Performance",
+            "notes": "Deviation from objectives must be within tolerance limits"
+        },
+        {
+            "name": "Value at Risk (VaR)",
+            "formula": "Maximum loss at given confidence level (e.g., 95% VaR = $1M)",
+            "notes": "Statistical measure of downside risk"
+        },
+        {
+            "name": "Risk Heat Map Position",
+            "formula": "Likelihood (Low/Med/High) × Impact (Low/Med/High)",
+            "notes": "Qualitative assessment tool"
         }
     ],
     "mistakes": [
-        "Confusing **COSO Internal Control** (CRIME) with **COSO ERM** (GOPRO). CRIME is for financial reporting/controls; GOPRO is for strategic risk management [citation:2].",
-        "Thinking **Risk Appetite** is a single number. It is a broad description of the types and amount of risk acceptable, varying across business lines and over time [citation:6].",
-        "Believing **Risk Avoidance** means doing nothing. Avoidance involves actively exiting an activity (selling, discontinuing) [citation:3][citation:4].",
+        "Confusing **COSO Internal Control (CRIME)** with **COSO ERM (GOPRO)**. CRIME is for financial reporting/controls; GOPRO is for strategic risk management.",
+        "Thinking **Risk Appetite** is a single number. It is a broad description of types and amount of risk acceptable, varying across business lines and over time.",
+        "Believing **Risk Avoidance** means doing nothing. Avoidance involves actively exiting an activity (selling, discontinuing).",
         "Mixing up **Inherent Risk** (before controls) and **Residual Risk** (after controls).",
         "Assuming risk responses are mutually exclusive – organizations often combine responses.",
-        "Thinking ERM is just a compliance checklist – it is a strategic value-creation framework [citation:6].",
+        "Thinking ERM is just a compliance checklist – it is a strategic value-creation framework.",
         "Forgetting that **Risk Tolerance** applies at objective level, while Risk Appetite is entity-wide.",
         "Confusing **Risk Capacity** (maximum possible) with **Risk Appetite** (willing to accept).",
         "Believing all risks should be minimized – optimal risk-taking creates value.",
-        "Overlooking the **Portfolio View** – risks may offset or correlate [citation:2][citation:8]."
+        "Overlooking the **Portfolio View** – risks may offset or correlate, affecting total exposure.",
+        "Assuming ERM is only for large companies – ERM principles apply to organizations of all sizes.",
+        "Forgetting that **event identification** includes both risks (negative) and opportunities (positive).",
+        "Thinking risk assessment is only quantitative – qualitative methods (heat maps) are equally valid.",
+        "Misidentifying the ERM component in scenarios – e.g., attributing a risk assessment question to Governance instead of Performance.",
+        "Believing that once risks are identified, they remain static – Review & Revision component addresses changes over time."
     ],
-    "quiz": [
+    "summary": "Risk Management (10% of Part 2) is based on the COSO ERM 2017 framework, which integrates risk with strategy and performance to create, preserve, and realize value. The five components (GOPRO) are Governance & Culture (DOVES), Strategy & Objective-Setting (SOAR), Performance (VAPIR), Review & Revision (SIR), and Information, Communication & Reporting (TIP). Key terminology: Risk Appetite (willing to accept), Risk Capacity (can absorb), Risk Tolerance (acceptable variation), Inherent Risk (before controls), Residual Risk (after controls). Risk responses include Avoid, Reduce, Transfer, Accept, and Pursue. Risk assessment can be qualitative (heat maps) or quantitative (expected loss, VaR). The portfolio view considers risk correlations. ERM differs from Internal Control – ERM is broader, strategic, and focused on value, while Internal Control is tactical and focused on controls. The CMA exam tests application through scenarios requiring identification of components, responses, and terminology. Remember that risk is not inherently bad – managing risk optimally creates value.",
+"quiz": [
         {
             "question": "According to COSO ERM 2017, which component involves defining the organization's risk appetite?",
             "options": [

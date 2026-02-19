@@ -4,59 +4,84 @@
     "weightage": "25%",
     "recommendedStudyHours": "45-50 hours",
     "examLevel": "Level C (Analysis, Evaluation, Synthesis)",
-    "overview": "Decision Analysis (25% of Part 2) is the most heavily weighted section, critical for passing the CMA exam. It focuses on using financial data to make short-term profitability decisions. Mastery of CVP Analysis, Relevant Costing (Marginal Analysis), and Pricing Methodologies is non-negotiable. The 2026 syllabus emphasizes case-based questions (CBQs) that simulate real-world scenarios requiring both quantitative analysis and qualitative judgment. This guide incorporates the latest exam trends, common traps, and integration with other Part 2 topics.",
+    "overview": "Decision Analysis (25% of Part 2) is the most heavily weighted section, critical for passing the CMA exam. It focuses on using financial data to make short-term profitability decisions. Mastery of CVP Analysis, Relevant Costing (Marginal Analysis), and Pricing Methodologies is non-negotiable. The 2026 syllabus emphasizes case-based questions (CBQs) that simulate real-world scenarios requiring both quantitative analysis and qualitative judgment. This guide incorporates the latest exam trends, common traps, and integration with other Part 2 topics. Success requires the ability to identify relevant costs, ignore sunk costs, consider opportunity costs, and apply quantitative results to strategic decisions while considering qualitative factors.",
     "bulletNotes": [
-        "**Relevant Range**: The range of activity where total fixed costs remain constant and variable cost per unit remains constant. Outside this range, cost behavior changes.",
-        "**Breakeven Point**: Total Revenue = Total Costs. Contribution Margin covers Fixed Costs exactly. Net Income = 0.",
-        "**Contribution Margin (CM)**: Sales - Variable Costs. Represents the amount available to cover fixed costs and provide profit.",
-        "**Margin of Safety**: The amount by which sales can drop before the company incurs a loss. Budgeted Sales - Breakeven Sales.",
-        "**Operating Leverage**: A measure of the sensitivity of Operating Income to changes in Sales. High Fixed Costs = High Leverage = High Risk & Return.",
-        "**Sunk Costs**: Past costs that cannot be changed. ALWAYS IRRELEVANT for decision making.",
-        "**Opportunity Costs**: The benefit foregone by choosing one alternative over the next best alternative. ALWAYS RELEVANT when capacity is constrained.",
-        "**Special Orders**: Accept if Price > Variable Cost (idle capacity). At full capacity, Price must > Variable Cost + Opportunity Cost (lost CM from regular sales).",
-        "**Make or Buy**: Compare Variable Cost + Avoidable Fixed Cost of making vs. Purchase Price + Incremental Costs of buying. Ignore Unavoidable (Allocated) Fixed Costs.",
-        "**Sell or Process Further**: Process if Incremental Revenue > Incremental Cost. Joint costs incurred prior to split-off are Sunk/Irrelevant.",
-        "**Constrained Resources**: Prioritize products with the highest Contribution Margin per unit of the CONSTRAINED resource (e.g., CM per machine hour).",
-        "**Target Costing**: Market Price - Desired Profit = Target Cost. Design product to meet this cost through value engineering.",
-        "**Demand Elasticity**: % Change in Quantity / % Change in Price. |Ed|>1 is Elastic (price decrease raises revenue). |Ed|<1 is Inelastic (price increase raises revenue).",
-        "**Life-Cycle Costing**: Considers all costs from R&D to disposal; essential for products with significant non-production costs.",
-        "**Price Discrimination**: Charging different prices to different segments; requires ability to prevent resale."
+        "**Relevant Range Fundamental**: The range of activity where total fixed costs remain constant and variable cost per unit remains constant. Outside this range, cost behavior changes – CVP assumptions break down.",
+        "**Breakeven Point (BEP)**: Total Revenue = Total Costs. Contribution Margin covers Fixed Costs exactly. Net Income = 0. Memorize both unit and dollar formulas.",
+        "**Contribution Margin (CM)**: Sales – Variable Costs. Represents the amount available to cover fixed costs and provide profit. CM is the foundation of all decision analysis.",
+        "**CM Ratio**: CM / Sales. The percentage of each sales dollar available to cover fixed costs and profit. Used for quick BEP and target profit calculations.",
+        "**Margin of Safety (MOS)**: The amount by which sales can drop before the company incurs a loss. MOS = Budgeted Sales – Breakeven Sales. Higher MOS = lower risk.",
+        "**Operating Leverage (DOL)**: Measures sensitivity of Operating Income to sales changes. DOL = Total CM / Operating Income. High DOL = high fixed costs = high risk/return.",
+        "**Sunk Costs**: Past costs that cannot be changed. ALWAYS IRRELEVANT for decision making. Never include in analysis.",
+        "**Opportunity Costs**: The benefit foregone by choosing one alternative over the next best alternative. ALWAYS RELEVANT when capacity is constrained or resources are limited.",
+        "**Avoidable vs Unavoidable Costs**: Only avoidable costs (those that differ between alternatives) are relevant. Allocated common costs are usually unavoidable and irrelevant.",
+        "**Special Orders – Idle Capacity**: Accept if Price > Variable Cost. Fixed costs are irrelevant because they don't change.",
+        "**Special Orders – Full Capacity**: Accept only if Price > Variable Cost + Opportunity Cost (CM lost from displaced regular sales). Opportunity cost = CM per unit of regular sales.",
+        "**Make or Buy (Outsourcing)**: Compare relevant costs to make (DM + DL + VOH + Avoidable Fixed OH) vs relevant costs to buy (Purchase Price + Incremental Costs). Choose lower cost.",
+        "**Keep or Drop Segment**: Keep if Contribution Margin Lost > Avoidable Fixed Costs. Drop if Contribution Margin Lost < Avoidable Fixed Costs. Ignore allocated common costs.",
+        "**Sell or Process Further**: Process further if Incremental Revenue > Incremental Cost. Joint costs incurred before split-off are sunk and irrelevant.",
+        "**Constrained Resources (Bottleneck)**: Maximize Contribution Margin per unit of the constrained resource (e.g., CM per machine hour, per labor hour). Do NOT rank by CM alone.",
+        "**Target Costing**: Market Price – Desired Profit = Target Cost. Design product and processes to meet this cost through value engineering. Used in competitive markets.",
+        "**Cost-Plus Pricing**: Price = Cost Base × (1 + Markup%). Simple but ignores demand and competition. Markup% = Desired Profit / Total Cost.",
+        "**Life-Cycle Costing**: Considers all costs from R&D through disposal. Essential for products with significant non-production costs (long-term contracts, pharmaceuticals).",
+        "**Value-Based Pricing**: Price based on perceived value to customer, not costs. Yields highest margins but requires deep customer insight.",
+        "**Price Elasticity of Demand (Ed)**: % Change in Quantity / % Change in Price. |Ed|>1 = Elastic (price decrease raises revenue); |Ed|<1 = Inelastic (price increase raises revenue).",
+        "**Price Discrimination**: Charging different prices to different segments. Requires ability to prevent resale (arbitrage) and different demand elasticities.",
+        "**Peak-Load Pricing**: Higher prices during peak demand periods (utilities, hotels, airlines).",
+        "**Penetration Pricing**: Low initial price to gain market share quickly. Used in price-sensitive markets.",
+        "**Skimming Pricing**: High initial price to maximize revenue from early adopters. Used for innovative products with inelastic demand initially.",
+        "**Theory of Constraints (TOC) Steps**: Identify constraint, Exploit constraint, Subordinate everything else, Elevate constraint, Repeat. Focus on throughput (Sales – DM).",
+        "**Throughput Contribution (TOC)**: Sales – Direct Materials Cost. DL and VOH are considered fixed in TOC. Maximize throughput per constraint unit.",
+        "**Qualitative Factors to Consider**: Employee morale, customer relationships, supplier reliability, quality impact, strategic alignment, brand reputation, regulatory compliance.",
+        "**Common Exam Trap**: Including allocated fixed costs that are not avoidable. Always ask: 'Will this cost disappear if I choose the alternative?'"
     ],
-    "shortNotes": "Always distinguish between TOTAL fixed costs (constant within relevant range) and FIXED cost per unit (decreases as volume rises). In exams, 'Allocated Common Costs' are almost always irrelevant/unavoidable—do not include them in 'Keep/Drop' or 'Make or Buy' analysis unless explicitly stated they are avoidable. For target profit after tax, always gross up: Pre-tax = After-tax/(1 - tax rate). When capacity is constrained, think in terms of contribution per unit of constraint.",
+    "shortNotes": "Always distinguish between TOTAL fixed costs (constant within relevant range) and FIXED cost per unit (decreases as volume rises). In exams, 'Allocated Common Costs' are almost always irrelevant/unavoidable—do not include them in 'Keep/Drop' or 'Make or Buy' analysis unless explicitly stated they are avoidable. For target profit after tax, always gross up: Pre-tax = After-tax / (1 – tax rate). When capacity is constrained, think in terms of contribution per unit of constraint. Sunk costs are always irrelevant. Opportunity costs are always relevant when resources are scarce. For special orders, the key question is: 'Is there idle capacity?' If yes, price just needs to exceed variable cost. If no, price must cover variable cost plus lost CM from displaced sales. In sell or process further decisions, joint costs are sunk – ignore them. Qualitative factors can override quantitative analysis – be prepared to discuss them.",
     "concepts": [
         {
             "title": "1. Cost-Volume-Profit (CVP) Fundamentals",
-            "content": "<p><strong>The Equation Method</strong><br><code>Revenue - Variable Costs - Fixed Costs = Operating Income</code><br>Or: <code>(Unit Price × Q) - (Unit VC × Q) - Fixed Costs = Income</code></p><p><strong>Contribution Margin (CM) Method</strong><br><code>Unit CM = Price - Unit VC</code><br><code>CM Ratio = Unit CM / Price</code></p><p><strong>Breakeven Formulas</strong><br>Units: <code>Fixed Costs / Unit CM</code><br>Dollars: <code>Fixed Costs / CM Ratio</code></p><p><strong>Target Profit (Pre-tax)</strong><br>Units: <code>(Fixed Costs + Target Profit) / Unit CM</code><br>Dollars: <code>(Fixed Costs + Target Profit) / CM Ratio</code></p><p><em>Note:</em> All CVP analysis assumes operations remain within the relevant range, and for multi-product, sales mix remains constant.</p>"
+            "content": "<h3>The Foundation of Decision Analysis</h3><p>CVP analysis examines how profits change with changes in sales volume, costs, and prices. It is essential for breakeven analysis, target profit calculations, and understanding operating leverage.</p><p><strong>Key Assumptions:</strong></p><ul><li>Operations are within the <strong>relevant range</strong> (cost behavior is linear).</li><li>All costs can be accurately classified as fixed or variable.</li><li>Sales mix remains constant (for multi-product analysis).</li><li>Inventory levels do not change (units produced = units sold).</li></ul><p><strong>The Equation Method:</strong><br><code>Revenue – Variable Costs – Fixed Costs = Operating Income</code><br><code>(Price × Q) – (Unit VC × Q) – Fixed Costs = Operating Income</code></p><p><strong>Contribution Margin (CM) Method:</strong><br><code>Unit CM = Price – Unit Variable Cost</code><br><code>CM Ratio = Unit CM / Price</code></p><p><strong>Breakeven Point (BEP):</strong> Where Operating Income = $0.</p><ul><li><strong>BEP (units):</strong> <code>Fixed Costs / Unit CM</code></li><li><strong>BEP (dollars):</strong> <code>Fixed Costs / CM Ratio</code></li></ul><p><strong>Target Profit (Pre-Tax):</strong></p><ul><li><strong>Units for Target Profit:</strong> <code>(Fixed Costs + Target Profit) / Unit CM</code></li><li><strong>Dollars for Target Profit:</strong> <code>(Fixed Costs + Target Profit) / CM Ratio</code></li></ul><p><strong>Changes in Variables:</strong> CVP can analyze 'what-if' scenarios – price changes, cost changes, volume changes. The CM approach allows quick calculation of profit impacts.</p>"
         },
         {
             "title": "2. Advanced CVP: Taxes & Multiple Products",
-            "content": "<h3>Target Net Income (After-Tax)</h3><p>CVP formulas use Pre-Tax Income. If given After-Tax Income, gross it up first:<br><code>Pre-Tax Income = After-Tax Income / (1 - Tax Rate)</code><br>Then use standard formulas.</p><h3>Multiple Products (Sales Mix)</h3><p>Use <strong>Weighted Average CM (WACM)</strong>.<br><code>WACM = (CM₁ × Mix₁%) + (CM₂ × Mix₂%) + ...</code><br><code>Breakeven Bundles = Fixed Costs / WACM</code><br>Then multiply bundles by each product's units per bundle to get individual breakeven units.<br><strong>Assumption:</strong> Sales mix remains constant. If mix changes, breakeven point changes.</p>"
+            "content": "<h3>Target Net Income (After-Tax)</h3><p>All CVP formulas use <strong>pre-tax operating income</strong>. If the question gives an after-tax target, you must convert it first:</p><p><code>Pre-Tax Income = After-Tax Income / (1 – Tax Rate)</code></p><p>Then plug this pre-tax number into the standard target profit formulas.</p><p><strong>Example:</strong> Target after-tax profit = $60,000, tax rate = 40%. Pre-tax = $60,000 / (1 – 0.40) = $60,000 / 0.60 = $100,000. Now use $100,000 as target profit in formulas.</p><h3>Multiple Products – Sales Mix Analysis</h3><p>When a company sells multiple products, the breakeven point depends on the <strong>sales mix</strong> (the proportion of each product sold). The assumption is that the sales mix remains constant.</p><p><strong>Steps:</strong></p><ol><li>Calculate Unit CM for each product.</li><li>Determine the sales mix (e.g., 2:3 or percentages).</li><li>Calculate <strong>Weighted Average Contribution Margin (WACM)</strong>:<br><code>WACM = (CM₁ × Mix₁%) + (CM₂ × Mix₂%) + ...</code></li><li>Calculate <strong>Breakeven Bundles</strong>:<br><code>Breakeven Bundles = Total Fixed Costs / WACM</code></li><li>Multiply bundles by each product's units per bundle to get individual breakeven units.</li></ol><p><strong>Important:</strong> If the sales mix changes, the breakeven point changes. Products with higher CM reduce breakeven point when their mix increases.</p>"
         },
         {
-            "title": "3. Risk & Safety Margins",
-            "content": "<p><strong>Margin of Safety (MOS)</strong><br>Measures the cushion against loss.<br><code>MOS ($) = Actual Sales - Breakeven Sales</code><br><code>MOS (units) = Actual Units - Breakeven Units</code><br><code>MOS (%) = MOS($) / Actual Sales</code><br>Higher MOS indicates lower risk.</p><p><strong>Degree of Operating Leverage (DOL)</strong><br>Measures profit volatility relative to sales changes.<br><code>DOL = Total Contribution Margin / Operating Income</code><br><code>% Change in Income = DOL × % Change in Sales</code><br><em>Interpretation:</em> High DOL (high fixed costs) amplifies both profits and losses. At breakeven, DOL is undefined (infinite).</p>"
+            "title": "3. Risk & Safety Margins – Operating Leverage",
+            "content": "<h3>Margin of Safety (MOS)</h3><p>The amount by which actual or budgeted sales exceed breakeven sales. It measures the 'cushion' against losses.</p><p><code>Margin of Safety ($) = Actual (Budgeted) Sales – Breakeven Sales</code><br><code>Margin of Safety (units) = Actual (Budgeted) Units – Breakeven Units</code><br><code>Margin of Safety (%) = MOS($) / Actual Sales</code></p><p><strong>Interpretation:</strong> A higher MOS indicates lower risk – sales can drop significantly before losses occur. A low MOS means the company is operating close to breakeven.</p><h3>Degree of Operating Leverage (DOL)</h3><p>Operating leverage measures the sensitivity of operating income to changes in sales volume. It arises from the proportion of fixed costs in the cost structure.</p><p><code>DOL = Total Contribution Margin / Operating Income</code></p><p><strong>Interpretation:</strong> If DOL = 4, a 10% increase in sales will result in a 40% increase in operating income (4 × 10%). Similarly, a 10% decrease in sales will cause a 40% decrease in operating income.</p><ul><li><strong>High DOL:</strong> High fixed costs (automated manufacturing, capital-intensive) – profits are more volatile, higher risk and higher potential return.</li><li><strong>Low DOL:</strong> Low fixed costs (labor-intensive, service) – profits are less sensitive to sales changes.</li></ul><p><strong>Note:</strong> At the breakeven point, DOL is undefined (infinite) because operating income is zero. DOL decreases as sales move away from breakeven.</p><p><strong>% Change in Operating Income = DOL × % Change in Sales</strong></p>"
         },
         {
-            "title": "4. Marginal Analysis: Special Orders & Capacity",
-            "content": "<h3>Special Orders</h3><p><strong>Scenario:</strong> One-time order at below-market price.<br><strong>Idle Capacity Exists:</strong> Accept if Price > Variable Cost. (Fixed costs are irrelevant).<br><strong>Full Capacity:</strong> Accept only if Price > Variable Cost + Opportunity Cost (CM of lost regular sales).<br><em>Opportunity cost = CM per unit of regular sales displaced.</em></p><h3>Theory of Constraints</h3><p>When a resource (bottleneck) is limited, maximize <strong>CM per unit of the Constraint</strong>.<br><code>CM per constraint unit = Unit CM / Units of constraint required per product</code><br>Rank products by this metric, not simple CM per unit.</p>"
+            "title": "4. Marginal Analysis: Special Orders & Capacity Constraints",
+            "content": "<h3>Special Order Decisions</h3><p>A one-time order at a price different from the regular selling price. The decision rule depends on capacity utilization.</p><p><strong>Scenario 1: Idle Capacity Exists</strong></p><ul><li>Fixed costs are already covered and do not change.</li><li><strong>Accept if:</strong> Special Order Price > Variable Cost per Unit.</li><li>Any price above variable cost increases operating income (contributes to fixed costs and profit).</li></ul><p><strong>Scenario 2: At Full Capacity</strong></p><ul><li>Accepting the special order requires displacing regular sales.</li><li><strong>Opportunity Cost</strong> = Contribution Margin lost from regular sales displaced.</li><li><strong>Accept if:</strong> Special Order Price > Variable Cost per Unit + Opportunity Cost per Unit.</li><li>Alternatively, compare total incremental revenue from special order to total incremental cost (variable cost + lost CM from displaced units).</li></ul><p><strong>Important Qualitative Factors:</strong></p><ul><li>Will the special order affect regular customers? (if price is lower, regular customers may demand discounts).</li><li>Is this a one-time order or could it lead to ongoing business at lower prices?</li><li>Does the order require additional setup or overtime costs?</li></ul><h3>Theory of Constraints (TOC) – Constrained Resource Decisions</h3><p>When a resource (machine hours, labor hours, materials) is a bottleneck, the company cannot produce all products. The goal is to maximize total contribution margin given the constraint.</p><p><strong>Decision Rule:</strong> Prioritize products with the highest <strong>Contribution Margin per Unit of the Constrained Resource</strong>.</p><p><code>CM per Constraint Unit = Unit CM / Units of Constraint Required per Unit</code></p><p><strong>Example:</strong> Product A has CM = $100, requires 2 machine hours. CM per machine hour = $50. Product B has CM = $80, requires 1 machine hour. CM per machine hour = $80. Prioritize Product B even though its total CM is lower.</p><p><strong>Throughput Contribution (TOC approach):</strong> Some TOC problems define throughput as Sales – Direct Materials Only (considering DL and VOH as fixed). The same logic applies – maximize throughput per constraint unit.</p>"
         },
         {
-            "title": "5. Marginal Analysis: Make vs Buy & Keep/Drop",
-            "content": "<h3>Make or Buy (Outsourcing)</h3><p>Compare total relevant costs:<br><strong>Cost to Make:</strong> Direct Materials + Direct Labor + Variable Overhead + <em>Avoidable</em> Fixed Costs.<br><strong>Cost to Buy:</strong> Purchase Price + Incremental costs (e.g., freight, inspection).<br>Choose the lower cost option. Consider qualitative factors: quality control, supplier reliability, core competency.</p><h3>Keep or Drop Segment</h3><p>Compare:<br><strong>CM Lost:</strong> (Revenues - VC) of the segment.<br><strong>Fixed Costs Avoided:</strong> Specific fixed costs that vanish if dropped.<br>If CM Lost > Avoided Costs → KEEP.<br>If CM Lost < Avoided Costs → DROP.<br><strong>Critical Trap:</strong> Allocated common costs (e.g., corporate overhead) are unavoidable and irrelevant.</p>"
+            "title": "5. Marginal Analysis: Make vs Buy (Outsourcing)",
+            "content": "<h3>Make or Buy Decisions</h3><p>Decision whether to produce a component internally or purchase it from an external supplier.</p><p><strong>Relevant Costs to Make:</strong></p><ul><li>Direct Materials</li><li>Direct Labor</li><li>Variable Overhead</li><li><strong>Avoidable Fixed Overhead</strong> – fixed costs that would be eliminated if production stops. (This is critical – many fixed costs are unavoidable and thus irrelevant.)</li><li>Opportunity cost of using capacity for something else (if capacity is constrained).</li></ul><p><strong>Relevant Costs to Buy:</strong></p><ul><li>Purchase Price per unit × Quantity</li><li>Incremental costs of buying (freight-in, inspection, purchasing department costs if they increase).</li></ul><p><strong>Decision Rule:</strong> Choose the lower total relevant cost.</p><p><strong>Critical Trap – Unavoidable Fixed Costs:</strong> Allocated fixed overhead (e.g., factory rent, plant manager salary) is usually <strong>unavoidable</strong> and should <strong>NOT</strong> be included in the 'Make' cost. Including it would make 'Make' look more expensive incorrectly. Only include fixed costs that will actually disappear if production stops.</p><p><strong>Qualitative Factors in Make or Buy:</strong></p><ul><li>Quality control – can supplier meet specifications?</li><li>Supplier reliability – on-time delivery, financial stability.</li><li>Loss of control over production.</li><li>Protection of proprietary technology.</li><li>Impact on employees (layoffs, morale).</li><li>Core competency – is this a strategic activity?</li></ul>"
         },
         {
-            "title": "6. Pricing Methodologies",
-            "content": "<h3>Cost-Plus Pricing</h3><p><code>Price = Cost Base × (1 + Markup%)</code><br>Markup% = Desired Profit / Total Cost.<br>Simple, but ignores demand and competition.</p><h3>Target Costing (Market-Based)</h3><p>Used in competitive markets.<br>1. Determine Market Price (what customers are willing to pay).<br>2. Subtract Desired Profit.<br>3. Result is <strong>Target Cost</strong>.<br>4. Use value engineering to design product to meet target cost.</p><h3>Life-Cycle Pricing</h3><p>Sets price to cover all costs over the entire life: R&D, design, manufacturing, marketing, distribution, warranty, disposal. Essential for long-term contracts and industries with high non-production costs.</p><h3>Value-Based Pricing</h3><p>Price based on perceived value to customer, not costs. Yields highest margins but requires deep market insight.</p>"
+            "title": "6. Marginal Analysis: Keep or Drop Segment",
+            "content": "<h3>Segment Elimination Decisions</h3><p>Decision whether to drop a product line, division, or other segment. The key is to compare what is lost vs what is saved.</p><p><strong>Relevant Analysis:</strong></p><ul><li><strong>Contribution Margin Lost:</strong> If segment is dropped, the company loses its revenues and saves its variable costs. Net loss = Contribution Margin of the segment (Revenues – Variable Costs).</li><li><strong>Avoidable Fixed Costs:</strong> Fixed costs that are specific to the segment and would be eliminated if the segment is dropped. These include segment manager salary, advertising for that product, equipment lease for that segment.</li><li><strong>Unavoidable Fixed Costs:</strong> Allocated common costs (e.g., corporate overhead, factory rent) that would continue even if segment is dropped. These are <strong>irrelevant</strong>.</li></ul><p><strong>Decision Rule:</strong></p><ul><li><strong>Keep if:</strong> Contribution Margin Lost > Avoidable Fixed Costs (segment contributes positively after covering its own traceable fixed costs).</li><li><strong>Drop if:</strong> Contribution Margin Lost < Avoidable Fixed Costs (segment does not cover its own traceable fixed costs).</li></ul><p><strong>Alternative View – Segment Margin:</strong> Segment Margin = Contribution Margin – Traceable (Avoidable) Fixed Costs. If Segment Margin is positive, keep; if negative, consider dropping.</p><p><strong>Critical Trap:</strong> Do NOT subtract allocated common costs when evaluating a segment. These costs will be reallocated to remaining segments, not saved.</p><p><strong>Qualitative Factors:</strong></p><ul><li>Does the segment support sales of other products? (e.g., loss leader).</li><li>Impact on overall company image.</li><li>Employee morale and potential layoffs.</li><li>Could the capacity be used for something more profitable?</li></ul>"
         },
         {
-            "title": "7. Elasticity & Economics in Pricing",
-            "content": "<p><strong>Price Elasticity of Demand (Ed)</strong><br><code>Ed = % Change in Quantity Demanded / % Change in Price</code><br><strong>Elastic (|Ed| > 1):</strong> Quantity change > Price change → Price decrease raises revenue.<br><strong>Inelastic (|Ed| < 1):</strong> Quantity change < Price change → Price increase raises revenue.<br><strong>Unitary (|Ed| = 1):</strong> Total revenue unchanged.</p><p><strong>Market Structures & Pricing Power:</strong><br>- Perfect Competition: Price taker.<br>- Monopolistic Competition: Some pricing power (differentiation).<br>- Oligopoly: Few sellers, interdependent pricing.<br>- Monopoly: One seller, but often regulated.</p><p><strong>Pricing Strategies:</strong><br>- <strong>Skimming:</strong> High intro price (tech/luxury).<br>- <strong>Penetration:</strong> Low intro price to capture share (price-sensitive markets).<br>- <strong>Peak-Load:</strong> Higher rates at high demand times (utilities, hotels).<br>- <strong>Price Discrimination:</strong> Different prices to different segments; requires preventing resale (arbitrage).</p>"
+            "title": "7. Marginal Analysis: Sell or Process Further",
+            "content": "<h3>Joint Products – Sell at Split-Off vs Process Further</h3><p>When multiple products emerge from a common process (joint products), a decision must be made at the split-off point: sell now or process further.</p><p><strong>Key Concepts:</strong></p><ul><li><strong>Split-off Point:</strong> The point at which joint products become separately identifiable.</li><li><strong>Joint Costs:</strong> Costs incurred up to the split-off point. These are <strong>sunk and irrelevant</strong> to the decision.</li><li><strong>Separable Costs:</strong> Costs incurred after split-off to process further.</li></ul><p><strong>Decision Rule:</strong> Process further if:</p><p><code>Incremental Revenue > Incremental Cost</code></p><p>Where:</p><ul><li><strong>Incremental Revenue</strong> = Final Sales Value – Sales Value at Split-Off</li><li><strong>Incremental Cost</strong> = Separable Processing Costs</li></ul><p>If Incremental Revenue > Incremental Cost → Process Further.<br>If Incremental Revenue < Incremental Cost → Sell at Split-Off.</p><p><strong>Critical Insight:</strong> Joint costs are never relevant. They have already been incurred (or will be incurred regardless of the decision). Only future costs and revenues that differ between alternatives matter.</p><p><strong>Example:</strong> At split-off, Product X can be sold for $10,000. If processed further at a cost of $3,000, it can be sold for $14,000. Incremental revenue = $4,000; incremental cost = $3,000. Process further (gain $1,000).</p>"
+        },
+        {
+            "title": "8. Pricing Methodologies – Cost-Based & Market-Based",
+            "content": "<h3>Cost-Plus Pricing</h3><p>Price is determined by adding a markup to a cost base. Common in regulated industries, government contracts, and when costs are well-known.</p><p><code>Price = Cost Base × (1 + Markup %)</code></p><p><strong>Cost Base Options:</strong></p><ul><li>Variable Manufacturing Cost</li><li>Full Absorption Cost (includes fixed manufacturing overhead)</li><li>Total Cost (includes SG&A)</li></ul><p><strong>Markup % Calculation:</strong> <code>Markup % = Desired Profit / Cost Base</code></p><p><strong>Advantages:</strong> Simple, ensures costs are covered.<br><strong>Disadvantages:</strong> Ignores demand and competition; may lead to prices that are too high or too low.</p><h3>Target Costing (Market-Based)</h3><p>Used in highly competitive markets where price is determined by market forces. The company works backward from price to cost.</p><p><strong>Steps:</strong></p><ol><li>Determine the <strong>Market Price</strong> – what customers are willing to pay (based on market research).</li><li>Determine <strong>Desired Profit</strong> – required return on investment or profit margin.</li><li>Calculate <strong>Target Cost</strong>: <code>Target Cost = Market Price – Desired Profit</code></li><li>Use <strong>Value Engineering</strong> to design the product and processes to achieve the target cost.</li></ol><p>If the estimated cost exceeds the target cost, the company must find cost reductions or abandon the product. Target costing is most effective during the design phase when 80-90% of costs are committed.</p><h3>Life-Cycle Costing</h3><p>Considers all costs over the entire product life cycle: R&D, design, manufacturing, marketing, distribution, customer service, warranty, and disposal. Essential for:</p><ul><li>Products with significant non-production costs (e.g., pharmaceuticals, software).</li><li>Long-term contracts (defense, construction).</li><li>Environmental remediation costs.</li></ul><p>Life-cycle pricing sets a price that recovers all life-cycle costs and provides a desired profit over the product's life.</p><h3>Value-Based Pricing</h3><p>Price is based on the perceived value to the customer, not on the company's costs. Requires deep understanding of customer needs and willingness to pay. Can yield the highest margins but is difficult to implement.</p>"
+        },
+        {
+            "title": "9. Elasticity & Economics in Pricing",
+            "content": "<h3>Price Elasticity of Demand</h3><p>Measures how responsive quantity demanded is to a change in price.</p><p><code>Ed = % Change in Quantity Demanded / % Change in Price</code></p><ul><li><strong>Elastic Demand (|Ed| > 1):</strong> Quantity change > Price change. A price decrease increases total revenue; a price increase decreases total revenue.</li><li><strong>Inelastic Demand (|Ed| < 1):</strong> Quantity change < Price change. A price increase increases total revenue; a price decrease decreases total revenue.</li><li><strong>Unitary Elastic (|Ed| = 1):</strong> Total revenue remains unchanged when price changes.</li></ul><p><strong>Example:</strong> If Ed = -2 (elastic), a 10% price cut will increase quantity by 20%, and total revenue will increase.</p><h3>Market Structures and Pricing Power</h3><ul><li><strong>Perfect Competition:</strong> Price taker. Many sellers, identical products. No pricing power.</li><li><strong>Monopolistic Competition:</strong> Many sellers, differentiated products. Some pricing power based on differentiation.</li><li><strong>Oligopoly:</strong> Few sellers, interdependent pricing. Price wars possible; kinked demand curve.</li><li><strong>Monopoly:</strong> One seller. Significant pricing power but may be regulated.</li></ul><h3>Pricing Strategies</h3><ul><li><strong>Skimming Pricing:</strong> High initial price to maximize revenue from early adopters (innovative products, inelastic demand). Lowers price over time.</li><li><strong>Penetration Pricing:</strong> Low initial price to gain market share quickly (price-sensitive markets, economies of scale).</li><li><strong>Peak-Load Pricing:</strong> Higher prices during peak demand periods (utilities, hotels, airlines, concerts).</li><li><strong>Price Discrimination:</strong> Charging different prices to different customer segments for the same product. Requires:<ul><li>Ability to segment customers (different elasticities).</li><li>Ability to prevent resale (arbitrage).</li></ul>Examples: Student discounts, senior citizen discounts, airline ticket classes.</li><li><strong>Psychological Pricing:</strong> $9.99 instead of $10.00.</li></ul>"
+        },
+        {
+            "title": "10. Integrating Qualitative Factors in Decisions",
+            "content": "<p>While quantitative analysis provides the numbers, final decisions must consider qualitative factors that cannot be easily quantified. CMA exam questions often ask for the 'best' alternative considering both quantitative and qualitative aspects.</p><p><strong>Common Qualitative Factors to Consider:</strong></p><ul><li><strong>Employee Morale and Labor Relations:</strong> Outsourcing may lead to layoffs, impacting remaining employees' motivation and loyalty.</li><li><strong>Customer Relationships:</strong> Dropping a product line may disappoint loyal customers who also buy other products.</li><li><strong>Supplier Reliability:</strong> In make-or-buy, can the supplier deliver on time with consistent quality?</li><li><strong>Quality Control:</strong> Internal production may offer better quality control than outsourcing.</li><li><strong>Strategic Alignment:</strong> Does the decision align with the company's long-term strategy and core competencies?</li><li><strong>Brand Reputation:</strong> Will a price change or product discontinuation harm the brand?</li><li><strong>Regulatory and Legal Issues:</strong> Are there environmental, safety, or compliance implications?</li><li><strong>Competitor Reaction:</strong> How will competitors respond to a price change or new product?</li><li><strong>Risk and Uncertainty:</strong> What if demand forecasts are wrong? What if supplier prices increase?</li></ul><p><strong>Exam Approach:</strong> If a question asks for the 'best' decision, calculate the quantitative impact first, then consider qualitative factors that might override the numbers. For example, a special order might be quantitatively profitable but could alienate regular customers if they find out – the qualitative factor may lead to rejection.</p>"
         }
     ],
     "formulas": [
         {
             "name": "Unit Contribution Margin",
-            "formula": "Price - Unit Variable Cost"
+            "formula": "Price – Unit Variable Cost"
         },
         {
             "name": "Contribution Margin Ratio",
@@ -71,7 +96,7 @@
             "formula": "Total Fixed Costs / CM Ratio"
         },
         {
-            "name": "Target Sales (Units) – Pre-Tax",
+            "name": "Target Sales Volume (Units) – Pre-Tax",
             "formula": "(Fixed Costs + Target Operating Income) / Unit CM"
         },
         {
@@ -80,22 +105,22 @@
         },
         {
             "name": "Pre-Tax Target Income from After-Tax",
-            "formula": "After-Tax Income / (1 - Tax Rate)"
+            "formula": "After-Tax Income / (1 – Tax Rate)"
         },
         {
             "name": "Margin of Safety ($)",
-            "formula": "Actual Sales - Breakeven Sales"
+            "formula": "Actual (Budgeted) Sales – Breakeven Sales"
         },
         {
             "name": "Margin of Safety (%)",
             "formula": "Margin of Safety ($) / Actual Sales"
         },
         {
-            "name": "Degree of Operating Leverage",
+            "name": "Degree of Operating Leverage (DOL)",
             "formula": "Total Contribution Margin / Operating Income"
         },
         {
-            "name": "Weighted Average CM (WACM)",
+            "name": "Weighted Average Contribution Margin (WACM)",
             "formula": "Σ (Unit CM × Sales Mix %)"
         },
         {
@@ -104,44 +129,60 @@
         },
         {
             "name": "Minimum Special Order Price (Full Capacity)",
-            "formula": "Unit Variable Cost + Opportunity Cost (CM lost per unit)"
+            "formula": "Unit Variable Cost + Opportunity Cost per Unit (Lost CM from displaced sales)"
         },
         {
-            "name": "CM per Unit of Constraint",
-            "formula": "Unit CM / Units of Constraint per Unit"
+            "name": "CM per Unit of Constrained Resource",
+            "formula": "Unit CM / Units of Constraint Required per Unit"
         },
         {
-            "name": "Markup % (Cost-Plus)",
-            "formula": "Desired Profit / Total Cost"
-        },
-        {
-            "name": "Target Cost",
-            "formula": "Market Price - Desired Profit"
-        },
-        {
-            "name": "Price Elasticity of Demand",
-            "formula": "% Change in Quantity / % Change in Price"
+            "name": "Segment Margin",
+            "formula": "Contribution Margin – Traceable (Avoidable) Fixed Costs"
         },
         {
             "name": "Incremental Revenue (Sell or Process Further)",
-            "formula": "Final Sales Value - Sales Value at Split-Off"
+            "formula": "Final Sales Value – Sales Value at Split-Off"
+        },
+        {
+            "name": "Target Cost",
+            "formula": "Market Price – Desired Profit"
+        },
+        {
+            "name": "Markup % (Cost-Plus)",
+            "formula": "Desired Profit / Cost Base"
+        },
+        {
+            "name": "Price Elasticity of Demand",
+            "formula": "% Change in Quantity Demanded / % Change in Price"
+        },
+        {
+            "name": "Throughput Contribution (TOC)",
+            "formula": "Sales – Direct Materials Cost"
         }
     ],
     "mistakes": [
-        "Confusing **Variable Costing** with **Absorption Costing**. CVP uses only Variable Costs.",
-        "Ignoring the **Tax Effect** on Target Profit. CVP formulas need Before-Tax numbers.",
+        "Confusing **Variable Costing** with **Absorption Costing**. CVP and relevant costing use only variable costs for contribution margin.",
+        "Ignoring the **Tax Effect** on Target Profit. CVP formulas require pre-tax numbers – always gross up after-tax targets.",
         "Including **Allocated Fixed Costs** in Make/Buy or Keep/Drop decisions. These are usually unavoidable and irrelevant.",
-        "Treating **Fixed Costs per unit** as constant. Fixed costs per unit vary inversely with volume.",
+        "Treating **Fixed Costs per unit** as constant. Fixed costs per unit vary inversely with volume – use total fixed costs in analysis.",
         "Assuming **High Operating Leverage** is always good. It amplifies losses just as much as profits.",
         "Forgetting **Opportunity Cost** when evaluating Special Orders at Full Capacity.",
-        "Calculating **Elasticity** incorrectly. Always % change in quantity over % change in price.",
-        "Mistaking **Margin of Safety** for Profit. It's the revenue buffer above breakeven.",
+        "Ranking products by CM per unit alone when there is a constraint. Must use CM per unit of constraint.",
+        "Calculating **Elasticity** incorrectly. Always % change in quantity over % change in price (not price over quantity).",
+        "Mistaking **Margin of Safety** for Profit. It's the revenue buffer above breakeven, not profit.",
         "Using total joint costs in sell-or-process-further decisions. Joint costs are sunk and irrelevant.",
-        "Overlooking **qualitative factors** in decision making (employee morale, customer relationships, quality).",
-        "Failing to check if fixed costs are **avoidable** before including them.",
-        "Misreading 'except' or 'least likely' questions and picking the opposite answer."
+        "Overlooking **qualitative factors** in decision making – exam questions expect you to recognize when numbers aren't the only factor.",
+        "Failing to check if fixed costs are **avoidable** before including them in analysis.",
+        "Misreading 'except' or 'least likely' questions and picking the opposite answer.",
+        "Thinking **Target Costing** means starting with cost and adding profit. Target costing starts with market price and subtracts desired profit.",
+        "Confusing **Skimming** (high initial price) with **Penetration** (low initial price).",
+        "Assuming **Price Discrimination** is always illegal. It's legal if not based on protected characteristics and if it doesn't reduce competition.",
+        "Forgetting that **DOL decreases** as sales move away from breakeven – it's not constant.",
+        "Using **Sales** instead of **Contribution Margin** in DOL formula (DOL = CM / Operating Income).",
+        "Not adjusting for **different time periods** in elasticity calculations (annual vs monthly)."
     ],
-    "quiz": [
+    "summary": "Decision Analysis (25% of Part 2) is the most critical section for passing the CMA exam. Master CVP analysis with taxes and multiple products, including breakeven, target profit, margin of safety, and operating leverage. For marginal analysis, always identify relevant costs – avoidable costs are relevant, sunk costs are irrelevant, and opportunity costs matter when capacity is constrained. Special orders depend on capacity: with idle capacity, price only needs to exceed variable cost; at full capacity, price must cover variable cost plus opportunity cost. Make or buy decisions must exclude unavoidable allocated fixed costs. Keep/drop decisions focus on segment margin (CM – avoidable fixed costs), ignoring allocated overhead. Sell or process further decisions ignore joint costs (sunk) and compare incremental revenue to incremental cost. When resources are constrained, prioritize products by CM per unit of constraint, not total CM. Pricing methodologies include cost-plus (simple but ignores market), target costing (market-driven, uses value engineering), life-cycle costing (all costs over product life), and value-based pricing (customer perception). Understand price elasticity to predict revenue impacts of price changes. Always consider qualitative factors – employee morale, customer relationships, supplier reliability, strategic alignment – as they may override quantitative results. The key to success is disciplined identification of relevant costs and systematic application of decision rules.",
+"quiz": [
         {
             "question": "If a company has high operating leverage, a small increase in sales will result in:",
             "options": [
