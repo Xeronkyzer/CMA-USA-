@@ -4,25 +4,27 @@
     "weightage": "10%",
     "recommendedStudyHours": "15-20 hours",
     "examLevel": "Level C (Analysis, Evaluation, Synthesis)",
-    "overview": "Investment Decisions (10% of Part 2) covers Capital Budgeting: the process of identifying, evaluating, and selecting long-term projects that align with organizational goals and maximize shareholder value. This section is critical for the CMA exam as it tests both conceptual understanding and computational accuracy. The 2026 CMA syllabus emphasizes case-based questions (CBQs) that require integrating capital budgeting techniques with risk analysis and strategic considerations. Mastery requires understanding cash flow identification, discounted cash flow methods (NPV, IRR), non-discounted methods (payback), risk assessment techniques (sensitivity, scenario, Monte Carlo), and real options. Candidates must be able to compute after-tax cash flows, apply the correct decision rules, recognize the superiority of NPV, and evaluate projects under capital rationing or unequal lives.",
+    "overview": "Investment Decisions (10% of Part 2) covers Capital Budgeting: the process of identifying, evaluating, and selecting long-term projects that align with organizational goals and maximize shareholder value. For the 2026 CMA exam, this section remains critical, testing both conceptual understanding and computational accuracy. The 2026 syllabus emphasizes case-based questions (CBQs) that require integrating capital budgeting techniques with risk analysis and strategic considerations. Mastery requires understanding cash flow identification, discounted cash flow methods (NPV, IRR), non-discounted methods (payback), risk assessment techniques (sensitivity, scenario, Monte Carlo, certainty equivalent), and real options. Candidates must be able to compute after-tax cash flows including the depreciation tax shield and asset disposition effects, apply correct decision rules, recognize the superiority of NPV, and evaluate projects under capital rationing or with unequal lives. Ethical considerations and sustainability (ESG) are increasingly integrated into investment decisions [citation:1][citation:8].",
     "bulletNotes": [
-        "**Capital Budgeting Process**: Identify → Search → Evaluate → Select → Finance → Implement & Control [citation:6].",
-        "**Relevant Cash Flows**: Only Incremental Cash Flows matter. **Include**: Initial Investment, Operating Cash Flows, Working Capital changes, Terminal Value. **Exclude**: Sunk Costs, Allocated Overheads, Financing Costs (interest).",
-        "**Depreciation Tax Shield**: Depreciation is non-cash, but it reduces Taxable Income, saving tax. Shield = Annual Depreciation × Tax Rate. This is a critical cash inflow in capital budgeting.",
-        "**NPV (Net Present Value)**: PV of Inflows – PV of Outflows. If NPV > 0, Accept. Uses WACC as discount rate. Assumes reinvestment at WACC. Most reliable method for mutually exclusive projects [citation:6].",
-        "**IRR (Internal Rate of Return)**: Discount rate where NPV = 0. If IRR > Hurdle Rate (WACC), Accept. Assumes reinvestment at IRR (unrealistic assumption) [citation:2]. May give multiple IRRs for non-conventional cash flows.",
+        "**Capital Budgeting Process**: Identify → Search → Evaluate → Select → Finance → Implement & Control. Post-audit is crucial for feedback and improving future decisions [citation:2][citation:6].",
+        "**Relevant Cash Flows**: Only Incremental Cash Flows matter. **Include**: Initial Investment, Operating Cash Flows (after-tax), Changes in Working Capital (recovered at end), Opportunity Costs, Terminal Value (including salvage value and tax effects). **Exclude**: Sunk Costs, Allocated Overheads (unless incremental), Financing Costs (interest/dividends) [citation:2].",
+        "**Depreciation Tax Shield**: Depreciation is non-cash, but it reduces Taxable Income, saving tax. Shield = Annual Depreciation × Tax Rate. This is a critical cash inflow in capital budgeting. Must know both Straight-Line and MACRS depreciation [citation:2].",
+        "**Asset Disposition**: After-tax cash flow from sale = Selling Price - Tax on Gain (or + Tax Shield on Loss). Gain/Loss = Selling Price - Book Value. Book Value = Original Cost - Accumulated Depreciation [citation:2].",
+        "**NPV (Net Present Value)**: PV of Inflows – PV of Outflows. If NPV > 0, Accept. Uses WACC as discount rate. Assumes reinvestment at WACC. Most reliable method for mutually exclusive projects. The goal is to maximize total NPV [citation:6][citation:9].",
+        "**IRR (Internal Rate of Return)**: Discount rate where NPV = 0. If IRR > Hurdle Rate (WACC), Accept. Assumes reinvestment at IRR (unrealistic assumption). May give multiple IRRs for non-conventional cash flows. Interpolation method is examinable [citation:2][citation:3][citation:10].",
         "**Payback Period**: Time to recover initial investment. Simple but ignores TVM and cash flows after payback. Good for liquidity assessment but not profitability [citation:6].",
-        "**Discounted Payback**: Payback method that considers TVM by discounting cash flows.",
-        "**Profitability Index (PI)**: PV of Future Cash Flows / Initial Investment. If PI > 1, Accept. Useful when capital is rationed.",
-        "**Real Options**: Strategic value of managerial flexibility. Project Value = NPV + Option Value [citation:3]. Types: Expand, Abandon, Delay [citation:3].",
-        "**Risk Analysis**: Sensitivity Analysis (change one variable), Scenario Analysis (change multiple variables), Monte Carlo Simulation (probabilistic distribution).",
-        "**Capital Rationing**: Limitation on capital expenditures; choose projects that maximize total NPV subject to budget constraint.",
-        "**Tax Considerations**: After-tax cash flows = Pre-tax cash flow × (1 – Tax Rate). Depreciation creates tax shield: Depreciation × Tax Rate.",
-        "**NPV vs IRR Conflict**: Caused by different reinvestment rate assumptions. NPV assumes reinvestment at WACC (realistic); IRR assumes reinvestment at IRR (often optimistic). For mutually exclusive projects, rely on NPV.",
+        "**Discounted Payback**: Payback method that considers TVM by discounting cash flows. Still ignores post-payback flows.",
+        "**Profitability Index (PI)**: PV of Future Cash Flows / Initial Investment. If PI > 1, Accept. Useful when capital is rationed (ranking divisible projects) [citation:9].",
+        "**Real Options**: Strategic value of managerial flexibility. Project Value = NPV + Option Value. Types: Expand, Abandon, Delay. Crucial for turning negative NPV projects into acceptable ones [citation:3][citation:7].",
+        "**Risk Analysis**: Sensitivity Analysis (change one variable), Scenario Analysis (change multiple variables), Monte Carlo Simulation (probabilistic distribution), Certainty Equivalent (adjust cash flows, discount at risk-free rate) [citation:6].",
+        "**Capital Rationing**: Limitation on capital expenditures; choose projects that maximize total NPV subject to budget constraint. For divisible projects, rank by PI. For indivisible, evaluate combinations.",
+        "**Tax Considerations**: After-tax cash flows = Pre-tax cash flow × (1 – Tax Rate). Depreciation creates tax shield: Depreciation × Tax Rate. Working capital changes have no direct tax effect [citation:2].",
+        "**NPV vs IRR Conflict**: Caused by different reinvestment rate assumptions and project scale/timing differences. NPV assumes reinvestment at WACC (realistic); IRR assumes reinvestment at IRR (often optimistic). For mutually exclusive projects, always rely on NPV.",
         "**Unequal Lives**: Use Equivalent Annual Annuity (EAA) or least common multiple of lives for proper comparison.",
-        "**Replacement Decisions**: Compare keeping old asset vs. replacing with new. Relevant: cost of new – salvage of old, operating savings, tax effects of gain/loss on disposal."
+        "**Replacement Decisions**: Compare keeping old asset vs. replacing with new. Relevant: cost of new – after-tax salvage of old (net of tax), operating savings (after-tax), tax effects of gain/loss on disposal of old, and terminal value differences.",
+        "**Inflation**: Be consistent: either use nominal cash flows with nominal discount rate, or real cash flows with real discount rate. Mixing causes errors [citation:2]."
     ],
-    "shortNotes": "Understand the NPV vs IRR conflict! NPV is generally superior because it assumes reinvestment at the more realistic WACC (Cost of Capital), whereas IRR assumes reinvestment at the project's own (often high) IRR [citation:2]. For mutually exclusive projects, always pick the one with the highest NPV. Remember that depreciation tax shield is a cash inflow. Ignore sunk costs and financing costs (interest) in cash flow calculations. Real options add value to projects and can turn negative NPV projects into acceptable ones [citation:3]. When comparing projects with unequal lives, use Equivalent Annual Annuity (EAA). For capital rationing, rank by Profitability Index (PI) and select the combination maximizing total NPV.",
+    "shortNotes": "Understand the NPV vs IRR conflict! NPV is generally superior because it assumes reinvestment at the more realistic WACC (Cost of Capital), whereas IRR assumes reinvestment at the project's own (often high) IRR [citation:2]. For mutually exclusive projects, always pick the one with the highest NPV. Remember that depreciation tax shield is a cash inflow. Master after-tax salvage calculations: Selling Price - Tax on Gain (Gain = SP - Book Value). Ignore sunk costs and financing costs (interest) in cash flow calculations. Real options add value to projects and can turn negative NPV projects into acceptable ones [citation:3][citation:7]. When comparing projects with unequal lives, use Equivalent Annual Annuity (EAA). For capital rationing, rank divisible projects by Profitability Index (PI). Be proficient with risk techniques: sensitivity (one variable), scenario (multiple variables), Monte Carlo (probability distributions), and certainty equivalent (risk-free rate) [citation:6]. Post-audit is essential for control and learning [citation:2].",
     "mnemonics": [
         {
             "acronym": "SISTER",
@@ -40,29 +42,34 @@
             "description": "Primary capital budgeting methods (three most common)."
         },
         {
-            "acronym": "SEA",
-            "fullForm": "Sensitivity, Elasticity (Scenario), Analysis (Monte Carlo)",
-            "description": "Risk analysis techniques."
+            "acronym": "SEA-MC",
+            "fullForm": "Sensitivity, Elasticity (Scenario), Analysis (Monte Carlo), Certainty Equivalent",
+            "description": "Risk analysis techniques including the less common Certainty Equivalent method [citation:6]."
         },
         {
             "acronym": "EAD",
             "fullForm": "Expand, Abandon, Delay",
-            "description": "Types of real options [citation:3]."
+            "description": "Types of real options [citation:3][citation:7]."
         },
         {
             "acronym": "TRAFFIC",
             "fullForm": "Tax, Relevant cash flows, Avoidable costs, Financing costs, Future costs, Incremental costs, Consider all",
             "description": "Cash flow identification guide – think traffic lights: green for include, red for exclude."
+        },
+        {
+            "acronym": "GIFT",
+            "fullForm": "Gain = Interest (selling price) - Book Value, Future taxes",
+            "description": "Quick reminder for calculating gain/loss on asset disposal: Gain = Selling Price - Book Value; tax on gain is an outflow; tax shield on loss is an inflow [citation:2]."
         }
     ],
     "concepts": [
         {
             "title": "1. Capital Budgeting Process & Cash Flow Identification",
-            "content": "<h3>Capital Budgeting Process (6 Steps) [citation:6]</h3><ol><li><strong>Identify:</strong> Recognize capital expenditure needs aligned with organizational goals (expansion, replacement, compliance).</li><li><strong>Search:</strong> Investigate initial capital investment and discover alternatives (make vs buy, different technologies).</li><li><strong>Evaluate:</strong> Predict and compare each alternative's cash flows over its life using appropriate techniques (NPV, IRR, etc.).</li><li><strong>Select:</strong> Choose projects where financial benefits exceed costs and align with strategy.</li><li><strong>Finance:</strong> Obtain funding through internal (retained earnings) or external sources (debt, equity).</li><li><strong>Implement & Control:</strong> Execute and monitor; conduct post-audit comparing actual vs. projected results to improve future decisions.</li></ol><h3>Relevant Cash Flows – What to Include and Exclude</h3><p>Only <strong>incremental cash flows</strong> matter – those that occur in the future and differ between alternatives.</p><table class='notes-table'><thead><tr><th>Include</th><th>Exclude (Irrelevant)</th></tr></thead><tbody><tr><td><ul><li><strong>Initial Investment:</strong> Equipment cost, installation, training, shipping.</li><li><strong>Changes in Working Capital:</strong> Additional inventory, receivables, payables (recovered at end).</li><li><strong>Operating Cash Flows:</strong> After-tax cash revenues less cash expenses.</li><li><strong>Depreciation Tax Shield:</strong> Depreciation × Tax Rate (non-cash expense saves tax).</li><li><strong>Terminal Value:</strong> Salvage value of assets, recovery of working capital.</li><li><strong>Opportunity Costs:</strong> Value of asset used that could have been sold/leased.</li></ul></td><td><ul><li><strong>Sunk Costs:</strong> Past costs (e.g., feasibility study already done).</li><li><strong>Allocated Overhead:</strong> Unless incremental (additional overhead caused by project).</li><li><strong>Financing Costs:</strong> Interest and dividends – already captured in discount rate (WACC).</li><li><strong>Non-Cash Expenses:</strong> Except for tax shield effect.</li></ul></td></tr></tbody></table><h3>Depreciation Tax Shield – Critical Concept</h3><p>Depreciation itself is non-cash, but it reduces taxable income, creating a cash saving (tax shield).</p><p><code>Tax Shield = Annual Depreciation × Tax Rate</code></p><p>This is added to after-tax operating cash flows. In standard formula:</p><p><code>After-Tax Operating Cash Flow = (Revenue – Cash Expenses) × (1 – Tax Rate) + (Depreciation × Tax Rate)</code></p><p>Alternatively: <code>After-Tax Operating Cash Flow = Net Income + Depreciation</code> (but careful with timing).</p>"
+            "content": "<h3>Capital Budgeting Process (6 Steps) [citation:2][citation:6]</h3><ol><li><strong>Identify:</strong> Recognize capital expenditure needs aligned with organizational goals (expansion, replacement, compliance).</li><li><strong>Search:</strong> Investigate initial capital investment and discover alternatives (make vs buy, different technologies).</li><li><strong>Evaluate:</strong> Predict and compare each alternative's cash flows over its life using appropriate techniques (NPV, IRR, etc.).</li><li><strong>Select:</strong> Choose projects where financial benefits exceed costs and align with strategy.</li><li><strong>Finance:</strong> Obtain funding through internal (retained earnings) or external sources (debt, equity). <strong>Note:</strong> Financing costs are excluded from cash flow analysis at the evaluation stage; they are captured in the discount rate (WACC) [citation:2].</li><li><strong>Implement & Control (Post-Audit):</strong> Execute and monitor; conduct post-audit comparing actual vs. projected results to improve future decisions and identify weaknesses [citation:2].</li></ol><h3>Relevant Cash Flows – What to Include and Exclude</h3><p>Only <strong>incremental cash flows</strong> matter – those that occur in the future and differ between alternatives [citation:2].</p><table class='notes-table'><thead><tr><th>Include</th><th>Exclude (Irrelevant)</th></tr></thead><tbody><tr><td><ul><li><strong>Initial Investment:</strong> Equipment cost, installation, training, shipping.</li><li><strong>Changes in Working Capital:</strong> Additional inventory, receivables, payables (recovered at end).</li><li><strong>Operating Cash Flows (After-Tax):</strong> (Revenue – Cash Expenses) × (1 – Tax Rate).</li><li><strong>Depreciation Tax Shield:</strong> Depreciation × Tax Rate (non-cash expense saves tax) [citation:2].</li><li><strong>Terminal Value:</strong> After-tax salvage value of assets + recovery of working capital.</li><li><strong>Opportunity Costs:</strong> Value of asset used that could have been sold/leased.</li><li><strong>Externalities (Side Effects):</strong> Impact on existing product lines (erosion or synergy).</li></ul></td><td><ul><li><strong>Sunk Costs:</strong> Past costs (e.g., feasibility study already done) [citation:2].</li><li><strong>Allocated Overhead:</strong> Unless incremental (additional overhead caused by project).</li><li><strong>Financing Costs:</strong> Interest and dividends – already captured in discount rate (WACC) [citation:2].</li><li><strong>Non-Cash Expenses:</strong> Except for tax shield effect.</li></ul></td></tr></tbody></table><h3>Depreciation Tax Shield – Critical Concept</h3><p>Depreciation itself is non-cash, but it reduces taxable income, creating a cash saving (tax shield) [citation:2].</p><p><code>Tax Shield = Annual Depreciation × Tax Rate</code></p><p>This is added to after-tax operating cash flows. In standard formula:</p><p><code>After-Tax Operating Cash Flow = (Revenue – Cash Expenses) × (1 – Tax Rate) + (Depreciation × Tax Rate)</code></p><p>Alternatively: <code>After-Tax Operating Cash Flow = Net Income + Depreciation</code> (works when Net Income is after-tax).</p><h3>Asset Disposition (After-Tax Salvage Value) [citation:2]</h3><p>When an asset is sold, there is a tax consequence based on the difference between selling price and book value.</p><p><code>Book Value = Original Cost – Accumulated Depreciation</code></p><p><code>Gain/Loss = Selling Price – Book Value</code></p><p><code>After-Tax Cash Flow = Selling Price – (Tax Rate × Gain) [if Gain] or + (Tax Rate × Loss) [if Loss]</code></p><p><strong>Special Cases:</strong></p><ul><li>If sold at end of project for expected salvage value (SV) under straight-line: If SV = Book Value, no tax effect.</li><li>Under MACRS (accelerated), book value is often zero at end, so After-Tax Cash Flow = SV × (1 – Tax Rate) [citation:2].</li></ul><h3>Inflation Consideration [citation:2]</h3><p>Be consistent: either use <strong>nominal cash flows</strong> with <strong>nominal discount rate</strong>, or <strong>real cash flows</strong> with <strong>real discount rate</strong>. Mixing nominal and real leads to errors.</p>"
         },
         {
             "title": "2. Discounted Cash Flow (DCF) Methods",
-            "content": "<h3>Net Present Value (NPV) – The Gold Standard</h3><p><code>NPV = Σ [CFₜ / (1+r)ᵗ] – Initial Investment</code><br>Where CFₜ = after-tax cash flow at time t, r = discount rate (typically WACC).</p><p><strong>Decision Rule:</strong> Accept if NPV > 0; reject if NPV < 0. If NPV = 0, project meets required rate of return [citation:4].</p><p><strong>Advantages:</strong></p><ul><li>Considers time value of money.</li><li>Considers all cash flows over project life.</li><li>Uses realistic reinvestment rate (WACC).</li><li>Additive – NPVs of projects can be summed.</li><li>Most reliable for mutually exclusive projects [citation:6].</li></ul><p><strong>Disadvantages:</strong> Requires accurate discount rate; less intuitive for non-financial managers.</p><h3>Internal Rate of Return (IRR)</h3><p>The discount rate that makes NPV = 0 [citation:2][citation:10].</p><p><code>0 = Σ [CFₜ / (1+IRR)ᵗ] – Initial Investment</code></p><p><strong>Decision Rule:</strong> Accept if IRR > Hurdle Rate (WACC); reject if IRR < WACC.</p><p><strong>Advantages:</strong> Intuitive percentage return; considers TVM.</p><p><strong>Disadvantages:</strong></p><ul><li>Assumes reinvestment at IRR (unrealistic) [citation:2][citation:10].</li><li>Multiple IRRs possible with non-conventional cash flows (sign changes).</li><li>Can rank incorrectly for mutually exclusive projects [citation:6].</li></ul><h3>Profitability Index (PI)</h3><p><code>PI = PV of Future Cash Flows / Initial Investment</code></p><p><strong>Decision Rule:</strong> Accept if PI > 1 (equivalent to NPV > 0).</p><p><strong>Use:</strong> Helpful when capital is rationed – rank projects by PI to maximize NPV per dollar invested.</p>"
+            "content": "<h3>Net Present Value (NPV) – The Gold Standard [citation:9]</h3><p><code>NPV = Σ [CFₜ / (1+r)ᵗ] – Initial Investment</code><br>Where CFₜ = after-tax cash flow at time t, r = discount rate (typically WACC).</p><p><strong>Decision Rule:</strong> Accept if NPV > 0; reject if NPV < 0. If NPV = 0, project meets required rate of return [citation:4].</p><p><strong>Advantages:</strong></p><ul><li>Considers time value of money.</li><li>Considers all cash flows over project life.</li><li>Uses realistic reinvestment rate (WACC).</li><li>Additive – NPVs of projects can be summed.</li><li>Most reliable for mutually exclusive projects [citation:6].</li></ul><p><strong>Disadvantages:</strong> Requires accurate discount rate; less intuitive for non-financial managers.</p><h3>Internal Rate of Return (IRR) [citation:2][citation:3][citation:10]</h3><p>The discount rate that makes NPV = 0.</p><p><code>0 = Σ [CFₜ / (1+IRR)ᵗ] – Initial Investment</code></p><p><strong>Decision Rule:</strong> Accept if IRR > Hurdle Rate (WACC); reject if IRR < WACC.</p><p><strong>Calculation Note:</strong> For even cash flows, IRR can be found using PVIFA tables: Initial Investment / Annual Cash Flow = PVIFA(IRR, n). Then find rate in table. For uneven cash flows, use interpolation as shown in examples [citation:3].</p><p><strong>Advantages:</strong> Intuitive percentage return; considers TVM.</p><p><strong>Disadvantages:</strong></p><ul><li>Assumes reinvestment at IRR (unrealistic) [citation:2][citation:10].</li><li>Multiple IRRs possible with non-conventional cash flows (sign changes).</li><li>Can rank incorrectly for mutually exclusive projects [citation:6].</li></ul><h3>Profitability Index (PI) [citation:9]</h3><p><code>PI = PV of Future Cash Flows / Initial Investment</code></p><p><strong>Decision Rule:</strong> Accept if PI > 1 (equivalent to NPV > 0).</p><p><strong>Use:</strong> Helpful when capital is rationed – rank projects by PI to maximize NPV per dollar invested.</p>"
         },
         {
             "title": "3. Non-Discounted Methods",
@@ -70,36 +77,40 @@
         },
         {
             "title": "4. Special Topics in Capital Budgeting",
-            "content": "<h3>Capital Rationing</h3><p>Situation where funds are limited (soft rationing – internal limits; hard rationing – external market constraints). Choose the combination of projects that maximizes total NPV subject to budget constraint. Profitability Index (PI) helps rank projects when they are divisible. For indivisible projects, use trial and error to find optimal set.</p><h3>Replacement Decisions</h3><p>Compare keeping old asset vs. replacing with new. Relevant cash flows:</p><ul><li><strong>Initial investment:</strong> Cost of new – Salvage value of old (net of tax on gain/loss).</li><li><strong>Operating savings:</strong> After-tax difference in cash operating costs.</li><li><strong>Terminal:</strong> Salvage of new vs. salvage of old at end of analysis period.</li><li><strong>Tax effects:</strong> Gain/loss on disposal of old asset (if sold before end of useful life).</li></ul><h3>Inflation</h3><p>Be consistent: either use <strong>nominal cash flows</strong> with <strong>nominal discount rate</strong>, or <strong>real cash flows</strong> with <strong>real discount rate</strong>. Mixing nominal and real leads to errors.</p><h3>Projects with Unequal Lives</h3><p>When comparing mutually exclusive projects with different lives, direct NPV comparison is biased because longer projects have more time to generate returns. Use:</p><ul><li><strong>Equivalent Annual Annuity (EAA):</strong> <code>EAA = NPV / PVIFA(r, n)</code>. Choose project with higher EAA.</li><li><strong>Least Common Multiple of Lives:</strong> Replicate projects to a common horizon (works but can be cumbersome).</li></ul>"
+            "content": "<h3>Capital Rationing</h3><p>Situation where funds are limited (soft rationing – internal limits; hard rationing – external market constraints). Choose the combination of projects that maximizes total NPV subject to budget constraint. Profitability Index (PI) helps rank projects when they are divisible. For indivisible projects, use trial and error to find optimal set.</p><h3>Replacement Decisions</h3><p>Compare keeping old asset vs. replacing with new. Relevant cash flows:</p><ul><li><strong>Initial investment:</strong> Cost of new – After-tax salvage value of old (net of tax on gain/loss).</li><li><strong>Operating savings:</strong> After-tax difference in cash operating costs.</li><li><strong>Terminal:</strong> Salvage of new vs. salvage of old at end of analysis period.</li><li><strong>Tax effects:</strong> Gain/loss on disposal of old asset (if sold before end of useful life).</li></ul><h3>Projects with Unequal Lives</h3><p>When comparing mutually exclusive projects with different lives, direct NPV comparison is biased because longer projects have more time to generate returns. Use:</p><ul><li><strong>Equivalent Annual Annuity (EAA):</strong> <code>EAA = NPV / PVIFA(r, n)</code>. Choose project with higher EAA.</li><li><strong>Least Common Multiple of Lives:</strong> Replicate projects to a common horizon (works but can be cumbersome).</li></ul><h3>Inflation</h3><p>Be consistent: either use <strong>nominal cash flows</strong> with <strong>nominal discount rate</strong>, or <strong>real cash flows</strong> with <strong>real discount rate</strong>. Mixing nominal and real leads to errors [citation:2].</p>"
         },
         {
             "title": "5. Risk Analysis in Capital Budgeting",
-            "content": "<h3>Sensitivity Analysis</h3><p>'What-if' analysis: change one variable at a time (e.g., sales volume, price, cost) to see impact on NPV. Identifies key value drivers and 'critical' variables.</p><h3>Scenario Analysis</h3><p>Change multiple variables simultaneously under different scenarios: best case, base case, worst case. Provides range of possible NPVs.</p><h3>Monte Carlo Simulation</h3><p>Assign probability distributions to key variables (e.g., normal distribution for sales, triangular for costs). Run thousands of iterations to generate distribution of NPV outcomes. Provides probability of NPV > 0, expected NPV, and risk measures.</p><h3>Risk-Adjusted Discount Rate</h3><p>Increase discount rate for riskier projects (reflects higher required return). Simple but assumes risk increases over time.</p><h3>Certainty Equivalent</h3><p>Adjust cash flows downward for risk, then discount at risk-free rate. More theoretically sound but harder to implement.</p>"
+            "content": "<h3>Sensitivity Analysis [citation:6]</h3><p>'What-if' analysis: change one variable at a time (e.g., sales volume, price, cost) to see impact on NPV. Identifies key value drivers and 'critical' variables. CMA focuses on single-factor sensitivity.</p><h3>Scenario Analysis [citation:6]</h3><p>Change multiple variables simultaneously under different scenarios: best case, base case, worst case. Provides range of possible NPVs.</p><h3>Monte Carlo Simulation [citation:6]</h3><p>Assign probability distributions to key variables (e.g., normal distribution for sales, triangular for costs). Run thousands of iterations to generate distribution of NPV outcomes. Provides probability of NPV > 0, expected NPV, and risk measures.</p><h3>Certainty Equivalent [citation:6]</h3><p>Adjust cash flows downward for risk (convert to certain amounts), then discount at risk-free rate. More theoretically sound but harder to implement. Reflects management's risk preferences.</p><h3>Risk-Adjusted Discount Rate</h3><p>Increase discount rate for riskier projects (reflects higher required return). Simple but assumes risk increases over time.</p>"
         },
         {
             "title": "6. Real Options",
-            "content": "<p>Real options recognize that managers can adapt decisions as new information emerges. Traditional NPV ignores flexibility. Project value = Traditional NPV + Value of Real Options [citation:3].</p><h3>Types of Real Options [citation:3]</h3><ul><li><strong>Expansion Option:</strong> Ability to expand if project succeeds. Example: Project has negative NPV now but 50% chance to add $50,000 value if expanded. Option value = $50,000 × 50% = $25,000. Project true value = NPV + $25,000.</li><li><strong>Abandonment Option:</strong> Ability to abandon if project fails, recovering salvage value. Example: If abandonment value ($20,000) > continuing value ($10,000), exercise option. Option value adds to project.</li><li><strong>Delay Option:</strong> Ability to wait for more information before committing. (May sacrifice first-mover advantage). Valuable when uncertainty is high and waiting reveals better information.</li></ul><p><strong>Example Calculation [citation:3]:</strong><br>Project NPV = -$10,000. Market indicates 50% chance to add $50,000 with expansion.<br>Project True Value = -$10,000 + ($50,000 × 50%) = $15,000 → Accept.</p><p>Real options are especially important in R&D, natural resources, and strategic investments.</p>"
+            "content": "<p>Real options recognize that managers can adapt decisions as new information emerges. Traditional NPV ignores flexibility. Project value = Traditional NPV + Value of Real Options [citation:3][citation:7].</p><h3>Types of Real Options [citation:3][citation:7]</h3><ul><li><strong>Expansion Option:</strong> Ability to expand if project succeeds. Example: Project has negative NPV now but 50% chance to add $50,000 value if expanded. Option value = $50,000 × 50% = $25,000. Project true value = NPV + $25,000 [citation:7].</li><li><strong>Abandonment Option:</strong> Ability to abandon if project fails, recovering salvage value. Example: If abandonment value ($20,000) > continuing value ($10,000), exercise option. Option value adds to project [citation:7].</li><li><strong>Delay Option:</strong> Ability to wait for more information before committing. (May sacrifice first-mover advantage). Valuable when uncertainty is high and waiting reveals better information [citation:7].</li></ul><p><strong>Example Calculation [citation:3][citation:7]:</strong><br>Project NPV = -$10,000. Market indicates 50% chance to add $50,000 with expansion.<br>Project True Value = -$10,000 + ($50,000 × 50%) = $15,000 → Accept.</p><p>Real options are especially important in R&D, natural resources, and strategic investments.</p>"
         },
         {
             "title": "7. NPV vs. IRR – The Reinvestment Rate Assumption",
             "content": "<p>The key difference between NPV and IRR lies in their reinvestment rate assumptions [citation:2][citation:10]:</p><ul><li><strong>IRR</strong> assumes cash flows are reinvested at the project's IRR (often unrealistically high) [citation:2][citation:10].</li><li><strong>NPV</strong> assumes reinvestment at the firm's cost of capital (WACC), which is more realistic [citation:2].</li></ul><p><strong>Conflict Resolution:</strong> For mutually exclusive projects, choose the one with higher NPV. NPV maximizes shareholder wealth in absolute dollars. IRR can be misleading, especially when projects differ in scale or timing.</p><p>Example: Project A has IRR 25%, NPV $100; Project B has IRR 20%, NPV $150. Choose B.</p>"
+        },
+        {
+            "title": "8. Exam Strategy and Common Pitfalls",
+            "content": "<h3>Exam Strategy</h3><ul><li><strong>Cash Flow Construction:</strong> Always start with revenues, subtract cash expenses, adjust for taxes, add back depreciation tax shield. Never forget working capital recovery at end.</li><li><strong>After-Tax Salvage:</strong> Compute book value first, then gain/loss, then after-tax cash flow. This is a frequent exam calculation [citation:2].</li><li><strong>IRR with Even Flows:</strong> Use PVIFA table to approximate; know interpolation for uneven flows [citation:3].</li><li><strong>NPV Dominance:</strong> In conflicts, NPV is king. For mutually exclusive projects, maximize NPV.</li><li><strong>Risk Techniques:</strong> Be able to distinguish sensitivity (one variable) from scenario (multiple variables) [citation:6].</li><li><strong>Real Options:</strong> Understand qualitative recognition and simple additive calculations [citation:7].</li><li><strong>Post-Audit:</strong> Know its purpose: feedback and control [citation:2].</li></ul><h3>Common Pitfalls</h3><ul><li>Ignoring the depreciation tax shield.</li><li>Double-counting financing costs (including interest as cash outflow and in discount rate).</li><li>Forgetting working capital recovery.</li><li>Using undiscounted payback as primary decision tool.</li><li>Treating sunk costs as relevant.</li><li>Mixing nominal and real.</li><li>Comparing unequal lives without EAA.</li></ul>"
         }
     ],
     "formulas": [
         {
             "name": "Net Present Value (NPV)",
             "formula": "NPV = Σ [CFₜ / (1+r)ᵗ] – Initial Investment",
-            "notes": "CFₜ = After-tax cash flow at time t, r = discount rate (WACC). Accept if NPV > 0."
+            "notes": "CFₜ = After-tax cash flow at time t, r = discount rate (WACC). Accept if NPV > 0 [citation:9]."
         },
         {
             "name": "Internal Rate of Return (IRR)",
             "formula": "0 = Σ [CFₜ / (1+IRR)ᵗ] – Initial Investment",
-            "notes": "IRR is the rate that makes NPV = 0 [citation:2][citation:10]. Accept if IRR > hurdle rate."
+            "notes": "IRR is the rate that makes NPV = 0 [citation:2][citation:10]. Accept if IRR > hurdle rate. For even flows: Initial Investment / Annual CF = PVIFA(IRR, n) [citation:3]."
         },
         {
             "name": "Profitability Index (PI)",
             "formula": "PI = PV of Future Cash Flows / Initial Investment",
-            "notes": "Accept if PI > 1. Useful for capital rationing."
+            "notes": "Accept if PI > 1. Useful for capital rationing [citation:9]."
         },
         {
             "name": "Payback Period (Constant Cash Flows)",
@@ -119,7 +130,7 @@
         {
             "name": "Depreciation Tax Shield",
             "formula": "Tax Shield = Depreciation Expense × Tax Rate",
-            "notes": "Annual cash inflow from tax savings."
+            "notes": "Annual cash inflow from tax savings [citation:2]."
         },
         {
             "name": "After-Tax Operating Cash Flow",
@@ -128,18 +139,28 @@
         },
         {
             "name": "After-Tax Salvage Value",
-            "formula": "After-tax Salvage = Salvage – Tax on Gain (or + Tax Shield on Loss)",
-            "notes": "Gain = Salvage – Book Value. Tax on gain reduces cash flow; tax shield on loss increases cash flow."
+            "formula": "After-tax Salvage = Selling Price – Tax × (Selling Price – Book Value)",
+            "notes": "Gain = Selling Price – Book Value. Tax on gain reduces cash flow; tax shield on loss increases cash flow [citation:2]."
+        },
+        {
+            "name": "Book Value",
+            "formula": "Book Value = Original Cost – Accumulated Depreciation",
+            "notes": "Used for gain/loss calculations [citation:2]."
         },
         {
             "name": "Real Options – Project Value",
             "formula": "True Project Value = Traditional NPV + Value of Real Options",
-            "notes": "Options add strategic value [citation:3]."
+            "notes": "Options add strategic value [citation:3][citation:7]."
         },
         {
             "name": "Equivalent Annual Annuity (EAA)",
             "formula": "EAA = NPV / PVIFA(r, n)",
             "notes": "PVIFA = Present Value Interest Factor of Annuity. For comparing projects with unequal lives."
+        },
+        {
+            "name": "Certainty Equivalent Approach",
+            "formula": "NPV = Σ [α × CFₜ / (1 + r_f)ᵗ] – Initial Investment",
+            "notes": "α = certainty equivalent coefficient (0 to 1), r_f = risk-free rate. Adjusts cash flows for risk [citation:6]."
         }
     ],
     "mistakes": [
@@ -151,13 +172,18 @@
         "Assuming **IRR is always superior** because it's a percentage. NPV is more reliable, especially for mutually exclusive projects [citation:2][citation:6].",
         "Forgetting that **IRR assumes reinvestment at IRR**, which is often unrealistic [citation:2][citation:10].",
         "Using **undiscounted payback** as the primary decision criterion—it ignores TVM and profitability [citation:6].",
-        "Ignoring **salvage value** and terminal cash flows in project evaluation.",
-        "Inconsistent treatment of **inflation** (mixing nominal and real).",
-        "Overlooking **real options** that can add significant value to projects [citation:3].",
+        "Ignoring **salvage value** and terminal cash flows (including tax effects) in project evaluation.",
+        "Inconsistent treatment of **inflation** (mixing nominal and real) [citation:2].",
+        "Overlooking **real options** that can add significant value to projects [citation:3][citation:7].",
         "Confusing **average investment** vs. **initial investment** in ARR calculation.",
         "Comparing projects with **unequal lives** without using EAA or LCM.",
         "Failing to consider **opportunity costs** (e.g., using existing asset without charging its foregone rental value).",
-        "Including **allocated fixed overhead** that is not incremental to the project."
+        "Including **allocated fixed overhead** that is not incremental to the project.",
+        "Mishandling **asset disposition**: forgetting to compute book value first, then tax on gain/loss [citation:2].",
+        "Using **wrong discount rate** for risk adjustments—should reflect project risk, not corporate WACC if risk differs significantly.",
+        "Thinking **payback period** measures profitability—it measures liquidity only.",
+        "Confusing **sensitivity analysis** (one variable) with **scenario analysis** (multiple variables) [citation:6].",
+        "Forgetting the **post-audit** purpose: feedback and control, not blame [citation:2]."
     ],
     "quiz": [
         {
