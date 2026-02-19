@@ -254,6 +254,24 @@ export default function MockExamClient({ exam, questions }) {
                         </button>
                     ) : null}
                 </div>
+
+                {/* Mobile-only persistent submit bar */}
+                {!isReview && (
+                    <div className={styles.mobileSubmitBar}>
+                        <span className={styles.mobileProgress}>
+                            {Object.keys(answers).length}/{questions.length} answered
+                        </span>
+                        <button
+                            className={`btn ${styles.mobileSubmitBtn}`}
+                            onClick={() => {
+                                if (confirm(`Submit exam? You answered ${Object.keys(answers).length} of ${questions.length} questions.`))
+                                    handleSubmit();
+                            }}
+                        >
+                            Submit Exam
+                        </button>
+                    </div>
+                )}
             </main>
         </div>
     );

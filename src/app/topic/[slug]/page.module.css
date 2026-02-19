@@ -4,46 +4,57 @@
 }
 
 .backLink {
-    color: #666;
+    color: var(--accent-color);
     font-size: 0.9rem;
+    font-weight: 600;
     margin-bottom: 1rem;
     display: inline-block;
+    transition: opacity 0.2s;
 }
 
+.backLink:hover {
+    opacity: 0.7;
+}
+
+/* Header */
 .header {
     margin-bottom: 3rem;
-    border-bottom: 1px solid #eaeaea;
+    border-bottom: 1px solid #e2e8f0;
     padding-bottom: 2rem;
 }
 
 .weightage {
-    background: #003366;
+    background: var(--primary-color);
     color: white;
-    padding: 4px 8px;
-    border-radius: 4px;
-    font-size: 0.8rem;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.82rem;
     font-weight: 700;
     text-transform: uppercase;
+    letter-spacing: 0.3px;
 }
 
 .header h1 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     margin: 1rem 0;
-    color: #003366;
+    color: var(--primary-color);
+    line-height: 1.3;
 }
 
 .overview {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: #555;
     max-width: 800px;
+    line-height: 1.7;
 }
 
 .examTipBox {
     display: flex;
-    gap: 0.5rem;
+    gap: 0.75rem;
     align-items: flex-start;
     background: #fffbeb;
     border: 1px solid #fde68a;
+    border-left: 4px solid #f59e0b;
     border-radius: 8px;
     padding: 1rem 1.25rem;
     margin-top: 1.5rem;
@@ -57,110 +68,290 @@
     font-size: 0.95rem;
 }
 
+/* Content Grid */
 .contentGrid {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 3rem;
 }
 
+/* ========== SECTIONS ========== */
 .section {
-    margin-bottom: 4rem;
+    margin-bottom: 3.5rem;
 }
 
 .section h2 {
-    font-size: 1.8rem;
-    border-left: 5px solid #005b96;
-    padding-left: 1rem;
+    font-size: 1.5rem;
+    border-left: 4px solid var(--accent-color);
+    padding: 0.6rem 1rem;
     margin-bottom: 1.5rem;
-    background: #f8f9fa;
-    padding: 0.5rem 1rem;
+    background: #f0f7ff;
+    border-radius: 0 8px 8px 0;
+    color: var(--primary-color);
+    font-weight: 700;
 }
 
+/* ========== CONCEPT BLOCKS ========== */
 .conceptBlock {
     margin-bottom: 2rem;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 1.5rem 1.75rem;
+    transition: box-shadow 0.2s;
+}
+
+.conceptBlock:hover {
+    box-shadow: 0 4px 16px rgba(0, 51, 102, 0.06);
 }
 
 .conceptBlock h3 {
-    font-size: 1.4rem;
-    margin-bottom: 0.5rem;
-    color: #333;
+    font-size: 1.2rem;
+    margin-bottom: 0.75rem;
+    color: var(--primary-color);
+    padding-bottom: 0.5rem;
+    border-bottom: 1px dashed #d1dce6;
 }
 
-.conceptBlock p,
-.conceptBlock ul {
-    color: #444;
-    margin-bottom: 1rem;
+.conceptBlock p {
+    color: #374151;
+    margin-bottom: 0.75rem;
+    line-height: 1.75;
+    font-size: 0.98rem;
 }
 
-.conceptBlock ul {
+.conceptBlock ul,
+.conceptBlock ol {
+    color: #374151;
+    margin-bottom: 0.75rem;
     padding-left: 1.5rem;
+    line-height: 1.7;
 }
 
+.conceptBlock li {
+    margin-bottom: 0.4rem;
+    font-size: 0.97rem;
+}
+
+.conceptBlock em {
+    color: #6b7280;
+}
+
+.conceptBlock strong {
+    color: #1a365d;
+}
+
+/* Inline code inside concept blocks — readable, not monospace */
+.conceptBlock code {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #1a365d;
+    background: #f0f7ff;
+    padding: 3px 8px;
+    border-radius: 5px;
+    border: 1px solid #d0e3f7;
+    display: inline-block;
+    margin: 4px 0;
+    word-break: break-word;
+}
+
+/* Sub-headings inside concept HTML content */
+.conceptBlock h3+h3,
+.conceptBlock div h3 {
+    margin-top: 1.25rem;
+    font-size: 1.05rem;
+    border-bottom: none;
+    padding-bottom: 0;
+    color: var(--accent-color);
+}
+
+/* ========== TABLES inside concepts (notes-table) ========== */
+.conceptBlock table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 1rem 0 1.25rem;
+    font-size: 0.92rem;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #d1dce6;
+}
+
+.conceptBlock thead {
+    background: #eef4ff;
+}
+
+.conceptBlock thead th {
+    padding: 10px 14px;
+    text-align: left;
+    font-weight: 700;
+    color: var(--primary-color);
+    font-size: 0.88rem;
+    border-bottom: 2px solid #c8d9ed;
+}
+
+.conceptBlock tbody td {
+    padding: 10px 14px;
+    color: #374151;
+    line-height: 1.55;
+    border-bottom: 1px solid #eef2f7;
+    vertical-align: top;
+}
+
+.conceptBlock tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.conceptBlock tbody tr:nth-child(even) {
+    background: #fafcff;
+}
+
+.conceptBlock tbody tr:hover {
+    background: #f0f7ff;
+}
+
+.conceptBlock td strong {
+    color: #1a365d;
+}
+
+.conceptBlock td code {
+    font-size: 0.9rem;
+    padding: 2px 6px;
+}
+
+/* Nested lists inside table cells */
+.conceptBlock td ul,
+.conceptBlock td ol {
+    margin: 0;
+    padding-left: 1.2rem;
+}
+
+.conceptBlock td li {
+    margin-bottom: 0.25rem;
+    font-size: 0.9rem;
+}
+
+/* ========== FORMULA GRID ========== */
 .formulaGrid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
 }
 
 .formulaBox {
-    background: #eef4ff;
-    border: 1px solid #cce0ff;
-    padding: 1.5rem;
-    border-radius: 6px;
-    text-align: center;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-left: 4px solid var(--accent-color);
+    padding: 16px 18px;
+    border-radius: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    transition: transform 0.15s, box-shadow 0.2s;
+}
+
+.formulaBox:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 51, 102, 0.08);
 }
 
 .formulaBox strong {
     display: block;
-    margin-bottom: 0.5rem;
-    color: #003366;
+    color: var(--primary-color);
+    font-size: 0.93rem;
+    font-weight: 700;
 }
 
 .formulaBox code {
-    font-family: monospace;
-    font-size: 1.1rem;
-    background: white;
-    padding: 4px 8px;
-    border-radius: 4px;
+    font-family: inherit;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #2d3748;
+    background: #f0f7ff;
+    padding: 10px 14px;
+    border-radius: 6px;
     display: block;
+    line-height: 1.5;
+    border: 1px solid #d0e3f7;
+    word-break: break-word;
 }
 
+/* ========== MISTAKES SECTION ========== */
 .mistakesSection ul {
     list-style-type: none;
+    padding: 0;
 }
 
 .mistakesSection li {
-    background: #fff0f0;
-    border-left: 4px solid #d9534f;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    color: #a94442;
+    background: #fff5f5;
+    border: 1px solid #fed7d7;
+    border-left: 4px solid #f56565;
+    padding: 14px 18px;
+    margin-bottom: 0.75rem;
+    color: #742a2a;
+    border-radius: 8px;
+    line-height: 1.6;
+    font-size: 0.95rem;
+    position: relative;
+    padding-left: 40px;
+    transition: box-shadow 0.2s;
 }
 
+.mistakesSection li::before {
+    content: '⚠️';
+    position: absolute;
+    left: 14px;
+    top: 13px;
+    font-size: 0.95rem;
+}
+
+.mistakesSection li:hover {
+    box-shadow: 0 2px 10px rgba(245, 101, 101, 0.1);
+}
+
+/* ========== ESSAY SECTION ========== */
 .essayBox {
-    border: 1px solid #eaeaea;
+    border: 1px solid #e2e8f0;
     padding: 1.5rem;
-    border-radius: 6px;
+    border-radius: 10px;
+    background: white;
 }
 
 .essayQuestion {
-    font-size: 1.1rem;
+    font-size: 1.05rem;
     margin-bottom: 1rem;
+    line-height: 1.6;
+    color: #1a365d;
 }
 
 .essayAnswer summary {
     cursor: pointer;
-    color: #005b96;
-    font-weight: 600;
+    color: var(--accent-color);
+    font-weight: 700;
     margin-bottom: 1rem;
+    padding: 8px 14px;
+    background: #f0f7ff;
+    border-radius: 6px;
+    display: inline-block;
+    transition: background 0.2s;
+}
+
+.essayAnswer summary:hover {
+    background: #dbeafe;
 }
 
 .essayAnswer div {
-    background: #fdfdfd;
-    padding: 1rem;
-    border-top: 1px dashed #ddd;
+    background: #fafbfc;
+    padding: 1.25rem;
+    border-top: 2px solid #e2e8f0;
+    border-radius: 0 0 8px 8px;
+    line-height: 1.7;
+    color: #374151;
 }
 
+/* ========== SIDEBAR ========== */
 .sidebar {
     position: sticky;
     top: 100px;
@@ -168,10 +359,11 @@
 }
 
 .summaryBox {
-    background: #003366;
+    background: linear-gradient(135deg, #003366, #004e8c);
     color: white;
     padding: 2rem;
-    border-radius: 8px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 51, 102, 0.15);
 }
 
 .summaryBox h3 {
@@ -179,14 +371,27 @@
     margin-bottom: 1rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     padding-bottom: 0.5rem;
+    font-size: 1.1rem;
 }
 
-/* Bullet Notes Section */
+.summaryBox p {
+    line-height: 1.7;
+    font-size: 0.95rem;
+    opacity: 0.95;
+}
+
+/* ========== BULLET NOTES ========== */
 .bulletSection {
     background: #f0fdf4;
     border: 1px solid #bbf7d0;
     padding: 1.5rem 2rem;
     border-radius: 10px;
+}
+
+.bulletSection h2 {
+    background: transparent;
+    border-left: 4px solid #22c55e;
+    color: #166534;
 }
 
 .bulletNotes {
@@ -197,10 +402,11 @@
 
 .bulletNotes li {
     position: relative;
-    padding: 0.5rem 0 0.5rem 1.5rem;
+    padding: 0.6rem 0 0.6rem 2rem;
     color: #1a472a;
-    line-height: 1.6;
+    line-height: 1.65;
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    font-size: 0.96rem;
 }
 
 .bulletNotes li:last-child {
@@ -211,11 +417,21 @@
     content: '✓';
     position: absolute;
     left: 0;
-    color: #16a34a;
-    font-weight: 700;
+    top: 0.6rem;
+    color: #22c55e;
+    font-weight: 800;
+    font-size: 1rem;
+    background: #dcfce7;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
 }
 
-/* Short Notes Section */
+/* ========== SHORT NOTES ========== */
 .shortNotesSection {
     background: #eff6ff;
     border: 1px solid #bfdbfe;
@@ -223,18 +439,24 @@
     border-radius: 10px;
 }
 
+.shortNotesSection h2 {
+    background: transparent;
+    border-left: 4px solid var(--accent-color);
+    color: #1e3a5f;
+}
+
 .shortNotes {
     color: #1e3a5f;
     line-height: 1.8;
-    font-size: 1.05rem;
+    font-size: 1.02rem;
 }
 
-/* Quick Reference Sidebar */
+/* ========== QUICK REFERENCE SIDEBAR ========== */
 .quickRef {
     background: #f8fafc;
     border: 1px solid #e2e8f0;
     padding: 1.5rem;
-    border-radius: 8px;
+    border-radius: 10px;
     margin-top: 1.5rem;
 }
 
@@ -243,22 +465,236 @@
     margin-bottom: 0.75rem;
     padding-bottom: 0.5rem;
     border-bottom: 1px solid #e2e8f0;
-    font-size: 1.1rem;
+    font-size: 1.05rem;
 }
 
 .quickRef p {
     color: #475569;
     font-size: 0.9rem;
-    line-height: 1.7;
+    line-height: 1.75;
 }
 
+/* ========== RESPONSIVE ========== */
 @media (max-width: 900px) {
+    .container {
+        padding-top: 1.25rem;
+        padding-bottom: 2.5rem;
+    }
+
     .contentGrid {
         grid-template-columns: 1fr;
+        gap: 1.5rem;
     }
 
     .sidebar {
         position: static;
-        margin-top: 2rem;
+        margin-top: 1rem;
+    }
+
+    /* Header */
+    .header {
+        margin-bottom: 2rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .header h1 {
+        font-size: 1.4rem;
+        margin: 0.75rem 0;
+    }
+
+    .overview {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    .examTipBox {
+        padding: 0.85rem 1rem;
+        gap: 0.5rem;
+    }
+
+    .examTipBox p {
+        font-size: 0.88rem;
+    }
+
+    /* Sections */
+    .section {
+        margin-bottom: 2.5rem;
+    }
+
+    .section h2 {
+        font-size: 1.15rem;
+        padding: 0.5rem 0.85rem;
+    }
+
+    /* Concept Blocks */
+    .conceptBlock {
+        padding: 1rem 1.15rem;
+        margin-bottom: 1.25rem;
+        border-radius: 8px;
+    }
+
+    .conceptBlock h3 {
+        font-size: 1.05rem;
+    }
+
+    .conceptBlock p,
+    .conceptBlock li {
+        font-size: 0.92rem;
+    }
+
+    .conceptBlock code {
+        font-size: 0.88rem;
+        padding: 2px 6px;
+        word-break: break-all;
+    }
+
+    /* Tables inside concepts */
+    .conceptBlock table {
+        display: block;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        font-size: 0.85rem;
+    }
+
+    .conceptBlock thead th {
+        padding: 8px 10px;
+        font-size: 0.82rem;
+        white-space: nowrap;
+    }
+
+    .conceptBlock tbody td {
+        padding: 8px 10px;
+        font-size: 0.85rem;
+        min-width: 100px;
+    }
+
+    /* Formula Grid */
+    .formulaGrid {
+        grid-template-columns: 1fr;
+        gap: 0.75rem;
+    }
+
+    .formulaBox {
+        padding: 12px 14px;
+    }
+
+    .formulaBox strong {
+        font-size: 0.88rem;
+    }
+
+    .formulaBox code {
+        font-size: 0.88rem;
+        padding: 8px 10px;
+    }
+
+    /* Bullet Notes */
+    .bulletSection {
+        padding: 1rem 1.15rem;
+    }
+
+    .bulletNotes li {
+        padding: 0.5rem 0 0.5rem 1.75rem;
+        font-size: 0.9rem;
+        line-height: 1.55;
+    }
+
+    .bulletNotes li::before {
+        width: 18px;
+        height: 18px;
+        font-size: 0.65rem;
+        top: 0.55rem;
+    }
+
+    /* Mistakes */
+    .mistakesSection li {
+        padding: 12px 14px 12px 36px;
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
+
+    .mistakesSection li::before {
+        left: 10px;
+        top: 11px;
+        font-size: 0.88rem;
+    }
+
+    /* Short Notes */
+    .shortNotesSection {
+        padding: 1rem 1.15rem;
+    }
+
+    .shortNotes {
+        font-size: 0.93rem;
+    }
+
+    /* Essay */
+    .essayBox {
+        padding: 1rem;
+    }
+
+    .essayQuestion {
+        font-size: 0.95rem;
+    }
+
+    .essayAnswer summary {
+        font-size: 0.9rem;
+        padding: 6px 12px;
+    }
+
+    .essayAnswer div {
+        padding: 1rem;
+        font-size: 0.9rem;
+    }
+
+    /* Sidebar boxes */
+    .summaryBox {
+        padding: 1.25rem;
+    }
+
+    .summaryBox h3 {
+        font-size: 1rem;
+    }
+
+    .summaryBox p {
+        font-size: 0.9rem;
+    }
+
+    .quickRef {
+        padding: 1.15rem;
+        margin-top: 1rem;
+    }
+
+    .quickRef h3 {
+        font-size: 0.95rem;
+    }
+
+    .quickRef p {
+        font-size: 0.85rem;
+    }
+}
+
+/* ========== PRINT ========== */
+@media print {
+
+    .backLink,
+    .sidebar {
+        display: none !important;
+    }
+
+    .contentGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .conceptBlock {
+        break-inside: avoid;
+        border: 1px solid #ccc;
+    }
+
+    .formulaBox {
+        break-inside: avoid;
+    }
+
+    .mistakesSection li {
+        break-inside: avoid;
     }
 }

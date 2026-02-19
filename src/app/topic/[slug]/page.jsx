@@ -57,6 +57,14 @@ export async function generateMetadata({ params }) {
     };
 }
 
+// Helper: parse **bold** markdown and strip [citation:N] tags from plain text strings
+function parseInlineMarkdown(text) {
+    if (!text) return '';
+    return text
+        .replace(/\[citation:\d+\]/g, '')          // strip [citation:N]
+        .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');  // **bold** → <strong>
+}
+
 export default async function TopicPage({ params }) {
     // Await params for Next.js 15+ compatibility
     const { slug } = await params;
@@ -93,7 +101,7 @@ export default async function TopicPage({ params }) {
                             <h2>📌 Key Points at a Glance</h2>
                             <ul className={styles.bulletNotes}>
                                 {topic.bulletNotes.map((note, i) => (
-                                    <li key={i}>{note}</li>
+                                    <li key={i} dangerouslySetInnerHTML={{ __html: parseInlineMarkdown(note) }} />
                                 ))}
                             </ul>
                         </section>
@@ -136,7 +144,7 @@ export default async function TopicPage({ params }) {
                         <h2>Common Mistakes & Exam Traps</h2>
                         <ul>
                             {topic.mistakes.map((m, i) => (
-                                <li key={i}>{m}</li>
+                                <li key={i} dangerouslySetInnerHTML={{ __html: parseInlineMarkdown(m) }} />
                             ))}
                         </ul>
                     </section>

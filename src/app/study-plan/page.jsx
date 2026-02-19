@@ -63,7 +63,9 @@ export default function StudyPlanPage() {
                                     <div className={styles.timelineMarker}></div>
                                     <div className={styles.timelineContent}>
                                         <div className={styles.weekBadge}>Week {week.week}</div>
-                                        <h4 className={styles.topicTitle}>{week.topic}</h4>
+                                        <h4 className={styles.topicTitle} dangerouslySetInnerHTML={{
+                                            __html: week.topic.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                                        }} />
                                         <div className={styles.actionBox} dangerouslySetInnerHTML={{
                                             __html: week.action.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
                                         }} />

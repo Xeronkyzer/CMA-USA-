@@ -1,0 +1,552 @@
+{
+    "parts": [
+        {
+            "id": "part1",
+            "title": "Part 1: Financial Planning, Performance & Analytics",
+            "sections": [
+                {
+                    "id": "p1-s1",
+                    "number": 1,
+                    "title": "External Financial Reporting Decisions",
+                    "weight": "15%",
+                    "formulas": [
+                        {
+                            "name": "Equity Method: Investment Carrying Value",
+                            "formula": "Initial Cost + Investor's Share of Investee's Profit − Investor's Share of Investee's Dividends"
+                        },
+                        {
+                            "name": "Goodwill (at Acquisition)",
+                            "formula": "Purchase Price − Fair Value of Identifiable Net Assets Acquired"
+                        },
+                        {
+                            "name": "Basic Earnings Per Share (EPS)",
+                            "formula": "(Net Income − Preferred Dividends) / Weighted-Average Common Shares Outstanding"
+                        },
+                        {
+                            "name": "Diluted EPS",
+                            "formula": "Adjusts Basic EPS for the potential conversion of all dilutive securities (e.g., stock options, convertible bonds)",
+                            "note": true
+                        }
+                    ]
+                },
+                {
+                    "id": "p1-s2",
+                    "number": 2,
+                    "title": "Planning, Budgeting & Forecasting",
+                    "weight": "20%",
+                    "formulas": [
+                        {
+                            "name": "External Financing Needed (EFN)",
+                            "formula": "(Projected Increase in Assets) − (Spontaneous Increase in Liabilities) − (Increase in Retained Earnings)"
+                        },
+                        {
+                            "name": "Production Budget: Units to Produce",
+                            "formula": "Budgeted Sales Units + Desired Ending FG Inventory − Beginning FG Inventory"
+                        },
+                        {
+                            "name": "Direct Materials Purchases",
+                            "formula": "Materials Needed for Production + Desired Ending Materials Inventory − Beginning Materials Inventory"
+                        },
+                        {
+                            "name": "Learning Curve (Cumulative Avg-Time Model)",
+                            "formula": "Y = a × X^b",
+                            "variables": "Y = Cumulative avg time/unit · a = Time for first unit · X = Cumulative units · b = log(learning rate) / log(2)"
+                        }
+                    ]
+                },
+                {
+                    "id": "p1-s3",
+                    "number": 3,
+                    "title": "Performance Management",
+                    "weight": "20%",
+                    "formulas": [
+                        {
+                            "name": "Sales Volume Variance",
+                            "formula": "(Actual Qty Sold − Budgeted Qty Sold) × Budgeted Price or CM"
+                        },
+                        {
+                            "name": "Sales Price Variance",
+                            "formula": "(Actual Selling Price − Budgeted Selling Price) × Actual Qty Sold"
+                        },
+                        {
+                            "name": "DM Price Variance",
+                            "formula": "(Actual Price − Standard Price) × Actual Qty Purchased"
+                        },
+                        {
+                            "name": "DM Usage (Quantity) Variance",
+                            "formula": "(Actual Qty Used − Standard Qty Allowed) × Standard Price"
+                        },
+                        {
+                            "name": "DL Rate Variance",
+                            "formula": "(Actual Rate − Standard Rate) × Actual Hours Worked"
+                        },
+                        {
+                            "name": "DL Efficiency Variance",
+                            "formula": "(Actual Hours − Standard Hours Allowed) × Standard Rate"
+                        },
+                        {
+                            "name": "Variable OH Spending Variance",
+                            "formula": "(Actual VOH Rate − Standard VOH Rate) × Actual Hours"
+                        },
+                        {
+                            "name": "Variable OH Efficiency Variance",
+                            "formula": "(Actual Hours − Standard Hours Allowed) × Standard VOH Rate"
+                        },
+                        {
+                            "name": "Fixed OH Spending (Budget) Variance",
+                            "formula": "Actual Fixed OH − Budgeted Fixed OH"
+                        },
+                        {
+                            "name": "Fixed OH Volume Variance",
+                            "formula": "Budgeted Fixed OH − (Standard Fixed OH Rate × Standard Hours Allowed)"
+                        }
+                    ]
+                },
+                {
+                    "id": "p1-s4",
+                    "number": 4,
+                    "title": "Cost Management",
+                    "weight": "15%",
+                    "formulas": [
+                        {
+                            "name": "Total Manufacturing Cost",
+                            "formula": "Direct Materials Used + Direct Labor + Manufacturing Overhead"
+                        },
+                        {
+                            "name": "Cost of Goods Manufactured (COGM)",
+                            "formula": "Beginning WIP + Total Manufacturing Cost − Ending WIP"
+                        },
+                        {
+                            "name": "Cost of Goods Sold (COGS)",
+                            "formula": "Beginning FG Inventory + COGM − Ending FG Inventory"
+                        },
+                        {
+                            "name": "High-Low Method: Variable Cost/Unit",
+                            "formula": "(Cost at Highest Activity − Cost at Lowest Activity) / (Highest Activity − Lowest Activity)"
+                        },
+                        {
+                            "name": "High-Low Method: Fixed Cost",
+                            "formula": "Total Cost at High (or Low) Level − (Variable Cost/Unit × Activity Level)"
+                        },
+                        {
+                            "name": "Economic Order Quantity (EOQ)",
+                            "formula": "√(2 × D × O / C)",
+                            "variables": "D = Annual Demand · O = Cost per Order · C = Annual Carrying Cost per Unit"
+                        },
+                        {
+                            "name": "Reorder Point",
+                            "formula": "(Average Daily Usage × Lead Time in Days) + Safety Stock"
+                        },
+                        {
+                            "name": "Contribution Margin (CM)",
+                            "formula": "Sales Revenue − All Variable Costs"
+                        },
+                        {
+                            "name": "Contribution Margin Ratio",
+                            "formula": "Contribution Margin / Sales Revenue"
+                        },
+                        {
+                            "name": "Breakeven Point (Units)",
+                            "formula": "Total Fixed Costs / Unit Contribution Margin"
+                        },
+                        {
+                            "name": "Breakeven Point (Dollars)",
+                            "formula": "Total Fixed Costs / Contribution Margin Ratio"
+                        },
+                        {
+                            "name": "Units for Target Profit",
+                            "formula": "(Total Fixed Costs + Target Profit) / Unit Contribution Margin"
+                        },
+                        {
+                            "name": "Throughput Contribution",
+                            "formula": "Sales Revenue − Direct Material Costs"
+                        },
+                        {
+                            "name": "Throughput CM Ratio",
+                            "formula": "Throughput Contribution / Sales Revenue"
+                        },
+                        {
+                            "name": "Operating Income (Throughput)",
+                            "formula": "Throughput Contribution − All Other Operating Costs (excl. direct materials)"
+                        }
+                    ]
+                },
+                {
+                    "id": "p1-s5",
+                    "number": 5,
+                    "title": "Internal Controls",
+                    "weight": "15%",
+                    "formulas": [],
+                    "conceptNote": "This section focuses on COSO framework concepts, IT controls, and security — not mathematical formulas."
+                },
+                {
+                    "id": "p1-s6",
+                    "number": 6,
+                    "title": "Technology & Analytics",
+                    "weight": "15%",
+                    "formulas": [
+                        {
+                            "name": "Simple Linear Regression",
+                            "formula": "Y = a + bX",
+                            "variables": "Evaluated by R² (Coefficient of Determination), t-statistic, and p-value"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "part2",
+            "title": "Part 2: Strategic Financial Management",
+            "sections": [
+                {
+                    "id": "p2-s1",
+                    "number": 7,
+                    "title": "Financial Statement Analysis",
+                    "weight": "20%",
+                    "formulas": [
+                        {
+                            "name": "Vertical Analysis (Balance Sheet)",
+                            "formula": "Balance Sheet Item / Total Assets",
+                            "category": "Common Size Analysis"
+                        },
+                        {
+                            "name": "Vertical Analysis (Income Statement)",
+                            "formula": "Income Statement Item / Net Sales",
+                            "category": "Common Size Analysis"
+                        },
+                        {
+                            "name": "Horizontal Analysis",
+                            "formula": "(Current Year − Base Year) / Base Year",
+                            "category": "Common Size Analysis"
+                        },
+                        {
+                            "name": "Current Ratio",
+                            "formula": "Current Assets / Current Liabilities",
+                            "category": "Liquidity Ratios"
+                        },
+                        {
+                            "name": "Quick (Acid-Test) Ratio",
+                            "formula": "(Cash + Marketable Securities + AR) / Current Liabilities",
+                            "category": "Liquidity Ratios"
+                        },
+                        {
+                            "name": "Cash Ratio",
+                            "formula": "(Cash + Marketable Securities) / Current Liabilities",
+                            "category": "Liquidity Ratios"
+                        },
+                        {
+                            "name": "Accounts Receivable Turnover",
+                            "formula": "Net Credit Sales / Average Accounts Receivable",
+                            "category": "Activity Ratios"
+                        },
+                        {
+                            "name": "Days Sales Outstanding (DSO)",
+                            "formula": "365 / Accounts Receivable Turnover",
+                            "category": "Activity Ratios"
+                        },
+                        {
+                            "name": "Inventory Turnover",
+                            "formula": "COGS / Average Inventory",
+                            "category": "Activity Ratios"
+                        },
+                        {
+                            "name": "Days Inventory Held (DIH)",
+                            "formula": "365 / Inventory Turnover",
+                            "category": "Activity Ratios"
+                        },
+                        {
+                            "name": "Payables Turnover",
+                            "formula": "Purchases / Average Accounts Payable",
+                            "category": "Activity Ratios"
+                        },
+                        {
+                            "name": "Days Payables Outstanding (DPO)",
+                            "formula": "365 / Payables Turnover",
+                            "category": "Activity Ratios"
+                        },
+                        {
+                            "name": "Cash Conversion Cycle",
+                            "formula": "DSO + DIH − DPO",
+                            "category": "Activity Ratios"
+                        },
+                        {
+                            "name": "Total Asset Turnover",
+                            "formula": "Sales / Average Total Assets",
+                            "category": "Activity Ratios"
+                        },
+                        {
+                            "name": "Fixed Asset Turnover",
+                            "formula": "Sales / Average Fixed Assets",
+                            "category": "Activity Ratios"
+                        },
+                        {
+                            "name": "Debt to Equity Ratio",
+                            "formula": "Total Liabilities / Total Shareholders' Equity",
+                            "category": "Leverage Ratios"
+                        },
+                        {
+                            "name": "Debt Ratio",
+                            "formula": "Total Liabilities / Total Assets",
+                            "category": "Leverage Ratios"
+                        },
+                        {
+                            "name": "Times Interest Earned",
+                            "formula": "EBIT / Interest Expense",
+                            "category": "Leverage Ratios"
+                        },
+                        {
+                            "name": "Fixed Charge Coverage",
+                            "formula": "(EBIT + Lease Payments) / (Interest + Lease Payments)",
+                            "category": "Leverage Ratios"
+                        },
+                        {
+                            "name": "Gross Profit Margin",
+                            "formula": "Gross Profit / Sales",
+                            "category": "Profitability Ratios"
+                        },
+                        {
+                            "name": "Operating Profit Margin",
+                            "formula": "Operating Income / Sales",
+                            "category": "Profitability Ratios"
+                        },
+                        {
+                            "name": "Net Profit Margin",
+                            "formula": "Net Income / Sales",
+                            "category": "Profitability Ratios"
+                        },
+                        {
+                            "name": "Return on Assets (ROA)",
+                            "formula": "Net Income / Average Total Assets",
+                            "category": "Profitability Ratios"
+                        },
+                        {
+                            "name": "Return on Equity (ROE)",
+                            "formula": "Net Income / Average Shareholders' Equity",
+                            "category": "Profitability Ratios"
+                        },
+                        {
+                            "name": "DuPont Analysis: ROE",
+                            "formula": "Net Profit Margin × Total Asset Turnover × Equity Multiplier",
+                            "variables": "Equity Multiplier = Average Total Assets / Average Shareholders' Equity",
+                            "category": "Profitability Ratios"
+                        },
+                        {
+                            "name": "Price to Earnings (P/E) Ratio",
+                            "formula": "Market Price per Share / EPS",
+                            "category": "Market Ratios"
+                        },
+                        {
+                            "name": "Payout Ratio",
+                            "formula": "Common Dividends / Net Income Available to Common",
+                            "category": "Market Ratios"
+                        },
+                        {
+                            "name": "Dividend Yield",
+                            "formula": "Annual Dividend per Share / Market Price per Share",
+                            "category": "Market Ratios"
+                        },
+                        {
+                            "name": "Book Value per Share",
+                            "formula": "Common Shareholders' Equity / Common Shares Outstanding",
+                            "category": "Market Ratios"
+                        }
+                    ]
+                },
+                {
+                    "id": "p2-s2",
+                    "number": 8,
+                    "title": "Corporate Finance",
+                    "weight": "20%",
+                    "formulas": [
+                        {
+                            "name": "Weighted Average Cost of Capital (WACC)",
+                            "formula": "(Wd × Kd × (1−t)) + (Wp × Kp) + (We × Ke)",
+                            "variables": "Wd/Wp/We = Weights · Kd = Cost of Debt · Kp = Cost of Preferred · Ke = Cost of Equity · t = Tax Rate",
+                            "category": "Cost of Capital"
+                        },
+                        {
+                            "name": "After-Tax Cost of Debt",
+                            "formula": "Kd × (1 − t)",
+                            "category": "Cost of Capital"
+                        },
+                        {
+                            "name": "Cost of Preferred Stock",
+                            "formula": "Annual Preferred Dividend / Net Proceeds per Share",
+                            "category": "Cost of Capital"
+                        },
+                        {
+                            "name": "Cost of Equity (CAPM)",
+                            "formula": "Rf + β × (Rm − Rf)",
+                            "variables": "Rf = Risk-Free Rate · β = Beta · Rm = Expected Market Return",
+                            "category": "Cost of Capital"
+                        },
+                        {
+                            "name": "Degree of Operating Leverage (DOL)",
+                            "formula": "Contribution Margin / EBIT",
+                            "category": "Financial Leverage"
+                        },
+                        {
+                            "name": "Degree of Financial Leverage (DFL)",
+                            "formula": "EBIT / (EBIT − Interest)",
+                            "category": "Financial Leverage"
+                        },
+                        {
+                            "name": "Degree of Total Leverage (DTL)",
+                            "formula": "DOL × DFL = CM / (EBIT − Interest)",
+                            "category": "Financial Leverage"
+                        },
+                        {
+                            "name": "Dividend Payout Ratio",
+                            "formula": "Dividends per Share / EPS",
+                            "category": "Dividend Models"
+                        },
+                        {
+                            "name": "Retention Rate (b)",
+                            "formula": "1 − Payout Ratio",
+                            "category": "Dividend Models"
+                        },
+                        {
+                            "name": "Sustainable Growth Rate (g)",
+                            "formula": "ROE × Retention Rate",
+                            "category": "Dividend Models"
+                        },
+                        {
+                            "name": "Preferred Stock Value",
+                            "formula": "Annual Dividend / Required Rate of Return",
+                            "category": "Valuation"
+                        },
+                        {
+                            "name": "Gordon Growth Model (Common Stock)",
+                            "formula": "D₁ / (Ke − g)",
+                            "variables": "D₁ = Next year's dividend · Ke = Required return · g = Constant growth rate",
+                            "category": "Valuation"
+                        }
+                    ]
+                },
+                {
+                    "id": "p2-s3",
+                    "number": 9,
+                    "title": "Decision Analysis",
+                    "weight": "20%",
+                    "formulas": [
+                        {
+                            "name": "Make or Buy: Total Cost to Make",
+                            "formula": "Relevant Variable Costs + Avoidable Fixed Costs"
+                        },
+                        {
+                            "name": "Make or Buy: Total Cost to Buy",
+                            "formula": "Purchase Price + Unavoidable Fixed Costs"
+                        },
+                        {
+                            "name": "Sell or Process Further",
+                            "formula": "Incremental Revenue − Incremental Cost of Further Processing"
+                        },
+                        {
+                            "name": "Keep or Drop a Segment",
+                            "formula": "Compare Lost Contribution Margin vs. Saved Avoidable Fixed Costs",
+                            "note": true
+                        },
+                        {
+                            "name": "Special Order Decision",
+                            "formula": "Accept if Incremental Revenue > Incremental Cost (with excess capacity)",
+                            "note": true
+                        },
+                        {
+                            "name": "Scarce Resource / TOC",
+                            "formula": "Maximize Throughput Contribution per unit of the constrained resource",
+                            "note": true
+                        },
+                        {
+                            "name": "Target Cost",
+                            "formula": "Competitive Market Price − Desired Profit"
+                        },
+                        {
+                            "name": "Life-Cycle Costing",
+                            "formula": "Sum of all costs over entire product life (R&D + Design + Manufacturing + Marketing + Service + Disposal)",
+                            "note": true
+                        }
+                    ]
+                },
+                {
+                    "id": "p2-s4",
+                    "number": 10,
+                    "title": "Risk Management",
+                    "weight": "10%",
+                    "formulas": [
+                        {
+                            "name": "Value at Risk (VaR)",
+                            "formula": "Maximum potential loss over a defined period at a given confidence interval",
+                            "note": true
+                        },
+                        {
+                            "name": "Purchasing Power Parity",
+                            "formula": "S₁ / S₀ = (1 + i_foreign) / (1 + i_domestic)",
+                            "variables": "S = Spot exchange rate · i = Inflation rate"
+                        },
+                        {
+                            "name": "Interest Rate Parity",
+                            "formula": "F₀ / S₀ = (1 + r_foreign) / (1 + r_domestic)",
+                            "variables": "F = Forward rate · S = Spot rate · r = Interest rate"
+                        },
+                        {
+                            "name": "Expected Portfolio Return",
+                            "formula": "Σ (Weightᵢ × Returnᵢ)"
+                        },
+                        {
+                            "name": "Portfolio Variance / Std Deviation",
+                            "formula": "Involves weights, individual variances, and covariance/correlation between assets",
+                            "note": true
+                        }
+                    ]
+                },
+                {
+                    "id": "p2-s5",
+                    "number": 11,
+                    "title": "Investment Decisions",
+                    "weight": "10%",
+                    "formulas": [
+                        {
+                            "name": "Net Present Value (NPV)",
+                            "formula": "Σ [CFt / (1 + k)^t] − Initial Investment",
+                            "variables": "CFt = After-tax cash flow at time t · k = Discount rate (WACC)"
+                        },
+                        {
+                            "name": "Internal Rate of Return (IRR)",
+                            "formula": "Discount rate that makes NPV = 0",
+                            "note": true
+                        },
+                        {
+                            "name": "Payback Period (Conventional)",
+                            "formula": "Number of years to recover initial investment"
+                        },
+                        {
+                            "name": "Discounted Payback Period",
+                            "formula": "Years for discounted cumulative cash flows to equal initial investment"
+                        },
+                        {
+                            "name": "Profitability Index (PI)",
+                            "formula": "PV of Future Cash Flows / Initial Investment"
+                        },
+                        {
+                            "name": "Accounting Rate of Return (ARR)",
+                            "formula": "Average Annual Net Income / Average (or Initial) Investment"
+                        },
+                        {
+                            "name": "After-Tax Cash Flow",
+                            "formula": "(Revenue − Expenses − Depreciation) × (1 − Tax Rate) + Depreciation",
+                            "variables": "Simplified: Net Income + Depreciation"
+                        }
+                    ]
+                },
+                {
+                    "id": "p2-s6",
+                    "number": 12,
+                    "title": "Professional Ethics",
+                    "weight": "5%",
+                    "formulas": [],
+                    "conceptNote": "This section focuses on the IMA Statement of Ethical Professional Practice — concept-based, not formula-based."
+                }
+            ]
+        }
+    ]
+}

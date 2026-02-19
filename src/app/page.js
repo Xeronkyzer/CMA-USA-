@@ -35,6 +35,11 @@ export default function Home() {
           <Link href="/mock-test" className={styles.linkArrow}>Start Practice →</Link>
         </div>
         <div className={styles.featureCard}>
+          <h3>Formula Sheet</h3>
+          <p>All 100+ formulas across Part 1 & Part 2 — searchable and filterable for quick revision.</p>
+          <Link href="/formulas" className={styles.linkArrow}>View Formulas →</Link>
+        </div>
+        <div className={styles.featureCard}>
           <h3>Study Tracker</h3>
           <p>Downloadable 6-month roadmap and progress checklists to stay on track.</p>
           <Link href="/study-plan" className={styles.linkArrow}>View Study Plan →</Link>

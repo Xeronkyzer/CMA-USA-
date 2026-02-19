@@ -28,6 +28,7 @@ export default function Navbar() {
         <div className={`${styles.links} ${isMenuOpen ? styles.active : ''}`}>
           <Link href="/syllabus" className={styles.link} onClick={() => setIsMenuOpen(false)}>Syllabus</Link>
           <Link href="/study-plan" className={styles.link} onClick={() => setIsMenuOpen(false)}>Study Plan</Link>
+          <Link href="/formulas" className={styles.link} onClick={() => setIsMenuOpen(false)}>Formulas</Link>
           <Link href="/mock-test" className={styles.link} onClick={() => setIsMenuOpen(false)}>Mock Tests</Link>
           <Link href="/about" className={styles.link} onClick={() => setIsMenuOpen(false)}>About</Link>
         </div>
