@@ -1,26 +1,46 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import ThemeToggle from './ThemeToggle';
 import styles from './Navbar.module.css';
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+
+      // Show if scrolling up or at the very top
+      // Hide if scrolling down more than 100px
+      if (currentScrollY > lastScrollY && currentScrollY > 100) {
+        setIsVisible(false);
+      } else {
+        setIsVisible(true);
+      }
+
+      setLastScrollY(currentScrollY);
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [lastScrollY]);
+
   return (
-    <nav className={styles.navbar}>
+    <nav className={`${styles.navbar} ${!isVisible ? styles.hidden : ''}`}>
       <div className={`container ${styles.container}`}>
         <Link href="/" className={styles.logo} onClick={() => setIsMenuOpen(false)}>
           US CMA Prep
         </Link>
 
         <div className={styles.rightGroup}>
-          {/* Hamburger Icon */}
           <ThemeToggle />
           <button className={styles.hamburger} onClick={toggleMenu} aria-label="Toggle menu">
             <span className={`${styles.bar} ${isMenuOpen ? styles.open : ''}`}></span>

@@ -2,10 +2,17 @@
     background: var(--bg-primary);
     border-bottom: 1px solid var(--border-color);
     padding: 1rem 0;
-    position: sticky;
+    position: fixed;
     top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
     z-index: 100;
-    transition: background-color 0.3s;
+    transition: transform 0.3s ease-in-out, background-color 0.3s;
+}
+
+.navbar.hidden {
+    transform: translateY(-100%);
 }
 
 .container {
