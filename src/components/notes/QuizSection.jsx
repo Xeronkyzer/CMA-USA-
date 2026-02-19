@@ -39,28 +39,29 @@ export default function QuizSection({ questions: initialQuestions }) {
     return (
         <div className={styles.quizContainer}>
             {questions.map((q, index) => {
-                const isSubmitted = submittedQuestions[q.id] || showAllResults;
-                const isCorrect = selectedAnswers[q.id] === q.answer;
-                const hasSelected = selectedAnswers[q.id] !== undefined;
+                const qId = q.id || `quiz_q_${index}`;
+                const isSubmitted = submittedQuestions[qId] || showAllResults;
+                const isCorrect = selectedAnswers[qId] === q.answer;
+                const hasSelected = selectedAnswers[qId] !== undefined;
 
                 return (
-                    <div key={q.id || index} className={styles.questionCard}>
+                    <div key={qId} className={styles.questionCard}>
                         <p className={styles.questionText}><strong>{index + 1}.</strong> {q.question}</p>
                         <div className={styles.options}>
                             {q.options.map((option, oIndex) => {
                                 let optionClass = styles.option;
                                 if (isSubmitted) {
                                     if (oIndex === q.answer) optionClass += ` ${styles.correct}`;
-                                    else if (selectedAnswers[q.id] === oIndex) optionClass += ` ${styles.incorrect}`;
+                                    else if (selectedAnswers[qId] === oIndex) optionClass += ` ${styles.incorrect}`;
                                 } else {
-                                    if (selectedAnswers[q.id] === oIndex) optionClass += ` ${styles.selected}`;
+                                    if (selectedAnswers[qId] === oIndex) optionClass += ` ${styles.selected}`;
                                 }
 
                                 return (
                                     <button
                                         key={oIndex}
                                         className={optionClass}
-                                        onClick={() => !isSubmitted && handleSelect(q.id, oIndex)}
+                                        onClick={() => !isSubmitted && handleSelect(qId, oIndex)}
                                         disabled={isSubmitted}
                                     >
                                         {option}
@@ -74,7 +75,7 @@ export default function QuizSection({ questions: initialQuestions }) {
                             {!isSubmitted ? (
                                 <button
                                     className={`btn ${styles.checkBtn}`}
-                                    onClick={() => checkQuestion(q.id)}
+                                    onClick={() => checkQuestion(qId)}
                                     disabled={!hasSelected}
                                 >
                                     Check Answer
