@@ -14,9 +14,13 @@
         "Revenue recognition timing affects earnings quality.",
         "Deferred taxes arise from temporary (timing) differences only.",
         "Lease accounting increases reported leverage under ASC 842.",
-        "**Consolidated FS**: Eliminate intercompany transactions. VIE = Risk/Reward model. Voting Interest = >50% ownership."
+        "Consolidated FS: Eliminate intercompany transactions. VIE = Risk/Reward model. Voting Interest = >50% ownership.",
+        "LIFO is prohibited under IFRS.",
+        "Goodwill is not amortized, but tested annually for impairment.",
+        "The equity method: dividends reduce the investment account, not income.",
+        "For GAAP impairment of assets held for use, step 1 uses undiscounted cash flows."
     ],
-    "shortNotes": "Begin with structural clarity: understand how each statement is built. Then focus on measurement rules (historical cost, amortized cost, fair value, NRV). Finally, connect accounting choices to financial ratios and performance evaluation. CMA questions frequently require tracing transaction impact across income statement, balance sheet, and cash flow statement.",
+    "shortNotes": "Begin with structural clarity: understand how each statement is built. Then focus on measurement rules (historical cost, amortized cost, fair value, NRV). Finally, connect accounting choices to financial ratios and performance evaluation. CMA questions frequently require tracing transaction impact across income statement, balance sheet, and cash flow statement. Master the indirect method adjustments and intercompany eliminations. Pay special attention to the new consolidation topic (VIE vs. voting interest) and the 5-step revenue model.",
     "concepts": [
         {
             "title": "1. Financial Statements – Structural & Analytical Foundation",
@@ -61,6 +65,10 @@
     ],
     "formulas": [
         {
+            "name": "Accounting Equation",
+            "formula": "Assets = Liabilities + Equity"
+        },
+        {
             "name": "COGS",
             "formula": "Beginning Inventory + Purchases - Ending Inventory"
         },
@@ -101,7 +109,12 @@
         "Confusing OCI items with Net Income items.",
         "Forgetting to eliminate intercompany transactions in consolidation.",
         "Thinking proportionate consolidation is allowed under US GAAP (it is not).",
-        "Confusing VIE model (risk/reward) with voting interest model (>50% ownership)."
+        "Confusing VIE model (risk/reward) with voting interest model (>50% ownership).",
+        "Recording dividends from equity method investee as income (they reduce the investment account).",
+        "Thinking all unrealized gains/losses on investments go to OCI (Trading and most equity securities go to Net Income).",
+        "Forgetting to eliminate unrealized profit in intercompany inventory transfers.",
+        "Misclassifying lease types under ASC 842 (focus on expense pattern, not just balance sheet).",
+        "Ignoring the valuation allowance for deferred tax assets."
     ],
     "quiz": [
         {
