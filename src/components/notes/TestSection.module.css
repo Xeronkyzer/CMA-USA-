@@ -1,13 +1,13 @@
 .startTestSection {
     text-align: center;
     padding: 3rem 1rem;
-    background: #f8f9fa;
+    background: var(--bg-secondary);
     border-radius: 12px;
 }
 
 .startTestSection p {
     margin-bottom: 1.5rem;
-    color: #666;
+    color: var(--text-muted);
 }
 
 .startBtn {

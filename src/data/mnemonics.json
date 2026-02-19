@@ -1,0 +1,771 @@
+{
+    "parts": [
+        {
+            "id": "part1",
+            "title": "Part 1: Financial Planning, Performance & Analytics",
+            "sections": [
+                {
+                    "id": "p1-s1",
+                    "number": 1,
+                    "title": "External Financial Reporting Decisions",
+                    "weight": "15%",
+                    "items": [
+                        {
+                            "name": "Equity Method – Investment Carrying Value",
+                            "formula": "Initial Cost + Investor's Share of Profit − Investor's Share of Dividends",
+                            "mnemonic": "I + Profit − Dividends",
+                            "tip": "Think: I earn profit, then give out dividends"
+                        },
+                        {
+                            "name": "Goodwill (at Acquisition)",
+                            "formula": "Purchase Price − Fair Value of Identifiable Net Assets Acquired",
+                            "mnemonic": "Price minus Net Assets",
+                            "tip": "Goodwill is the extra you pay above the net worth"
+                        },
+                        {
+                            "name": "Basic Earnings Per Share (EPS)",
+                            "formula": "(Net Income − Preferred Dividends) ÷ Weighted-Average Common Shares Outstanding",
+                            "mnemonic": "NI minus Pref Div over Shares",
+                            "tip": "EPS = Earnings available for common shareholders"
+                        },
+                        {
+                            "name": "Diluted EPS",
+                            "formula": "Adjusts Basic EPS for potential conversion of dilutive securities",
+                            "mnemonic": "Basic EPS + Dilutive adjustments",
+                            "tip": "What if all convertible securities were converted?"
+                        },
+                        {
+                            "name": "Accrual Basis vs. Cash Basis",
+                            "formula": "Accrual recognizes revenue when earned and expenses when incurred; Cash recognizes when money moves",
+                            "mnemonic": "Accrual matches; Cash counts money",
+                            "tip": "Accrual matches revenues and expenses; Cash counts when money moves",
+                            "conceptual": true
+                        },
+                        {
+                            "name": "Revenue Recognition (5 Steps)",
+                            "formula": "Identify contract → Identify obligations → Determine price → Allocate price → Recognize revenue",
+                            "mnemonic": "I Identified Dogs And Pets Really",
+                            "tip": "5-step model under ASC 606 / IFRS 15",
+                            "conceptual": true
+                        },
+                        {
+                            "name": "Inventory Cost Flow Assumptions",
+                            "formula": "FIFO (First In First Out), LIFO (Last In First Out), Weighted Average",
+                            "mnemonic": "LIFO = Lower Income, Favorable Taxes",
+                            "tip": "In rising prices: LIFO → lower net income, lower taxes, higher cash flow",
+                            "conceptual": true
+                        },
+                        {
+                            "name": "Bond Premium/Discount Amortization",
+                            "formula": "Interest Expense = Carrying Value × Market Rate",
+                            "mnemonic": "Carrying × Market Rate",
+                            "tip": "Effective Interest Method uses the market rate at issuance, not the coupon rate"
+                        },
+                        {
+                            "name": "Leases (ASC 842)",
+                            "formula": "Lessee records Right-of-Use Asset and Lease Liability for all but short-term leases",
+                            "mnemonic": "Lessee: Asset + Liability (always)",
+                            "tip": "Under ASC 842, almost all leases go on the balance sheet",
+                            "conceptual": true
+                        },
+                        {
+                            "name": "Statement of Cash Flows – Structure",
+                            "formula": "Operating (day-to-day) + Investing (PP&E) + Financing (debt/equity)",
+                            "mnemonic": "OIF",
+                            "tip": "Operating, Investing, Financing — the three sections of cash flows",
+                            "conceptual": true
+                        },
+                        {
+                            "name": "Statement of Cash Flows – Indirect Method",
+                            "formula": "Start with NI → Add back non-cash items → Adjust for changes in working capital",
+                            "mnemonic": "NI + Depreciation ± Working Capital",
+                            "tip": "Start with NI, add back non-cash (depreciation), adjust for current assets/liabilities",
+                            "conceptual": true
+                        }
+                    ]
+                },
+                {
+                    "id": "p1-s2",
+                    "number": 2,
+                    "title": "Planning, Budgeting & Forecasting",
+                    "weight": "20%",
+                    "items": [
+                        {
+                            "name": "External Financing Needed (EFN)",
+                            "formula": "Projected Increase in Assets − Spontaneous Increase in Liabilities − Increase in Retained Earnings",
+                            "mnemonic": "Assets − Liabilities − Retained Earnings",
+                            "tip": "You need money for new assets, but you get some from liabilities and retained earnings"
+                        },
+                        {
+                            "name": "Production Budget",
+                            "formula": "Units to Produce = Budgeted Sales + Desired Ending Inventory − Beginning Inventory",
+                            "mnemonic": "Sales + End − Begin",
+                            "tip": "What you need to sell plus what you want to keep, minus what you already have"
+                        },
+                        {
+                            "name": "Direct Materials Purchases",
+                            "formula": "Materials for Production + Desired Ending Materials − Beginning Materials",
+                            "mnemonic": "Prod + End − Begin",
+                            "tip": "Same structure as production budget"
+                        },
+                        {
+                            "name": "Learning Curve",
+                            "formula": "Y = a × X^b",
+                            "mnemonic": "Y = a times X to the b",
+                            "tip": "a = first unit cost, X = cumulative output, b = learning index. As production doubles, time per unit decreases by a constant percentage"
+                        },
+                        {
+                            "name": "Budgeting Process Order",
+                            "formula": "Sales → Production → Materials → Labor → Overhead",
+                            "mnemonic": "S-P-M-L-O",
+                            "tip": "Sales budget always comes first — everything cascades from it",
+                            "conceptual": true
+                        },
+                        {
+                            "name": "Cash Budget",
+                            "formula": "Beginning Cash + Receipts − Disbursements ± Financing = Ending Cash",
+                            "mnemonic": "Begin + In − Out ± Finance = End",
+                            "tip": "Track all cash inflows and outflows to project ending balance"
+                        },
+                        {
+                            "name": "Pro Forma Financial Statements",
+                            "formula": "Projected financials based on assumptions and forecasts",
+                            "mnemonic": "Pro Forma = Projected Financials",
+                            "tip": "Used for planning and what-if analysis",
+                            "conceptual": true
+                        },
+                        {
+                            "name": "Forecasting Methods",
+                            "formula": "Regression (statistical), Moving Average (smoothing), Exponential Smoothing (weighted)",
+                            "mnemonic": "RME: Regression, Moving Avg, Exponential",
+                            "tip": "Regression is statistical; Moving Average smooths data; Exponential gives more weight to recent data",
+                            "conceptual": true
+                        }
+                    ]
+                },
+                {
+                    "id": "p1-s3",
+                    "number": 3,
+                    "title": "Performance Management",
+                    "weight": "20%",
+                    "items": [
+                        {
+                            "name": "Sales Price Variance",
+                            "formula": "(Actual Price − Budgeted Price) × Actual Quantity",
+                            "mnemonic": "Price difference × Actual quantity",
+                            "tip": "Focus on price change"
+                        },
+                        {
+                            "name": "Direct Materials Price Variance",
+                            "formula": "(Actual Price − Standard Price) × Actual Quantity Purchased",
+                            "mnemonic": "(AP − SP) × AQ",
+                            "tip": "AP − SP = price difference"
+                        },
+                        {
+                            "name": "Direct Materials Usage Variance",
+                            "formula": "(Actual Quantity Used − Standard Quantity Allowed) × Standard Price",
+                            "mnemonic": "(AQ − SQ) × SP",
+                            "tip": "Quantity difference × standard price"
+                        },
+                        {
+                            "name": "Variable Overhead Efficiency Variance",
+                            "formula": "(Actual Hours − Standard Hours) × Standard Variable Overhead Rate",
+                            "mnemonic": "(AH − SH) × SR",
+                            "tip": "Same pattern as labor efficiency"
+                        },
+                        {
+                            "name": "Fixed Overhead Volume Variance",
+                            "formula": "Budgeted Fixed OH − (Standard Rate × Standard Hours Allowed)",
+                            "mnemonic": "Budget minus Applied",
+                            "tip": "Volume variance = fixed overhead applied versus budgeted"
+                        },
+                        {
+                            "name": "Variance Analysis Pattern",
+                            "formula": "Price/Spending = (AP − SP) × AQ; Efficiency/Usage = (AQ − SQ) × SP",
+                            "mnemonic": "Price uses AQ; Efficiency uses SP",
+                            "tip": "Price variances always multiply by actual quantity; efficiency variances always multiply by standard price",
+                            "conceptual": true
+                        },
+                        {
+                            "name": "Favorable vs. Unfavorable Rule",
+                            "formula": "Actual > Standard = Unfavorable; Actual < Standard = Favorable",
+                            "mnemonic": "Actual > Standard = U; Actual < Standard = F",
+                            "tip": "If you spend MORE than standard, it's unfavorable",
+                            "conceptual": true
+                        },
+                        {
+                            "name": "Flexible Budget",
+                            "formula": "Budgeted per unit × Actual units produced",
+                            "mnemonic": "Flex = Budget Rate × Actual Volume",
+                            "tip": "Adjusts the budget for the actual activity level achieved"
+                        },
+                        {
+                            "name": "Responsibility Centers",
+                            "formula": "Cost center (costs), Revenue center (revenue), Profit center (costs + revenue), Investment center (profit + capital)",
+                            "mnemonic": "CRPI",
+                            "tip": "Each center is evaluated on what its manager controls",
+                            "conceptual": true
+                        }
+                    ]
+                },
+                {
+                    "id": "p1-s4",
+                    "number": 4,
+                    "title": "Cost Management",
+                    "weight": "15%",
+                    "items": [
+                        {
+                            "name": "Total Manufacturing Cost",
+                            "formula": "Direct Materials Used + Direct Labor + Manufacturing Overhead",
+                            "mnemonic": "Materials + Labor + Overhead",
+                            "tip": "The three components of product cost"
+                        },
+                        {
+                            "name": "Cost of Goods Manufactured (COGM)",
+                            "formula": "Beginning WIP + Total Manufacturing Cost − Ending WIP",
+                            "mnemonic": "Begin WIP + Total − End WIP",
+                            "tip": "What flows through production"
+                        },
+                        {
+                            "name": "High-Low Method",
+                            "formula": "Variable Cost per Unit = (Cost High − Cost Low) ÷ (Activity High − Activity Low)",
+                            "mnemonic": "ΔCost ÷ ΔActivity",
+                            "tip": "Change in cost over change in activity"
+                        },
+                        {
+                            "name": "Economic Order Quantity (EOQ)",
+                            "formula": "√(2DO ÷ C)",
+                            "mnemonic": "2DO over C",
+                            "tip": "2 × Demand × Order cost divided by Carrying cost, all under square root"
+                        },
+                        {
+                            "name": "Breakeven Point (Units)",
+                            "formula": "Total Fixed Costs ÷ Unit Contribution Margin",
+                            "mnemonic": "Fixed over CM per unit",
+                            "tip": "How many units to cover fixed costs"
+                        },
+                        {
+                            "name": "Contribution Margin Ratio",
+                            "formula": "Contribution Margin ÷ Sales",
+                            "mnemonic": "CM over Sales",
+                            "tip": "Percentage of each sales dollar that contributes to fixed costs and profit"
+                        },
+                        {
+                            "name": "Cost Classifications",
+                            "formula": "Direct (traceable), Indirect (not traceable), Fixed (constant total), Variable (constant per unit), Mixed (both)",
+                            "mnemonic": "Direct vs Indirect; Fixed vs Variable",
+                            "tip": "Direct costs are traceable to a cost object; indirect costs are not",
+                            "conceptual": true
+                        },
+                        {
+                            "name": "Absorption vs. Variable Costing",
+                            "formula": "Absorption = all manufacturing costs as product cost; Variable = only variable manufacturing costs",
+                            "mnemonic": "Absorption includes Fixed OH; Variable excludes it",
+                            "tip": "When inventory increases, absorption income > variable income because more fixed OH is deferred",
+                            "conceptual": true
+                        },
+                        {
+                            "name": "Activity-Based Costing (ABC)",
+                            "formula": "Activities consume resources; Products consume activities",
+                            "mnemonic": "ABC: Activities → Resources; Products → Activities",
+                            "tip": "ABC assigns costs based on actual activity drivers, not volume alone",
+                            "conceptual": true
+                        },
+                        {
+                            "name": "Joint Products Allocation",
+                            "formula": "Joint costs allocated based on relative sales value at split-off point",
+                            "mnemonic": "Allocate at Split-off by Sales Value",
+                            "tip": "Joint costs are common costs incurred before products become identifiable",
+                            "conceptual": true
+                        },
+                        {
+                            "name": "Margin of Safety",
+                            "formula": "(Actual Sales − Breakeven Sales) ÷ Actual Sales",
+                            "mnemonic": "Safety Cushion = Drop Room",
+                            "tip": "How far sales can drop before you hit a loss"
+                        }
+                    ]
+                },
+                {
+                    "id": "p1-s5",
+                    "number": 5,
+                    "title": "Internal Controls",
+                    "weight": "15%",
+                    "items": [
+                        {
+                            "name": "COSO Internal Control Framework",
+                            "formula": "Control Environment, Risk Assessment, Information & Communication, Monitoring, Existing Control Activities",
+                            "mnemonic": "CRIME",
+                            "tip": "C = Control Environment, R = Risk Assessment, I = Information & Communication, M = Monitoring, E = Existing Control Activities",
+                            "conceptual": true
+                        },
+                        {
+                            "name": "Control Activities",
+                            "formula": "Segregation of duties, Authorization, Physical controls, Reconciliations & reviews",
+                            "mnemonic": "SAPS",
+                            "tip": "S = Segregation, A = Authorization, P = Physical controls, S = (reviews/reconciliations)",
+                            "conceptual": true
+                        },
+                        {
+                            "name": "Segregation of Duties",
+                            "formula": "Custody, Authorization, Recording — no single person should do all three",
+                            "mnemonic": "CAR",
+                            "tip": "Never let one person handle Custody, Authorization, AND Recording",
+                            "conceptual": true
+                        },
+                        {
+                            "name": "SOX Key Sections",
+                            "formula": "Section 302 (CEO/CFO certify financials), Section 404 (internal control assessment)",
+                            "mnemonic": "302 = Certify; 404 = Controls",
+                            "tip": "302 is about personal certification; 404 is about assessing and reporting on internal controls",
+                            "conceptual": true
+                        }
+                    ]
+                },
+                {
+                    "id": "p1-s6",
+                    "number": 6,
+                    "title": "Technology & Analytics",
+                    "weight": "15%",
+                    "items": [
+                        {
+                            "name": "Regression Equation",
+                            "formula": "Y = a + bX",
+                            "mnemonic": "Y = a + bX",
+                            "tip": "a = intercept (fixed cost), b = slope (variable cost per unit)"
+                        },
+                        {
+                            "name": "R-squared (Coefficient of Determination)",
+                            "formula": "Measures goodness of fit (0 to 1)",
+                            "mnemonic": "R² tells how well the line fits",
+                            "tip": "Closer to 1 = better fit. It's the % of variation explained by the model"
+                        },
+                        {
+                            "name": "Data Types",
+                            "formula": "Structured (rows/columns), Semi-structured (XML/JSON), Unstructured (emails, videos)",
+                            "mnemonic": "Structured = Tables; Semi = Tags; Unstructured = Everything else",
+                            "tip": "Most business data is unstructured; structured data fits neatly in databases",
+                            "conceptual": true
+                        },
+                        {
+                            "name": "Data Mining Process (CRISP-DM)",
+                            "formula": "Business Understanding → Data Understanding → Data Preparation → Modeling → Evaluation → Deployment",
+                            "mnemonic": "CRISP-DM: BU-DU-DP-M-E-D",
+                            "tip": "The standard methodology for data mining projects",
+                            "conceptual": true
+                        },
+                        {
+                            "name": "Analytics Maturity Levels",
+                            "formula": "Descriptive (what happened), Predictive (what will happen), Prescriptive (what to do)",
+                            "mnemonic": "DPP: Describe → Predict → Prescribe",
+                            "tip": "Each level builds on the previous — most organizations start with descriptive",
+                            "conceptual": true
+                        },
+                        {
+                            "name": "Regression Diagnostics",
+                            "formula": "R-squared (fit), p-value (significance), t-stat (individual variables)",
+                            "mnemonic": "R² = fit; p = significance; t = individual",
+                            "tip": "R² shows overall model fit; p-value tests if the model is significant; t-stat tests individual coefficients",
+                            "conceptual": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "part2",
+            "title": "Part 2: Strategic Financial Management",
+            "sections": [
+                {
+                    "id": "p2-s1",
+                    "number": 7,
+                    "title": "Financial Statement Analysis",
+                    "weight": "20%",
+                    "items": [
+                        {
+                            "name": "Current Ratio",
+                            "formula": "Current Assets ÷ Current Liabilities",
+                            "mnemonic": "CA ÷ CL",
+                            "tip": "Current ratio = current assets over current liabilities"
+                        },
+                        {
+                            "name": "Quick Ratio (Acid Test)",
+                            "formula": "(Cash + Marketable Securities + AR) ÷ Current Liabilities",
+                            "mnemonic": "CMR ÷ CL",
+                            "tip": "Quick assets are the most liquid: Cash, Marketable securities, Receivables"
+                        },
+                        {
+                            "name": "Accounts Receivable Turnover",
+                            "formula": "Net Credit Sales ÷ Average AR",
+                            "mnemonic": "Sales over Average AR",
+                            "tip": "How many times we collect receivables in a year"
+                        },
+                        {
+                            "name": "Days Sales Outstanding",
+                            "formula": "365 ÷ AR Turnover",
+                            "mnemonic": "365 ÷ Turnover",
+                            "tip": "Average number of days to collect"
+                        },
+                        {
+                            "name": "Inventory Turnover",
+                            "formula": "COGS ÷ Average Inventory",
+                            "mnemonic": "COGS over Average Inventory",
+                            "tip": "How many times we sell through inventory"
+                        },
+                        {
+                            "name": "Days Inventory Held",
+                            "formula": "365 ÷ Inventory Turnover",
+                            "mnemonic": "365 ÷ Turnover",
+                            "tip": "Average number of days to sell inventory"
+                        },
+                        {
+                            "name": "Debt to Equity Ratio",
+                            "formula": "Total Liabilities ÷ Total Equity",
+                            "mnemonic": "Debt over Equity",
+                            "tip": "Measures financial leverage"
+                        },
+                        {
+                            "name": "Return on Equity (ROE)",
+                            "formula": "Net Income ÷ Average Equity",
+                            "mnemonic": "NI over Equity",
+                            "tip": "Return generated for shareholders"
+                        },
+                        {
+                            "name": "DuPont ROE (3-Factor)",
+                            "formula": "Net Profit Margin × Total Asset Turnover × Equity Multiplier",
+                            "mnemonic": "PTL: Profitability × Turnover × Leverage",
+                            "tip": "The three drivers of ROE decomposed"
+                        },
+                        {
+                            "name": "Horizontal vs. Vertical Analysis",
+                            "formula": "Horizontal = across years (trend analysis); Vertical = within a year (common-size)",
+                            "mnemonic": "Horizontal = Trend; Vertical = Common-size",
+                            "tip": "Horizontal compares across time; Vertical expresses each item as % of a base",
+                            "conceptual": true
+                        },
+                        {
+                            "name": "Liquidity Ratios Summary",
+                            "formula": "Current (CA/CL), Quick ((CA−Inv)/CL), Cash (Cash/CL)",
+                            "mnemonic": "Current → Quick → Cash (progressively stricter)",
+                            "tip": "Each ratio removes less liquid assets to give a more conservative measure",
+                            "conceptual": true
+                        },
+                        {
+                            "name": "Activity Ratios Pattern",
+                            "formula": "Turnover = Sales or COGS ÷ Average Balance; Days = 365 ÷ Turnover",
+                            "mnemonic": "Turnover = Flow ÷ Average; Days = 365 ÷ Turnover",
+                            "tip": "All activity ratios follow the same two-step pattern",
+                            "conceptual": true
+                        },
+                        {
+                            "name": "Profitability Ratios Summary",
+                            "formula": "Profit Margin = NI/Sales; ROA = NI/Assets; ROE = NI/Equity",
+                            "mnemonic": "PM → ROA → ROE (Sales → Assets → Equity)",
+                            "tip": "Each ratio uses a different denominator to measure efficiency at different levels",
+                            "conceptual": true
+                        },
+                        {
+                            "name": "Earnings Quality",
+                            "formula": "High quality = sustainable, backed by cash flows, not one-time items",
+                            "mnemonic": "High Quality = Sustainable + Cash-backed",
+                            "tip": "Quality earnings are repeatable and supported by actual cash generation",
+                            "conceptual": true
+                        },
+                        {
+                            "name": "Limitations of Ratio Analysis",
+                            "formula": "Accounting policies, Seasonality, Industry differences, Window dressing",
+                            "mnemonic": "A SID W",
+                            "tip": "Ratios are only as good as the data — watch out for these distortions",
+                            "conceptual": true
+                        }
+                    ]
+                },
+                {
+                    "id": "p2-s2",
+                    "number": 8,
+                    "title": "Corporate Finance",
+                    "weight": "20%",
+                    "items": [
+                        {
+                            "name": "WACC",
+                            "formula": "(Wd × Kd after-tax) + (Wp × Kp) + (We × Ke)",
+                            "mnemonic": "Debt + Preferred + Common",
+                            "tip": "Weighted average of all capital components"
+                        },
+                        {
+                            "name": "After-Tax Cost of Debt",
+                            "formula": "Kd × (1 − Tax Rate)",
+                            "mnemonic": "Kd × (1 − T)",
+                            "tip": "Interest is tax-deductible, so multiply by (1 − tax rate)"
+                        },
+                        {
+                            "name": "Cost of Equity (CAPM)",
+                            "formula": "Rf + β × (Rm − Rf)",
+                            "mnemonic": "Risk-free + Beta × Market Premium",
+                            "tip": "Risk-free rate plus beta times market risk premium"
+                        },
+                        {
+                            "name": "Degree of Operating Leverage (DOL)",
+                            "formula": "Contribution Margin ÷ EBIT",
+                            "mnemonic": "CM over EBIT",
+                            "tip": "How sensitive EBIT is to sales changes"
+                        },
+                        {
+                            "name": "Degree of Financial Leverage (DFL)",
+                            "formula": "EBIT ÷ (EBIT − Interest)",
+                            "mnemonic": "EBIT over EBT",
+                            "tip": "Earnings before interest over earnings before tax"
+                        },
+                        {
+                            "name": "Sustainable Growth Rate",
+                            "formula": "ROE × Retention Rate",
+                            "mnemonic": "ROE × Retention",
+                            "tip": "Maximum growth without issuing new equity"
+                        },
+                        {
+                            "name": "Gordon Growth Model",
+                            "formula": "P₀ = D₁ ÷ (Ke − g)",
+                            "mnemonic": "D1 over (K minus G)",
+                            "tip": "Next dividend divided by required return minus growth rate"
+                        },
+                        {
+                            "name": "Capital Structure Theories (MM)",
+                            "formula": "No taxes = structure irrelevant; With taxes = debt adds value via tax shield",
+                            "mnemonic": "MM: No Tax = Irrelevant; Tax = Debt Wins",
+                            "tip": "Modigliani-Miller: without taxes, capital structure doesn't matter; with taxes, debt creates a tax shield",
+                            "conceptual": true
+                        },
+                        {
+                            "name": "Dividend Theories",
+                            "formula": "Irrelevance (MM), Bird-in-hand (prefer dividends), Tax preference (capital gains)",
+                            "mnemonic": "MM → Bird → Tax",
+                            "tip": "Three views: dividends don't matter, investors prefer certainty of dividends, or investors prefer capital gains for tax reasons",
+                            "conceptual": true
+                        },
+                        {
+                            "name": "Stock Splits vs. Stock Dividends",
+                            "formula": "Split = more shares, lower price; Stock dividend = transfer RE to common stock",
+                            "mnemonic": "Split = Split price; Dividend = Move RE",
+                            "tip": "Neither changes total equity — just rearranges it",
+                            "conceptual": true
+                        },
+                        {
+                            "name": "Lease vs. Buy Decision",
+                            "formula": "Compare PV of lease payments vs. PV of buying costs",
+                            "mnemonic": "Lease if PV(Lease) < PV(Buy)",
+                            "tip": "Choose the option with the lower present value of total costs",
+                            "conceptual": true
+                        }
+                    ]
+                },
+                {
+                    "id": "p2-s3",
+                    "number": 9,
+                    "title": "Decision Analysis",
+                    "weight": "20%",
+                    "items": [
+                        {
+                            "name": "Make or Buy Decision",
+                            "formula": "Compare relevant (avoidable) costs of making vs. buying",
+                            "mnemonic": "Make vs Buy: Avoidable costs",
+                            "tip": "Make if avoidable costs < purchase price; consider excess capacity",
+                            "conceptual": true
+                        },
+                        {
+                            "name": "Sell or Process Further",
+                            "formula": "Process if Incremental Revenue > Incremental Cost",
+                            "mnemonic": "Extra Revenue > Extra Cost?",
+                            "tip": "Joint costs are sunk — only look at what happens AFTER the split-off point",
+                            "conceptual": true
+                        },
+                        {
+                            "name": "Special Order Decision",
+                            "formula": "Accept if Incremental Revenue > Incremental Cost",
+                            "mnemonic": "Revenue > Variable + Additional Fixed",
+                            "tip": "Use contribution approach — ignore allocated fixed costs. Assume excess capacity",
+                            "conceptual": true
+                        },
+                        {
+                            "name": "Target Cost",
+                            "formula": "Market Price − Desired Profit",
+                            "mnemonic": "Price minus Profit = Cost Target",
+                            "tip": "Work backwards from the market price"
+                        },
+                        {
+                            "name": "Relevant Costs Rule",
+                            "formula": "Relevant costs are future, incremental, and avoidable",
+                            "mnemonic": "FIA: Future, Incremental, Avoidable",
+                            "tip": "Sunk costs and allocated costs are never relevant",
+                            "conceptual": true
+                        },
+                        {
+                            "name": "Opportunity Cost",
+                            "formula": "The benefit foregone by choosing one alternative over another",
+                            "mnemonic": "What you give up",
+                            "tip": "Always consider what you're sacrificing by choosing an option",
+                            "conceptual": true
+                        },
+                        {
+                            "name": "Keep or Drop Decision",
+                            "formula": "Keep if Contribution Margin > Avoidable Fixed Costs; else drop",
+                            "mnemonic": "CM > Avoidable FC → Keep",
+                            "tip": "Don't look at allocated costs — only avoidable costs matter",
+                            "conceptual": true
+                        },
+                        {
+                            "name": "Constraint Analysis",
+                            "formula": "Maximize Contribution Margin per unit of scarce resource",
+                            "mnemonic": "Max CM per Constraint Unit",
+                            "tip": "When capacity is limited, prioritize products with highest CM per bottleneck unit",
+                            "conceptual": true
+                        }
+                    ]
+                },
+                {
+                    "id": "p2-s4",
+                    "number": 10,
+                    "title": "Risk Management",
+                    "weight": "10%",
+                    "items": [
+                        {
+                            "name": "Value at Risk (VaR)",
+                            "formula": "Maximum potential loss over a given time period at a given confidence level",
+                            "mnemonic": "Worst loss in normal conditions",
+                            "tip": "Think of it as a loss threshold — e.g., 95% confident loss won't exceed $X",
+                            "conceptual": true
+                        },
+                        {
+                            "name": "Portfolio Expected Return",
+                            "formula": "Σ (Weight × Individual Return)",
+                            "mnemonic": "Weighted average of returns",
+                            "tip": "Simple weighted sum of each asset's expected return"
+                        },
+                        {
+                            "name": "Types of Risk",
+                            "formula": "Market, Credit, Liquidity, Operational, Legal, Reputational",
+                            "mnemonic": "M-C-L-O-L-R",
+                            "tip": "Six major categories of enterprise risk",
+                            "conceptual": true
+                        },
+                        {
+                            "name": "Risk Management Process",
+                            "formula": "Identify → Assess → Prioritize → Respond → Monitor",
+                            "mnemonic": "IAPRM",
+                            "tip": "The five steps of risk management — continuous cycle",
+                            "conceptual": true
+                        },
+                        {
+                            "name": "Risk Response Strategies",
+                            "formula": "Avoid, Reduce, Share, Accept",
+                            "mnemonic": "ARSA",
+                            "tip": "Four options when responding to identified risks",
+                            "conceptual": true
+                        },
+                        {
+                            "name": "Derivatives Types",
+                            "formula": "Forwards (customized), Futures (standardized), Options (rights), Swaps (exchange)",
+                            "mnemonic": "F-F-O-S",
+                            "tip": "Forwards and Futures are obligations; Options give a right (not obligation); Swaps exchange cash flows",
+                            "conceptual": true
+                        }
+                    ]
+                },
+                {
+                    "id": "p2-s5",
+                    "number": 11,
+                    "title": "Investment Decisions",
+                    "weight": "10%",
+                    "items": [
+                        {
+                            "name": "Net Present Value (NPV)",
+                            "formula": "Σ [CFt ÷ (1+k)^t] − Initial Investment",
+                            "mnemonic": "PV of Inflows minus Outlay",
+                            "tip": "If NPV > 0, accept. NPV adds value to the firm"
+                        },
+                        {
+                            "name": "Internal Rate of Return (IRR)",
+                            "formula": "Discount rate where NPV = 0",
+                            "mnemonic": "IRR = Breakeven discount rate",
+                            "tip": "Accept if IRR > hurdle rate (WACC)"
+                        },
+                        {
+                            "name": "Payback Period",
+                            "formula": "Initial Investment ÷ Annual Cash Flow (if even flows)",
+                            "mnemonic": "Cost ÷ Annual Cash",
+                            "tip": "Years to recover initial investment — ignores time value of money and cash flows after payback"
+                        },
+                        {
+                            "name": "Profitability Index (PI)",
+                            "formula": "PV of Future Cash Flows ÷ Initial Investment",
+                            "mnemonic": "PI = Benefit ÷ Cost",
+                            "tip": "If PI > 1, accept. Useful for capital rationing to rank projects"
+                        },
+                        {
+                            "name": "After-Tax Cash Flow",
+                            "formula": "(Revenue − Cash Expenses − Depreciation) × (1 − Tax Rate) + Depreciation",
+                            "mnemonic": "Net Income + Depreciation",
+                            "tip": "Depreciation is added back because it's a non-cash expense"
+                        },
+                        {
+                            "name": "Capital Budgeting Process",
+                            "formula": "Idea generation → Analysis → Selection → Implementation → Review",
+                            "mnemonic": "I-ASIR",
+                            "tip": "The systematic process for evaluating long-term investment projects",
+                            "conceptual": true
+                        },
+                        {
+                            "name": "NPV vs. IRR Conflicts",
+                            "formula": "NPV is theoretically superior; conflicts arise from reinvestment assumptions and project size differences",
+                            "mnemonic": "When in doubt, trust NPV",
+                            "tip": "NPV assumes reinvestment at WACC (realistic); IRR assumes reinvestment at IRR (often unrealistic)",
+                            "conceptual": true
+                        },
+                        {
+                            "name": "Real Options",
+                            "formula": "Options to Delay, Expand, Abandon, or Contract",
+                            "mnemonic": "DEAC",
+                            "tip": "Real options add strategic value beyond traditional NPV analysis",
+                            "conceptual": true
+                        }
+                    ]
+                },
+                {
+                    "id": "p2-s6",
+                    "number": 12,
+                    "title": "Professional Ethics",
+                    "weight": "5%",
+                    "items": [
+                        {
+                            "name": "IMA Ethical Standards",
+                            "formula": "Competence, Confidentiality, Integrity, Credibility",
+                            "mnemonic": "CCIC",
+                            "tip": "C = Competence, C = Confidentiality, I = Integrity, C = Credibility",
+                            "conceptual": true
+                        },
+                        {
+                            "name": "IMA Ethical Principles",
+                            "formula": "Honesty, Objectivity, Fairness, Responsibility",
+                            "mnemonic": "HOF R",
+                            "tip": "Principles guide behavior; Standards define specific duties",
+                            "conceptual": true
+                        },
+                        {
+                            "name": "Resolution of Ethical Conflict",
+                            "formula": "Follow policies → Discuss with supervisor → Consult ethics hotline → Seek legal advice",
+                            "mnemonic": "Policy → Supervisor → Hotline → Legal",
+                            "tip": "Always start with internal resolution before going external",
+                            "conceptual": true
+                        },
+                        {
+                            "name": "Fraud Triangle",
+                            "formula": "Motivation (Pressure), Opportunity, Rationalization",
+                            "mnemonic": "MOR",
+                            "tip": "All three must exist for fraud to occur. Management can best control Opportunity through internal controls",
+                            "conceptual": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -14,7 +14,7 @@
 }
 
 .header p {
-    color: #666;
+    color: var(--text-muted);
     margin-bottom: 2rem;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .partTitle {
-    border-bottom: 3px solid #003366;
+    border-bottom: 3px solid var(--primary-color);
     padding-bottom: 0.5rem;
     margin-bottom: 1rem;
     font-size: 1.8rem;
@@ -39,13 +39,13 @@
 }
 
 .metaBadge {
-    background: #f0f7ff;
-    color: #005b96;
+    background: var(--bg-info);
+    color: var(--accent-color);
     padding: 6px 14px;
     border-radius: 20px;
     font-size: 0.85rem;
     font-weight: 600;
-    border: 1px solid #cce0ff;
+    border: 1px solid var(--bg-info-border);
 }
 
 .topicList {
@@ -55,8 +55,8 @@
 }
 
 .topicCard {
-    background: white;
-    border: 1px solid #eaeaea;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
     border-radius: 10px;
     padding: 1.5rem;
     display: flex;
@@ -66,9 +66,9 @@
 }
 
 .topicCard:hover {
-    box-shadow: 0 8px 30px rgba(0, 51, 102, 0.12);
+    box-shadow: 0 8px 30px var(--shadow-md);
     transform: translateY(-4px);
-    border-color: #b3d7ff;
+    border-color: var(--accent-color);
 }
 
 .titleLink {
@@ -79,7 +79,7 @@
 }
 
 .titleLink:hover h3 {
-    color: #005b96;
+    color: var(--accent-color);
     text-decoration: underline;
 }
 
@@ -88,19 +88,19 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 1rem;
-    border-bottom: 1px solid #f0f0f0;
+    border-bottom: 1px solid var(--border-color);
     padding-bottom: 0.5rem;
 }
 
 .topicHeader h3 {
     font-size: 1.1rem;
     margin: 0;
-    color: #333;
+    color: var(--text-color);
     transition: color 0.2s;
 }
 
 .weightage {
-    background: #003366;
+    background: var(--primary-color);
     color: white;
     padding: 2px 10px;
     border-radius: 4px;
@@ -117,7 +117,7 @@
 }
 
 .subtopics li {
-    color: #555;
+    color: var(--text-light);
     margin-bottom: 0.3rem;
     font-size: 0.95rem;
 }
@@ -127,12 +127,11 @@
     margin-bottom: 1rem;
     position: relative;
     z-index: 2;
-    /* Ensure clickability over card link */
 }
 
 .detailsSummary {
     cursor: pointer;
-    color: #005b96;
+    color: var(--accent-color);
     font-weight: 600;
     font-size: 0.9rem;
     padding: 6px 0;
@@ -140,7 +139,7 @@
 }
 
 .detailsSummary:hover {
-    color: #003366;
+    color: var(--primary-color);
     text-decoration: underline;
 }
 
@@ -155,7 +154,7 @@
 
 .subtopicGroup h4 {
     font-size: 0.85rem;
-    color: #003366;
+    color: var(--primary-color);
     margin: 0 0 0.3rem 0;
     font-weight: 700;
 }
@@ -167,7 +166,7 @@
 }
 
 .subtopicGroup li {
-    color: #666;
+    color: var(--text-muted);
     font-size: 0.85rem;
     margin-bottom: 0.15rem;
 }
@@ -177,8 +176,8 @@
     display: flex;
     gap: 0.5rem;
     align-items: flex-start;
-    background: #fffbeb;
-    border: 1px solid #fde68a;
+    background: var(--bg-warning);
+    border: 1px solid var(--bg-warning-border);
     border-radius: 6px;
     padding: 0.65rem 0.75rem;
     margin-bottom: 1rem;
@@ -196,11 +195,15 @@
     margin: 0;
 }
 
+[data-theme="dark"] .examTip p {
+    color: #fbbf24;
+}
+
 .studyButton {
     display: block;
     text-align: center;
     padding: 12px;
-    background: #005b96;
+    background: var(--accent-color);
     color: white;
     border-radius: 6px;
     font-weight: 600;
@@ -209,23 +212,17 @@
     margin-top: auto;
     border: none;
     text-decoration: none;
-    /* Added for Link */
 }
 
 .studyButton:hover {
-    background: #004470;
+    filter: brightness(1.1);
     transform: scale(1.02);
-    box-shadow: 0 4px 12px rgba(0, 91, 150, 0.2);
+    box-shadow: 0 4px 12px var(--shadow-md);
 }
-
-
 
 .studyLink {
-    /* Deprecated, kept for backward compat if needed */
     display: none;
 }
-
-
 
 @media (max-width: 768px) {
     .topicList {
@@ -243,5 +240,21 @@
 
     .partsContainer {
         gap: 2rem;
+    }
+
+    .partTitle {
+        font-size: 1.4rem;
+    }
+
+    .topicCard {
+        padding: 1.15rem;
+    }
+
+    .topicHeader h3 {
+        font-size: 1rem;
+    }
+
+    .subtopics li {
+        font-size: 0.9rem;
     }
 }

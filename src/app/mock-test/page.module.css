@@ -20,8 +20,8 @@
 }
 
 .examCard {
-    background: white;
-    border: 1px solid #eaeaea;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
     padding: 2rem;
     border-radius: 8px;
     display: flex;
@@ -30,7 +30,7 @@
 }
 
 .examCard:hover {
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 5px 15px var(--shadow-sm);
 }
 
 .cardHeader {
@@ -46,8 +46,8 @@
 }
 
 .duration {
-    background: #f0f0f0;
-    color: #666;
+    background: var(--bg-tertiary);
+    color: var(--text-muted);
     padding: 4px 8px;
     border-radius: 4px;
     font-size: 0.8rem;
@@ -57,15 +57,15 @@
 .meta {
     display: flex;
     gap: 1.5rem;
-    color: #666;
+    color: var(--text-muted);
     font-size: 0.9rem;
     margin: 1.5rem 0;
     padding-top: 1rem;
-    border-top: 1px solid #f0f0f0;
+    border-top: 1px solid var(--border-color);
 }
 
 .examCard p {
-    color: #555;
+    color: var(--text-light);
     flex-grow: 1;
 }
 
@@ -85,5 +85,9 @@
 
     .examCard {
         padding: 1.5rem;
+    }
+
+    .cardHeader h3 {
+        font-size: 1.1rem;
     }
 }

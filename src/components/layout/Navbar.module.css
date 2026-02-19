@@ -1,10 +1,11 @@
 .navbar {
-    background: #ffffff;
-    border-bottom: 1px solid #eaeaea;
+    background: var(--bg-primary);
+    border-bottom: 1px solid var(--border-color);
     padding: 1rem 0;
     position: sticky;
     top: 0;
     z-index: 100;
+    transition: background-color 0.3s;
 }
 
 .container {
@@ -16,8 +17,14 @@
 .logo {
     font-weight: 700;
     font-size: 1.5rem;
-    color: #003366;
+    color: var(--primary-color);
     text-decoration: none;
+}
+
+.rightGroup {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
 }
 
 .links {
@@ -26,13 +33,13 @@
 }
 
 .link {
-    color: #555;
+    color: var(--text-light);
     font-weight: 500;
     transition: color 0.2s;
 }
 
 .link:hover {
-    color: #003366;
+    color: var(--primary-color);
 }
 
 .hamburger {
@@ -51,7 +58,7 @@
 .bar {
     width: 30px;
     height: 3px;
-    background: #003366;
+    background: var(--primary-color);
     border-radius: 10px;
     transition: all 0.3s linear;
     position: relative;
@@ -63,6 +70,10 @@
         display: flex;
     }
 
+    .rightGroup {
+        order: 2;
+    }
+
     .links {
         position: fixed;
         top: 0;
@@ -70,8 +81,8 @@
         height: 100vh;
         width: 70%;
         max-width: 300px;
-        background: white;
-        box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+        background: var(--bg-primary);
+        box-shadow: -2px 0 5px var(--shadow-md);
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -89,7 +100,7 @@
         padding: 1rem 0;
         width: 100%;
         text-align: center;
-        border-bottom: 1px solid #eee;
+        border-bottom: 1px solid var(--border-color);
     }
 
     /* Hamburger Animation */

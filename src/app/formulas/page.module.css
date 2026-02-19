@@ -26,13 +26,13 @@
 }
 
 .subtitle {
-    color: #666;
+    color: var(--text-muted);
     font-size: 1.05rem;
 }
 
 /* Toolbar: Search + Filters */
 .toolbar {
-    background: var(--light-gray);
+    background: var(--bg-tertiary);
     border-radius: 12px;
     padding: 1.25rem;
     margin-bottom: 2.5rem;
@@ -61,7 +61,8 @@
     border-radius: 8px;
     font-size: 1rem;
     font-family: inherit;
-    background: white;
+    background: var(--bg-input);
+    color: var(--text-color);
     transition: border-color 0.2s;
 }
 
@@ -77,12 +78,12 @@
     border: none;
     font-size: 1.1rem;
     cursor: pointer;
-    color: #999;
+    color: var(--text-muted);
     padding: 4px;
 }
 
 .clearBtn:hover {
-    color: #333;
+    color: var(--text-color);
 }
 
 .filters {
@@ -102,7 +103,7 @@
 
 .filterBtn {
     padding: 8px 16px;
-    background: white;
+    background: var(--bg-card);
     border: none;
     font-size: 0.9rem;
     font-weight: 600;
@@ -122,7 +123,7 @@
 }
 
 .filterBtn:hover:not(.active) {
-    background: #e8ecf0;
+    background: var(--bg-hover);
 }
 
 .sectionSelect {
@@ -131,7 +132,8 @@
     border-radius: 8px;
     font-size: 0.9rem;
     font-family: inherit;
-    background: white;
+    background: var(--bg-input);
+    color: var(--text-color);
     cursor: pointer;
     min-width: 200px;
 }
@@ -143,7 +145,7 @@
 
 .resultCount {
     font-size: 0.9rem;
-    color: #666;
+    color: var(--text-muted);
 }
 
 /* Content */
@@ -156,11 +158,11 @@
 .noResults {
     text-align: center;
     padding: 3rem 1rem;
-    color: #666;
+    color: var(--text-muted);
 }
 
 .noResults h3 {
-    color: #999;
+    color: var(--text-muted);
     margin-bottom: 0.5rem;
 }
 
@@ -181,7 +183,7 @@
 
 /* Section Block */
 .sectionBlock {
-    background: white;
+    background: var(--bg-card);
     border: 1px solid var(--border-color);
     border-radius: 12px;
     padding: 1.5rem;
@@ -227,7 +229,7 @@
 }
 
 .count {
-    color: #888;
+    color: var(--text-muted);
     font-size: 0.85rem;
 }
 
@@ -243,12 +245,12 @@
 }
 
 .conceptNote {
-    background: #fff8e1;
-    border: 1px solid #ffe082;
+    background: var(--bg-warning);
+    border: 1px solid var(--bg-warning-border);
     border-radius: 8px;
     padding: 12px 16px;
     font-size: 0.95rem;
-    color: #6d5e00;
+    color: var(--text-color);
 }
 
 /* Category Group */
@@ -262,7 +264,6 @@
     text-transform: uppercase;
     letter-spacing: 0.5px;
     margin-bottom: 0.75rem;
-    padding-left: 4px;
     border-left: 3px solid var(--accent-color);
     padding-left: 10px;
 }
@@ -274,10 +275,10 @@
     gap: 1rem;
 }
 
-/* Formula Card — clean textbook style */
+/* Formula Card */
 .formulaCard {
-    background: #ffffff;
-    border: 1px solid #e2e8f0;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
     border-left: 4px solid var(--accent-color);
     border-radius: 10px;
     padding: 18px 20px;
@@ -289,15 +290,14 @@
 
 .formulaCard:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(0, 51, 102, 0.08);
+    box-shadow: 0 6px 20px var(--shadow-sm);
 }
 
 .conceptCard {
     border-left-color: #f59e0b;
-    background: #fffbeb;
+    background: var(--bg-warning);
 }
 
-/* Formula Name — clear label */
 .formulaName {
     font-weight: 700;
     font-size: 0.95rem;
@@ -305,14 +305,13 @@
     line-height: 1.4;
 }
 
-/* Formula Expression — the main formula display */
 .formulaExpression {
     display: flex;
     align-items: baseline;
     flex-wrap: wrap;
     gap: 8px;
     padding: 12px 16px;
-    background: #f0f7ff;
+    background: var(--bg-info);
     border-radius: 8px;
     line-height: 1.6;
 }
@@ -320,7 +319,7 @@
 .formulaLhs {
     font-size: 1rem;
     font-weight: 600;
-    color: #1a365d;
+    color: var(--primary-color);
 }
 
 .formulaEquals {
@@ -332,20 +331,19 @@
 
 .formulaRhs {
     font-size: 1rem;
-    color: #2d3748;
+    color: var(--text-color);
     font-weight: 500;
 }
 
-/* Concept-type notes (not actual formulas) */
 .formulaNote {
     display: flex;
     align-items: flex-start;
     gap: 10px;
     padding: 12px 16px;
-    background: #fff8e6;
+    background: var(--bg-warning);
     border-radius: 8px;
     font-size: 0.95rem;
-    color: #5a4e1a;
+    color: var(--text-color);
     line-height: 1.55;
 }
 
@@ -355,20 +353,19 @@
     margin-top: 1px;
 }
 
-/* Variables — readable "Where:" list */
 .formulaVars {
     display: flex;
     flex-direction: column;
     gap: 4px;
     margin-top: 2px;
     padding-top: 10px;
-    border-top: 1px dashed #d1dce6;
+    border-top: 1px dashed var(--border-color);
 }
 
 .whereLabel {
     font-size: 0.82rem;
     font-weight: 700;
-    color: #718096;
+    color: var(--text-muted);
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
@@ -384,7 +381,7 @@
 
 .varList li {
     font-size: 0.88rem;
-    color: #4a5568;
+    color: var(--text-light);
     padding-left: 14px;
     position: relative;
     line-height: 1.5;
@@ -399,7 +396,7 @@
 }
 
 .varList li strong {
-    color: #1a365d;
+    color: var(--primary-color);
     font-weight: 700;
 }
 
@@ -409,26 +406,31 @@
     border-radius: 3px;
 }
 
+[data-theme="dark"] .highlight {
+    background: #854d0e;
+    color: #fef08a;
+}
+
 /* Print Hint */
 .printHint {
     margin-top: 3rem;
     padding: 1rem 1.25rem;
-    background: #e8f5e9;
-    border: 1px solid #a5d6a7;
+    background: var(--bg-success);
+    border: 1px solid var(--bg-success-border);
     border-radius: 8px;
     text-align: center;
     font-size: 0.93rem;
-    color: #2e7d32;
+    color: var(--text-color);
 }
 
 .printHint kbd {
-    background: white;
-    border: 1px solid #ccc;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
     border-radius: 4px;
     padding: 2px 6px;
     font-size: 0.85rem;
     font-family: inherit;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 1px 2px var(--shadow-sm);
 }
 
 /* Print Styles */
@@ -463,6 +465,10 @@
 
 /* Mobile */
 @media (max-width: 768px) {
+    .container {
+        padding: 1.25rem 16px 3rem;
+    }
+
     .header h1 {
         font-size: 1.5rem;
     }
@@ -499,9 +505,18 @@
 
     .formulaExpression {
         padding: 10px 14px;
+        font-size: 0.9rem;
     }
 
     .formulaCard {
         padding: 14px 16px;
+    }
+
+    .formulaName {
+        font-size: 0.9rem;
+    }
+
+    .sectionBlock {
+        padding: 1rem;
     }
 }

@@ -5,8 +5,8 @@
 }
 
 .questionCard {
-    background: white;
-    border: 1px solid #eaeaea;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
     padding: 1.5rem;
     border-radius: 8px;
 }
@@ -25,21 +25,22 @@
 .option {
     text-align: left;
     padding: 10px 15px;
-    border: 1px solid #ddd;
-    background: #fff;
+    border: 1px solid var(--border-color);
+    background: var(--bg-input);
+    color: var(--text-color);
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.2s;
 }
 
 .option:hover:not(:disabled) {
-    background: #f4f4f4;
+    background: var(--bg-hover);
 }
 
 .selected {
-    border-color: #003366;
-    background: #eef4ff;
-    color: #003366;
+    border-color: var(--primary-color);
+    background: var(--bg-info);
+    color: var(--primary-color);
     font-weight: 500;
 }
 
@@ -55,19 +56,31 @@
     color: #721c24;
 }
 
+[data-theme="dark"] .correct {
+    background-color: #1a3a1a;
+    border-color: #2d5a2d;
+    color: #86efac;
+}
+
+[data-theme="dark"] .incorrect {
+    background-color: #3a1a1a;
+    border-color: #5a2d2d;
+    color: #fca5a5;
+}
+
 .explanation {
     margin-top: 1rem;
     padding: 1rem;
-    background: #f9f9f9;
+    background: var(--bg-secondary);
     border-radius: 4px;
     font-size: 0.95rem;
-    color: #555;
-    border-left: 3px solid #003366;
+    color: var(--text-light);
+    border-left: 3px solid var(--primary-color);
 }
 
 .scoreBoard {
     padding: 1.5rem;
-    background: #f0f0f0;
+    background: var(--bg-tertiary);
     border-radius: 8px;
     font-size: 1.2rem;
     text-align: center;
@@ -84,10 +97,30 @@
 
 .actionsBar {
     margin-top: 2rem;
-    border-top: 1px solid #eee;
+    border-top: 1px solid var(--border-color);
     padding-top: 1rem;
 }
 
 .resetBtn {
     margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+    .questionCard {
+        padding: 1rem;
+    }
+
+    .questionText {
+        font-size: 1rem;
+    }
+
+    .option {
+        padding: 10px 12px;
+        font-size: 0.92rem;
+    }
+
+    .explanation {
+        padding: 0.85rem;
+        font-size: 0.9rem;
+    }
 }

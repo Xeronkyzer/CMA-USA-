@@ -6,23 +6,22 @@
 }
 
 .hero {
-  background: #f8f9fa;
-  /* Light clean background */
+  background: var(--bg-secondary);
   padding: 5rem 0;
   text-align: center;
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 1px solid var(--border-color);
 }
 
 .title {
   font-size: 3rem;
-  color: #003366;
+  color: var(--primary-color);
   line-height: 1.2;
   margin-bottom: 1.5rem;
 }
 
 .subtitle {
   font-weight: 300;
-  color: #555;
+  color: var(--text-light);
   display: block;
   font-size: 2rem;
   margin-top: 0.5rem;
@@ -32,7 +31,7 @@
   max-width: 700px;
   margin: 0 auto 2.5rem;
   font-size: 1.2rem;
-  color: #666;
+  color: var(--text-muted);
 }
 
 .ctaGroup {
@@ -48,15 +47,16 @@
 }
 
 .featureCard {
-  border: 1px solid #eaeaea;
+  border: 1px solid var(--border-color);
   padding: 2rem;
   border-radius: 8px;
+  background: var(--bg-card);
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .featureCard:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 10px 20px var(--shadow-sm);
 }
 
 .featureCard h3 {
@@ -65,12 +65,12 @@
 }
 
 .featureCard p {
-  color: #666;
+  color: var(--text-muted);
   margin-bottom: 1.5rem;
 }
 
 .linkArrow {
-  color: #005b96;
+  color: var(--accent-color);
   font-weight: 600;
   text-decoration: none;
 }
@@ -80,7 +80,7 @@
 }
 
 .infoSection {
-  background: #fdfdfd;
+  background: var(--bg-secondary);
   padding: 4rem 0;
 }
 
@@ -97,14 +97,14 @@
 }
 
 .examPart {
-  background: white;
+  background: var(--bg-card);
   padding: 2rem;
-  border: 1px solid #eaeaea;
+  border: 1px solid var(--border-color);
   border-radius: 8px;
 }
 
 .examPart h3 {
-  border-bottom: 2px solid #003366;
+  border-bottom: 2px solid var(--primary-color);
   padding-bottom: 1rem;
   margin-bottom: 1.5rem;
 }
@@ -116,8 +116,8 @@
 
 .examPart li {
   padding: 0.5rem 0;
-  border-bottom: 1px solid #f0f0f0;
-  color: #444;
+  border-bottom: 1px solid var(--border-color);
+  color: var(--text-light);
 }
 
 @media (max-width: 768px) {
@@ -129,42 +129,67 @@
     font-size: 2rem;
   }
 
+  .subtitle {
+    font-size: 1.3rem;
+  }
+
   .hero {
     padding: 3rem 0;
+  }
+
+  .description {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .ctaGroup {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
   }
 
   .infoSection {
     padding: 2.5rem 0;
   }
 
+  .infoSection h2 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+
   .wrapper {
     gap: 2rem;
   }
 
-  /* Horizontal Scroll for Features */
   .features {
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     gap: 1.5rem;
     padding: 1rem 5vw;
-    /* Side padding for better visual */
     margin: 0 -1rem;
-    /* Negative margin to offset container padding if needed */
     scrollbar-width: none;
-    /* Hide scrollbar Firefox */
   }
 
   .features::-webkit-scrollbar {
     display: none;
-    /* Hide scrollbar Chrome/Safari */
   }
 
   .featureCard {
     min-width: 85vw;
-    /* Show mostly one card, peek at next */
     scroll-snap-align: center;
     margin-bottom: 1rem;
-    /* Space for shadow */
+  }
+
+  .examPart {
+    padding: 1.25rem;
+  }
+
+  .examPart h3 {
+    font-size: 1.1rem;
+  }
+
+  .examPart li {
+    font-size: 0.92rem;
   }
 }

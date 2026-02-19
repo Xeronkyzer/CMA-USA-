@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import ThemeToggle from './ThemeToggle';
 import styles from './Navbar.module.css';
 
 export default function Navbar() {
@@ -18,17 +19,21 @@ export default function Navbar() {
           US CMA Prep
         </Link>
 
-        {/* Hamburger Icon */}
-        <button className={styles.hamburger} onClick={toggleMenu} aria-label="Toggle menu">
-          <span className={`${styles.bar} ${isMenuOpen ? styles.open : ''}`}></span>
-          <span className={`${styles.bar} ${isMenuOpen ? styles.open : ''}`}></span>
-          <span className={`${styles.bar} ${isMenuOpen ? styles.open : ''}`}></span>
-        </button>
+        <div className={styles.rightGroup}>
+          {/* Hamburger Icon */}
+          <ThemeToggle />
+          <button className={styles.hamburger} onClick={toggleMenu} aria-label="Toggle menu">
+            <span className={`${styles.bar} ${isMenuOpen ? styles.open : ''}`}></span>
+            <span className={`${styles.bar} ${isMenuOpen ? styles.open : ''}`}></span>
+            <span className={`${styles.bar} ${isMenuOpen ? styles.open : ''}`}></span>
+          </button>
+        </div>
 
         <div className={`${styles.links} ${isMenuOpen ? styles.active : ''}`}>
           <Link href="/syllabus" className={styles.link} onClick={() => setIsMenuOpen(false)}>Syllabus</Link>
           <Link href="/study-plan" className={styles.link} onClick={() => setIsMenuOpen(false)}>Study Plan</Link>
           <Link href="/formulas" className={styles.link} onClick={() => setIsMenuOpen(false)}>Formulas</Link>
+          <Link href="/mnemonics" className={styles.link} onClick={() => setIsMenuOpen(false)}>Mnemonics</Link>
           <Link href="/mock-test" className={styles.link} onClick={() => setIsMenuOpen(false)}>Mock Tests</Link>
           <Link href="/about" className={styles.link} onClick={() => setIsMenuOpen(false)}>About</Link>
         </div>

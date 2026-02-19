@@ -1,17 +1,59 @@
 :root {
+  /* === LIGHT THEME (default) === */
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 255, 255, 255;
   --background-end-rgb: 255, 255, 255;
   --primary-color: #003366;
-  /* Introduction of a professional blue for headings */
   --accent-color: #005b96;
   --text-color: #333333;
+  --text-muted: #666666;
+  --text-light: #555555;
   --light-gray: #f4f4f4;
-  --border-color: #dddddd;
+  --border-color: #eaeaea;
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8f9fa;
+  --bg-tertiary: #f4f4f4;
+  --bg-card: #ffffff;
+  --bg-input: #ffffff;
+  --bg-hover: #f0f0f0;
+  --bg-code: #f5f5f5;
+  --bg-info: #f0f7ff;
+  --bg-info-border: #cce0ff;
+  --bg-success: #f0fdf4;
+  --bg-success-border: #bbf7d0;
+  --bg-warning: #fffbeb;
+  --bg-warning-border: #fde68a;
+  --bg-danger: #fef2f2;
+  --shadow-sm: rgba(0, 0, 0, 0.05);
+  --shadow-md: rgba(0, 0, 0, 0.1);
   --font-main: 'Inter', sans-serif;
-  /* Placeholder, will invoke font in layout */
 }
 
+[data-theme="dark"] {
+  --primary-color: #6ba3d6;
+  --accent-color: #4d9de0;
+  --text-color: #e0e0e0;
+  --text-muted: #a0a0a0;
+  --text-light: #b0b0b0;
+  --light-gray: #1e1e1e;
+  --border-color: #2d2d2d;
+  --bg-primary: #121212;
+  --bg-secondary: #1a1a1a;
+  --bg-tertiary: #1e1e1e;
+  --bg-card: #1e1e1e;
+  --bg-input: #252525;
+  --bg-hover: #2a2a2a;
+  --bg-code: #2a2a2a;
+  --bg-info: #1a2332;
+  --bg-info-border: #2a4060;
+  --bg-success: #1a2e1a;
+  --bg-success-border: #2d5a2d;
+  --bg-warning: #2e2a1a;
+  --bg-warning-border: #5a4a2d;
+  --bg-danger: #2e1a1a;
+  --shadow-sm: rgba(0, 0, 0, 0.3);
+  --shadow-md: rgba(0, 0, 0, 0.5);
+}
 
 * {
   box-sizing: border-box;
@@ -21,9 +63,10 @@
 
 body {
   color: var(--text-color);
-  background: white;
+  background: var(--bg-primary);
   font-family: var(--font-main);
   line-height: 1.6;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 a {
@@ -45,7 +88,6 @@ h6 {
 @media (max-width: 768px) {
   h1 {
     font-size: 1.75rem;
-    /* Smaller H1 for mobile */
   }
 }
 
@@ -59,8 +101,8 @@ h6 {
   text-align: center;
   padding: 2rem;
   font-size: 0.9rem;
-  color: #666;
-  border-top: 1px solid #eaeaea;
+  color: var(--text-muted);
+  border-top: 1px solid var(--border-color);
   margin-top: 4rem;
 }
 

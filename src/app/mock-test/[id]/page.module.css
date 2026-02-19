@@ -9,8 +9,8 @@
 }
 
 .sidebar {
-    background: #f8f9fa;
-    border-right: 1px solid #eaeaea;
+    background: var(--bg-secondary);
+    border-right: 1px solid var(--border-color);
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
@@ -62,7 +62,7 @@
 
 .reviewBanner {
     text-align: center;
-    background: #003366;
+    background: var(--primary-color);
     color: white;
     padding: 1rem;
     border-radius: 10px;
@@ -88,31 +88,31 @@
 .qBtn {
     width: 100%;
     aspect-ratio: 1;
-    border: 1px solid #ddd;
-    background: white;
+    border: 1px solid var(--border-color);
+    background: var(--bg-card);
     border-radius: 6px;
     cursor: pointer;
     font-weight: 600;
-    color: #555;
+    color: var(--text-light);
     font-size: 0.85rem;
     transition: all 0.15s;
 }
 
 .qBtn:hover {
-    background: #f0f0f0;
+    background: var(--bg-hover);
 }
 
 .qBtn.active {
-    border-color: #003366;
+    border-color: var(--primary-color);
     border-width: 2px;
-    background: #eef4ff;
-    color: #003366;
+    background: var(--bg-info);
+    color: var(--primary-color);
 }
 
 .qBtn.answered {
-    background: #dbeafe;
-    color: #003366;
-    border-color: #93c5fd;
+    background: var(--bg-info);
+    color: var(--primary-color);
+    border-color: var(--accent-color);
 }
 
 .qBtn.correct {
@@ -128,9 +128,25 @@
 }
 
 .qBtn.skipped {
-    background: #fef3c7;
+    background: var(--bg-warning);
     color: #92400e;
-    border-color: #fcd34d;
+    border-color: var(--bg-warning-border);
+}
+
+[data-theme="dark"] .qBtn.correct {
+    background: #1a3a1a !important;
+    color: #86efac !important;
+    border-color: #2d5a2d !important;
+}
+
+[data-theme="dark"] .qBtn.incorrect {
+    background: #3a1a1a !important;
+    color: #fca5a5 !important;
+    border-color: #5a2d2d !important;
+}
+
+[data-theme="dark"] .qBtn.skipped {
+    color: #fbbf24;
 }
 
 .submitBtn {
@@ -147,7 +163,7 @@
 
 .exitLink {
     text-align: center;
-    color: #666;
+    color: var(--text-muted);
     font-size: 0.9rem;
 }
 
@@ -161,7 +177,7 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 1.5rem;
-    border-bottom: 1px solid #f0f0f0;
+    border-bottom: 1px solid var(--border-color);
     padding-bottom: 1rem;
 }
 
@@ -172,13 +188,13 @@
 
 .totalQ {
     font-weight: 400;
-    color: #999;
+    color: var(--text-muted);
     font-size: 0.9rem;
 }
 
 .topicBadge {
-    background: #eef4ff;
-    color: #003366;
+    background: var(--bg-info);
+    color: var(--primary-color);
     padding: 4px 10px;
     border-radius: 20px;
     font-size: 0.75rem;
@@ -189,7 +205,7 @@
     font-size: 1.15rem;
     line-height: 1.7;
     margin-bottom: 2rem;
-    color: #222;
+    color: var(--text-color);
 }
 
 .optionsGrid {
@@ -204,27 +220,28 @@
     align-items: center;
     gap: 1rem;
     padding: 14px 16px;
-    background: white;
-    border: 2px solid #e5e7eb;
+    background: var(--bg-card);
+    border: 2px solid var(--border-color);
     border-radius: 10px;
     cursor: pointer;
     text-align: left;
     font-size: 1rem;
+    color: var(--text-color);
     transition: all 0.2s;
 }
 
 .optionBtn:hover:not(:disabled) {
-    border-color: #93c5fd;
-    background: #f8faff;
+    border-color: var(--accent-color);
+    background: var(--bg-hover);
 }
 
 .optionBtn.selected {
-    border-color: #003366;
-    background: #eef4ff;
+    border-color: var(--primary-color);
+    background: var(--bg-info);
 }
 
 .optLabel {
-    background: #f3f4f6;
+    background: var(--bg-tertiary);
     min-width: 34px;
     height: 34px;
     display: flex;
@@ -233,12 +250,12 @@
     border-radius: 50%;
     font-weight: 700;
     font-size: 0.85rem;
-    color: #555;
+    color: var(--text-light);
     flex-shrink: 0;
 }
 
 .selected .optLabel {
-    background: #003366;
+    background: var(--primary-color);
     color: white;
 }
 
@@ -262,6 +279,24 @@
     color: white;
 }
 
+[data-theme="dark"] .correctOption {
+    background: #1a3a1a !important;
+    border-color: #2d5a2d !important;
+}
+
+[data-theme="dark"] .correctOption .optLabel {
+    background: #16a34a;
+}
+
+[data-theme="dark"] .incorrectOption {
+    background: #3a1a1a !important;
+    border-color: #5a2d2d !important;
+}
+
+[data-theme="dark"] .incorrectOption .optLabel {
+    background: #dc2626;
+}
+
 .navButtons {
     display: flex;
     justify-content: space-between;
@@ -269,8 +304,8 @@
 }
 
 .explanationBox {
-    background: #eff6ff;
-    border-left: 4px solid #3b82f6;
+    background: var(--bg-info);
+    border-left: 4px solid var(--accent-color);
     padding: 1.2rem 1.5rem;
     margin-bottom: 2rem;
     border-radius: 0 8px 8px 0;
@@ -278,7 +313,7 @@
 
 .explanationBox p {
     margin-top: 0.5rem;
-    color: #444;
+    color: var(--text-light);
     line-height: 1.6;
 }
 
@@ -377,25 +412,26 @@
 }
 
 .breakdownCard {
-    border: 1px solid #e5e7eb;
+    border: 1px solid var(--border-color);
     padding: 1rem;
     border-radius: 8px;
+    background: var(--bg-card);
 }
 
 .breakdownCard h4 {
     margin-bottom: 0.5rem;
     font-size: 0.95rem;
-    color: #333;
+    color: var(--text-color);
 }
 
 .breakdownCard span {
     font-size: 0.85rem;
-    color: #666;
+    color: var(--text-muted);
 }
 
 .progressBar {
     height: 8px;
-    background: #f3f4f6;
+    background: var(--bg-tertiary);
     border-radius: 4px;
     margin-bottom: 6px;
     overflow: hidden;
@@ -408,8 +444,8 @@
 }
 
 .weakAreas {
-    background: #fef3c7;
-    border: 1px solid #fcd34d;
+    background: var(--bg-warning);
+    border: 1px solid var(--bg-warning-border);
     padding: 1.5rem;
     border-radius: 8px;
     margin-bottom: 2rem;
@@ -421,6 +457,10 @@
     font-size: 1.2rem;
 }
 
+[data-theme="dark"] .weakAreas h2 {
+    color: #fbbf24;
+}
+
 .weakAreas ul {
     padding-left: 1.5rem;
 }
@@ -428,6 +468,10 @@
 .weakAreas li {
     color: #78350f;
     margin-bottom: 4px;
+}
+
+[data-theme="dark"] .weakAreas li {
+    color: #fde68a;
 }
 
 .resultActions {
@@ -450,7 +494,7 @@
         display: block;
         width: 100%;
         padding: 10px;
-        background: #003366;
+        background: var(--primary-color);
         color: white;
         border: none;
         font-weight: 600;
@@ -464,7 +508,7 @@
         position: relative;
         top: 0;
         border-right: none;
-        border-bottom: 1px solid #eaeaea;
+        border-bottom: 1px solid var(--border-color);
         flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
@@ -479,7 +523,7 @@
         overflow-y: auto;
     }
 
-    /* Hide the submit button inside sidebar on mobile — we use the fixed bar instead */
+    /* Hide the submit button inside sidebar on mobile */
     .submitBtn {
         display: none;
     }
@@ -512,17 +556,43 @@
     .mainArea {
         padding: 1.5rem;
         padding-bottom: 90px;
-        /* Space for fixed submit bar */
+    }
+
+    .questionHeader h2 {
+        font-size: 1.1rem;
+    }
+
+    .questionText {
+        font-size: 1rem;
+    }
+
+    .optionBtn {
+        padding: 12px 14px;
+        font-size: 0.92rem;
     }
 
     .scoreCard {
         flex-direction: column;
         text-align: center;
         gap: 1.5rem;
+        padding: 1.75rem;
+    }
+
+    .scoreCircle {
+        width: 110px;
+        height: 110px;
+    }
+
+    .scoreNum {
+        font-size: 2rem;
     }
 
     .breakdownGrid {
         grid-template-columns: 1fr;
+    }
+
+    .resultContainer {
+        padding: 2rem 1rem;
     }
 
     /* Fixed mobile submit bar */
@@ -532,19 +602,19 @@
         bottom: 0;
         left: 0;
         right: 0;
-        background: white;
-        border-top: 2px solid #e2e8f0;
+        background: var(--bg-primary);
+        border-top: 2px solid var(--border-color);
         padding: 12px 16px;
         align-items: center;
         justify-content: space-between;
         gap: 12px;
         z-index: 100;
-        box-shadow: 0 -4px 16px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 -4px 16px var(--shadow-md);
     }
 
     .mobileProgress {
         font-size: 0.88rem;
-        color: #555;
+        color: var(--text-light);
         font-weight: 600;
     }
 

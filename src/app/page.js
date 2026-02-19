@@ -40,6 +40,11 @@ export default function Home() {
           <Link href="/formulas" className={styles.linkArrow}>View Formulas →</Link>
         </div>
         <div className={styles.featureCard}>
+          <h3>Mnemonics & Memory Aids</h3>
+          <p>50+ memory tricks to nail formulas and concepts — never forget a formula in the exam.</p>
+          <Link href="/mnemonics" className={styles.linkArrow}>View Mnemonics →</Link>
+        </div>
+        <div className={styles.featureCard}>
           <h3>Study Tracker</h3>
           <p>Downloadable 6-month roadmap and progress checklists to stay on track.</p>
           <Link href="/study-plan" className={styles.linkArrow}>View Study Plan →</Link>
