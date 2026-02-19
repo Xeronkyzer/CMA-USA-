@@ -207,7 +207,6 @@
         "Using **total liabilities** in Debt-to-Equity when some analysts use only interest-bearing debt. Exam usually uses total liabilities unless specified."
     ],
     "summary": "Financial Statement Analysis requires mastery of ratios across five categories (Liquidity, Leverage, Activity, Profitability, Market) and the ability to interpret them in context. Always use AVERAGES for balance sheet items when paired with income statement data. DuPont analysis (3-factor) decomposes ROE into Margin, Turnover, and Leverage – essential for diagnosing performance drivers. For foreign currency, distinguish Current Rate (OCI) from Temporal (Net Income) based on subsidiary independence. Earnings quality assessment involves comparing NI to CFO, identifying one-time items, and watching for aggressive accounting. Key red flags: inventory/AR growing faster than sales, DSO increasing, NI >> CFO, frequent accounting changes. Remember that ROE can be misleading without understanding its components.",
-
     "quiz": [
         {
             "question": "Which ratio measures the ability of a firm to meet its short-term obligations with its most liquid assets?",
@@ -269,7 +268,7 @@
         "question": "Analyst A claims that increasing financial leverage is always beneficial because it boosts ROE. 1) Explain how leverage impacts ROE using the DuPont framework. 2) Discuss the risks associated with this strategy. 3) Describe two red flags that would indicate low earnings quality.",
         "modelAnswer": "<p><strong>1. Leverage and ROE (DuPont):</strong><br>ROE = Net Profit Margin × Asset Turnover × Equity Multiplier. Increasing debt raises the Equity Multiplier (Assets/Equity). If ROA > after-tax cost of debt, leverage magnifies returns to shareholders.</p><p><strong>2. Associated Risk:</strong><br>Interest payments are fixed obligations. In a downturn, if ROA falls below the cost of debt, leverage works in reverse — drastically reducing ROE and potentially leading to insolvency. Higher leverage also increases the TIE risk (EBIT may not cover interest).</p><p><strong>3. Earnings Quality Red Flags:</strong><br>(a) Net Income significantly exceeds CFO — earnings are not converting to cash, suggesting aggressive accruals.<br>(b) Frequent changes in accounting estimates or policies — may indicate management is manipulating reported results.</p>"
     },
-    "summary": "Financial Statement Analysis (20%) requires mastery of comparative techniques (horizontal, vertical, trend), all five ratio categories, the DuPont framework, profitability decomposition, and special issues (FX translation, inflation, earnings quality). Success means interpreting what ratios reveal about business health — not just calculating them.",
+    "revisionSummary": "Financial Statement Analysis (20%) requires mastery of comparative techniques (horizontal, vertical, trend), all five ratio categories, the DuPont framework, profitability decomposition, and special issues (FX translation, inflation, earnings quality). Success means interpreting what ratios reveal about business health — not just calculating them.",
     "test": [
         {
             "id": "p2s1_1",

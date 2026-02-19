@@ -155,7 +155,7 @@
         "Thinking **high ROE always means good performance** – it could be due to high leverage (risk)."
     ],
     "summary": "Corporate Finance requires mastery of the risk-return trade-off across multiple domains. For long-term financing, WACC is the central concept – know how to calculate each component (Ke via CAPM/DDM, after-tax Kd, Kps) and use market value weights. Understand capital structure theories (MM, trade-off, pecking order) and leverage measures (DOL, DFL, DTL). For working capital, master EOQ, reorder point, cost of trade credit, and cash management tools (lockbox, float). Know the differences between aggressive and conservative policies. For restructuring, distinguish spin-off (no cash) from carve-out (cash) and know takeover defenses. In international finance, differentiate transaction, translation, and economic exposure, and match hedging instruments to each. Derivatives: forwards (custom/OTC), futures (standardized/exchange), options (rights/premium), swaps (exchanges). Always consider the tax shield on debt, use market values for weights, and remember that diversification eliminates only unsystematic risk.",
-"quiz": [
+    "quiz": [
         {
             "question": "Which component of WACC requires a tax adjustment?",
             "options": [
@@ -216,7 +216,7 @@
         "question": "Company X is considering moving from a conservative working capital policy to an aggressive one. 1) Define both policies. 2) Analyze the impact of this change on the company's risk and profitability (Return on Assets).",
         "modelAnswer": "<p><strong>1. Definitions:</strong><br><ul><li><strong>Conservative Policy:</strong> High levels of current assets (large inventory/cash buffers) and financing with long-term debt.</li><li><strong>Aggressive Policy:</strong> Low levels of current assets (lean inventory/cash) and financing with short-term debt.</li></ul></p><p><strong>2. Impact Analysis:</strong><br><ul><li><strong>Risk:</strong> Moving to aggressive INCREASES risk. Lower liquidity buffers mean higher risk of stockouts or liquidity crunches. Reliance on short-term debt increases interest rate risk and refinancing risk.</li><li><strong>Profitability (ROA):</strong> Moving to aggressive INCREASES profitability. Reducing idle current assets lowers the asset base (denominator of ROA). Evaluating lower interest rates on short-term debt (normally) also boosts income. Thus, Aggressive = High Risk / High Return.</li></ul></p>"
     },
-    "summary": "Corporate Finance (20%) tests the trade-off between Risk and Return. Mastery involves calculating WACC accurately (remember tax shields), understanding the risk diversification principles of CAPM, managing working capital efficiency (EOQ, Factoring), and navigating international risks using derivatives.",
+    "revisionSummary": "Corporate Finance (20%) tests the trade-off between Risk and Return. Mastery involves calculating WACC accurately (remember tax shields), understanding the risk diversification principles of CAPM, managing working capital efficiency (EOQ, Factoring), and navigating international risks using derivatives.",
     "test": [
         {
             "id": "p2s2_1",

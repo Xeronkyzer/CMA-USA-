@@ -70,11 +70,10 @@ export default function QuizSection({ questions: initialQuestions }) {
                         </div>
 
                         {/* Actions for this specific question */}
-                        <div style={{ marginTop: '1rem' }}>
+                        <div className={styles.questionActions}>
                             {!isSubmitted ? (
                                 <button
-                                    className="btn btn-sm"
-                                    style={{ fontSize: '0.9rem', padding: '0.5rem 1rem' }}
+                                    className={`btn ${styles.checkBtn}`}
                                     onClick={() => checkQuestion(q.id)}
                                     disabled={!hasSelected}
                                 >
@@ -91,11 +90,11 @@ export default function QuizSection({ questions: initialQuestions }) {
             })}
 
             {/* Global Actions */}
-            <div className={styles.actions} style={{ marginTop: '2rem', borderTop: '1px solid #eee', paddingTop: '1rem' }}>
+            <div className={styles.actionsBar}>
                 <div className={styles.scoreBoard}>
                     <p>Answered: {Object.keys(submittedQuestions).length} / {questions.length}</p>
                     <p>Current Score: <strong>{calculateScore()}</strong></p>
-                    <button className="btn btn-outline" style={{ marginTop: '1rem' }} onClick={resetQuiz}>
+                    <button className={`btn btn-outline ${styles.resetBtn}`} onClick={resetQuiz}>
                         Reset Quiz
                     </button>
                 </div>

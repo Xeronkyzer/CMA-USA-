@@ -57,35 +57,6 @@
     text-align: center;
 }
 
-.imageWrapper {
-    width: 100%;
-    max-width: 600px;
-    position: relative;
-    z-index: 5;
-    margin-top: 10vh;
-    display: none;
-    /* Image is removed conceptually, ensuring it's hidden if markup remains */
-}
-
-.dragonfly {
-    width: 100%;
-    height: auto;
-    filter: drop-shadow(0 20px 50px rgba(0, 0, 0, 0.8));
-    animation: float 6s ease-in-out infinite;
-    display: none;
-}
-
-@keyframes float {
-
-    0%,
-    100% {
-        transform: translateY(0);
-    }
-
-    50% {
-        transform: translateY(-20px);
-    }
-}
 
 /* RIGHT PAGE */
 .rightPage {
@@ -119,24 +90,6 @@
     font-style: italic;
 }
 
-.subHeading {
-    font-family: var(--font-great-vibes), cursive;
-    font-size: 2.5rem;
-    color: #ffb6c1;
-    /* Soft Pink */
-    margin-bottom: 1rem;
-    font-weight: 400;
-}
-
-.bodyText {
-    font-size: 0.95rem;
-    line-height: 1.8;
-    color: #a0a0a0;
-    font-weight: 300;
-    letter-spacing: 0.5px;
-    margin-bottom: 2rem;
-    text-align: justify;
-}
 
 .revealBtn {
     margin-top: 2rem;
@@ -177,14 +130,6 @@
     margin: 2rem auto;
 }
 
-.loveText {
-    font-size: 1rem;
-    line-height: 1.6;
-    color: #d0d0d0;
-    font-style: italic;
-    margin-bottom: 2rem;
-    text-shadow: 0 0 10px rgba(255, 182, 193, 0.2);
-}
 
 .signature {
     font-family: var(--font-oswald), sans-serif;

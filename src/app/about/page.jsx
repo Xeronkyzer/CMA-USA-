@@ -1,20 +1,18 @@
 'use client';
 
 import { useState } from 'react';
-import Image from 'next/image';
-import { Oswald, Great_Vibes, Inter } from 'next/font/google';
+import { Oswald, Great_Vibes } from 'next/font/google';
 import styles from './page.module.css';
 
 // Font configurations
 const oswald = Oswald({ subsets: ['latin'], weight: ['700'], variable: '--font-oswald' });
 const greatVibes = Great_Vibes({ subsets: ['latin'], weight: ['400'], variable: '--font-great-vibes' });
-const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
 export default function AboutPage() {
     const [revealed, setRevealed] = useState(false);
 
     return (
-        <div className={`${styles.container} ${oswald.variable} ${greatVibes.variable} ${inter.variable}`}>
+        <div className={`${styles.container} ${oswald.variable} ${greatVibes.variable}`}>
             <div className={styles.overlay}></div>
 
             <div className={styles.grid}>

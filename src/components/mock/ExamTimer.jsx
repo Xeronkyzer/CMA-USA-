@@ -30,7 +30,7 @@ export default function ExamTimer({ duration, onTimeUp, shouldStop }) {
     }, [shouldStop, onTimeUp]);
 
     return (
-        <strong style={{ color: timeLeft < 300 ? '#dc3545' : 'inherit' }}>
+        <strong className={timeLeft < 300 ? 'timer-warning' : ''}>
             {formatTime(timeLeft)}
         </strong>
     );

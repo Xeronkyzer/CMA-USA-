@@ -12,9 +12,9 @@ export default function Home() {
     <div className={styles.wrapper}>
       <header className={styles.hero}>
         <div className="container">
-          <h1 className={styles.title}>US CMA Preparation <br /> <span className={styles.subtitle}>Structured. Disciplined. Free.</span></h1>
+          <h1 className={styles.title}>US CMA Preparation <br /> <span className={styles.subtitle}>Structured. Disciplined.</span></h1>
           <p className={styles.description}>
-            A complete digital ecosystem for Indian aspirants to crack the US CMA exam without expensive coaching.
+            A complete digital ecosystem to crack the US CMA exam
           </p>
           <div className={styles.ctaGroup}>
             <Link href="/study-plan" className="btn">Start Structured Plan</Link>

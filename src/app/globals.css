@@ -12,14 +12,6 @@
   /* Placeholder, will invoke font in layout */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 0, 0, 0;
-    /* Keeping it light for now as per "White background" requirement */
-    --background-start-rgb: 255, 255, 255;
-    --background-end-rgb: 255, 255, 255;
-  }
-}
 
 * {
   box-sizing: border-box;
@@ -63,6 +55,15 @@ h6 {
   padding: 0 20px;
 }
 
+.footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+  color: #666;
+  border-top: 1px solid #eaeaea;
+  margin-top: 4rem;
+}
+
 .btn {
   display: inline-block;
   padding: 10px 20px;
@@ -88,4 +89,8 @@ h6 {
 .btn-outline:hover {
   background-color: var(--primary-color);
   color: white;
+}
+
+.timer-warning {
+  color: #dc3545;
 }

@@ -177,7 +177,7 @@
         "Believing that once risks are identified, they remain static – Review & Revision component addresses changes over time."
     ],
     "summary": "Risk Management (10% of Part 2) is based on the COSO ERM 2017 framework, which integrates risk with strategy and performance to create, preserve, and realize value. The five components (GOPRO) are Governance & Culture (DOVES), Strategy & Objective-Setting (SOAR), Performance (VAPIR), Review & Revision (SIR), and Information, Communication & Reporting (TIP). Key terminology: Risk Appetite (willing to accept), Risk Capacity (can absorb), Risk Tolerance (acceptable variation), Inherent Risk (before controls), Residual Risk (after controls). Risk responses include Avoid, Reduce, Transfer, Accept, and Pursue. Risk assessment can be qualitative (heat maps) or quantitative (expected loss, VaR). The portfolio view considers risk correlations. ERM differs from Internal Control – ERM is broader, strategic, and focused on value, while Internal Control is tactical and focused on controls. The CMA exam tests application through scenarios requiring identification of components, responses, and terminology. Remember that risk is not inherently bad – managing risk optimally creates value.",
-"quiz": [
+    "quiz": [
         {
             "question": "According to COSO ERM 2017, which component involves defining the organization's risk appetite?",
             "options": [
@@ -238,7 +238,7 @@
         "question": "Your CEO wants to implement COSO ERM but believes it is just a compliance checklist. 1) Explain how COSO ERM differs from traditional Internal Controls. 2) Discuss the benefits of integrating ERM with Strategy, including how it helps optimize risk-taking.",
         "modelAnswer": "<p><strong>1. ERM vs Internal Control:</strong><br>Internal Control (COSO 2013, often remembered by the mnemonic CRIME) is tactical, focusing on controls to ensure accurate financial reporting, operational efficiency, and compliance. It is primarily backward-looking and focused on prevention and detection [citation:2].</p><p>ERM (COSO 2017, GOPRO) is strategic and forward-looking. It focuses on value creation and preservation, managing uncertainty to help the organization achieve its performance and strategic goals. ERM integrates risk considerations into strategy setting, while internal controls are one tool within the broader ERM framework [citation:1][citation:5][citation:6].</p><p><strong>2. Strategy Integration Benefits:</strong><br>By integrating ERM with Strategy, the organization can:<br>• Align Risk Appetite with strategic goals – ensuring the chosen strategy doesn't expose the company to risks it cannot handle [citation:8].<br>• Evaluate alternative strategies based on risk profiles – choosing strategies with optimal risk-return trade-offs [citation:2][citation:8].<br>• Identify opportunities as well as risks – positive events can feed back into strategy formulation [citation:6].<br>• Ensure the company is taking <em>enough</em> risk to achieve desired returns (optimization, not minimization) [citation:6].<br>• Develop a portfolio view of risk, understanding how risks correlate and offset across the entity [citation:2][citation:8].</p><p>ERM transforms risk management from a defensive, compliance-focused activity into a strategic tool for value creation and realization (CPER: Creation, Preservation, Erosion, Realization) [citation:2][citation:6].</p>"
     },
-    "summary": "Risk Management (10%) is about memorizing the COSO ERM 2017 framework (GOPRO) and its underlying principles (DOVES, SOAR, VAPIR, SIR, TIP). Success requires distinguishing between inherent and residual risk, understanding risk appetite vs. capacity, and classifying risk responses (ARTS). Remember that ERM is strategic and integrated with strategy, not just a compliance checklist.",
+    "revisionSummary": "Risk Management (10%) is about memorizing the COSO ERM 2017 framework (GOPRO) and its underlying principles (DOVES, SOAR, VAPIR, SIR, TIP). Success requires distinguishing between inherent and residual risk, understanding risk appetite vs. capacity, and classifying risk responses (ARTS). Remember that ERM is strategic and integrated with strategy, not just a compliance checklist.",
     "test": [
         {
             "id": "p2s4_1",
@@ -1441,4 +1441,4 @@
             "explanation": "Integrating ERM with strategy ensures the chosen strategy doesn't expose the company to risks it cannot handle, and that the company takes enough risk to achieve desired returns [citation:6][citation:8]."
         }
     ]
-}   
+}

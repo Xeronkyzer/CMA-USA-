@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import QuizSection from './QuizSection';
-import styles from './QuizSection.module.css'; // Reusing quiz styles for consistency
+import styles from './TestSection.module.css';
 
 export default function TestSection({ questions }) {
     const [showTest, setShowTest] = useState(false);
@@ -11,17 +11,16 @@ export default function TestSection({ questions }) {
 
     if (!showTest) {
         return (
-            <div className={styles.section} style={{ textAlign: 'center', padding: '3rem 1rem', background: '#f8f9fa', borderRadius: '12px' }}>
+            <div className={styles.startTestSection}>
                 <h2>Topic Completion Test</h2>
-                <p style={{ marginBottom: '1.5rem', color: '#666' }}>
+                <p>
                     Challenge yourself with this comprehensive <strong>{questions.length}-question</strong> test.
                     <br />
                     Answering these correctly indicates mastery of the topic.
                 </p>
                 <button
-                    className="btn"
+                    className={`btn ${styles.startBtn}`}
                     onClick={() => setShowTest(true)}
-                    style={{ fontSize: '1.1rem', padding: '0.8rem 1.5rem' }}
                 >
                     Start Completion Test
                 </button>
@@ -30,13 +29,12 @@ export default function TestSection({ questions }) {
     }
 
     return (
-        <section className={styles.section}>
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
+        <section>
+            <div className={styles.testHeader}>
                 <h2>Completion Test</h2>
                 <button
-                    className="btn btn-outline"
+                    className={`btn btn-outline ${styles.closeBtn}`}
                     onClick={() => setShowTest(false)}
-                    style={{ fontSize: '0.9rem' }}
                 >
                     Close Test
                 </button>

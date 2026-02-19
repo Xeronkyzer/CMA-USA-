@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Navbar />
         <main>{children}</main>
-        <footer style={{ textAlign: 'center', padding: '2rem', fontSize: '0.9rem', color: '#666', borderTop: '1px solid #eaeaea', marginTop: '4rem' }}>
+        <footer className="footer">
           <p>© {new Date().getFullYear()} US CMA Prep. Free & Open Access.</p>
         </footer>
       </body>
